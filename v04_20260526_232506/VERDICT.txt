@@ -1,0 +1,108 @@
+================================================
+Per-test AmapService verdict
+================================================
+
+## TEST A:
+
+## TEST B:
+
+## TEST C:
+
+## TEST D:
+
+================================================
+All naviState transitions
+================================================
+05-26 23:25:13.006  3734  3734 E AmapService: [main]EXTRA_STATE naviState =1
+05-26 23:25:17.179  3734  3734 E AmapService: [main]GuideInfo.naviState: -1
+05-26 23:25:22.880  3734  3734 E AmapService: [main]EXTRA_STATE naviState =9
+05-26 23:25:22.880  3734  3734 E AmapService: [main]ToCAN naviState : 1
+
+================================================
+All setNavControl calls (cluster UI mode)
+================================================
+
+================================================
+CAN featureIDs written during the test
+================================================
+05-26 23:25:11.344  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:12.353  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:13.216  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:13.355  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:14.358  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:15.360  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:16.363  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:17.373  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:18.245  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:18.377  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:19.383  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:20.389  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:21.391  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:22.394  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:22.880  3734  3734 D AbsBYDAutoDevice: set featureID is 43e0003a intValue is 1
+05-26 23:25:22.895  3734  3734 D AbsBYDAutoDevice: set featureID is 43f08018 intValue is 16777215
+05-26 23:25:23.253  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:23.403  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:23.806  3546  6186 D AbsBYDAutoDevice: registerListener featureIDs: int[]: [12100008, ] end.
+05-26 23:25:23.806  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:24.818  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:25.821  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:26.823  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:27.824  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:28.273  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:28.827  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:28.888  1101  1703 D AbsBYDAutoDevice: set featureID is aa000146 bufferDataValue is [7, -22, 5, 26, 23, 25, 28, 2, 2, 1]
+05-26 23:25:29.830  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:30.853  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:31.857  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:32.860  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:33.278  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:33.863  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:34.869  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:35.879  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:36.887  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:37.892  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:38.303  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:38.897  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:39.908  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:40.911  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:41.920  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:42.926  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:43.331  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:43.930  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:44.935  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:45.949  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:46.958  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:47.962  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+
+================================================
+BydLaunchermap PlatformApiImpl pipeline
+================================================
+
+================================================
+VERDICT
+================================================
+⚠  A/B: broadcast accepted, Send:true, but no CAN write seen — another silent block downstream
+
+
+
+================================================
+Files in /storage/4A21-0000/Download/hud_test_v04_20260526_232506:
+total 565504
+-rwxrwx--- 1 root media_rw   6555632 2026-05-26 23:25 AdapterAmapService.apk
+-rwxrwx--- 1 root media_rw 572026144 2026-05-26 23:25 BydLaunchermap.apk
+-rwxrwx--- 1 root media_rw      9021 2026-05-26 23:25 VERDICT.txt
+-rwxrwx--- 1 root media_rw      4338 2026-05-26 23:25 display_after.txt
+-rwxrwx--- 1 root media_rw      4338 2026-05-26 23:25 display_before.txt
+-rwxrwx--- 1 root media_rw     14619 2026-05-26 23:25 logcat_test.txt
+-rwxrwx--- 1 root media_rw        70 2026-05-26 23:25 pm_path_amapservice.txt
+-rwxrwx--- 1 root media_rw        70 2026-05-26 23:25 pm_path_launchermap.txt
+-rwxrwx--- 1 root media_rw       256 2026-05-26 23:25 procs_after.txt
+-rwxrwx--- 1 root media_rw       256 2026-05-26 23:25 procs_before.txt
+-rwxrwx--- 1 root media_rw        44 2026-05-26 23:25 services_before.txt
+-rwxrwx--- 1 root media_rw       397 2026-05-26 23:25 sf_after.txt
+-rwxrwx--- 1 root media_rw       397 2026-05-26 23:25 sf_before.txt
+-rwxrwx--- 1 root media_rw       118 2026-05-26 23:25 test_a_result.txt
+-rwxrwx--- 1 root media_rw       118 2026-05-26 23:25 test_b_result.txt
+-rwxrwx--- 1 root media_rw       118 2026-05-26 23:25 test_c_result.txt
+-rwxrwx--- 1 root media_rw       282 2026-05-26 23:25 test_d_start.txt

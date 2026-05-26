@@ -1,0 +1,7 @@
++ DisplayDevice{11529215046289594658, virtual, "OpenBYD_Cluster_VD"}
+   Composition Display State: ["OpenBYD_Cluster_VD"]
++ ContainerLayer (Display 29 name="OpenBYD_Cluster_VD"#0) uid=1000
+      parent=Display 29 name="OpenBYD_Cluster_VD"#0
+      parent=Display 29 name="OpenBYD_Cluster_VD"#0
+      parent=Display 29 name="OpenBYD_Cluster_VD"#0
+      parent=Display 29 name="OpenBYD_Cluster_VD"#0

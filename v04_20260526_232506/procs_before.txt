@@ -1,0 +1,3 @@
+system        2596   127 6288948  79552 0                   0 S com.example.amapservice
+system        3734   127 6303648 129512 0                   0 S com.byd.amapservice
+u0_a38       18482   127 9990648 410308 0                   0 S com.byd.launchermap

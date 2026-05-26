@@ -1,0 +1,59 @@
+  mViewports=[DisplayViewport{type=INTERNAL, valid=true, isActive=true, displayId=0, uniqueId='local:4630946674560563842', physicalPort=130, orientation=0, logicalFrame=Rect(0, 0 - 1920, 1080), physicalFrame=Rect(0, 0 - 1920, 1080), deviceWidth=1920, deviceHeight=1080}, DisplayViewport{type=VIRTUAL, valid=true, isActive=true, displayId=29, uniqueId='virtual:com.android.shell,2000,OpenBYD_Cluster_VD,0', physicalPort=null, orientation=0, logicalFrame=Rect(0, 0 - 600, 800), physicalFrame=Rect(0, 0 - 600, 800), deviceWidth=600, deviceHeight=800}]
+Display States: size=5
+  Display Id=0
+  Display State=ON
+  Display Brightness=0.18431373
+  Display SdrBrightness=0.18431373
+  Display Id=2
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+  Display Id=3
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+  Display Id=4
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+  Display Id=29
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+Display Adapters: size=4
+Display Devices: size=5
+  DisplayDeviceInfo{"OpenBYD_Cluster_VD": uniqueId="virtual:com.android.shell,2000,OpenBYD_Cluster_VD,0", 600 x 800, modeId 29, defaultModeId 29, supportedModes [{id=29, width=600, height=800, fps=60.0, alternativeRefreshRates=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, allmSupported false, gameContentTypeSupported false, density 100, 100.0 x 100.0 dpi, appVsyncOff 0, presDeadline 16666666, touch VIRTUAL, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, owner com.android.shell (uid 2000), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0, FLAG_PRIVATE, FLAG_NEVER_BLANK, FLAG_PRESENTATION, FLAG_OWN_CONTENT_ONLY}
+    mUniqueId=virtual:com.android.shell,2000,OpenBYD_Cluster_VD,0
+  Display 0:
+  Display 2:
+  Display 3:
+  Display 4:
+  Display 29:
+    mPrimaryDisplayDevice=OpenBYD_Cluster_VD
+    mBaseDisplayInfo=DisplayInfo{"OpenBYD_Cluster_VD", displayId 29", displayGroupId 0, FLAG_PRIVATE, FLAG_PRESENTATION, real 600 x 800, largest app 600 x 800, smallest app 600 x 800, appVsyncOff 0, presDeadline 16666666, mode 29, defaultMode 29, modes [{id=29, width=600, height=800, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.android.shell,2000,OpenBYD_Cluster_VD,0", app 600 x 800, density 100 (100.0 x 100.0) dpi, layerStack 29, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.android.shell (uid 2000), removeMode 1, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mOverrideDisplayInfo=DisplayInfo{"OpenBYD_Cluster_VD", displayId 29", displayGroupId 0, FLAG_PRIVATE, FLAG_PRESENTATION, real 600 x 800, largest app 800 x 800, smallest app 600 x 600, appVsyncOff 0, presDeadline 16666666, mode 29, defaultMode 29, modes [{id=29, width=600, height=800, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.android.shell,2000,OpenBYD_Cluster_VD,0", app 600 x 800, density 100 (100.0 x 100.0) dpi, layerStack 29, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.android.shell (uid 2000), removeMode 1, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+Display Power Controllers: size=5
+Display Power Controller:
+Display Power Controller Locked State:
+Display Power Controller Configuration:
+Display Power Controller Thread State:
+Display Power State:
+Display Power Controller:
+Display Power Controller Locked State:
+Display Power Controller Configuration:
+Display Power Controller Thread State:
+Display Power State:
+Display Power Controller:
+Display Power Controller Locked State:
+Display Power Controller Configuration:
+Display Power Controller Thread State:
+Display Power State:
+Display Power Controller:
+Display Power Controller Locked State:
+Display Power Controller Configuration:
+Display Power Controller Thread State:
+Display Power State:
+Display Power Controller:
+Display Power Controller Locked State:
+Display Power Controller Configuration:
+Display Power Controller Thread State:

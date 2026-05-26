@@ -1,0 +1,119 @@
+--------- beginning of main
+05-26 23:25:11.344  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:12.353  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:13.006  3734  3734 E AmapService: [main]mIsBydBaiduMap :false ,hashCode :2021073342 ,isAccOff :false
+05-26 23:25:13.006  3734  3734 E AmapService: [main]action = AUTONAVI_STANDARD_BROADCAST_SEND,mIsBydMap=false,mIsBYDMapNaving=false,mIsGAODENaving=false
+05-26 23:25:13.006  3734  3734 E AmapService: [main]mIsShutdown :false
+05-26 23:25:13.006  3734  3734 E AmapService: [main]BroadcastReceiver KEY_TYPE = 10019
+05-26 23:25:13.006  3734  3734 E AmapService: [main]EXTRA_STATE naviState =1
+05-26 23:25:13.006  3734  3734 E AmapService: [main]忽略 
+05-26 23:25:13.006  3734  3734 E AmapService: [main]Send :false
+05-26 23:25:13.216  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:13.355  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:14.358  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:15.360  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:16.363  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:16.686  5591  5591 D BYDAutoInstrumentDevice: postEvent device_type: 1007, event_type =4a50a03c, value = 21
+05-26 23:25:17.179  3734  3734 E AmapService: [main]mIsBydBaiduMap :false ,hashCode :2021073342 ,isAccOff :false
+05-26 23:25:17.179  3734  3734 E AmapService: [main]action = AUTONAVI_STANDARD_BROADCAST_SEND,mIsBydMap=false,mIsBYDMapNaving=false,mIsGAODENaving=false
+05-26 23:25:17.179  3734  3734 E AmapService: [main]mIsShutdown :false
+05-26 23:25:17.179  3734  3734 E AmapService: [main]BroadcastReceiver KEY_TYPE = 10001
+05-26 23:25:17.179  3734  3734 E AmapService: [main]GuideInfo.naviState: -1
+05-26 23:25:17.373  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+--------- beginning of system
+05-26 23:25:17.984  1101  1341 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:17.986  1101  1341 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:18.000  1101 20353 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:18.010  1101  1341 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:18.019  1101 20353 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:18.245  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:18.377  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:19.383  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:20.389  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:21.379  3734  3734 E AmapService: [main]mIsBydBaiduMap :false ,hashCode :2021073342 ,isAccOff :false
+05-26 23:25:21.379  3734  3734 E AmapService: [main]action = AUTONAVI_STANDARD_BROADCAST_SEND,mIsBydMap=false,mIsBYDMapNaving=false,mIsGAODENaving=true
+05-26 23:25:21.379  3734  3734 E AmapService: [main]mIsShutdown :false
+05-26 23:25:21.381  3734  3734 E AmapService: [main]BroadcastReceiver KEY_TYPE = 10010
+05-26 23:25:21.381  3734  3734 E AmapService: [main]忽略 
+05-26 23:25:21.381  3734  3734 E AmapService: [main]Send :false
+05-26 23:25:21.391  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:22.394  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:22.873 18482 18482 D AbsBYDAutoDevice: int eventTypes is 48b02016
+05-26 23:25:22.880  3734  3734 E AmapService: [main]mIsBydBaiduMap :false ,hashCode :2021073342 ,isAccOff :false
+05-26 23:25:22.880  3734  3734 E AmapService: [main]action = AUTONAVI_STANDARD_BROADCAST_SEND,mIsBydMap=true,mIsBYDMapNaving=false,mIsGAODENaving=true
+05-26 23:25:22.880  3734  3734 E AmapService: [main]mIsShutdown :false
+05-26 23:25:22.880  3734  3734 E AmapService: [main]reSetGuideInfo()
+05-26 23:25:22.880  3734  3734 E AmapService: [main]BroadcastReceiver KEY_TYPE = 10019
+05-26 23:25:22.880  3734  3734 E AmapService: [main]EXTRA_STATE naviState =9
+05-26 23:25:22.880  3734  3734 E AmapService: [main]reSetGuideInfo()
+05-26 23:25:22.880  3734  3734 E AmapService: [main]停止 
+05-26 23:25:22.880  3734  3734 E AmapService: [main]Send :true
+05-26 23:25:22.880  3734  3734 E AmapService: [main]sendNaviToCluster mClusterType=1,mIsBydMap=true,mIsBYDMapNaving=false,mIsGAODENaving=false
+05-26 23:25:22.880  3734  3734 E AmapService: [main]********send to independent CAN  start********
+05-26 23:25:22.880  3734  3734 E AmapService: [main]ToCAN naviState : 1
+05-26 23:25:22.880  3734  3734 D AbsBYDAutoDevice: set featureID is 43e0003a intValue is 1
+05-26 23:25:22.895  3734  3734 E AmapService: [main]GAODE nextTurnIcon :-1 ; preNextTurnIcon :-1
+05-26 23:25:22.895  3734  3734 E AmapService: [main]GuideInfo.preStringEtaArrivalTime :-1
+05-26 23:25:22.895  3734  3734 E AmapService: [main]GuideInfo.preNextToSegmentDist :-1
+05-26 23:25:22.895  3734  3734 E AmapService: [main]nextToSegmentDist:-1米
+05-26 23:25:22.895  3734  3734 E AmapService: [main]0x00ffffff
+05-26 23:25:22.895  3734  3734 D AbsBYDAutoDevice: set featureID is 43f08018 intValue is 16777215
+05-26 23:25:22.897  1932  1932 D AbsBYDAutoDevice: int eventTypes is 12d0002a
+05-26 23:25:22.912  3734  3734 E AmapService: [main]GAODE nextNextTurnIcon :-1 ; preNextNextTurnIcon :-1
+05-26 23:25:22.912  3734  3734 E AmapService: [main]********send to independent CAN  end********
+05-26 23:25:23.033  1101  4820 E ActivityManager: Sending non-protected broadcast com.byd.action.card_status from system 17641:com.android.launcher3/1000 pkg com.android.launcher3
+05-26 23:25:23.033  1101  4820 E ActivityManager: java.lang.Throwable
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at com.android.server.am.ActivityManagerService.checkBroadcastFromSystem(ActivityManagerService.java:13700)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:14397)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:13718)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14556)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:2432)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2809)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at android.os.Binder.execTransactInternal(Binder.java:1184)
+05-26 23:25:23.033  1101  4820 E ActivityManager: 	at android.os.Binder.execTransact(Binder.java:1143)
+05-26 23:25:23.253  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:23.403  3546 23785 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:23.413  1101  4820 I ActivityManager: memory pressure state changed, memFactor = 1, mLastMemoryLevel = 0
+05-26 23:25:23.806  3546  6186 D AbsBYDAutoDevice: registerListener featureIDs: int[]: [12100008, ] end.
+05-26 23:25:23.806  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:23.806   129 20332 D BYDAutoServer: BYDAutoService::BYDAutoCallbackProxy::enableDevice: device type 1013 size 1 ids=12100008,
+05-26 23:25:23.806   129 20332 D BYDAutoServer: BYDAutoCallbackProxy::enableDevice: find deviceID = 1013
+05-26 23:25:24.818  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:25.684  1932  1932 D AbsBYDAutoDevice: int eventTypes is 12d0002a
+05-26 23:25:25.821  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:26.823  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:27.824  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:28.273  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:28.827  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:28.886  4617  2938 D AbsBYDAutoDevice: int[] eventTypes is int[]: [99000150, ]
+05-26 23:25:28.888  1101  1703 D AbsBYDAutoDevice: set featureID is aa000146 bufferDataValue is [7, -22, 5, 26, 23, 25, 28, 2, 2, 1]
+05-26 23:25:28.900  4617  2938 D AbsBYDAutoDevice: int[] eventTypes is int[]: [99000150, ]
+05-26 23:25:29.830  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:30.853  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:31.857  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:32.860  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:33.278  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:33.625 18482 18752 D AbsBYDAutoDevice: int eventTypes is 42100024
+05-26 23:25:33.627 18482 18752 D AbsBYDAutoDevice: int eventTypes is 42100024
+05-26 23:25:33.633 18482 18752 W AbsBYDAutoDevice: You have no permission to use the feature: 0x44700828 with this device: 1014!
+05-26 23:25:33.653 18482 18752 D BYDAutoInstrumentDevice: getLowPowerBatteryWarnLightColor value is: 1
+05-26 23:25:33.655 18482 18752 D BYDAutoInstrumentDevice: getLowFuelWarnLightColor value is: 0
+05-26 23:25:33.658 18482 18752 E PlatformUtils: [Timer-2]getAutoType:158
+05-26 23:25:33.863  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:34.869  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:35.879  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:36.887  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:37.892  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:38.303  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:38.897  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:39.908  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:40.911  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:41.920  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:42.926  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:43.331  1101  1496 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+05-26 23:25:43.744  5591  5591 D BYDAutoInstrumentDevice: postEvent device_type: 1007, event_type =4a50a030, value = 20
+05-26 23:25:43.930  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:44.935  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:45.949  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:46.958  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
+05-26 23:25:47.962  3546 24413 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 4f8, 7, 67, 0, ]
