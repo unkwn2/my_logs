@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:sharedUserId="android.uid.system"
+    android:versionCode="1"
+    android:versionName="V1.0.27.20240725.202409021939"
+    android:compileSdkVersion="30"
+    android:compileSdkVersionCodename="11"
+    package="com.byd.amapservice"
+    platformBuildVersionCode="30"
+    platformBuildVersionName="11">
+    <uses-sdk
+        android:minSdkVersion="28"
+        android:targetSdkVersion="28"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS"/>
+    <uses-permission
+        android:name="android.permission.READ_PHONE_STATE"
+        android:maxSdkVersion="29"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="com.byd.card.permission.READ_CARD"/>
+    <uses-permission android:name="com.byd.card.permission.WRITE_CARD"/>
+    <uses-permission android:name="android.permission.BYDAUTO_BODYWORK_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_PANORAMA_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_BODYWORK_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_BODYWORK_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_POWER_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SPEED_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SPEED_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_AUDIO_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_AUDIO_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_AUDIO_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_STATISTIC_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_STATISTIC_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_STATISTIC_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_CHARGING_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_CHARGING_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SETTING_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SETTING_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SETTING_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_GEARBOX_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_GEARBOX_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_ENGINE_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_AC_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_AC_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_INSTRUMENT_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_INSTRUMENT_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_INSTRUMENT_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_ENERGY_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_GB_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_LIGHT_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_LIGHT_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_LIGHT_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_DOOR_LOCK_COMMON"/>
+    <uses-permission android:name="android.permission.BYDAUTO_DOOR_LOCK_GET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_DOOR_LOCK_SET"/>
+    <uses-permission android:name="android.permission.BYDAUTO_SENSOR_GET"/>
+    <queries>
+        <package android:name="com.byd.naviauto"/>
+        <package android:name="com.byd.automap"/>
+        <package android:name="com.byd.launchermap"/>
+        <package android:name="com.btet.automap"/>
+    </queries>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.BYDAutoInstrumentDevice"/>
+    <application
+        android:theme="@style/Theme.BydMapAdapter"
+        android:label="@string/app_name"
+        android:icon="@mipmap/ic_launcher"
+        android:name="com.byd.launchermap.AdapterApplication"
+        android:persistent="true"
+        android:allowBackup="true"
+        android:supportsRtl="true"
+        android:extractNativeLibs="false"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+        <activity
+            android:name="com.byd.launchermap.StartActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="poi"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="showTraffic"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="myLocation"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="rootmap"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="rootmap_park"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="route"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="viewReGeo"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="viewGeo"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="arroundpoi"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="keywordNavi"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="navi"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="viewMap"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="mapOpera"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="navi2SpecialDest"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="naviPreview"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="naviRoutePrefer"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="naviRoutePreferEx"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="naviExit"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="appExit"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="openFavorite"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="setting"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="offline_data"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="offline_tts"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="naviSetting"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="citySelect"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="searchBase"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="searchReasultMap"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="searchAround"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="searchCategory"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="userLogin"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="launch_do_nothing"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="derectSimuNavi"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="voiceOper"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="aloneSearch"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="settingHomeOrCompany"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="trafficReport"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="userMessage"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="userTrace"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="openOfflinedata"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="openUsbguide"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="colombo"/>
+                <data
+                    android:scheme="bydamap"
+                    android:host="map"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:name="com.byd.launchermap.MainActivity"
+            android:exported="true"/>
+        <receiver
+            android:name="com.byd.launchermap.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service
+            android:name="com.autosdk.protocol.service.ProtocolService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="action.com.byd.protocol.ProtocolService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.autosdk.lbs.service.NaviService"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="dataSync">
+            <intent-filter>
+                <action android:name="com.autosdk.lbs.service.NaviService"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.byd.map.account.MapAccountService"
+            android:enabled="true"
+            android:exported="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="byd.map.account.action.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.amapservice.AmapService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.byd.amapservice"/>
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.baidu.naviauto.imaplbs.SystemDataMapService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.baidu.naviauto.imaplbs.systemdata.map"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>
