@@ -1,0 +1,521 @@
+ACTIVITY MANAGER PENDING INTENTS (dumpsys activity intents)
+  * com.android.providers.calendar: 1 items
+    #0: PendingIntentRecord{aca1f81 com.android.providers.calendar broadcastIntent}
+      uid=10026 packageName=com.android.providers.calendar featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=100 requestResolvedType=null
+      requestIntent=act=com.android.providers.calendar.intent.CalendarProvider2 cmp=com.android.providers.calendar/.CalendarProviderBroadcastReceiver
+  * com.byd.acquisitioncontrol: 1 items
+    #0: PendingIntentRecord{5ae8323 com.byd.acquisitioncontrol broadcastIntent}
+      uid=1000 packageName=com.byd.acquisitioncontrol featureId=null type=broadcastIntent flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=android.intent.action.ACTION_ACQUISITION_ALARM
+  * com.alipay.arome.app: 4 items
+    #0: PendingIntentRecord{67b0d1d com.alipay.arome.app broadcastIntent}
+      uid=10052 packageName=com.alipay.arome.app featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=12 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(17691) (has extras)
+      sent=true canceled=false
+    #1: PendingIntentRecord{c6ee826 com.alipay.arome.app broadcastIntent}
+      uid=10052 packageName=com.alipay.arome.app featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(17691) (has extras)
+    #2: PendingIntentRecord{9589c67 com.alipay.arome.app broadcastIntent}
+      uid=10052 packageName=com.alipay.arome.app featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=18 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(17691) (has extras)
+    #3: PendingIntentRecord{48bdd08 com.alipay.arome.app broadcastIntent}
+      uid=10052 packageName=com.alipay.arome.app featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=15 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(17691) (has extras)
+      sent=true canceled=false
+  * com.alphainventor.filemanager: 2 items
+    #0: PendingIntentRecord{90c2a14 com.alphainventor.filemanager broadcastIntent}
+      uid=10117 packageName=com.alphainventor.filemanager featureId=null type=broadcastIntent flags=0x2000000
+      requestCode=200 requestResolvedType=null
+      requestIntent=act=filemanager.intent.action.STORAGE_CHECK cmp=com.alphainventor.filemanager/.receiver.StorageCheckReceiver
+    #1: PendingIntentRecord{1e98d09 com.alphainventor.filemanager startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10117 packageName=com.alphainventor.filemanager featureId=null type=startActivity flags=0x4000000
+      requestCode=100 requestResolvedType=null
+      requestIntent=flg=0x10000000 cmp=com.alphainventor.filemanager/.activity.FileProgressActivity
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * com.byd.mycar: 3 items
+    #0: PendingIntentRecord{754b020 com.byd.mycar startForegroundService}
+      uid=1000 packageName=com.byd.mycar featureId=null type=startForegroundService flags=0x0
+      requestCode=3 requestResolvedType=null
+      requestIntent=act=byd_mycar_two_click_action cmp=com.byd.mycar/.widget.WidgetService
+    #1: PendingIntentRecord{578edd9 com.byd.mycar startForegroundService}
+      uid=1000 packageName=com.byd.mycar featureId=null type=startForegroundService flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=byd_mycar_widget_action cmp=com.byd.mycar/.widget.WidgetService
+    #2: PendingIntentRecord{bcb939e com.byd.mycar startForegroundService}
+      uid=1000 packageName=com.byd.mycar featureId=null type=startForegroundService flags=0x0
+      requestCode=2 requestResolvedType=null
+      requestIntent=act=byd_mycar_one_click_action cmp=com.byd.mycar/.widget.WidgetService
+  * com.byd.CanDataCollect: 3 items
+    #0: PendingIntentRecord{b3a8a49 com.byd.CanDataCollect broadcastIntent}
+      uid=1000 packageName=com.byd.CanDataCollect featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.datacollect.action.event_collect_action
+      sent=true canceled=false
+    #1: PendingIntentRecord{6dc2e7f com.byd.CanDataCollect broadcastIntent}
+      uid=1000 packageName=com.byd.CanDataCollect featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.datacollect.action.check_mincount_action
+    #2: PendingIntentRecord{619d64d com.byd.CanDataCollect broadcastIntent}
+      uid=1000 packageName=com.byd.CanDataCollect featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.datacollect.action.period_collect_action
+      sent=true canceled=false
+  * com.tencent.mm: 3 items
+    #0: PendingIntentRecord{e7832bd com.tencent.mm broadcastIntent}
+      uid=10096 packageName=com.tencent.mm featureId=null type=broadcastIntent flags=0x0
+      requestCode=100 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(10000) (has extras)
+    #1: PendingIntentRecord{39a06d7 com.tencent.mm broadcastIntent}
+      uid=10096 packageName=com.tencent.mm featureId=null type=broadcastIntent flags=0x0
+      requestCode=102 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(10000) (has extras)
+      sent=true canceled=false
+    #2: PendingIntentRecord{3d160b2 com.tencent.mm broadcastIntent}
+      uid=10096 packageName=com.tencent.mm featureId=null type=broadcastIntent flags=0x0
+      requestCode=103 requestResolvedType=null
+      requestIntent=act=ALARM_ACTION(10000) (has extras)
+  * android: 41 items
+    #0: PendingIntentRecord{724ae4c android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=android.app.backup.intent.INIT flg=0x40000000
+    #1: PendingIntentRecord{c75b502 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=199 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.bydmate.app flg=0x10008000
+    #2: PendingIntentRecord{2818e95 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=android.intent.action.DATE_CHANGED flg=0x20200000
+      sent=true canceled=false
+    #3: PendingIntentRecord{91405b4 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.common_timer_action
+      sent=true canceled=false
+    #4: PendingIntentRecord{6d94baa android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.ask_gps_timeout_action
+    #5: PendingIntentRecord{7a680d9 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=202 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.byd.diLinkAccount flg=0x10008000
+    #6: PendingIntentRecord{f0f339b android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.camera_support_upload_action
+    #7: PendingIntentRecord{9dc4309 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.send_gps_action
+      sent=true canceled=false
+    #8: PendingIntentRecord{146338 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.intent.action.CHOOSER (has extras)
+    #9: PendingIntentRecord{d3529ed android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.byd.autovoice
+    #10: PendingIntentRecord{4397f11 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.server.action.NETWORK_STATS_POLL
+      sent=true canceled=false
+    #11: PendingIntentRecord{9587876 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.ACCESSIBILITY_SETTINGS
+    #12: PendingIntentRecord{a36e77 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.server.NetworkTimeUpdateService.action.POLL
+      sent=true canceled=false
+    #13: PendingIntentRecord{b358dd7 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=200 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.van.diplus flg=0x10008000
+    #14: PendingIntentRecord{8487ae4 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.cloud_nfc_timeout
+    #15: PendingIntentRecord{7a76404 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=204 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.van.diplus flg=0x10008000
+    #16: PendingIntentRecord{ca5fb4d android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=android.appwidget.action.APPWIDGET_UPDATE cmp=com.byd.weatherdata/.WeatherWidgetProvider (has extras)
+      sent=true canceled=false
+    #17: PendingIntentRecord{fcba602 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.check_vin_action
+    #18: PendingIntentRecord{dd67b13 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.privacy_switch_upload_action
+    #19: PendingIntentRecord{1846150 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.login_delay_action
+    #20: PendingIntentRecord{ee3ff49 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.encrypt_decrypt_211_action
+    #21: PendingIntentRecord{a52204e android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.INPUT_METHOD_SETTINGS
+    #22: PendingIntentRecord{523b56f android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS
+    #23: PendingIntentRecord{859fc84 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.byd.mediacenter
+    #24: PendingIntentRecord{456427c android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.MANAGE_DEFAULT_APPS_SETTINGS
+    #25: PendingIntentRecord{8e44705 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.apn1_disconnect_action
+    #26: PendingIntentRecord{a18f48f android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.byd.auto_camera
+    #27: PendingIntentRecord{9b3f35a android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.theme_app_timeout_action
+    #28: PendingIntentRecord{760398b android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=android.net.proxy.PAC_REFRESH
+    #29: PendingIntentRecord{5ff9d5 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=PolicyWarningUIController.ACTION_SEND_NOTIFICATION id=com.van.diplus/.service.KDService pkg=android (has extras)
+    #30: PendingIntentRecord{2030a68 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.server.inputmethod.InputMethodManagerService.SHOW_INPUT_METHOD_PICKER pkg=android
+    #31: PendingIntentRecord{6a929e2 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.keepalive_action
+      sent=true canceled=false
+    #32: PendingIntentRecord{32a7ef8 android broadcastIntent}
+      uid=0 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.gb_ep_keepalive_action
+      sent=true canceled=false
+    #33: PendingIntentRecord{e77e561 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=ScheduleConditionProvider.EVALUATE flg=0x10000000 (has extras)
+      sent=true canceled=false
+    #34: PendingIntentRecord{e7850e0 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=EventConditionProvider.EVALUATE flg=0x10000000 (has extras)
+      sent=true canceled=false
+    #35: PendingIntentRecord{935c817 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=203 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.bydmate.app flg=0x10008000
+    #36: PendingIntentRecord{6f19fb android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestCode=201 requestResolvedType=null
+      requestIntent=act=android.settings.MANAGE_APP_OVERLAY_PERMISSION dat=package:com.van.diplus flg=0x10008000
+    #37: PendingIntentRecord{abffea7 android startActivity}
+      uid=1000 packageName=android featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.settings.APPLICATION_DETAILS_SETTINGS dat=package:com.byd.etc
+    #38: PendingIntentRecord{f252a08 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=PolicyWarningUIController.ACTION_SEND_NOTIFICATION id=com.byd.autovoice/com.byd.autovoice_bydapi.visiblespeech.engine.collect.abs.SceneSayService pkg=android (has extras)
+    #39: PendingIntentRecord{d939d28 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.send_544_action
+      sent=true canceled=false
+    #40: PendingIntentRecord{ce74e81 android broadcastIntent}
+      uid=1000 packageName=android featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.cloudmanager.action.camera_app_timeout_action
+  * com.android.statementservice: 1 items
+    #0: PendingIntentRecord{95abe80 com.android.statementservice broadcastIntent}
+      uid=10012 packageName=com.android.statementservice featureId=null type=broadcastIntent flags=0x2000000
+      requestCode=-1 requestResolvedType=null
+      requestIntent=act=ACTION_FORCE_STOP_RESCHEDULE cmp=com.android.statementservice/androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+  * com.byd.widget.mediacenter: 7 items
+    #0: PendingIntentRecord{8ae4cb9 com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=600 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_ADD_FAVORITE cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+    #1: PendingIntentRecord{dad38fe com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=800 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_WIDGET_OPEN_MODE_SOURCE_DIALOG cmp=com.byd.widget.mediacenter/.main.MediaWidgetService (has extras)
+    #2: PendingIntentRecord{c92d85f com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=400 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_ENTER cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+      sent=true canceled=false
+    #3: PendingIntentRecord{ed42ac com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=500 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_PAUSE cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+    #4: PendingIntentRecord{c5dfb75 com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=100 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_PREV cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+    #5: PendingIntentRecord{81fe70a com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=300 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_PLAY cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+    #6: PendingIntentRecord{9b69b7b com.byd.widget.mediacenter startService}
+      uid=1000 packageName=com.byd.widget.mediacenter featureId=null type=startService flags=0x4000000
+      requestCode=200 requestResolvedType=null
+      requestIntent=act=com.byd.widget.mediacenter.ACTION_MUSIC_WIDGET_NEXT cmp=com.byd.widget.mediacenter/.main.MediaWidgetService
+  * com.byd.musicwidget: 2 items
+    #0: PendingIntentRecord{241dd98 com.byd.musicwidget broadcastIntent}
+      uid=1000 packageName=com.byd.musicwidget featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.byd.musicwidget.action.START_MEDIA_CENTER
+    #1: PendingIntentRecord{7489803 com.byd.musicwidget broadcastIntent}
+      uid=1000 packageName=com.byd.musicwidget featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.byd.musicwidget.action.START_APP (has extras)
+  * ru.bydconnect: 1 items
+    #0: PendingIntentRecord{4784456 ru.bydconnect startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10140 packageName=ru.bydconnect featureId=null type=startActivity flags=0x4000000
+      requestIntent=cmp=ru.bydconnect/.ui.MainActivity
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * ru.mts.music.android: 1 items
+    #0: PendingIntentRecord{31fd9f1 ru.mts.music.android broadcastIntent}
+      uid=10113 packageName=ru.mts.music.android featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=android.intent.action.MEDIA_BUTTON cmp=ru.mts.music.android/ru.mts.music.common.service.player.MediaReceiver
+  * com.bydmate.app: 1 items
+    #0: PendingIntentRecord{f7ed2b0 com.bydmate.app startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10142 packageName=com.bydmate.app featureId=null type=startActivity flags=0x4000000
+      requestIntent=cmp=com.bydmate.app/.MainActivity
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * com.byd.auto_photo: 1 items
+    #0: PendingIntentRecord{f4a9b3a com.byd.auto_photo startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10032 packageName=com.byd.auto_photo featureId=null type=startActivity flags=0x4000000
+      requestCode=100 requestResolvedType=null
+      requestIntent=flg=0x10000004 cmp=com.byd.auto_photo/.MainActivity (has extras)
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * ru.yandex.music: 10 items
+    #0: PendingIntentRecord{49100d1 ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=12 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.ADD_DISLIKE cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #1: PendingIntentRecord{7b1536b ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=4 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.REWIND_BLOCKED cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #2: PendingIntentRecord{d8bd380 ru.yandex.music broadcastIntent}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.intent.action.MEDIA_BUTTON dat=androidx.media3.session.q:/231878246 cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+    #3: PendingIntentRecord{4c0ef5b ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=6 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.SKIP cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #4: PendingIntentRecord{43037a4 ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.PLAY cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #5: PendingIntentRecord{2a33736 ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=9 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.ADD_LIKE cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #6: PendingIntentRecord{a75d3f8 ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=15 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.STOP cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      sent=true canceled=false
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #7: PendingIntentRecord{dad4ec8 ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=2 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.PAUSE cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #8: PendingIntentRecord{4152637 ru.yandex.music startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=startActivity flags=0x4000000
+      requestCode=10501 requestResolvedType=null
+      requestIntent=act=ACTION_OPEN_PLAYER flg=0x400000 cmp=ru.yandex.music/.main.MainScreenActivity (has extras)
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+    #9: PendingIntentRecord{653d90d ru.yandex.music broadcastIntent (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10114 packageName=ru.yandex.music featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=3 requestResolvedType=null
+      requestIntent=act=ru.yandex.music.action.REWIND cmp=ru.yandex.music/.common.service.player.DebugMediaButtonReceiver
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * com.byd.autovoice: 1 items
+    #0: PendingIntentRecord{9d4143d com.byd.autovoice broadcastIntent}
+      uid=1000 packageName=com.byd.autovoice featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=2400 requestResolvedType=null
+      requestIntent=cmp=com.byd.autovoice/.broadreceiver.ComplexIntentAlarmReceiver (has extras)
+      sent=true canceled=false
+  * com.byd.launchermap: 10 items
+    #0: PendingIntentRecord{39a7a8b com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.MainActivity
+    #1: PendingIntentRecord{d46fef3 com.byd.launchermap startForegroundService}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startForegroundService flags=0x0
+      requestCode=7 requestResolvedType=null
+      requestIntent=cmp=com.byd.launchermap/com.byd.automap.service.WidgetService (has extras)
+    #2: PendingIntentRecord{bdac7b0 com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestCode=6 requestResolvedType=null
+      requestIntent=flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.EmptyJumpActivity (has extras)
+    #3: PendingIntentRecord{3fa3db9 com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestCode=7 requestResolvedType=null
+      requestIntent=flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.EmptyJumpActivity (has extras)
+    #4: PendingIntentRecord{670d5fe com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestIntent=flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.EmptyJumpActivity (has extras)
+    #5: PendingIntentRecord{fb2b15f com.byd.launchermap startForegroundService}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startForegroundService flags=0x0
+      requestCode=2 requestResolvedType=null
+      requestIntent=cmp=com.byd.launchermap/com.byd.automap.service.WidgetService (has extras)
+    #6: PendingIntentRecord{f9aa7ac com.byd.launchermap startForegroundService}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startForegroundService flags=0x0
+      requestCode=4 requestResolvedType=null
+      requestIntent=cmp=com.byd.launchermap/com.byd.automap.service.WidgetService (has extras)
+    #7: PendingIntentRecord{ea5abe5 com.byd.launchermap startForegroundService}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startForegroundService flags=0x0
+      requestCode=1 requestResolvedType=null
+      requestIntent=cmp=com.byd.launchermap/com.byd.automap.service.WidgetService (has extras)
+    #8: PendingIntentRecord{ef7fc75 com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestCode=5 requestResolvedType=null
+      requestIntent=flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.EmptyJumpActivity (has extras)
+    #9: PendingIntentRecord{600540a com.byd.launchermap startActivity}
+      uid=10038 packageName=com.byd.launchermap featureId=null type=startActivity flags=0x4000000
+      requestCode=3 requestResolvedType=null
+      requestIntent=flg=0x10000000 pkg=com.byd.launchermap cmp=com.byd.launchermap/com.byd.automap.activity.EmptyJumpActivity (has extras)
+  * com.byd.bluetoothcall: 4 items
+    #0: PendingIntentRecord{b33dcc8 com.byd.bluetoothcall startActivity}
+      uid=1000 packageName=com.byd.bluetoothcall featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.intent.action.BLUETOOTH_ALL_HISTORY flg=0x14000000 cmp=com.byd.bluetoothcall/.BluetoothCallActivity (has extras)
+    #1: PendingIntentRecord{d0a2161 com.byd.bluetoothcall startActivity}
+      uid=1000 packageName=com.byd.bluetoothcall featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.intent.action.BLUETOOTH_CONTACTS flg=0x14000000 cmp=com.byd.bluetoothcall/.BluetoothCallActivity (has extras)
+    #2: PendingIntentRecord{581f486 com.byd.bluetoothcall startActivity}
+      uid=1000 packageName=com.byd.bluetoothcall featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=null flg=0x14000000 cmp=com.byd.bluetoothcall/.BluetoothCallActivity (has extras)
+    #3: PendingIntentRecord{67a2147 com.byd.bluetoothcall startActivity}
+      uid=1000 packageName=com.byd.bluetoothcall featureId=null type=startActivity flags=0x4000000
+      requestIntent=act=android.intent.action.BLUETOOTH_MISS_HISTORY flg=0x14000000 cmp=com.byd.bluetoothcall/.BluetoothCallActivity (has extras)
+  * com.android.phone: 1 items
+    #0: PendingIntentRecord{17b047b com.android.phone broadcastIntent}
+      uid=1001 packageName=com.android.phone featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.internal.telephony.data-stall (has extras)
+      sent=true canceled=false
+  * com.byd.mediacenter: 2 items
+    #0: PendingIntentRecord{e6729d com.byd.mediacenter broadcastIntent}
+      uid=10057 packageName=com.byd.mediacenter featureId=null type=broadcastIntent flags=0x2000000
+      requestIntent=act=android.intent.action.MEDIA_BUTTON cmp=com.byd.mediacenter/.MediaReceiver
+    #1: PendingIntentRecord{3290caf com.byd.mediacenter startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10057 packageName=com.byd.mediacenter featureId=null type=startActivity flags=0x4000000
+      requestCode=100 requestResolvedType=null
+      requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 pkg=com.byd.mediacenter cmp=com.byd.mediacenter/.main.MediaActivity
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * com.byd.etc: 1 items
+    #0: PendingIntentRecord{b78d312 com.byd.etc startActivity}
+      uid=10042 packageName=com.byd.etc featureId=null type=startActivity flags=0x4000000
+      requestIntent=cmp=com.byd.etc/.MainActivity (has extras)
+  * com.byd.weatherdata: 1 items
+    #0: PendingIntentRecord{4ad8ae3 com.byd.weatherdata startActivity}
+      uid=10101 packageName=com.byd.weatherdata featureId=null type=startActivity flags=0x4000000
+      requestIntent=flg=0x10000000 cmp=com.byd.weatherdata/.DialogActivity
+  * com.byd.bydlogtool: 1 items
+    #0: PendingIntentRecord{94ddd67 com.byd.bydlogtool broadcastIntent}
+      uid=1000 packageName=com.byd.bydlogtool featureId=null type=broadcastIntent flags=0x0
+      requestIntent=act=action.upload.crash.info
+      sent=true canceled=false
+  * com.android.systemui: 14 items
+    #0: PendingIntentRecord{cc77ce0 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_TAKE_SCREENSHOT pkg=com.android.systemui
+    #1: PendingIntentRecord{e3c9b99 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.wm.shell.pip.PAUSE pkg=com.android.systemui
+    #2: PendingIntentRecord{88d0e5e com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.wm.shell.pip.PLAY pkg=com.android.systemui
+    #3: PendingIntentRecord{923f23f com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_RECENTS pkg=com.android.systemui
+    #4: PendingIntentRecord{3d7870c com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.wm.shell.pip.PREV pkg=com.android.systemui
+    #5: PendingIntentRecord{d325855 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_LOCK_SCREEN pkg=com.android.systemui
+    #6: PendingIntentRecord{c17b26a com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_BACK pkg=com.android.systemui
+    #7: PendingIntentRecord{66f735b com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_POWER_DIALOG pkg=com.android.systemui
+    #8: PendingIntentRecord{5fc07f8 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_ACCESSIBILITY_SHORTCUT pkg=com.android.systemui
+    #9: PendingIntentRecord{88d24d1 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_QUICK_SETTINGS pkg=com.android.systemui
+    #10: PendingIntentRecord{ff68b36 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_HOME pkg=com.android.systemui
+    #11: PendingIntentRecord{c27ea37 com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=SYSTEM_ACTION_NOTIFICATIONS pkg=com.android.systemui
+    #12: PendingIntentRecord{3e5aba4 com.android.systemui startActivity}
+      uid=10080 packageName=com.android.systemui featureId=null type=startActivity flags=0x4000000
+      requestIntent=cmp=com.android.systemui/.keyguard.KeyguardSliceProvider
+    #13: PendingIntentRecord{7ee3d0d com.android.systemui broadcastIntent}
+      uid=10080 packageName=com.android.systemui featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.wm.shell.pip.NEXT pkg=com.android.systemui
+  * com.byd.pushservice: 1 items
+    #0: PendingIntentRecord{c1824c2 com.byd.pushservice broadcastIntent}
+      uid=10034 packageName=com.byd.pushservice featureId=null type=broadcastIntent flags=0x4000000
+      requestCode=101321734 requestResolvedType=null
+      requestIntent=act=AlarmTaskSchedule.com.byd.pushservice
+      sent=true canceled=false
+  * com.van.diplus: 1 items
+    #0: PendingIntentRecord{dc78847 com.van.diplus startActivity (allowlist: b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService)}
+      uid=10139 packageName=com.van.diplus featureId=null type=startActivity flags=0x0
+      requestIntent=act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.van.diplus/.activity.NaviActivity
+      allowlistDuration=b76b3a1:+30s0ms/0/NOTIFICATION_SERVICE/NotificationManagerService
+  * com.android.bluetooth: 1 items
+    #0: PendingIntentRecord{ee09298 com.android.bluetooth broadcastIntent}
+      uid=1002 packageName=com.android.bluetooth featureId=null type=broadcastIntent flags=0x4000000
+      requestIntent=act=com.android.bluetooth.gatt.REFRESH_BATCHED_SCAN flg=0x10000000
+  * com.byd.smarttravel: 4 items
+    #0: PendingIntentRecord{6a3de10 com.byd.smarttravel startService}
+      uid=1000 packageName=com.byd.smarttravel featureId=null type=startService flags=0x4000000
+      requestCode=1 requestResolvedType=null
+      requestIntent=cmp=com.byd.smarttravel/.SmartTravelService (has extras)
+    #1: PendingIntentRecord{6d7de6b com.byd.smarttravel startService}
+      uid=1000 packageName=com.byd.smarttravel featureId=null type=startService flags=0x4000000
+      requestCode=3 requestResolvedType=null
+      requestIntent=cmp=com.byd.smarttravel/.SmartTravelService (has extras)
+      sent=true canceled=false
+    #2: PendingIntentRecord{1f13e51 com.byd.smarttravel startService}
+      uid=1000 packageName=com.byd.smarttravel featureId=null type=startService flags=0x4000000
+      requestCode=2 requestResolvedType=null
+      requestIntent=cmp=com.byd.smarttravel/.SmartTravelService (has extras)
+      sent=true canceled=false
+    #3: PendingIntentRecord{b8cd5ea com.byd.smarttravel startService}
+      uid=1000 packageName=com.byd.smarttravel featureId=null type=startService flags=0x4000000
+      requestCode=4 requestResolvedType=null
+      requestIntent=cmp=com.byd.smarttravel/.SmartTravelService (has extras)
+      sent=true canceled=false
+  * UID: 0 total: 1
+  * UID: 1000 total: 66
+  * UID: 1001 total: 1
+  * UID: 1002 total: 1
+  * UID: 10012 total: 1
+  * UID: 10026 total: 1
+  * UID: 10032 total: 1
+  * UID: 10034 total: 1
+  * UID: 10038 total: 10
+  * UID: 10042 total: 1
+  * UID: 10052 total: 4
+  * UID: 10057 total: 2
+  * UID: 10065 total: 5
+  * UID: 10080 total: 14
+  * UID: 10096 total: 4
+  * UID: 10101 total: 1
+  * UID: 10113 total: 1
+  * UID: 10114 total: 10
+  * UID: 10117 total: 2
+  * UID: 10139 total: 1
+  * UID: 10140 total: 1
+  * UID: 10142 total: 1
+  * UID: 10143 total: 1

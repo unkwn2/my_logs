@@ -1,0 +1,13 @@
+  -> am start -d bydamap://derectSimuNavi
+Starting: Intent { act=android.intent.action.VIEW dat=bydamap://derectSimuNavi }
+---
+  -> am start -d bydamap://naviPreview
+Starting: Intent { act=android.intent.action.VIEW dat=bydamap://naviPreview }
+---
+  -> am start -d bydamap://route
+Starting: Intent { act=android.intent.action.VIEW dat=bydamap://route }
+---
+  -> am start -d bydamap://navi
+Starting: Intent { act=android.intent.action.VIEW dat=bydamap://navi }
+---
+Starting: Intent { cmp=com.byd.amapservice/com.byd.launchermap.StartActivity }

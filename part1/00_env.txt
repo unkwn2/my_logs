@@ -1,0 +1,213 @@
+# date
+Tue May 26 19:34:51 MSK 2026
+# uname
+Linux localhost 5.4.219-qgki #2 SMP PREEMPT Sat Nov 8 06:47:38 CST 2025 aarch64
+# build
+BYD-AUTO/DiLink5.0/DiLink5.0:12/SKQ1.230128.001/eng.build.20251108.041528:user/release-keys
+# amapservice
+cmd: Failure calling service package: Failed transaction (2147483646)
+Activity Resolver Table:
+  Schemes:
+      bydamap:
+        157f857 com.byd.amapservice/com.byd.launchermap.StartActivity filter 163482d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "bydamap"
+          Authority: "poi": -1
+          Authority: "showTraffic": -1
+          Authority: "myLocation": -1
+          Authority: "rootmap": -1
+          Authority: "rootmap_park": -1
+          Authority: "route": -1
+          Authority: "viewReGeo": -1
+          Authority: "viewGeo": -1
+          Authority: "arroundpoi": -1
+          Authority: "keywordNavi": -1
+          Authority: "navi": -1
+          Authority: "viewMap": -1
+          Authority: "mapOpera": -1
+          Authority: "navi2SpecialDest": -1
+          Authority: "naviPreview": -1
+          Authority: "naviRoutePrefer": -1
+          Authority: "naviRoutePreferEx": -1
+          Authority: "naviExit": -1
+          Authority: "appExit": -1
+          Authority: "openFavorite": -1
+          Authority: "setting": -1
+          Authority: "offline_data": -1
+          Authority: "offline_tts": -1
+          Authority: "naviSetting": -1
+          Authority: "citySelect": -1
+          Authority: "searchBase": -1
+          Authority: "searchReasultMap": -1
+          Authority: "searchAround": -1
+          Authority: "searchCategory": -1
+          Authority: "userLogin": -1
+          Authority: "launch_do_nothing": -1
+          Authority: "derectSimuNavi": -1
+          Authority: "voiceOper": -1
+          Authority: "aloneSearch": -1
+          Authority: "settingHomeOrCompany": -1
+          Authority: "trafficReport": -1
+          Authority: "userMessage": -1
+          Authority: "userTrace": -1
+          Authority: "openOfflinedata": -1
+          Authority: "openUsbguide": -1
+          Authority: "colombo": -1
+          Authority: "map": -1
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        157f857 com.byd.amapservice/com.byd.launchermap.StartActivity filter a696f44
+          Action: "android.intent.action.MAIN"
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      android.intent.action.BOOT_COMPLETED:
+        711a162 com.byd.amapservice/com.byd.launchermap.BootCompleteReceiver filter 579c2f3
+          Action: "android.intent.action.BOOT_COMPLETED"
+          mPriority=1000, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.baidu.naviauto.imaplbs.systemdata.map:
+        743d0c8 com.byd.amapservice/com.baidu.naviauto.imaplbs.SystemDataMapService filter 42d0561
+          Action: "com.baidu.naviauto.imaplbs.systemdata.map"
+      byd.map.account.action.LAUNCHER:
+        65562dc com.byd.amapservice/com.byd.map.account.MapAccountService filter 8a24fe5
+          Action: "byd.map.account.action.LAUNCHER"
+          Category: "android.intent.category.DEFAULT"
+      action.com.byd.protocol.ProtocolService:
+        9303bb0 com.byd.amapservice/com.autosdk.protocol.service.ProtocolService filter 5d93a29
+          Action: "action.com.byd.protocol.ProtocolService"
+      com.byd.amapservice:
+        191faba com.byd.amapservice/com.example.amapservice.AmapService filter b689d6b
+          Action: "com.byd.amapservice"
+      com.autosdk.lbs.service.NaviService:
+        1ec71ae com.byd.amapservice/com.autosdk.lbs.service.NaviService filter 6e39b4f
+          Action: "com.autosdk.lbs.service.NaviService"
+
+Domain verification status:
+
+Key Set Manager:
+  [com.byd.amapservice]
+      Signing KeySets: 1
+
+Packages:
+  Package [com.byd.amapservice] (112088d):
+    userId=1000
+    sharedUser=SharedUserSetting{6ccf8fd android.uid.system/1000}
+    pkg=Package{9d149f2 com.byd.amapservice}
+    codePath=/system/priv-app/AdapterAmapService
+    resourcePath=/system/priv-app/AdapterAmapService
+    legacyNativeLibraryDir=/system/priv-app/AdapterAmapService/lib
+    extractNativeLibs=false
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=1 minSdk=28 targetSdk=28
+    minExtensionVersions=[]
+    versionName=V1.0.27.20240725.202409021939
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=3
+    applicationInfo=PackageImpl{9d149f2 com.byd.amapservice}
+    flags=[ SYSTEM HAS_CODE PERSISTENT ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE PRIVILEGED PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    forceQueryable=false
+    dataDir=/data/user/0/com.byd.amapservice
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.hidl.manager-V1.0-java
+      android.hidl.base-V1.0-java
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.hidl.manager-V1.0-java.jar
+      /system/framework/android.hidl.base-V1.0-java.jar
+    timeStamp=2009-01-01 03:00:00
+    firstInstallTime=2009-01-01 03:00:00
+    lastUpdateTime=2009-01-01 03:00:00
+    signatures=PackageSignatures{5d06843 version:3, signatures:[22216e4d], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ SYSTEM HAS_CODE PERSISTENT ALLOW_CLEAR_USER_DATA ALLOW_BACKUP ]
+    requested permissions:
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.READ_EXTERNAL_STORAGE
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.RECORD_AUDIO
+      com.byd.card.permission.READ_CARD
+      com.byd.card.permission.WRITE_CARD
+      android.permission.BYDAUTO_BODYWORK_COMMON
+      android.permission.BYDAUTO_PANORAMA_COMMON
+      android.permission.BYDAUTO_BODYWORK_GET
+      android.permission.BYDAUTO_BODYWORK_SET
+      android.permission.BYDAUTO_POWER_GET
+      android.permission.BYDAUTO_SPEED_COMMON
+      android.permission.BYDAUTO_SPEED_GET
+      android.permission.BYDAUTO_AUDIO_COMMON
+      android.permission.BYDAUTO_AUDIO_GET
+      android.permission.BYDAUTO_AUDIO_SET
+      android.permission.BYDAUTO_STATISTIC_COMMON
+      android.permission.BYDAUTO_STATISTIC_GET
+      android.permission.BYDAUTO_STATISTIC_SET
+      android.permission.BYDAUTO_CHARGING_COMMON
+      android.permission.BYDAUTO_CHARGING_GET
+      android.permission.BYDAUTO_SETTING_COMMON
+      android.permission.BYDAUTO_SETTING_GET
+      android.permission.BYDAUTO_SETTING_SET
+      android.permission.BYDAUTO_GEARBOX_COMMON
+      android.permission.BYDAUTO_GEARBOX_GET
+      android.permission.BYDAUTO_ENGINE_GET
+      android.permission.BYDAUTO_AC_COMMON
+      android.permission.BYDAUTO_AC_GET
+      android.permission.BYDAUTO_INSTRUMENT_COMMON
+      android.permission.BYDAUTO_INSTRUMENT_GET
+      android.permission.BYDAUTO_INSTRUMENT_SET
+      android.permission.BYDAUTO_ENERGY_GET
+      android.permission.BYDAUTO_GB_GET
+      android.permission.BYDAUTO_LIGHT_COMMON
+      android.permission.BYDAUTO_LIGHT_GET
+      android.permission.BYDAUTO_LIGHT_SET
+      android.permission.BYDAUTO_DOOR_LOCK_COMMON
+      android.permission.BYDAUTO_DOOR_LOCK_GET
+      android.permission.BYDAUTO_DOOR_LOCK_SET
+      android.permission.BYDAUTO_SENSOR_GET
+      android.permission.FOREGROUND_SERVICE
+      android.permission.BYDAutoInstrumentDevice
+      android.permission.ACCESS_MEDIA_LOCATION
+    install permissions:
+      android.permission.REAL_GET_TASKS: granted=true
+      android.permission.ACCESS_CACHE_FILESYSTEM: granted=true
+      android.permission.DOWNLOAD_WITHOUT_NOTIFICATION: granted=true
+      android.permission.BIND_INCALL_SERVICE: granted=true
+      android.permission.BYDAUTO_PANORAMA_GET: granted=true
+      android.permission.BYDAUTO_PANORAMA_SET: granted=true
+      android.permission.WRITE_SETTINGS: granted=true
+      android.permission.BYDAUTO_LIGHT_GET: granted=true
+      android.permission.BYDAUTO_LIGHT_SET: granted=true
+      android.permission.BYD_SAFEKEY_COMMON: granted=true
+      com.hihonor.permission.HISIGHT_ACCESS: granted=true
+      android.permission.CONFIGURE_WIFI_DISPLAY: granted=true
+      android.permission.RECOVERY: granted=true
+      android.permission.DEVICE_ACC: granted=true
+      android.permission.BIND_ATTENTION_SERVICE: granted=true
+      com.byd.SilentInstaller.FINISH_PERMISSION: granted=true
+      android.permission.BYDAUTO_POWER_GET: granted=true
+      android.permission.BYDAUTO_POWER_SET: granted=true
+      android.permission.BYDAUTO_ENGINE_GET: granted=true
+      android.permission.BYDAUTO_ENGINE_SET: granted=true
+      android.permission.BYDAUTO_ENERGY_GET: granted=true
+Failed to write while dumping service package: Broken pipe
+# naviauto
+NONE
+# launchermap
+NONE

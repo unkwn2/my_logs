@@ -1,0 +1,17 @@
+05-26 19:34:51.995  4313  5249 D BydDms  : AVCameraDevice: onImageAvailable frame rate: 300
+05-26 19:34:52.692   344 13850 I QC2Comp : [avcE_84] Stats: Pending(3) i/p-done(0) Works: Q: 20704/Done 20701|Work-Rate: Q(30.0/s Avg=30.0/s) Done(29.993/s Avg=29.964/s)| Stream: 29.98fps 8.6Mbps
+05-26 19:34:56.839   344 15065 I QC2Comp : [avcD_86] Stats: Pending(7) i/p-done(3) Works: Q: 20585/Done 20579|Work-Rate: Q(30.2/s Avg=30.0/s) Done(29.998/s Avg=30.002/s)| Stream: 30.00fps 4.7Mbps
+05-26 19:34:57.693   344 13850 I QC2Comp : [avcE_84] Stats: Pending(3) i/p-done(0) Works: Q: 20854/Done 20851|Work-Rate: Q(30.0/s Avg=30.0/s) Done(29.993/s Avg=29.964/s)| Stream: 32.49fps 8.3Mbps
+05-26 19:34:58.110  4579  4579 D AVC_AVCBYDAutoLightDevice_mAbsBYDAutoLightListener: onStopLightStateChanged state: 1
+05-26 19:34:58.110  4579  4579 D AVC_PIAPI: lightp = 8 status = 1
+05-26 19:34:58.110  4579  4579 D AVC_AVCBYDAutoLightDevice_mAbsBYDAutoLightListener: onDataEventChanged() eventType = 950009874
+05-26 19:34:59.277  4579  4579 D AVC_AVCBYDAutoLightDevice_mAbsBYDAutoLightListener: onStopLightStateChanged state: 3
+05-26 19:34:59.277  4579  4579 D AVC_PIAPI: lightp = 8 status = 0
+05-26 19:34:59.277  4579  4579 D AVC_AVCBYDAutoLightDevice_mAbsBYDAutoLightListener: onDataEventChanged() eventType = 950009874
+05-26 19:34:59.878 13510 13510 E PlatformUtils: [main]setNavControl:1
+05-26 19:35:01.366 13510 13510 E PlatformUtils: [main]setNavControl:4
+05-26 19:35:01.841   344 15065 I QC2Comp : [avcD_86] Stats: Pending(7) i/p-done(3) Works: Q: 20735/Done 20729|Work-Rate: Q(30.0/s Avg=30.0/s) Done(29.991/s Avg=30.002/s)| Stream: 30.00fps 4.7Mbps
+05-26 19:35:02.003  4313  5249 D BydDms  : AVCameraDevice: onImageAvailable frame rate: 300
+05-26 19:35:02.696   344 13850 I QC2Comp : [avcE_84] Stats: Pending(4) i/p-done(0) Works: Q: 21004/Done 21000|Work-Rate: Q(30.0/s Avg=30.0/s) Done(29.788/s Avg=29.963/s)| Stream: 32.34fps 6.4Mbps
+05-26 19:35:03.495 13510 13510 E PlatformUtils: [main]setNavControl:3
+05-26 19:35:04.598 13510 13510 E PlatformUtils: [main]setNavControl:2

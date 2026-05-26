@@ -1,0 +1,3 @@
+SERVICE com.byd.amapservice/com.example.amapservice.AmapService d45f246 pid=3734 user=0
+  Client:
+    nothing to dump

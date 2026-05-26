@@ -1,0 +1,158 @@
+Display 0 name="Встроенный экран"#0
+WindowedMagnification:0:31#0
+HideDisplayCutout:0:16#0
+OneHandedBackgroundPanel:0:1#0
+OneHanded:0:1#0
+FullscreenMagnification:0:1#0
+Leaf:0:1#0
+WallpaperWindowToken{aedddd7 token=android.os.Binder@9538956}#0
+fd26c63 com.byd.dogwallpaper.VideoDogWallPaperService#0
+com.byd.dogwallpaper.VideoDogWallPaperService#0
+Wallpaper BBQ wrapper#0
+OneHanded:2:16#0
+FullscreenMagnification:2:14#0
+DefaultTaskDisplayArea#0
+Task=378#0
+Task=379#0
+d062bd3 ActivityRecordInputSink com.android.launcher3/.home.MainActivity#0
+ActivityRecord{346fe09 u0 com.android.launcher3/.home.MainActivity#0
+12fc7cf com.android.launcher3/com.android.launcher3.home.MainActivity#0
+Task=3#0
+Primary Divider Dim#0
+Task=4#0
+Secondary Divider Dim#0
+splitScreenDividerAnchor#0
+WindowToken{4a8aa45 android.os.BinderProxy@92d2abc}#0
+Shell Root Leash 0#0
+Task=5#0
+Task=388#0
+4b10f8e ActivityRecordInputSink com.android.launcher3/.Launcher#0
+ActivityRecord{7b2e3bc u0 com.android.launcher3/.Launcher#0
+ddfd631 com.android.launcher3/com.android.launcher3.Launcher#0
+Task=389#0
+c3a1468 ActivityRecordInputSink com.alphainventor.filemanager/.activity.MainActivity#0
+ActivityRecord{1c50526 u0 com.alphainventor.filemanager/.activity.MainActivity#0
+d68ac6a com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity#0
+com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity#0
+ImeContainer#0
+WindowToken{ae46aed android.os.Binder@2026504}#0
+Surface(name=6ac793c InputMethod)/@0x17fe81a - animation-leash of insets_animation#0
+6ac793c InputMethod#0
+Surface(name=Task=274)/@0x939534 - animation-leash of app_transition#0
+Surface(name=Task=377)/@0x1d1a6b0 - animation-leash of app_transition#0
+Leaf:3:14#0
+WindowToken{1425b53 android.os.BinderProxy@e75df42}#0
+6465c90 BydLauncher_CardBarwindow#0
+WindowToken{88f000 android.os.BinderProxy@6ce5683}#0
+36e6039 NavigationBar_Edit#0
+WindowToken{ccc0ebf android.os.BinderProxy@297bffb}#0
+6534419 ShellDropTarget#0
+WindowToken{ebddb18 android.os.BinderProxy@9d61efb}#0
+c27c971 com.bydmate.app#0
+bydAdd-com.bydmate.app#0
+WindowToken{f19572c android.os.BinderProxy@b486edf}#0
+e61b5f5 com.van.diplus#0
+bydAdd-com.van.diplus#1
+ImePlaceholder:15:16#0
+OneHanded:17:17#0
+FullscreenMagnification:17:17#0
+Leaf:17:17#0
+WindowToken{b2c6bf2 android.os.BinderProxy@2a4bcb6}#0
+Surface(name=122aa44 StatusBar)/@0x1f050c1 - animation-leash of insets_animation#0
+122aa44 StatusBar#0
+StatusBar#0
+HideDisplayCutout:18:18#0
+OneHanded:18:18#0
+FullscreenMagnification:18:18#0
+Leaf:18:18#0
+OneHanded:19:19#0
+FullscreenMagnification:19:19#0
+Leaf:19:19#0
+WindowToken{3f34f android.os.BinderProxy@57bd229}#0
+3eadadc NotificationShade#0
+HideDisplayCutout:20:23#0
+OneHanded:20:23#0
+FullscreenMagnification:20:23#0
+Leaf:20:23#0
+WindowToken{a94982d android.os.BinderProxy@f4dff44}#0
+770b162 BydQSBar#0
+Leaf:24:25#0
+WindowToken{41724c0 android.os.BinderProxy@d337ff2}#0
+Surface(name=231eb4e NavigationBar0)/@0xc234fa7 - animation-leash of insets_animation#1
+231eb4e NavigationBar0#0
+NavigationBar0#0
+WindowToken{23a7ef2 android.os.BinderProxy@8f5e1fd}#0
+6c1f943 pip-dismiss-overlay#0
+WindowToken{df91e33 android.os.BinderProxy@b5461a2}#0
+8b795f0 com.byd.gesture.global#0
+HideDisplayCutout:26:31#0
+OneHanded:26:31#0
+FullscreenMagnification:26:27#0
+Leaf:26:27#0
+Leaf:28:28#0
+FullscreenMagnification:29:31#0
+Leaf:29:31#0
+WindowToken{d54c84 android.os.Binder@1400297}#0
+WindowToken{b86fae1 android.os.Binder@b9e2c48}#0
+HideDisplayCutout:32:35#0
+OneHanded:32:35#0
+Leaf:32:32#0
+FullscreenMagnification:33:35#0
+Leaf:33:35#0
+Leaf:36:36#0
+Display Overlays#0
+RootWrapper#0
+Display 2 name="fission_bg_XDJAScreenProjection"#0
+Leaf:0:1#1
+DefaultTaskDisplayArea#1
+splitScreenDividerAnchor#1
+Leaf:3:14#1
+WindowToken{242f127 android.os.BinderProxy@7736007}#0
+dbfb641 com.byd.launchermap#0
+Background for -SurfaceView[]#0
+SurfaceView[]#0
+SurfaceView[](BLAST)#0
+bydAdd-com.byd.launchermap#0
+Bounds for - #0
+Leaf:17:36#0
+WindowToken{ee7e0a2 android.os.Binder@a39fc6d}#0
+WindowToken{58656c7 android.os.Binder@3ef9006}#0
+ImeContainer#1
+Display Overlays#1
+Shared_Display_0#0
+bbq-wrapper#1
+RootWrapper#1
+Display 3 name="shared_fission_bg_XDJAScreenProjection_0"#0
+Leaf:0:1#2
+DefaultTaskDisplayArea#2
+splitScreenDividerAnchor#2
+Leaf:3:14#2
+Leaf:17:36#1
+WindowToken{89cacf0 android.os.Binder@e783133}#0
+WindowToken{17641d android.os.Binder@d8dc4f4}#0
+ImeContainer#2
+Display Overlays#2
+Shared_Display_1#0
+bbq-wrapper#2
+RootWrapper#2
+Display 4 name="shared_fission_bg_XDJAScreenProjection_1"#0
+Leaf:0:1#3
+DefaultTaskDisplayArea#3
+splitScreenDividerAnchor#3
+Leaf:3:14#3
+Leaf:17:36#2
+WindowToken{37a81c android.os.Binder@dfaad8f}#0
+WindowToken{4079863 android.os.Binder@5e4a692}#0
+ImeContainer#3
+Display Overlays#3
+RootWrapper#3
+Display 29 name="OpenBYD_Cluster_VD"#0
+Leaf:0:1#4
+DefaultTaskDisplayArea#4
+splitScreenDividerAnchor#4
+Leaf:3:14#4
+Leaf:17:36#3
+WindowToken{f88e1fa android.os.Binder@e934c25}#0
+WindowToken{14b2519 android.os.Binder@73c3c60}#0
+ImeContainer#4
+Display Overlays#4

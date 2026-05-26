@@ -1,0 +1,2 @@
+Broadcasting: Intent { act=AUTONAVI_STANDARD_BROADCAST_SEND flg=0x1400000 (has extras) }
+Broadcast completed: result=0
