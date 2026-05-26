@@ -1,0 +1,147 @@
+MAGIC WINDOW MANAGER (dumpsys magicwindow)
+Magic Manager State:
+
+mFeatureState=2 (0: CLOSE, 1: HPSX, 2: PXSJ)
+
+mMagicWindowHorizontalFullList=[com.baidu.BaiduMap, com.autonavi.minimap, com.neptune.tmap, com.tencent.map, com.qiyi.video.pad, com.lazyaudio.yayagushi, com.qqgame.hlddz, com.tencent.qqlivepad, cn.cntvhd, com.ubestkid.beilehu.android, com.duoduo.child.story]
+
+mMagicWindowBlackList=[com.happyelements.AndroidAnimal]
+
+mMagicWindowListMap size=110 :
+key=com.achievo.vipshop, value=[com.achievo.vipshop.homepage.activity.MainActivity]
+key=com.baidu.baike, value=[com.baidu.baike.activity.MainActivity]
+key=com.xunmeng.pinduoduo, value=[com.xunmeng.pinduoduo.ui.activity.HomeActivity]
+key=com.tencent.mobileqq, value=[com.tencent.mobileqq.activity.SplashActivity]
+key=com.baidu.browser.apps, value=[com.baidu.searchbox.MainActivity]
+key=com.changba, value=[com.changba.activity.MainActivity]
+key=com.xunlei.downloadprovider, value=[com.xunlei.downloadprovider.frame.MainTabActivity]
+key=com.app.hero.ui, value=[com.app.hero.ui.HomeActivity]
+key=com.tencent.androidqqmail, value=[com.tencent.qqmail.fragment.base.MailFragmentActivity, com.tencent.qqmail.xmbook.business.home.XMBookActivity, com.tencent.qqmail.xmailnote.XMailNoteListActivity]
+key=com.yibasan.lizhifm, value=[com.yibasan.lizhifm.activities.fm.LZNavBarActivity]
+key=com.ximalaya.ting.android, value=[com.ximalaya.ting.android.host.activity.MainActivity]
+key=com.tencent.weread, value=[com.tencent.weread.WeReadFragmentActivity]
+key=com.tmri.app.main, value=[com.tmri.app.ui.activity.main.MainTabHostNewActivity]
+key=com.qiyi.video, value=[com.qiyi.video.WelcomeActivity, org.qiyi.android.video.MainActivity]
+key=com.cankaoxiaoxi.app1, value=[com.cmstop.cloud.activities.HomeAppCardActivity]
+key=com.sankuai.meituan.takeoutnew, value=null
+key=com.netease.vopen, value=[com.netease.vopen.activity.HomeActivity]
+key=com.baidu.tieba, value=[com.baidu.tieba.tblauncher.MainTabActivity]
+key=com.storm.smart, value=[com.storm.smart.activity.MainActivity]
+key=com.baidu.searchbox, value=[com.baidu.searchbox.MainActivity]
+key=com.duowan.kiwi, value=[com.duowan.kiwi.homepage.Homepage]
+key=com.sohu.newsclient, value=[com.sohu.newsclient.channel.intimenews.activity.NewsTabActivity]
+key=com.icoolme.android.weather, value=[com.icoolme.android.weather.activity.SmartWeatherActivity]
+key=com.xingin.xhs, value=[com.xingin.xhs.index.v2.IndexActivityV2, com.xingin.xhs.activity.FakeSplashActivity, com.xingin.login.activity.WelcomeActivity]
+key=cmccwm.mobilemusic, value=[cmccwm.mobilemusic.ui.base.MainActivity]
+key=com.tencent.radio, value=[com.tencent.radio.main.MainActivity]
+key=com.ss.android.article.video, value=[com.ss.android.article.video.activity.SplashActivity]
+key=cn.TuHu.android, value=[cn.TuHu.Activity.tuhutab.TuHuTabActivity]
+key=com.baidu.appsearch, value=[com.baidu.appsearch.MainActivity]
+key=com.mfw.roadbook, value=[com.mfw.roadbook.business.main.MainActivity]
+key=com.tencent.mtt, value=[com.tencent.mtt.MainActivity]
+key=com.sankuai.meituan, value=[com.meituan.android.pt.homepage.activity.MainActivity]
+key=cn.mucang.xiaomi.android.wz, value=[cn.mucang.xiaomi.android.wz.activity.HomeActivity]
+key=com.sina.weibo, value=[com.sina.weibo.VisitorMainTabActivity, com.sina.weibo.MainTabActivity, com.sina.weibo.page.SearchResultActivity, com.sina.weibo.page.SuperPageActivity]
+key=bubei.tingshu, value=[bubei.tingshu.home.ui.HomeActivity]
+key=com.sohu.sohuvideo, value=[com.sohu.sohuvideo.ui.homepage.MainActivity]
+key=com.baidu.haokan, value=[com.baidu.haokan.app.activity.HomeActivity]
+key=com.m4399.gamecenter, value=[com.m4399.plugin.controllers.PluginProxy3Activity]
+key=com.ting.mp3.android, value=[com.ting.mp3.android.ui.LaunchHomeUI]
+key=com.ss.android.ugc.aweme.lite, value=null
+key=com.liulishuo.engzo, value=[com.liulishuo.lingodarwin.web.WebViewActivity]
+key=com.cmcc.cmvideo, value=[com.cmcc.cmvideo.main.application.CompatibleMainActivity]
+key=com.tencent.weishi, value=[com.tencent.oscar.module.main.MainActivity]
+key=com.sina.news, value=[com.sina.news.modules.main.MainActivity]
+key=com.tencent.qqmusic, value=[com.tencent.qqmusic.activity.AppStarterActivity]
+key=com.chaozh.iReaderFree, value=[com.zhangyue.iReader.bookshelf.ui.ActivityBookShelf]
+key=com.ophone.reader.ui, value=[com.cmread.bplusc.bookshelf.LocalMainActivity]
+key=com.kmxs.reader, value=[com.kmxs.reader.home.ui.HomeActivity]
+key=com.tencent.android.qqdownloader, value=[com.tencent.assistantv2.activity.MainActivity, com.tencent.assistant.activity.SplashImplActivity]
+key=com.qihoo.browser, value=[com.qihoo.browser.BrowserActivity]
+key=tv.xiaoka.live, value=[com.yixia.live.activity.IndexActivity, com.yixia.live.activity.MemberInfoActivity]
+key=com.ss.android.lark, value=[com.ss.android.lark.main.app.MainActivity]
+key=com.cleanmaster.mguard_cn, value=[com.keniu.security.main.MainActivity]
+key=com.hunantv.imgo.activity, value=[com.hunantv.imgo.activity.MainActivity]
+key=com.jingdong.app.mall, value=[com.jingdong.app.mall.MainFrameActivity]
+key=com.ss.android.ugc.aweme, value=null
+key=air.tv.douyu.android, value=[com.douyu.module.home.pages.main.MainActivity]
+key=com.tencent.wework, value=[com.tencent.wework.launch.WwMainActivity]
+key=com.tencent.mm, value=[com.tencent.mm.ui.LauncherUI, com.tencent.mm.plugin.account.ui.WelcomeActivity]
+key=com.netease.newsreader.activity, value=[com.netease.nr.phone.main.MainActivity]
+key=com.m1905.mobilefree, value=[com.m1905.mobilefree.activity.MainActivity]
+key=com.peopledailychina.activity, value=[com.peopledailychina.activity.activity.MainActivity, com.peopledailychina.activity.activity.WelcomeActivity, com.peopledailychina.activity.activity.AppMainActivity]
+key=cn.banshenggua.aichang, value=[cn.aichang.blackbeauty.main.ui.MainHostActivity]
+key=com.eastmoney.android.berlin, value=[com.eastmoney.android.module.launcher.internal.home.HomeActivity]
+key=com.baidu.searchbox.lite, value=null
+key=com.sinyee.babybus.chants, value=[com.sinyee.babybus.android.main.MainActivity]
+key=com.kugou.android.ktvapp, value=[com.kugou.android.app.MediaActivity]
+key=cn.etouch.ecalendar, value=[cn.etouch.ecalendar.module.main.ui.MainActivity]
+key=fm.qingting.qtradio, value=[fm.qingting.qtradio.QTRadioActivity]
+key=com.netease.cloudmusic, value=[com.netease.cloudmusic.activity.MainActivity]
+key=com.tencent.news, value=[com.tencent.news.activity.SplashActivity]
+key=cn.cntv, value=[com.cctv.mcctv.ui.activity.MainActivity]
+key=com.qq.reader, value=[com.qq.reader.activity.MainActivity]
+key=com.nd.android.pandareader, value=[com.baidu.shucheng.ui.main.MainActivity]
+key=com.ss.android.ugc.live, value=null
+key=com.cctv.yangshipin.app.androidp, value=[com.tencent.videolite.android.ui.HomeActivity]
+key=com.qdtevc.teld.app, value=[com.qdtevc.teld.app.activity.MainActivity]
+key=com.cubic.autohome, value=[com.cubic.autohome.MainActivity]
+key=tv.danmaku.bili, value=[tv.danmaku.bili.MainActivityV2]
+key=com.djbox.product, value=[com.djbox.product.activity.MainActivity]
+key=com.kuaikan.comic, value=[com.kuaikan.main.MainActivity]
+key=com.ss.android.auto, value=[com.ss.android.auto.activity.SplashActivity]
+key=com.UCMobile, value=[com.uc.browser.InnerUCMobile]
+key=com.tencent.qqsports, value=[com.tencent.qqsports.MainActivity]
+key=com.moji.mjweather, value=[com.moji.mjweather.MainActivity]
+key=com.eg.android.AlipayGphone, value=[com.eg.android.AlipayGphone.AlipayLogin]
+key=com.zhihu.android, value=[com.zhihu.android.app.ui.activity.MainActivity, com.zhihu.android.app.ui.activity.HostActivity]
+key=cn.opda.a.phonoalbumshoushou, value=[cn.com.opda.android.mainui.MainActivity]
+key=cn.eclicks.wzsearch, value=[cn.eclicks.wzsearch.ui.MainActivity]
+key=com.smile.gifmaker, value=null
+key=com.MobileTicket, value=[com.MobileTicket.ui.activity.MainActivity]
+key=com.taobao.taobao, value=[com.taobao.tao.TBMainActivity]
+key=com.dianping.v1, value=[com.dianping.v1.NovaMainActivity]
+key=com.kugou.android, value=[com.kugou.android.app.MediaActivity]
+key=com.hexin.plat.android, value=[com.hexin.plat.android.Hexin]
+key=com.tencent.karaoke, value=[com.tencent.karaoke.module.main.ui.MainTabActivity]
+key=com.xueqiu.android, value=[com.xueqiu.android.main.view.MainActivity]
+key=com.Qunar, value=[com.mqunar.atom.alexhome.ui.activity.MainActivity]
+key=cn.missevan, value=[cn.missevan.activity.MainActivity]
+key=com.ss.android.article.news, value=[com.ss.android.article.news.activity.MainActivity]
+key=com.uroad.unitoll, value=[com.uroad.unitoll.ui.activity.LaunchMainActivity]
+key=com.quark.browser, value=[com.ucpro.BrowserActivity]
+key=dopool.player, value=[com.dopool.module_main.view.activity.MainActivity]
+key=me.ele, value=[me.ele.Launcher, me.ele.application.ui.Launcher.LauncherActivity]
+key=com.violationquery, value=[com.violationquery.ui.main.activity.MainActivity]
+key=com.kuaishou.nebula, value=null
+key=ctrip.android.view, value=[ctrip.android.publicproduct.home.view.CtripHomeActivity]
+key=com.luojilab.player, value=[com.luojilab.business.HomeTabActivity, com.luojilab.search.home.SearchActivity, com.luojilab.search.AnswersSearchActivity, com.luojilab.search.ColumnSearchActivity, com.luojilab.search.SaybookSearchActivity]
+key=com.pingan.carowner, value=[com.pingan.carowner.activity.MainActivity]
+key=com.baidu.netdisk, value=[com.baidu.netdisk.ui.MainActivity]
+
+mAppActivitiesMap size=2 :
+key=com.tencent.mtt, value=[com.tencent.mtt.MainActivity]
+key=com.tencent.mm, value=[com.tencent.mm.ui.LauncherUI, com.tencent.mm.plugin.account.ui.WelcomeActivity]
+
+mListenerMap size=21 :
+listener name=null
+listener name=ru.yandex.yandexmaps:AppMetrica
+listener name=com.sr.openbyd
+listener name=com.huawei.hwid.core
+listener name=com.google.android.inputmethod.latin
+listener name=null
+listener name=com.byd.dogwallpaper
+listener name=ru.bydconnect
+listener name=ru.yandex.yandexmaps:passport
+listener name=com.gbox.android:server
+listener name=com.huawei.hwid.persistent
+listener name=com.bydmate.app
+listener name=com.gbox.android:vlapp02
+listener name=null
+listener name=com.van.diplus:remote
+listener name=com.huawei.hwid.container3
+listener name=ru.yandex.yandexmaps:MusicSDK
+listener name=ru.yandex.yandexmaps
+listener name=com.gbox.android:vlapp01
+listener name=ru.yandex.yandexmaps:Metrica
+listener name=com.v2ray.ang:RunSoLibV2RayDaemon

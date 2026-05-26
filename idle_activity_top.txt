@@ -1,0 +1,1196 @@
+TASK 10143:ru.yandex.yandexmaps id=367 userId=0
+  ACTIVITY ru.yandex.yandexmaps/.SplashScreen 7ac783a pid=16953
+    Local Activity bd78bf4 State:
+      mResumed=true mStopped=false mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw960dp w960dp h1280dp 100dpi xlrg port night -touch -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 600, 800) mAppBounds=Rect(0, 0 - 600, 800) mMaxBounds=Rect(0, 0 - 600, 800) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.4 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in 48e367:
+        #0: c1{cfc6514 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{48e367 in HostCallbacks{fbb51bd}}
+          mHost=android.app.Activity$HostCallbacks@fbb51bd
+          Child FragmentManager{ad793b2 in c1{cfc6514}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@fbb51bd
+              mContainer=android.app.Fragment$1@a764f03
+              mParent=c1{cfc6514 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+        #1: c{fc4be80 #1 LifecycleHandler}
+          mFragmentId=#0 mContainerId=#0 mTag=LifecycleHandler
+          mState=5 mIndex=1 mWho=android:fragment:1 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=true
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{48e367 in HostCallbacks{fbb51bd}}
+          mHost=android.app.Activity$HostCallbacks@fbb51bd
+          Child FragmentManager{fd04cb9 in c{fc4be80}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@fbb51bd
+              mContainer=android.app.Fragment$1@32738fe
+              mParent=c{fc4be80 #1 LifecycleHandler}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: c1{cfc6514 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+        #1: c{fc4be80 #1 LifecycleHandler}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@fbb51bd
+        mContainer=android.app.Activity$HostCallbacks@fbb51bd
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=false
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=0
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: b1fb367 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = b1fb367 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=148667054 (15752 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 600, 800)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=null rotation=0}
+    View Hierarchy:
+      DecorView@9655d73[SplashScreen]
+        android.widget.LinearLayout{4d1665 V.E...... ........ 0,0-600,800}
+          android.view.ViewStub{d84d85f G.E...... ......I. 0,0-0,0 #10201f5 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{36d335c V.E...... ........ 0,0-600,800}
+            androidx.appcompat.widget.FitWindowsLinearLayout{a2e5dcf V.E...... ........ 0,0-600,800 #7f0a0072 app:id/action_bar_root}
+              androidx.appcompat.widget.ViewStubCompat{3f742ac G.E...... ......I. 0,0-0,0 #7f0a008b app:id/action_mode_bar_stub}
+              androidx.appcompat.widget.ContentFrameLayout{d76ae2e V.E...... ........ 0,0-600,800 #1020002 android:id/content}
+                android.widget.FrameLayout{16c98a9 V.E...... ........ 0,0-600,800 #7f0a0a43 app:id/map_activity_root}
+                  ru.yandex.maps.appkit.map.MapWithControlsView{c940430 V.E...... ........ 0,0-600,800 #7f0a00a0 app:id/activity_search_map_view}
+                    com.yandex.runtime.view.PlatformGLSurfaceView{4c37f3a V.E...... ........ 0,0-600,800}
+                  android.widget.FrameLayout{8dd07eb V.E...... ........ 0,0-600,800 #7f0a0a48 app:id/maps_activity_top_notification_container}
+                  com.bluelinelabs.conductor.LTRChangeHandlerFrameLayout{ada5506 V.ED..... ........ 0,0-600,800 #7f0a009d app:id/activity_container_controller}
+                    ru.yandex.yandexmaps.navi.ride.api.NaviRideTouchLayout{db57e16 V.E...... ........ 0,0-600,800 #7f0a0c42 app:id/navi_service_touch_layout}
+                      ru.yandex.yandexmaps.common.views.insets.PaddingtonView{1b69731 V.E...... ........ 0,0-600,800}
+                        android.widget.FrameLayout{6b447d8 V.E...... ........ 0,0-600,800 #7f0a0d1b app:id/paddings_container}
+                          android.widget.LinearLayout{aa346bb V.E...... ........ 0,0-600,800}
+                            ru.yandex.yandexmaps.controls.container.FluidContainer{7f3374a G.E...... ......ID 0,0-600,800 #7f0a0c24 app:id/navi_service_interactive_ui_mode_container}
+                              ru.yandex.yandexmaps.controls.views.MapControlsServiceNameView{2dc1ffe V.ED..... ........ 252,0-347,50 #7f0a0c23 app:id/navi_service_controller_service_name}
+                              ru.yandex.yandexmaps.controls.profile.ControlProfile{32b4e75 V.E...... .......D 5,5-595,45 #7f0a0467 app:id/control_profile}
+                                ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{62001ac V.ED..... .......D 0,2-36,38}
+                                  android.view.View{39ffb75 G.ED..... ......I. 0,0-0,0 #7f0a046c app:id/control_profile_size_stub}
+                                  androidx.appcompat.widget.AppCompatImageView{5ed335f V.ED..... ......ID 3,3-33,33 #7f0a046a app:id/control_profile_plus_icon}
+                                  androidx.appcompat.widget.AppCompatImageView{ed63e0a VFED..C.. ......ID 3,3-33,33 #7f0a0469 app:id/control_profile_menu_icon}
+                                  androidx.appcompat.widget.AppCompatImageView{b39e70a G.ED..... ......I. 0,0-0,0 #7f0a0468 app:id/control_profile_menu_dot}
+                                  android.widget.LinearLayout{7c89b7b G.E...... ......I. 0,0-0,0 #7f0a046b app:id/control_profile_search_line_stub}
+                                    android.view.View{bebdd98 V.ED..... ......I. 0,0-0,0}
+                                    android.view.View{c81d9f1 V.ED..... ......I. 0,0-0,0}
+                              ru.yandex.yandexmaps.controls.hack.ObservableStubControl{8c7cd3f V.E...... ........ 0,45-0,45 #7f0a0475 app:id/control_stub_for_promo_object}
+                              ru.yandex.yandexmaps.controls.traffic.ControlTraffic{ddba67b VFE...C.. ........ 559,6-595,44 #7f0a047b app:id/control_traffic}
+                                ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{4ef5cf1 V.ED..... ........ 0,1-36,37}
+                                  androidx.appcompat.widget.AppCompatImageButton{1618c98 VFED..... ......I. 3,3-33,33 #7f0a047c app:id/control_traffic_image}
+                              ru.yandex.yandexmaps.controls.carparks.ControlCarparks{3a764b5 VFE...C.. .......D 559,44-595,82 #7f0a0451 app:id/control_carparks}
+                                ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{a742f57 V.ED..... .......D 0,1-36,37}
+                                  ru.yandex.yandexmaps.controls.hack.ConstantSizeImageView{ba230d6 V.ED..... ......ID 3,3-33,33}
+                              ru.yandex.yandexmaps.controls.surge.ControlSurge{1ac756d IFE...C.. ......ID 559,0-595,38 #7f0a0476 app:id/control_surge}
+                                ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{50bd72d V.ED..... ......ID 0,1-36,37}
+                                  ru.yandex.yandexmaps.controls.hack.ConstantSizeImageView{e2eda44 V.ED..... ......ID 3,3-33,33 #7f0a0477 app:id/control_surge_icon}
+                              ru.yandex.yandexmaps.controls.zoom.ControlZoom{b6156b0 V.E...... .......D 559,362-595,438 #7f0a0480 app:id/control_zoom}
+                                android.widget.LinearLayout{9a269f3 V.E...... .......D 0,0-36,76}
+                                  ru.yandex.yandexmaps.common.views.controls.FrameLayoutClickAndHold{b688462 VFE...C.. .......D 0,0-36,38 #7f0a0482 app:id/control_zoom_in_touch_zone}
+                                    ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{84e84ae V.ED..... .......D 0,1-36,37}
+                                      androidx.appcompat.widget.AppCompatImageView{cfbb929 V.ED..... ......ID 3,3-33,33 #7f0a0481 app:id/control_zoom_in}
+                                  ru.yandex.yandexmaps.common.views.controls.FrameLayoutClickAndHold{26fb24f VFE...C.. .......D 0,38-36,76 #7f0a0484 app:id/control_zoom_out_touch_zone}
+                                    ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayoutRect{8edbee5 V.ED..... .......D 0,1-36,37}
+                                      androidx.appcompat.widget.AppCompatImageView{9fd2ddc V.ED..... ......ID 3,3-33,33 #7f0a0483 app:id/control_zoom_out}
+                              ru.yandex.yandexmaps.controls.position.combined.ControlPositionCombined{51d4bc8 V.E...... .......D 516,746-597,787 #7f0a045f app:id/control_position_combined}
+                                android.widget.LinearLayout{91f246b V.E...... ......ID 0,0-81,41}
+                                  ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayout{7097da3 VFED..C.. ......ID 43,3-78,38 #7f0a0463 app:id/control_position_combined_compass}
+                                    ru.yandex.yandexmaps.controls.position.ControlPositionCompassView{26458a0 V.ED..... ......ID 2,2-32,32 #7f0a0464 app:id/control_position_combined_compass_needle}
+                                  ru.yandex.yandexmaps.common.views.controls.MapControlsFrameLayout{7823dba GFED..C.. ......ID 40,0-81,41 #7f0a0465 app:id/control_position_combined_find_me}
+                                    android.widget.FrameLayout{1067b86 V.E...... ......ID 3,3-38,38}
+                                      androidx.appcompat.widget.AppCompatImageView{37aac59 G.ED..... ......I. 0,0-0,0 #7f0a0466 app:id/control_position_combined_no_location}
+                                      androidx.appcompat.widget.AppCompatImageView{f406461 G.ED..... .......D 2,2-32,32 #7f0a0460 app:id/control_position_combined_centering_off_heading_off}
+                                      androidx.appcompat.widget.AppCompatImageView{194b01e G.ED..... ......I. 0,0-0,0 #7f0a0461 app:id/control_position_combined_centering_on_heading_off}
+                                      androidx.appcompat.widget.AppCompatImageView{f2c50ff G.ED..... ......I. 0,0-0,0 #7f0a0462 app:id/control_position_combined_centering_on_heading_on}
+                              ru.yandex.yandexmaps.controls.views.LinearLayoutControl{c9f5c74 V.E...... .......D 5,363-41,438 #7f0a0c43 app:id/navi_service_vanishing_controls}
+                                ru.yandex.yandexmaps.controls.addroadevent.ControlAddRoadEvent{9099c47 VFED..C.. .......D 0,0-36,36 #7f0a0c20 app:id/navi_service_add_road_event}
+                                  androidx.appcompat.widget.AppCompatImageView{3bde59d V.ED..... ......ID 3,3-33,33}
+                                ru.yandex.yandexmaps.controls.voicesearch.ControlVoiceSearch{83eca12 VFED..C.. .......D 0,39-36,75 #7f0a0c28 app:id/navi_service_open_voice_search}
+                                  androidx.appcompat.widget.AppCompatImageView{39b5e3 V.ED..... ......ID 3,3-33,33 #7f0a047f app:id/control_voice_search_image}
+                              ru.yandex.yandexmaps.controls.views.FrameLayoutControl{e8fcbe0 V.E...... .......D 0,747-0,787 #7f0a0c22 app:id/navi_service_control_back_ghost}
+                              ru.yandex.yandexmaps.controls.hack.StubControl{2983e99 I.E...... ......ID 8,0-8,40 #7f0a045e app:id/control_panorama_stub}
+                          ru.yandex.yandexmaps.controls.container.FluidContainer{c747b52 V.E...... ........ 0,0-600,800}
+                            ru.yandex.yandexmaps.controls.back.service.ControlBackService{de293dd VFED..C.. ........ 3,746-44,787 #7f0a044e app:id/control_back_service}
+                              android.widget.FrameLayout{f252b55 V.E...... ........ 3,3-38,38}
+                                androidx.appcompat.widget.AppCompatImageView{b55c60c V.ED..... ........ 3,3-32,32}
+                                androidx.appcompat.widget.AppCompatTextView{ec5896a G.ED..... ......I. 20,0-35,15 #7f0a044d app:id/control_back_badge}
+                          ru.yandex.yandexmaps.controls.container.FluidContainer{957b02a V.E...... ........ 0,0-600,800 #7f0a0c27 app:id/navi_service_not_interactive_ui_mode_container}
+                            android.widget.LinearLayout{7609bb8 V.E...... ........ 529,0-600,71 #7f0a0c6c app:id/not_interactive_ui_mode_inner_container}
+                              ru.yandex.yandexnavi.ui.guidance.speed.SpeedGroup{e0f29d0 V.ED..... ........ 8,8-63,63}
+                                ru.yandex.yandexnavi.ui.guidance.speed.SpeedViewImpl{c7fed47 V.E...... ........ 0,0-55,55 #7f0a14b5 app:id/speedview_guidance}
+                                  android.widget.FrameLayout{b251593 V.E...... ........ 0,0-55,55 #7f0a1925 app:id/view_speed_frame}
+                                  com.yandex.navilib.widget.NaviTextView{6da0d85 V.ED..... ........ 15,5-39,49 #7f0a16f9 app:id/text_speed_value}
+                                ru.yandex.yandexnavi.ui.guidance.speed.SpeedLimitView{8add974 GFE...C.. ......ID 50,0-105,55 #7f0a14b4 app:id/speedlimitview_guidance}
+                                  android.view.View{4d477da V.ED..... ......ID -10,-10-66,66 #7f0a1926 app:id/view_speedlimit_alarm}
+                                  android.widget.FrameLayout{797a40b V.E...... ......ID 0,0-55,55 #7f0a1927 app:id/view_speedlimit_frame}
+                                  com.yandex.navilib.widget.NaviTextView{b0e62e8 V.ED..... ........ 13,10-41,44 #7f0a16fa app:id/text_speedlimit}
+                              ru.yandex.yandexnavi.ui.guidance.nextcamera.NextCameraViewImpl{dff1e9d G.ED..... ......I. 0,0-0,0 #7f0a0c26 app:id/navi_service_next_camera}
+                                com.yandex.navilib.widget.NaviLinearLayout{51769d6 V.E...... ......I. 0,0-0,0}
+                                  com.yandex.navilib.widget.NaviImageView{ebb7457 V.ED..... ......ID 0,0-0,0 #7f0a0319 app:id/cameraIcon}
+                                  com.yandex.navilib.widget.NaviTextView{58d3b44 V.ED..... ......ID 0,0-0,0 #7f0a05ab app:id/distanceToCamera}
+                      ru.yandex.yandexmaps.common.views.insets.PaddingtonView{52ad236 V.E...... ........ 0,0-600,800}
+                        androidx.constraintlayout.widget.ConstraintLayout{25a27d1 V.E...... ........ 38,0-562,744}
+                          androidx.constraintlayout.widget.Guideline{9f36f8 G.ED..... ......I. 0,186-0,186 #7f0a1007 app:id/promo_container_guideline}
+                          androidx.constraintlayout.widget.ConstraintLayout{fc9242d V.E...... ........ 0,0-524,186 #7f0a1009 app:id/promo_object_container}
+                            ru.yandex.yandexmaps.map.tabs.promoobject.PromoObjectView{9784d62 G.E...... ......I. 0,0-0,0 #7f0a100c app:id/promo_object_view}
+                              androidx.appcompat.widget.AppCompatImageView{b98fef3 I.ED..... ......I. 0,0-0,0 #7f0a100b app:id/promo_object_image_view}
+                              com.airbnb.lottie.LottieAnimationView{c4c7b0 V.ED..... ......I. 0,0-0,0 #7f0a1008 app:id/promo_object_animation_view}
+                      android.widget.LinearLayout{e75e2ba V.E...... ........ 0,0-600,800}
+                        androidx.constraintlayout.widget.ConstraintLayout{dc9dbc2 V.E...... ........ 0,0-600,800 #7f0a0c2a app:id/navi_service_over_eta}
+                          android.widget.RelativeLayout{508700d V.E...... ........ 0,0-600,800 #7f0a154e app:id/suggest_and_order_container}
+                            android.widget.FrameLayout{70ccaa4 G.E...... ......ID 8,0-592,762 #7f0a0c29 app:id/navi_service_order_container}
+                              ru.yandex.yandexmaps.multiplatform.ordertracking.internal.r{b0c2537 VFED..... ......ID 0,0-584,762}
+                            android.widget.FrameLayout{1d90009 G.E...... ......ID 0,762-600,800 #7f0a0c40 app:id/navi_service_suggest_container}
+                              ru.yandex.yandexmaps.suggest.floating.FloatingSuggestView{e9ded10 V.E...... .......D 0,0-600,35 #7f0a0c3f app:id/navi_service_suggest}
+                                ru.yandex.yandexmaps.suggest.floating.internal.view.FloatingSuggestRecyclerView{9f3ddd3 VFED..... .......D 0,0-600,35 #7f0a0736 app:id/floating_suggest_recycler_view}
+                                  android.widget.Space{b1237a6 I.ED..... ......I. 0,0-5,0}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{7d1683d VFE...C.. .......D 5,0-46,35}
+                                    android.widget.LinearLayout{20e8983 V.E...... ......ID 3,3-38,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{e1a2832 V.ED..... ......ID 10,7-25,22 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{ac0d629 G.ED..... ......ID 0,0-0,0 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{211ddae G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{5714b39 VFE...C.. .......D 46,0-87,35}
+                                    android.widget.LinearLayout{2a63adf V.E...... ......ID 3,3-38,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{d3e957e V.ED..... ......ID 10,7-25,22 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{5ba974f G.ED..... ......ID 0,0-0,0 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{a6aedc G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{c402e31 VFE...C.. .......D 87,0-217,35}
+                                    android.widget.LinearLayout{2fa8297 V.E...... ......ID 3,3-127,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{a67abe5 G.ED..... ......I. 0,0-0,0 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{4cc916 V.ED..... ........ 8,8-116,21 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{ca226ba G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{dc460a2 VFE...C.. .......D 217,0-310,35}
+                                    android.widget.LinearLayout{60d2cf0 V.E...... ......ID 3,3-90,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{6b3596b G.ED..... ......I. 0,0-0,0 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{15ab133 V.ED..... ........ 8,8-79,21 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{35ddcc8 G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{c852d8f VFE...C.. .......D 310,0-413,35}
+                                    android.widget.LinearLayout{661cc25 V.E...... ......ID 3,3-100,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{2ec2161 G.ED..... ......I. 0,0-0,0 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{430281c V.ED..... ........ 8,8-89,21 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{2bbf486 G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  ru.yandex.yandexmaps.suggest.floating.internal.view.d{3113ab VFE...C.. .......D 413,0-508,35}
+                                    android.widget.LinearLayout{60805a1 V.E...... ......ID 3,3-92,32 #7f0a1550 app:id/suggest_layout}
+                                      androidx.appcompat.widget.AppCompatImageView{42c2147 G.ED..... ......I. 0,0-0,0 #7f0a154f app:id/suggest_image}
+                                      androidx.appcompat.widget.AppCompatTextView{a25aa08 V.ED..... ........ 8,8-81,21 #7f0a1556 app:id/suggest_primary_text}
+                                      androidx.appcompat.widget.AppCompatTextView{cd7fd74 G.ED..... ......I. 0,0-0,0 #7f0a1560 app:id/suggest_secondary_text}
+                                  android.widget.Space{89261f5 I.ED..... ......I. 508,0-513,0}
+                          ru.yandex.yandexmaps.services.navi.automatic_switching.AutomaticFreeDriveModeView{8aa8b8a G.E...... ......ID 5,674-595,800 #7f0a0c21 app:id/navi_service_automatic_freedrive_container}
+                            ru.yandex.yandexmaps.designsystem.button.ProgressGeneralButtonView{979a792 V.ED..... ......ID 233,6-356,36}
+                              ru.yandex.yandexmaps.designsystem.button.GeneralButtonView{acbc91d VFE...C.. ......ID 0,0-123,30}
+                                ru.yandex.yandexmaps.common.views.VectorTintableCompoundsTextView{6c70563 V.ED..... ........ 10,8-113,21}
+                                android.widget.TextView{2e8729d G.ED..... ......ID 0,0-0,0}
+                            ru.yandex.yandexmaps.views.TransparentGeneralButtonWithBlurredBackground{360da19 V.ED..... .......D 218,66-372,96}
+                              ru.yandex.yandexmaps.designsystem.button.GeneralButtonView{3f3a560 VFE...C.. ......ID 0,0-154,30}
+                                ru.yandex.yandexmaps.common.views.VectorTintableCompoundsTextView{b06aade V.ED..... ........ 10,8-144,21}
+                                android.widget.TextView{252d312 G.ED..... ......ID 0,0-0,0}
+                          android.widget.FrameLayout{ddda5fb V.E...... ........ 8,792-592,792 #7f0a00a5 app:id/ad_banner_container}
+                            android.widget.FrameLayout{b7f8ae3 V.E...... ........ 0,0-0,0 #7f0a041d app:id/container}
+                          ru.yandex.yandexmaps.common.views.controls.MapControlsLinearLayoutRect{b145618 G.ED..... ......I. 0,0-0,0 #7f0a0c25 app:id/navi_service_loader}
+                            ru.yandex.yandexmaps.designsystem.loader.LoaderView{317ce0 V.ED..... ......I. 0,0-0,0}
+                            androidx.appcompat.widget.AppCompatTextView{e5e9b99 V.ED..... ......ID 0,0-0,0}
+                        ru.yandex.yandexmaps.guidance.api.toolbar.NaviGuidanceToolbar{eb899e4 GFED..C.. ......I. 0,0-0,0 #7f0a0c41 app:id/navi_service_toolbar}
+                          android.widget.FrameLayout{3070e5e VFE...C.. ......I. 0,0-0,0 #7f0a0c1e app:id/navi_guidance_toolbar_item_search}
+                            androidx.appcompat.widget.AppCompatImageView{b15f23f V..D..... ......I. 0,0-0,0 #7f0a0c17 app:id/navi_guidance_toolbar_icon}
+                            androidx.appcompat.widget.AppCompatImageView{3e1870c G.ED..... ......I. 0,0-0,0 #7f0a0c16 app:id/navi_guidance_toolbar_badge}
+                          android.widget.Space{d745855 I.ED..... ......I. 0,0-0,0}
+                          android.widget.FrameLayout{431b26a VFE...C.. ......I. 0,0-0,0 #7f0a0c1a app:id/navi_guidance_toolbar_item_music}
+                            androidx.appcompat.widget.AppCompatImageView{581735b V..D..... ......I. 0,0-0,0 #7f0a0c17 app:id/navi_guidance_toolbar_icon}
+                            androidx.appcompat.widget.AppCompatImageView{ca607f8 G.ED..... ......I. 0,0-0,0 #7f0a0c16 app:id/navi_guidance_toolbar_badge}
+                          android.widget.Space{aef24d1 I.ED..... ......I. 0,0-0,0}
+                          android.widget.FrameLayout{fb08b36 VFE...C.. ......I. 0,0-0,0 #7f0a0c1d app:id/navi_guidance_toolbar_item_route}
+                            androidx.appcompat.widget.AppCompatImageView{a59ea37 V..D..... ......I. 0,0-0,0 #7f0a0c17 app:id/navi_guidance_toolbar_icon}
+                            androidx.appcompat.widget.AppCompatImageView{b2faba4 G.ED..... ......I. 0,0-0,0 #7f0a0c16 app:id/navi_guidance_toolbar_badge}
+                          android.widget.Space{e703d0d I.ED..... ......I. 0,0-0,0}
+                          android.widget.FrameLayout{d7224c2 VFE...C.. ......I. 0,0-0,0 #7f0a0c19 app:id/navi_guidance_toolbar_item_menu}
+                            androidx.appcompat.widget.AppCompatImageView{d8f2d3 V..D..... ......I. 0,0-0,0 #7f0a0c17 app:id/navi_guidance_toolbar_icon}
+                            androidx.appcompat.widget.AppCompatImageView{88dde10 G.ED..... ......I. 0,0-0,0 #7f0a0c16 app:id/navi_guidance_toolbar_badge}
+                      ru.yandex.yandexmaps.uikit.shutter.ShutterView{e709d09 GFED..C.. ......I. 0,0-0,0 #7f0a0c2b app:id/navi_service_shutter}
+                      android.widget.FrameLayout{75df20e V.E...... ........ 0,353-31,447 #7f0a096b app:id/kartograph_visor_container}
+                      com.bluelinelabs.conductor.LTRChangeHandlerFrameLayout{794842f V.ED..... ........ 0,0-600,800 #7f0a07d9 app:id/gas_stations_search_container}
+                      com.bluelinelabs.conductor.LTRChangeHandlerFrameLayout{5dcca3c V.ED..... ........ 0,0-600,800 #7f0a1455 app:id/slave_container}
+                      ru.yandex.yandexmaps.guidance.internal.view.parking.suggest.ParkingSuggestBannerView{8742871 IFED..C.. ......ID 0,0-600,800 #7f0a0d60 app:id/parking_suggest_banner}
+                        ru.yandex.yandexmaps.guidance.internal.view.parking.suggest.b{d9b4745 V.E...... ......ID 0,723-600,800}
+                          androidx.appcompat.widget.AppCompatTextView{f328e9a V.ED..... ......ID 300,5-300,22 #7f0a1738 app:id/title}
+                          ru.yandex.yandexmaps.designsystem.button.ProgressGeneralButtonView{ad537a8 V.ED..... ......ID 15,32-298,62 #7f0a0320 app:id/cancel_button}
+                            ru.yandex.yandexmaps.designsystem.button.GeneralButtonView{515d3cb VFE...C.. ......ID 0,0-283,30 #7f0a0320 app:id/cancel_button}
+                              ru.yandex.yandexmaps.common.views.VectorTintableCompoundsTextView{7ae12c1 V.ED..... ......ID 141,8-141,21}
+                              android.widget.TextView{3c1cb0e G.ED..... ......ID 0,0-0,0}
+                          ru.yandex.yandexmaps.designsystem.button.GeneralButtonView{11afa66 VFE...C.. ......ID 303,32-585,62 #7f0a0cc6 app:id/ok_button}
+                            ru.yandex.yandexmaps.common.views.VectorTintableCompoundsTextView{1abe1a7 V.ED..... ......ID 141,8-141,21}
+                            android.widget.TextView{35e92f G.ED..... ......ID 0,0-0,0}
+                        android.widget.Space{2c819fd I.ED..... ......I. 0,723-0,723}
+                  android.widget.FrameLayout{38e5167 V.E...... ........ 0,0-600,800 #7f0a0a47 app:id/maps_activity_modal_container}
+                  android.widget.FrameLayout{d103b14 V.E...... ........ 0,0-600,800 #7f0a0a46 app:id/maps_activity_inapps_container}
+                  android.widget.FrameLayout{7616fbd V.E...... ........ 0,0-600,800 #7f0a0def app:id/permissions_router_container_id}
+                  android.widget.FrameLayout{db659b2 V.E...... ........ 0,0-600,800 #7f0a0a45 app:id/maps_activity_alice_container}
+    Looper (main, tid 1) {8bf7c1a}
+      Message 0: { when=-19ms what=0 obj=-5476376653493894112 target=com.yandex.runtime.internal.Scheduler }
+      Message 1: { when=-16ms what=0 obj=-5476376653493774624 target=com.yandex.runtime.internal.Scheduler }
+      Message 2: { when=+5ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      Message 3: { when=+58ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      Message 4: { when=+58ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      Message 5: { when=+699ms what=0 obj=-5476376654809678656 target=com.yandex.runtime.internal.Scheduler }
+      Message 6: { when=+1s98ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      Message 7: { when=+1s445ms what=0 obj=-5476376655180565760 target=com.yandex.runtime.internal.Scheduler }
+      Message 8: { when=+1s753ms what=0 obj=-5476376653497295936 target=com.yandex.runtime.internal.Scheduler }
+      Message 9: { when=+1s753ms what=0 obj=-5476376653493891680 target=com.yandex.runtime.internal.Scheduler }
+      Message 10: { when=+8s352ms callback=io.reactivex.android.schedulers.e obj=io.reactivex.android.schedulers.d@5fd00c5 target=android.os.Handler }
+      Message 11: { when=+8s352ms callback=io.reactivex.android.schedulers.e obj=io.reactivex.android.schedulers.d@538a1a target=android.os.Handler }
+      Message 12: { when=+8s352ms callback=io.reactivex.android.schedulers.e obj=io.reactivex.android.schedulers.d@1c1e94b target=android.os.Handler }
+      Message 13: { when=+8s352ms callback=io.reactivex.android.schedulers.e obj=io.reactivex.android.schedulers.d@fa75f28 target=android.os.Handler }
+      Message 14: { when=+16s27ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      Message 15: { when=+16s672ms callback=com.yandex.runtime.sensors.internal.telephony.TelephonySubscription$2 target=android.os.Handler }
+      Message 16: { when=+18s962ms callback=com.yandex.runtime.sensors.internal.telephony.TelephonySubscription$2 target=android.os.Handler }
+      Message 17: { when=+21s896ms callback=com.yandex.runtime.sensors.internal.telephony.TelephonySubscription$2 target=android.os.Handler }
+      Message 18: { when=+59s526ms what=0 obj=-5476376655180530272 target=com.yandex.runtime.internal.Scheduler }
+      Message 19: { when=+9m44s769ms callback=io.reactivex.android.schedulers.e target=android.os.Handler }
+      Message 20: { when=+1h29m25s821ms callback=kotlinx.coroutines.android.b target=android.os.Handler }
+      (Total messages: 21, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: ru.yandex.yandexmaps.app.MapActivity@bd78bf4
+      service client: null
+      client: ru.yandex.yandexmaps.app.MapActivity@bd78bf4 (android.os.BinderProxy@9b5d984)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 3
+      resources: 159
+      resource impls: 38
+    Local FragmentActivity bd78bf4 State:
+      mCreated=true mResumed=true mStopped=false    Active Fragments:
+    StartActivityFragment{a44fd79} (5d9bb6d7-3e7c-4088-a9ca-948006842784 tag=yandex$StartActivityFragment)
+        mFragmentId=#0 mContainerId=#0 mTag=yandex$StartActivityFragment
+        mState=7 mWho=5d9bb6d7-3e7c-4088-a9ca-948006842784 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=true mUserVisibleHint=true
+        mFragmentManager=FragmentManager{a31e441 in c0{6102de6}}}
+        mHost=androidx.fragment.app.c0@6102de6
+        mPopDirection=false
+        Child FragmentManager{8c3cf27 in StartActivityFragment{a44fd79}}}:
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=androidx.fragment.app.c0@6102de6
+            mContainer=androidx.fragment.app.u@3a745d4
+            mParent=StartActivityFragment{a44fd79} (5d9bb6d7-3e7c-4088-a9ca-948006842784 tag=yandex$StartActivityFragment)
+            mCurState=7 mStateSaved=false mStopped=false mDestroyed=false
+    m{cf34472} (1309c2b8-ab56-4522-8704-8d69db20c80c tag=yandex$PermissionsFragment)
+        mFragmentId=#0 mContainerId=#0 mTag=yandex$PermissionsFragment
+        mState=7 mWho=1309c2b8-ab56-4522-8704-8d69db20c80c mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=true mUserVisibleHint=true
+        mFragmentManager=FragmentManager{a31e441 in c0{6102de6}}}
+        mHost=androidx.fragment.app.c0@6102de6
+        mPopDirection=false
+        Child FragmentManager{b77837d in m{cf34472}}}:
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=androidx.fragment.app.c0@6102de6
+            mContainer=androidx.fragment.app.u@ba14272
+            mParent=m{cf34472} (1309c2b8-ab56-4522-8704-8d69db20c80c tag=yandex$PermissionsFragment)
+            mCurState=7 mStateSaved=false mStopped=false mDestroyed=false
+    Added Fragments:
+      #0: m{cf34472} (1309c2b8-ab56-4522-8704-8d69db20c80c tag=yandex$PermissionsFragment)
+      #1: StartActivityFragment{a44fd79} (5d9bb6d7-3e7c-4088-a9ca-948006842784 tag=yandex$StartActivityFragment)
+    Back Stack Index: 0
+    FragmentManager misc state:
+      mHost=androidx.fragment.app.c0@6102de6
+      mContainer=androidx.fragment.app.c0@6102de6
+      mCurState=7 mStateSaved=false mStopped=false mDestroyed=false
+
+TASK 1000:com.byd.carsettings id=354 userId=0
+  ACTIVITY com.byd.carsettings/.MainActivity 375bb99 pid=(not running)
+
+TASK 10121:com.gbox.android id=347 userId=0
+  ACTIVITY com.gbox.android/.activities.MainActivity 40748b7 pid=(not running)
+
+TASK 10125:com.v2ray.ang id=338 userId=0
+  ACTIVITY com.v2ray.ang/.ui.MainActivity 9ea78e2 pid=(not running)
+
+TASK 10146:com.andrerinas.wirelesshelper id=350 userId=0
+  ACTIVITY com.andrerinas.wirelesshelper/.MainActivity 96c1136 pid=(not running)
+
+TASK 10093:org.telegram.messenger.web id=355 userId=0
+  ACTIVITY com.android.packageinstaller/.DeleteStagedFileOnResult b9a1578 pid=(not running)
+
+TASK 10150:com.sr.openbyd id=356 userId=0
+  ACTIVITY com.sr.openbyd/.MainActivity a0ef811 pid=6247
+    Local Activity 3277290 State:
+      mResumed=false mStopped=true mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw720dp w1280dp h604dp 240dpi lrg long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 990) mMaxBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.1 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in c3a9448:
+        #0: wy0{5cf42e1 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{c3a9448 in HostCallbacks{aa63806}}
+          mHost=android.app.Activity$HostCallbacks@aa63806
+          Child FragmentManager{87bdec7 in wy0{5cf42e1}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@aa63806
+              mContainer=android.app.Fragment$1@f88acf4
+              mParent=wy0{5cf42e1 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: wy0{5cf42e1 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@aa63806
+        mContainer=android.app.Activity$HostCallbacks@aa63806
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=true
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=8
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: be2f00e com.sr.openbyd/com.sr.openbyd.MainActivity (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = be2f00e com.sr.openbyd/com.sr.openbyd.MainActivity (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=148629931 (52919 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 1920, 1080)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1776, 0 - 1899, 84) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+          InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+    View Hierarchy:
+      DecorView@b07c4bb[MainActivity]
+        android.widget.LinearLayout{6a194ec V.E...... .......D 0,0-1920,1080}
+          android.view.ViewStub{a9c2c1d G.E...... ......I. 0,0-0,0 #10201f5 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{4780b9f V.E...... .......D 0,0-1920,1080 #1020002 android:id/content}
+            an{a66313e V.E...... .......D 0,0-1920,1080}
+              s4{97324e7 VFED..... .F....ID 0,0-1920,1080 aid=1073741824}
+                d9{55dce92 V.E...... ......ID 0,0-1920,1080}
+                d01{2b3395d V.E...... ......I. 0,0-0,0}
+                  f01{9866df9 V.ED..... ......I. 0,0-96,48}
+                  f01{f12c573 V.ED..... ......I. 0,0-600,60}
+                  f01{2071145 V.ED..... ......I. 0,0-96,48}
+                  f01{a7a1e3b V.ED..... ......I. 0,0-96,48}
+        android.view.View{3e1edd8 V.ED..... ......ID 0,0-1920,84 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {8bf7c1a}
+      (Total messages: 0, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: android.app.ContextImpl@4cda063
+      service client: null
+      client: com.sr.openbyd.MainActivity@3277290 (android.os.BinderProxy@773f34b)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 3
+      resources: 9
+      resource impls: 4
+
+TASK 10117:com.alphainventor.filemanager id=360 userId=0
+  ACTIVITY com.alphainventor.filemanager/.activity.MainActivity 56c39df pid=(not running)
+
+TASK null id=283 userId=0
+  ACTIVITY com.android.launcher3/.Launcher 22c18f6 pid=27517
+    Local Activity 60e5cae State:
+      mResumed=false mStopped=true mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw720dp w1280dp h604dp 240dpi lrg long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 990) mMaxBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.1 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in 63adb9f:
+        #0: ReportFragment{1f424ec #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{63adb9f in HostCallbacks{2bbd0b5}}
+          mHost=android.app.Activity$HostCallbacks@2bbd0b5
+          Child FragmentManager{48d334a in ReportFragment{1f424ec}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@2bbd0b5
+              mContainer=android.app.Fragment$1@afb92bb
+              mParent=ReportFragment{1f424ec #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{1f424ec #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@2bbd0b5
+        mContainer=android.app.Activity$HostCallbacks@2bbd0b5
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=true
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=8
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: cc22d83 com.android.launcher3/com.android.launcher3.Launcher (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = cc22d83 com.android.launcher3/com.android.launcher3.Launcher (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=148668875 (13983 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 1920, 1080)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1776, 0 - 1899, 84) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+          InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+    View Hierarchy:
+      DecorView@aa8aafc[Launcher]
+        android.widget.FrameLayout{e146fef V.E...... .......D 0,0-1920,1080}
+          android.widget.FrameLayout{2ff34ce V.E...... .......D 0,0-1920,1080}
+            androidx.appcompat.widget.FitWindowsLinearLayout{d7e95c9 V.E...... .......D 0,0-1920,1080 #7f090033 app:id/action_bar_root}
+              androidx.appcompat.widget.ViewStubCompat{b74a3d8 G.E...... ......I. 0,0-0,0 #7f09003e app:id/action_mode_bar_stub}
+              androidx.appcompat.widget.ContentFrameLayout{f2941d0 V.E...... .......D 0,0-1920,1080 #1020002 android:id/content}
+                com.android.launcher3.ui.view.LauncherRootView{6788d93 V.E...... .......D 0,0-1920,1080 #7f09014f app:id/launcher_root_view}
+                  androidx.appcompat.widget.AppCompatImageView{438bf00 V.ED..... ........ 0,0-0,1080 #7f09014e app:id/launcher_free_window_bar}
+                  com.android.launcher3.ui.operation.drag.DragLayout{d387282 V.E...... .......D 0,0-1920,1080 #7f09014c app:id/launcher_drag_layout}
+                    android.widget.FrameLayout{cc29cd V.E...... .......D 0,120-1920,960 #7f09014b app:id/launcher_content}
+                      com.byd.viewsup.BydScrollerSupportedFrameLayout{2885364 V.ED..... .......D 0,0-1920,840 #7f090150 app:id/launcher_scroller}
+                        com.android.launcher3.ui.view.Workspace{c1158f7 V.E...... ......ID 0,90-1920,840 #7f090152 app:id/launcher_workspace}
+                          com.android.launcher3.ui.view.WorkspaceScrollView{8797cf6 VFED.V... .......D 240,0-1680,750}
+                            com.android.launcher3.ui.view.CellLayout{be1c591 V.ED..... .......D 0,0-1434,750}
+                              com.android.launcher3.ui.view.WorkspaceTextView{5b8339 VFED..CL. ......ID 0,0-288,237 #22}
+                              com.android.launcher3.ui.view.WorkspaceTextView{afb3b8 VFED..CL. ......ID 288,0-576,237 #23}
+                              com.android.launcher3.ui.view.WorkspaceTextView{8d1c585 VFED..CL. ......ID 576,0-864,237 #24}
+                              com.android.launcher3.ui.view.WorkspaceTextView{55dcfda VFED..CL. ......ID 864,0-1152,237 #26}
+                              com.android.launcher3.ui.view.WorkspaceTextView{ae21c0b VFED..CL. ......ID 1152,0-1440,237 #27}
+                              com.android.launcher3.ui.view.WorkspaceTextView{2537ae8 VFED..CL. ......ID 0,237-288,474 #28}
+                              com.android.launcher3.ui.view.WorkspaceTextView{46e3501 VFED..CL. ......ID 288,237-576,474 #2a}
+                              com.android.launcher3.ui.view.WorkspaceTextView{6d90fa6 VFED..CL. ......ID 576,237-864,474 #2b}
+                              com.android.launcher3.ui.view.folder.FolderIcon{d946de7 VFE...CL. ........ 864,237-1152,474 #2c}
+                                com.android.launcher3.ui.view.WorkspaceTextView{86d7e V.ED..... ........ 68,145-221,237 #7f0900fc app:id/folder_icon_name}
+                              com.android.launcher3.ui.view.WorkspaceTextView{9595d94 VFED..CL. ......ID 1152,237-1440,474 #31}
+                              com.android.launcher3.ui.view.WorkspaceTextView{a08203d VFED..CL. ......ID 0,474-288,711 #32}
+                              com.android.launcher3.ui.view.WorkspaceTextView{b768032 VFED..CL. ......ID 288,474-576,711 #33}
+                          com.android.launcher3.ui.view.WorkspaceScrollView{26732df VFED.V... .......D 1692,0-3132,750}
+                            com.android.launcher3.ui.view.CellLayout{eeacb2c V.ED..... .......D 0,0-1434,750}
+                              com.android.launcher3.ui.view.WorkspaceTextView{6444a4e VFED..CL. ......ID 0,0-288,237 #35}
+                              com.android.launcher3.ui.view.WorkspaceTextView{b976f VFED..CL. ......ID 288,0-576,237 #37}
+                              com.android.launcher3.ui.view.WorkspaceTextView{bed7c7c VFED..CL. ......ID 576,0-864,237 #38}
+                              com.android.launcher3.ui.view.WorkspaceTextView{3f3f905 VFED..CL. ......ID 864,0-1152,237 #39}
+                              com.android.launcher3.ui.view.WorkspaceTextView{39ebd5a VFED..CL. ......ID 1152,0-1440,237 #3c}
+                              com.android.launcher3.ui.view.WorkspaceTextView{5e43b8b VFED..CL. ......ID 0,237-288,474 #3d}
+                              com.android.launcher3.ui.view.WorkspaceTextView{4d3e468 VFED..CL. ......ID 288,237-576,474 #3e}
+                              com.android.launcher3.ui.view.WorkspaceTextView{e402081 VFED..CL. ......ID 576,237-864,474 #3f}
+                              com.android.launcher3.ui.view.WorkspaceTextView{ffb5526 VFED..CL. ......ID 864,237-1152,474 #40}
+                              com.android.launcher3.ui.view.WorkspaceTextView{3590567 VFED..CL. ......ID 1152,237-1440,474 #41}
+                              com.android.launcher3.ui.view.WorkspaceTextView{136df14 VFED..CL. ......ID 0,474-288,711 #43}
+                          com.android.launcher3.ui.view.WorkspaceScrollView{3e819f5 VFED.V... .......D 3144,0-4584,750}
+                            com.android.launcher3.ui.view.CellLayout{a39e38a V.ED..... .......D 0,0-1434,750}
+                              com.android.launcher3.ui.view.WorkspaceTextView{9cd43bd VFED..CL. ......ID 0,0-288,237 #45}
+                              com.android.launcher3.ui.view.WorkspaceTextView{8379db2 VFED..CL. ......ID 288,0-576,237 #46}
+                              com.android.launcher3.ui.view.WorkspaceTextView{b669103 VFED..CL. ........ 576,0-864,237 #49}
+                              com.android.launcher3.ui.view.WorkspaceTextView{62cd880 VFED..CL. ......ID 864,0-1152,237 #4a}
+                              com.android.launcher3.ui.view.WorkspaceTextView{e0f5eb9 VFED..CL. ......ID 1152,0-1440,237 #4b}
+                              com.android.launcher3.ui.view.WorkspaceTextView{77de2fe VFED..CL. ......ID 0,237-288,474 #4c}
+                              com.android.launcher3.ui.view.WorkspaceTextView{a373a5f VFED..CL. ......ID 288,237-576,474 #4d}
+                              com.android.launcher3.ui.view.WorkspaceTextView{1c6fcac VFED..CL. ......ID 576,237-864,474 #4e}
+                              com.android.launcher3.ui.view.WorkspaceTextView{bbe2d75 VFED..CL. ......ID 864,237-1152,474 #4f}
+                              com.android.launcher3.ui.view.WorkspaceTextView{f51310a VFED..CL. ......ID 1152,237-1440,474 #50}
+                              com.android.launcher3.ui.view.WorkspaceTextView{a3f1d7b VFED..CL. ......ID 0,474-288,711 #51}
+                              com.android.launcher3.ui.view.WorkspaceTextView{ffd3798 VFED..CL. ......ID 288,474-576,711 #52}
+                              com.android.launcher3.ui.view.WorkspaceTextView{d512bf1 VFED..CL. ......ID 576,474-864,711 #54}
+                          com.android.launcher3.ui.view.WorkspaceScrollView{4b61dfb VFED.V... .......D 4596,0-6036,750}
+                            com.android.launcher3.ui.view.CellLayout{9cf6e18 V.ED..... .......D 0,0-1434,750}
+                              com.android.launcher3.ui.view.WorkspaceTextView{45953d6 VFED..CL. ......ID 0,0-288,237 #55}
+                              com.android.launcher3.ui.view.WorkspaceTextView{f181657 VFED..CL. ......ID 288,0-576,237 #56}
+                              com.android.launcher3.ui.view.WorkspaceTextView{25a3544 VFED..CL. ......ID 576,0-864,237 #58}
+                              com.android.launcher3.ui.view.WorkspaceTextView{33b962d VFED..CL. ......ID 864,0-1152,237 #59}
+                              com.android.launcher3.ui.view.WorkspaceTextView{beed762 VFED..CL. ......ID 1152,0-1440,237 #5a}
+                              com.android.launcher3.ui.view.WorkspaceTextView{21dc0f3 VFED..CL. ......ID 0,237-288,474 #5b}
+                              com.android.launcher3.ui.view.WorkspaceTextView{66761b0 VFED..CL. ......ID 288,237-576,474 #5c}
+                              com.android.launcher3.ui.view.WorkspaceTextView{7e86829 VFED..CL. ......ID 576,237-864,474 #5d}
+                              com.android.launcher3.ui.view.WorkspaceTextView{66707ae VFED..CL. ......ID 864,237-1152,474 #5e}
+                              com.android.launcher3.ui.view.WorkspaceTextView{cc9794f VFED..CL. ......ID 1152,237-1440,474 #5f}
+                              com.android.launcher3.ui.view.WorkspaceTextView{6d8e8dc VFED..CL. ......ID 0,474-288,711 #60}
+                              com.android.launcher3.ui.view.WorkspaceTextView{7765de5 VFED..CL. ......ID 288,474-576,711 #61}
+                              com.android.launcher3.ui.view.WorkspaceTextView{21ff0ba VFED..CL. ......ID 576,474-864,711 #62}
+                              com.android.launcher3.ui.view.WorkspaceTextView{cce5b6b VFED..CL. ......ID 864,474-1152,711 #64}
+                              com.android.launcher3.ui.view.WorkspaceTextView{379b6c8 VFED..CL. ......ID 1152,474-1440,711 #65}
+                          com.android.launcher3.ui.view.WorkspaceScrollView{f6d6071 VFED.V... .......D 6048,0-7488,750}
+                            com.android.launcher3.ui.view.CellLayout{d5aae56 V.ED..... .......D 0,0-1434,750}
+                              com.android.launcher3.ui.view.WorkspaceTextView{733f361 VFED..CL. ......ID 0,0-288,237 #67}
+                              com.android.launcher3.ui.view.WorkspaceTextView{34c5e86 VFED..CL. ......ID 288,0-576,237 #68}
+                              com.android.launcher3.ui.view.WorkspaceTextView{df54347 VFED..CL. ......ID 576,0-864,237 #6b}
+                              com.android.launcher3.ui.view.WorkspaceTextView{bd77774 VFED..CL. ......ID 864,0-1152,237 #6c}
+                              com.android.launcher3.ui.view.WorkspaceTextView{8db649d VFED..CL. ......ID 1152,0-1440,237 #6d}
+                              com.android.launcher3.ui.view.WorkspaceTextView{c7fdd12 VFED..CL. ......ID 0,237-288,474 #6e}
+                              com.android.launcher3.ui.view.WorkspaceTextView{5b8cce3 VFED..CL. ......ID 288,237-576,474 #6f}
+                              com.android.launcher3.ui.view.WorkspaceTextView{8ae96e0 VFED..CL. ......ID 576,237-864,474 #71}
+                              com.android.launcher3.ui.view.WorkspaceTextView{b010a9b VFED..CL. ........ 864,237-1152,474 #75}
+                      com.android.launcher3.lib_base.ui.pageindicators.ImagePageIndicator{3868d48 V.E...... .......D 890,810-1030,822 #7f0901c1 app:id/page_indicator}
+                        android.widget.LinearLayout{d467beb V.E...... .......D 0,0-140,12}
+                          com.android.launcher3.lib_base.ui.pageindicators.PageIndicatorMarker{3da433a V.E...... ......ID 2,0-26,12}
+                            androidx.appcompat.widget.AppCompatImageView{e346a65 V.ED..... ......ID 0,0-24,12 #7f090138 app:id/inactive}
+                            androidx.appcompat.widget.AppCompatImageView{d0647e1 V.ED..... ......ID 0,0-24,12 #7f090042 app:id/active}
+                          com.android.launcher3.lib_base.ui.pageindicators.PageIndicatorMarker{10eebc7 V.E...... ......ID 30,0-54,12}
+                            androidx.appcompat.widget.AppCompatImageView{e995906 V.ED..... ......ID 0,0-24,12 #7f090138 app:id/inactive}
+                            androidx.appcompat.widget.AppCompatImageView{21b35f4 V.ED..... ......ID 0,0-24,12 #7f090042 app:id/active}
+                          com.android.launcher3.lib_base.ui.pageindicators.PageIndicatorMarker{be1ff92 V.E...... ......ID 58,0-82,12}
+                            androidx.appcompat.widget.AppCompatImageView{ebe811d V.ED..... ......ID 0,0-24,12 #7f090138 app:id/inactive}
+                            androidx.appcompat.widget.AppCompatImageView{8047d63 V.ED..... ......ID 0,0-24,12 #7f090042 app:id/active}
+                          com.android.launcher3.lib_base.ui.pageindicators.PageIndicatorMarker{fc71219 V.E...... ......ID 86,0-110,12}
+                            androidx.appcompat.widget.AppCompatImageView{5afbd60 V.ED..... ......ID 0,0-24,12 #7f090138 app:id/inactive}
+                            androidx.appcompat.widget.AppCompatImageView{79c82de V.ED..... ......ID 0,0-24,12 #7f090042 app:id/active}
+                          com.android.launcher3.lib_base.ui.pageindicators.PageIndicatorMarker{6434f8c V.E...... ......ID 114,0-138,12}
+                            androidx.appcompat.widget.AppCompatImageView{3378cbf V.ED..... ......ID 0,0-24,12 #7f090138 app:id/inactive}
+                            androidx.appcompat.widget.AppCompatImageView{f2db6d5 V.ED..... ......ID 0,0-24,12 #7f090042 app:id/active}
+                      android.widget.FrameLayout{ba5c331 G.E...... ......I. 0,0-0,0 #7f090108 app:id/fusion_content}
+                        com.byd.viewsup.BydScrollerSupportedFrameLayout{ff33a16 V.ED..... ......I. 0,0-0,0 #7f09010a app:id/fusion_scroller}
+                          com.android.launcher3.ui.view.FusionWorkspace{9469f97 V.E...... ......I. 0,0-0,0 #7f09010b app:id/fusion_workspace}
+                        com.android.launcher3.lib_base.ui.pageindicators.ImagePageIndicator{d7c2584 I.E...... ......I. 0,0-0,0 #7f090109 app:id/fusion_page_indicator}
+                          android.widget.LinearLayout{962616d V.E...... ......I. 0,0-0,0}
+                      com.android.launcher3.ui.view.LauncherTitleBar{a9bd878 V.E...... .......D 320,0-1600,72 #7f090151 app:id/launcher_title_bar}
+                        android.widget.RelativeLayout{a6235db V.E...... .......D 0,0-1280,72 #7f090155 app:id/layout_title_bar}
+                          androidx.appcompat.widget.AppCompatImageView{1e9eeea VFED..C.. ......ID 0,0-72,72 #7f09012f app:id/icon_left}
+                          android.widget.LinearLayout{9f00fb6 V.E...... ........ 72,0-1208,72}
+                            com.android.launcher3.lib_base.widget.BaseTabView{51feb51 V.ED..... ........ 477,0-659,72 #7f0900ea app:id/first_tv_title}
+                            com.android.launcher3.lib_base.widget.BaseTabView{fe0e1a2 G.ED..... ......ID 0,0-0,0 #7f090214 app:id/second_tv_title}
+                          androidx.appcompat.widget.AppCompatImageView{cc454b7 VFED..C.. ......ID 1208,0-1280,72 #7f090130 app:id/icon_right}
+          android.view.ViewStub{ccb9e33 G.E...... ......I. 0,0-0,0 #10201f5 android:id/action_mode_bar_stub}
+        android.widget.EditText{b264353 VFED..CL. ......ID 0,0-0,0}
+    Looper (main, tid 1) {8bf7c1a}
+      (Total messages: 0, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: com.android.launcher3.Launcher@60e5cae
+      service client: android.view.autofill.AutofillManager$AutofillManagerClient@b5815f0
+      client: com.android.launcher3.Launcher@60e5cae (android.os.BinderProxy@e6ca498)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 6
+      resources: 30
+      resource impls: 6
+    Local FragmentActivity 60e5cae State:
+      mCreated=true mResumed=false mStopped=true    Back Stack Index: 0
+    FragmentManager misc state:
+      mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@2d0a769
+      mContainer=androidx.fragment.app.FragmentActivity$HostCallbacks@2d0a769
+      mCurState=4 mStateSaved=true mStopped=true mDestroyed=false
+
+TASK 10038:com.byd.launchermap id=279 userId=0
+  ACTIVITY com.byd.launchermap/com.byd.automap.activity.MainActivity 6b7365d pid=30974
+    Local Activity f77d284 State:
+      mResumed=false mStopped=true mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw720dp w1280dp h604dp 240dpi lrg long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 990) mMaxBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.2 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in df9829c:
+        #0: u{9b054a5 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=3 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{df9829c in HostCallbacks{67c807a}}
+          mHost=android.app.Activity$HostCallbacks@67c807a
+          Child FragmentManager{a84102b in u{9b054a5}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@67c807a
+              mContainer=android.app.Fragment$1@36a2c88
+              mParent=u{9b054a5 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=3 mStateSaved=true mDestroyed=false
+      Added Fragments:
+        #0: u{9b054a5 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@67c807a
+        mContainer=android.app.Activity$HostCallbacks@67c807a
+        mCurState=3 mStateSaved=true mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=true
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=false
+        mWindowVisibility=8
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: 1b345d8 com.byd.launchermap/com.byd.automap.activity.MainActivity (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = 1b345d8 com.byd.launchermap/com.byd.automap.activity.MainActivity (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=148669109 (13761 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 1920, 1080)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1776, 0 - 1899, 84) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+          InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+    View Hierarchy:
+      DecorView@f36d67e[MainActivity]
+        android.widget.LinearLayout{fa28f18 V.E...... ......ID 0,0-1920,1080}
+          android.view.ViewStub{6f69621 G.E...... ......I. 0,0-0,0 #10201f5 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{94d22fb V.E...... ......ID 0,0-1920,1080}
+            androidx.appcompat.widget.FitWindowsLinearLayout{865dc8a V.E...... ......ID 0,0-1920,1080 #7f0a0045 app:id/action_bar_root}
+              androidx.appcompat.widget.ViewStubCompat{7422a46 G.E...... ......I. 0,0-0,0 #7f0a0050 app:id/action_mode_bar_stub}
+              androidx.appcompat.widget.ContentFrameLayout{9d456f5 V.E...... ......ID 0,0-1920,1080 #1020002 android:id/content}
+                com.autonavi.view.custom.WindowInsetsFrameLayout{61ddc2c V.E...... ......ID 0,0-1920,1080 #7f0a005e app:id/activity_main}
+                  com.autonavi.gbl.map.adapter.MapSurfaceView{cbe4eab V.E...... ........ 0,0-1920,1080}
+                  com.autonavi.skin.view.SkinImageView{565b554 V.ED..... ......ID 0,0-1920,84 #7f0a105c app:id/status_bar_bg}
+                  com.autonavi.skin.view.SkinConstraintLayout{327e7df V.E...... ........ 1884,42-1884,42 #7f0a0907 app:id/layout_weather}
+                  com.autonavi.view.custom.WindowInsetsFrameLayout{4606d71 V.E...... ......ID 0,0-1920,1080 #7f0a0077 app:id/amap_fragment_container}
+                    com.autonavi.skin.view.SkinConstraintLayout{4991f10 V.E...... ......ID 0,0-1920,1080 #7f0a03e7 app:id/cl_index}
+                      com.autonavi.view.custom.CustomAutologoView{dc69e1a V.ED..... ......ID 1812,766-1884,784 #7f0a00da app:id/ca_autologo}
+                      com.autonavi.view.custom.CustomAutoScaleLineView{5e29328 V.E...... ........ -35,-148-1884,757 #7f0a010b app:id/casl_scale_line}
+                        com.autosdk.view.ScaleLineView{3d96d4b V.ED..... ........ 0,0-1920,906}
+                      com.autonavi.view.custom.CustomBtnCircular3View{ef497d3 G.E...... ......I. 0,0-0,0 #7f0a0138 app:id/cbc_zoom_btn}
+                        com.autonavi.skin.view.SkinImageView{8318407 V.ED..... ......I. 0,0-0,0 #7f0a0dcb app:id/siv_bg}
+                        android.widget.Space{7b98934 I.ED..... ......I. 0,0-0,0 #7f0a101c app:id/space_content}
+                        com.autonavi.skin.view.SkinConstraintLayout{3094a09 VFE...C.. ......I. 0,0-0,0 #7f0a040a app:id/cl_narrow}
+                          com.autonavi.skin.view.SkinImageView{c4cb2c5 V.ED..... ......I. 0,0-0,0 #7f0a0ee3 app:id/siv_narrow_bg}
+                          com.autonavi.skin.view.SkinImageView{47e541a V.ED..... ......ID 0,0-0,0 #7f0a0ee4 app:id/siv_narrow_circular3}
+                        com.autonavi.skin.view.SkinConstraintLayout{bd13dc2 VFE...C.. ......I. 0,0-0,0 #7f0a03c7 app:id/cl_enlarge}
+                          com.autonavi.skin.view.SkinImageView{405735d V.ED..... ......I. 0,0-0,0 #7f0a0e46 app:id/siv_enlarge_bg}
+                          com.autonavi.skin.view.SkinImageView{666a4d2 V.ED..... ......ID 0,0-0,0 #7f0a0e47 app:id/siv_enlarge_circular3}
+                        com.autonavi.skin.view.SkinImageView{c5859a3 G.ED..... ......I. 0,0-0,0 #7f0a0eb3 app:id/siv_line}
+                      com.autonavi.skin.view.SkinConstraintLayout{5b63e2 VFE...C.. ......ID 30,710-123,803 #7f0a053b app:id/cl_wallpaper}
+                        com.autonavi.skin.view.SkinImageView{33f0841 V.ED..... ......ID 11,3-83,75 #7f0a0fb2 app:id/siv_wallpaper_icon}
+                      com.autonavi.skin.view.SkinConstraintLayout{192bad2 V.E...... ......ID 126,710-528,803 #7f0a094f app:id/main_set_layout}
+                        com.autonavi.skin.view.SkinLinearLayout{a9c215d V.E...... .......D 9,3-393,76}
+                          com.autonavi.view.custom.CustomMainSetPanelView{e62f34 VFE...C.. ......ID 0,0-96,72 #7f0a043e app:id/cl_projection_screen}
+                            com.autonavi.skin.view.SkinConstraintLayout{c971f15 V.E...... .......D 0,0-96,72 #7f0a043e app:id/cl_projection_screen}
+                              com.autonavi.skin.view.SkinLottieAnimationView{70ed22a V.ED..... ......ID 21,9-75,63 #7f0a0fda app:id/slav_map_setting_icon}
+                              com.autonavi.skin.view.SkinTextView{9cc30cc V.ED..... ........ 32,44-64,64 #7f0a1155 app:id/stv_map_setting_text}
+                          com.autonavi.view.custom.CustomMainSetPanelView{bd4781b VFE...C.. ......ID 96,0-192,72 #7f0a00f1 app:id/car_constraint}
+                            com.autonavi.skin.view.SkinConstraintLayout{5579791 V.E...... .......D 0,0-96,72 #7f0a043e app:id/cl_projection_screen}
+                              com.autonavi.skin.view.SkinLottieAnimationView{19fe6f6 V.ED..... ......ID 21,9-75,63 #7f0a0fda app:id/slav_map_setting_icon}
+                              com.autonavi.skin.view.SkinTextView{5f18db8 V.ED..... ........ 30,44-67,64 #7f0a1155 app:id/stv_map_setting_text}
+                          com.autonavi.view.custom.CustomMainSetPanelView{3ad14df VFE...C.. ......ID 192,0-288,72 #7f0a1539 app:id/volume_silence_constraint}
+                            com.autonavi.skin.view.SkinConstraintLayout{1781ffb V.E...... .......D 0,0-96,72 #7f0a043e app:id/cl_projection_screen}
+                              com.autonavi.skin.view.SkinLottieAnimationView{9a081e6 V.ED..... ......ID 21,9-75,63 #7f0a0fda app:id/slav_map_setting_icon}
+                              com.autonavi.skin.view.SkinTextView{c9aad8a V.ED..... ........ 24,44-73,64 #7f0a1155 app:id/stv_map_setting_text}
+                          com.autonavi.view.custom.CustomMainSetPanelView{5fe1856 VFE...C.. ......ID 288,0-384,72 #7f0a0bef app:id/set_constraint}
+                            com.autonavi.skin.view.SkinConstraintLayout{623cdc4 V.E...... .......D 0,0-96,72 #7f0a043e app:id/cl_projection_screen}
+                              com.autonavi.skin.view.SkinLottieAnimationView{f8884ad V.ED..... ......ID 21,9-75,63 #7f0a0fda app:id/slav_map_setting_icon}
+                              com.autonavi.skin.view.SkinTextView{11ec0d7 V.ED..... ........ 17,44-80,64 #7f0a1155 app:id/stv_map_setting_text}
+                      com.autonavi.skin.view.SkinConstraintLayout{5591c3c GFE...C.. ......I. 0,0-0,0 #7f0a042a app:id/cl_organizeteam}
+                        com.autonavi.skin.view.SkinConstraintLayout{40004a0 V.E...... ......I. 0,0-0,0}
+                          com.autonavi.skin.view.SkinLottieAnimationView{92ae859 V.ED..... ......I. 0,0-0,0 #7f0a0efd app:id/siv_organizeteam_icon}
+                          com.autonavi.skin.view.StyleSkinTextView{7e63c1e V.ED..... ......ID 0,0-0,0}
+                      com.autonavi.skin.view.SkinConstraintLayout{2249373 GFE...C.. ......I. 0,0-0,0 #7f0a0224 app:id/cl_aiem}
+                        com.autonavi.skin.view.SkinConstraintLayout{8cecff V.E...... ......I. 0,0-0,0}
+                          com.autonavi.skin.view.SkinImageView{870cacc V.ED..... ......I. 0,0-0,0 #7f0a0d9e app:id/siv_aiem_icon}
+                          com.autonavi.skin.view.SkinTextView{b98b115 V.ED..... ......ID 0,0-0,0 #7f0a0d9d app:id/siv_aiem_btn_text}
+                      com.autonavi.skin.view.SkinRelativeLayout{b66b8c2 GFE...C.. ......I. 0,0-0,0 #7f0a0fc2 app:id/skinRelative_message}
+                        com.autonavi.pullview.MRecyclerView{135fc2a VFED..... ......I. 0,0-0,0 #7f0a0b35 app:id/rv_message_view_main}
+                      com.autonavi.skin.view.SkinConstraintLayout{1ea403b GFE...C.. ......ID 840,712-1080,784 #7f0a03db app:id/cl_gocar_btn}
+                        com.autonavi.skin.view.SkinTextView{e812609 V.ED..... ........ 0,0-240,72 #7f0a1229 app:id/stv_text_back_toccp}
+                      com.autonavi.skin.view.SkinConstraintLayout{ecf9327 V.E...... ........ 48,96-648,96 #7f0a0950 app:id/map_layout}
+                      com.autonavi.skin.view.SkinConstraintLayout{4e6de2f GFE...C.. ......I. 0,0-0,0 #7f0a0fd3 app:id/sl_cruise_search}
+                        com.autonavi.skin.view.SkinTextView{94d5a1b V.ED..... ......ID 0,0-0,0}
+                        com.autonavi.skin.view.SkinView{345c7b8 G.ED..... ......I. 0,0-0,0 #7f0a1357 app:id/sv_main_traffic_lane_space}
+                      com.autonavi.skin.view.SkinConstraintLayout{b79740e VFE...C.. ......ID 51,98-648,402 #7f0a0952 app:id/map_main_head_container}
+                        com.autonavi.skin.view.StyleSkinTextView{9310207 VFED..C.. ......ID 33,30-564,102 #7f0a0bdf app:id/search_tvname}
+                        com.autonavi.skin.view.SkinImageView{2b8e046 VFED..C.. ......ID 480,30-552,102 #7f0a0bd4 app:id/search_image}
+                        com.autonavi.skin.view.SkinConstraintLayout{90d2e4b V.E...... ......ID 33,126-564,265 #7f0a07f8 app:id/homepage_card_layout}
+                          com.autonavi.skin.view.SkinLinearLayout{65cc31a V.E...... .......D 0,0-531,60 #7f0a07fc app:id/homepage_card_top_buttons_sll}
+                            com.autonavi.skin.view.SkinLinearLayout{ff37dc5 VFE...C.. ......ID 0,0-121,60 #7f0a07e9 app:id/homepage_card_first_sll}
+                              com.autonavi.skin.view.SkinImageView{461b9d4 V.ED..... ......ID 4,12-40,48}
+                              com.autonavi.skin.view.SkinTextView{232e77d V.ED..... ........ 43,16-117,43}
+                            com.autonavi.skin.view.SkinLinearLayout{7b9c028 VFE...C.. ......ID 136,0-257,60 #7f0a07fa app:id/homepage_card_second_sll}
+                              com.autonavi.skin.view.SkinImageView{9e2d672 V.ED..... ......ID 1,12-37,48}
+                              com.autonavi.skin.view.SkinTextView{1183ac3 V.ED..... ........ 40,16-120,43}
+                            com.autonavi.skin.view.SkinLinearLayout{9933141 VFE...C.. ......ID 272,0-394,60 #7f0a07fb app:id/homepage_card_third_sll}
+                              com.autonavi.skin.view.SkinImageView{f0a9f40 V.ED..... ......ID 15,12-51,48}
+                              com.autonavi.skin.view.SkinTextView{f8b7e79 V.ED..... ........ 54,16-106,43}
+                            com.autonavi.skin.view.SkinLinearLayout{5f3f6e6 VFE...C.. ......ID 409,0-531,60 #7f0a07ea app:id/homepage_card_forth_sll}
+                              com.autonavi.skin.view.SkinImageView{983e7be V.ED..... ......ID 15,12-51,48}
+                              com.autonavi.skin.view.SkinTextView{8b9c01f V.ED..... ........ 54,16-107,43}
+                          com.autonavi.skin.view.SkinConstraintLayout{feb6d4 V.E...... ......ID 0,96-531,139 #7f0a07f1 app:id/homepage_card_go_home_and_company_sll}
+                            com.autonavi.skin.view.SkinConstraintLayout{9fe6427 VFE...C.. ......ID 6,0-258,43 #7f0a07f3 app:id/homepage_card_go_home_scl}
+                              com.autonavi.skin.view.SkinImageView{69a6f6c V.ED..... ......ID 0,0-36,36 #7f0a07f4 app:id/homepage_card_go_home_siv}
+                              com.autonavi.skin.view.SkinTextView{73c8935 I.ED..... ........ 42,4-107,32 #7f0a07f5 app:id/homepage_card_go_home_stv}
+                              com.autonavi.skin.view.SkinTextView{a92c1ca V.ED..... ........ 42,4-107,32 #7f0a07f2 app:id/homepage_card_go_home_center_stv}
+                              com.autonavi.skin.view.SkinTextView{3c43f3b V.ED..... ......ID 252,6-252,30 #7f0a07f6 app:id/homepage_card_go_home_time_stv}
+                              com.autonavi.skin.view.SkinLinearLayout{6b983b1 I.E...... ......ID 42,38-252,43 #7f0a07f7 app:id/homepage_card_go_home_tmc_sll}
+                                com.autosdk.search.view.widget.HorizontalTmcBarView{8751658 V.ED..... ......ID 0,0-210,5}
+                            com.autonavi.skin.view.SkinConstraintLayout{b7c26ca VFE...C.. ......ID 279,0-531,43 #7f0a07ec app:id/homepage_card_go_company_scl}
+                              com.autonavi.skin.view.SkinImageView{f033096 V.ED..... ......ID 0,0-36,36 #7f0a07ed app:id/homepage_card_go_company_siv}
+                              com.autonavi.skin.view.SkinTextView{72d9417 I.ED..... ........ 42,4-97,32 #7f0a07ee app:id/homepage_card_go_company_stv}
+                              com.autonavi.skin.view.SkinTextView{2514004 V.ED..... ........ 42,4-97,32 #7f0a07eb app:id/homepage_card_go_company_center_stv}
+                              com.autonavi.skin.view.SkinTextView{531a9ed V.ED..... ......ID 252,6-252,30 #7f0a07ef app:id/homepage_card_go_company_time_stv}
+                              com.autonavi.skin.view.SkinLinearLayout{76d5ab3 I.E...... ......ID 42,38-252,43 #7f0a07f0 app:id/homepage_card_go_company_tmc_sll}
+                                com.autosdk.search.view.widget.HorizontalTmcBarView{239c022 V.ED..... ......ID 0,0-210,5}
+                      androidx.constraintlayout.widget.Guideline{4a45870 G.ED..... ......I. 0,808-0,808 #7f0a08ec app:id/lan_guideline}
+                      com.autonavi.skin.view.SkinConstraintLayout{38bf7e9 G.E...... ......ID 48,96-648,710 #7f0a063a app:id/ct_poi_card_load}
+                      android.widget.LinearLayout{7e04991 G.E...... ......I. 0,0-0,0 #7f0a0927 app:id/ll_low_power_container}
+                      com.autonavi.skin.view.SkinConstraintLayout{af87288 G.E...... ......I. 0,0-0,0 #7f0a0b63 app:id/scl_continue_last_trip}
+                        com.autonavi.skin.view.SkinImageView{80fb0f6 V.ED..... ......I. 0,0-0,0 #7f0a10cd app:id/stv_continue_icon}
+                        com.autonavi.skin.view.SkinTextView{add7cf7 V.ED..... ......ID 0,0-0,0 #7f0a10d0 app:id/stv_continue_tip}
+                        com.autonavi.skin.view.SkinTextView{a6ba764 V.ED..... ......ID 0,0-0,0 #7f0a10cc app:id/stv_continue_address}
+                        com.autonavi.skin.view.SkinTextView{5e7ae2b VFED..C.. ......I. 0,0-0,0 #7f0a10cf app:id/stv_continue_route_now}
+                        com.autonavi.skin.view.SkinTextView{bde6421 VFED..C.. ......I. 0,0-0,0 #7f0a10ce app:id/stv_continue_route_cancel}
+                      com.autonavi.skin.view.SkinConstraintLayout{8f18358 GFE...C.. ......I. 0,0-0,0 #7f0a0bb3 app:id/scl_travel_prediction}
+                        com.autonavi.skin.view.SkinView{82eedcd V.ED..... ......I. 0,0-0,0}
+                        com.autonavi.skin.view.SkinImageView{2e9ecb1 VFED..C.. ......I. 0,0-0,0 #7f0a0b8e app:id/scl_prediction_close}
+                        com.autonavi.skin.view.SkinImageView{1fde682 V.ED..... ......I. 0,0-0,0 #7f0a0e94 app:id/siv_icon_type}
+                        com.autonavi.skin.view.SkinTextView{fe2f193 V.ED..... ......ID 0,0-0,0 #7f0a12f3 app:id/stv_text_type}
+                        com.autonavi.skin.view.SkinTextView{3edd5d0 V.ED..... ......ID 0,0-0,0 #7f0a107c app:id/stv_arriva_time}
+                        com.autonavi.skin.view.SkinTextView{24999c9 V.ED..... ......ID 0,0-0,0 #7f0a1199 app:id/stv_prediction_text}
+                        com.autonavi.skin.view.SkinLinearLayout{a7e8ce I.E...... ......I. 0,0-0,0 #7f0a1316 app:id/stv_tmc_parent_home}
+                          com.autosdk.search.view.widget.HorizontalTmcBarView{dc113ef V.ED..... ......ID 0,0-0,0}
+                        com.autonavi.skin.view.SkinTextView{59de596 VFED..C.. ......I. 0,0-0,0 #7f0a111b app:id/stv_go_now}
+                      com.autonavi.skin.view.SkinConstraintLayout{e7fa2ed G.E...... ......I. 0,0-0,0 #7f0a0ba4 app:id/scl_smart_recommend}
+                        com.autonavi.skin.view.SkinConstraintLayout{2a77d04 V.E...... ......I. 0,0-0,0 #7f0a1047 app:id/ssl_recommend_top_bar_layout}
+                          com.autonavi.skin.view.SkinTextView{9227efc V.ED..... ......ID 0,0-0,0 #7f0a11ba app:id/stv_recommend_title}
+                          com.autonavi.skin.view.SkinImageView{832a517 VFED..C.. ......I. 0,0-0,0 #7f0a0b93 app:id/scl_recommend_close}
+                        com.autonavi.skin.view.SkinConstraintLayout{a16570 V.E...... ......I. 0,0-0,0 #7f0a11b9 app:id/stv_recommend_place}
+                          com.autonavi.skin.view.SkinConstraintLayout{2327bb3 V.E...... ......I. 0,0-0,0 #7f0a11b5 app:id/stv_recommend_home}
+                            com.autonavi.skin.view.SkinConstraintLayout{9490985 V.E...... ......I. 0,0-0,0 #7f0a0b95 app:id/scl_recommend_home_top}
+                              com.autonavi.skin.view.SkinImageView{6ddc3da V.ED..... ......I. 0,0-0,0 #7f0a0f22 app:id/siv_recommend_home_icon}
+                              com.autonavi.skin.view.SkinTextView{2b5000b V.ED..... ......ID 0,0-0,0 #7f0a11b6 app:id/stv_recommend_home_text}
+                            com.autonavi.skin.view.SkinConstraintLayout{4ac522 VFE...C.. ......I. 0,0-0,0 #7f0a0ba1 app:id/scl_set_recommend_home}
+                              com.autonavi.skin.view.SkinLinearLayout{968ee8 V.E...... ......I. 0,0-0,0}
+                                com.autonavi.skin.view.SkinImageView{f15b901 G.ED..... ......I. 0,0-0,0 #7f0a0f69 app:id/siv_set_home_icon}
+                                com.autonavi.skin.view.SkinTextView{26443a6 V.ED..... ......ID 0,0-0,0 #7f0a11ef app:id/stv_set_home_text}
+                              com.autonavi.skin.view.SkinTextView{41742a5 GFED..C.. ......I. 0,0-0,0 #7f0a111a app:id/stv_go_home_text}
+                            com.autonavi.skin.view.SkinConstraintLayout{74f200f VFE...C.. ......I. 0,0-0,0 #7f0a0b80 app:id/scl_modify_recommend_home}
+                              com.autonavi.skin.view.SkinLinearLayout{9b191e7 V.E...... ......I. 0,0-0,0}
+                                com.autonavi.skin.view.SkinImageView{ab9b194 G.ED..... ......I. 0,0-0,0 #7f0a0ed5 app:id/siv_modify_home_icon}
+                                com.autonavi.skin.view.SkinTextView{1a3e43d V.ED..... ......ID 0,0-0,0 #7f0a1160 app:id/stv_modify_home_text}
+                          com.autonavi.skin.view.SkinConstraintLayout{df4116e V.E...... ......I. 0,0-0,0 #7f0a11b3 app:id/stv_recommend_company}
+                            com.autonavi.skin.view.SkinConstraintLayout{680f432 V.E...... ......I. 0,0-0,0 #7f0a0b94 app:id/scl_recommend_company_top}
+                              com.autonavi.skin.view.SkinImageView{ffb6583 V.ED..... ......I. 0,0-0,0 #7f0a0f21 app:id/siv_recommend_company_icon}
+                              com.autonavi.skin.view.SkinTextView{d4a5300 V.ED..... ......ID 0,0-0,0 #7f0a11b4 app:id/stv_recommend_company_text}
+                            com.autonavi.skin.view.SkinConstraintLayout{64080e9 VFE...C.. ......I. 0,0-0,0 #7f0a0ba0 app:id/scl_set_recommend_company}
+                              com.autonavi.skin.view.SkinLinearLayout{fef8739 V.E...... ......I. 0,0-0,0}
+                                com.autonavi.skin.view.SkinImageView{346217e G.ED..... ......I. 0,0-0,0 #7f0a0f67 app:id/siv_set_company_icon}
+                                com.autonavi.skin.view.SkinTextView{884d6df V.ED..... ......ID 0,0-0,0 #7f0a11ec app:id/stv_set_company_text}
+                              com.autonavi.skin.view.SkinTextView{4d3d67a GFED..C.. ......I. 0,0-0,0 #7f0a1118 app:id/stv_go_company_text}
+                            com.autonavi.skin.view.SkinConstraintLayout{30f689c VFE...C.. ......I. 0,0-0,0 #7f0a0b7f app:id/scl_modify_recommend_company}
+                              com.autonavi.skin.view.SkinLinearLayout{9819f2c V.E...... ......I. 0,0-0,0}
+                                com.autonavi.skin.view.SkinImageView{2b85df5 G.ED..... ......I. 0,0-0,0 #7f0a0ed4 app:id/siv_modify_company_icon}
+                                com.autonavi.skin.view.SkinTextView{59ed78a V.ED..... ......ID 0,0-0,0 #7f0a115f app:id/stv_modify_company_text}
+                      android.widget.LinearLayout{90a01fb G.E...... ......I. 0,0-0,0 #7f0a092b app:id/ll_restrict_container}
+                      android.widget.LinearLayout{f57bc6e V.E...... ........ 48,96-48,96 #7f0a0649 app:id/ct_traffic_view}
+                      android.widget.LinearLayout{ed8ef0f V.E...... .......D 48,402-648,402 #7f0a0922 app:id/ll_aiem_container}
+                      android.widget.FrameLayout{fce8b9c V.E...... ........ 0,990-1920,990 #7f0a0987 app:id/media_controller_view}
+                  com.autonavi.skin.view.SkinConstraintLayout{8ff8218 G.E...... ......I. 0,0-0,0 #7f0a0746 app:id/fl_toast}
+                    com.autonavi.skin.view.SkinConstraintLayout{4fde471 V.E...... ......I. 0,0-0,0 #7f0a0bad app:id/scl_toast}
+                      com.autonavi.skin.view.SkinTextView{c1ae256 V.ED..... ......ID 0,0-0,0 #7f0a14a7 app:id/tv_toast}
+                  com.autonavi.skin.view.SkinTextView{cecc2d7 G.ED..... ......I. 0,0-0,0 #7f0a094d app:id/main_dr_param}
+                  com.autonavi.skin.view.SkinTextView{d76a7c4 G.ED..... ......I. 0,0-0,0 #7f0a094c app:id/main_dr_enter_param}
+                  com.autonavi.skin.view.SkinImageView{629b6db V.ED..... ......ID 0,840-1920,990 #7f0a0d7f app:id/shape_widget_bg_gradient}
+                  com.autonavi.view.custom.CustomOverspeedView{83b56ad G.ED..... ......I. 0,0-0,0 #7f0a05ba app:id/co_overspeed}
+                  com.autonavi.skin.view.SkinImageView{f8eed2a V.ED..... ......ID 0,990-1920,1080 #7f0a0d7e app:id/shape_navigation_bg_gradient}
+                  android.widget.FrameLayout{fbd84c4 V.E...... ........ 0,0-1920,1080 #7f0a0aaf app:id/privacy_container}
+    Looper (main, tid 1) {8bf7c1a}
+      (Total messages: 0, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: com.byd.automap.activity.MainActivity@f77d284
+      service client: null
+      client: com.byd.automap.activity.MainActivity@f77d284 (android.os.BinderProxy@4f127fd)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      options: logLvl=0, compatMode=false, augmented=false, appDisabledExpiration=0
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 3
+      resources: 8
+      resource impls: 3
+    Local FragmentActivity f77d284 State:
+      mCreated=true mResumed=false mStopped=true    Active Fragments:
+    MainFragment{92b3b24} (5a2960d6-e021-4197-a970-bf8f0e498176 id=0x7f0a0077 tag=153828132)
+        mFragmentId=#7f0a0077 mContainerId=#7f0a0077 mTag=153828132
+        mState=4 mWho=5a2960d6-e021-4197-a970-bf8f0e498176 mBackStackNesting=0
+        mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+        mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+        mRetainInstance=false mUserVisibleHint=true
+        mFragmentManager=FragmentManager{c7acde2 in c{9d0b573}}}
+        mHost=androidx.fragment.app.FragmentActivity$c@9d0b573
+        mSavedViewState={2131362010=android.view.AbsSavedState$1@9e3c4c, 2131362033=android.view.AbsSavedState$1@9e3c4c, 2131362059=android.view.AbsSavedState$1@9e3c4c, 2131362104=android.view.AbsSavedState$1@9e3c4c, 2131362340=android.view.AbsSavedState$1@9e3c4c, 2131362759=android.view.AbsSavedState$1@9e3c4c, 2131362779=android.view.AbsSavedState$1@9e3c4c, 2131362791=android.view.AbsSavedState$1@9e3c4c, 2131362826=android.view.AbsSavedState$1@9e3c4c, 2131362858=android.view.AbsSavedState$1@9e3c4c, 2131362878=android.view.AbsSavedState$1@9e3c4c, 2131363131=android.view.AbsSavedState$1@9e3c4c, 2131363386=android.view.AbsSavedState$1@9e3c4c, 2131363401=android.view.AbsSavedState$1@9e3c4c, 2131363817=android.view.AbsSavedState$1@9e3c4c, 2131363818=android.view.AbsSavedState$1@9e3c4c, 2131363819=android.view.AbsSavedState$1@9e3c4c, 2131363820=android.view.AbsSavedState$1@9e3c4c, 2131363821=android.view.AbsSavedState$1@9e3c4c, 2131363822=android.view.AbsSavedState$1@9e3c4c, 2131363823=android.view.AbsSavedState$1@9e3c4c, 2131363824=android.view.AbsSavedState$1@9e3c4c, 2131363825=android.view.AbsSavedState$1@9e3c4c, 2131363826=android.view.AbsSavedState$1@9e3c4c, 2131363827=android.view.AbsSavedState$1@9e3c4c, 2131363828=android.view.AbsSavedState$1@9e3c4c, 2131363829=android.view.AbsSavedState$1@9e3c4c, 2131363830=android.view.AbsSavedState$1@9e3c4c, 2131363831=android.view.AbsSavedState$1@9e3c4c, 2131363832=android.view.AbsSavedState$1@9e3c4c, 2131363834=android.view.AbsSavedState$1@9e3c4c, 2131363835=android.view.AbsSavedState$1@9e3c4c, 2131363836=android.view.AbsSavedState$1@9e3c4c, 2131364076=android.view.AbsSavedState$1@9e3c4c, 2131364130=android.view.AbsSavedState$1@9e3c4c, 2131364135=android.view.AbsSavedState$1@9e3c4c, 2131364139=android.view.AbsSavedState$1@9e3c4c, 2131364175=android.view.AbsSavedState$1@9e3c4c, 2131364176=android.view.AbsSavedState$1@9e3c4c, 2131364178=android.view.AbsSavedState$1@9e3c4c, 2131364231=android.view.AbsSavedState$1@9e3c4c, 2131364661=androidx.recyclerview.widget.RecyclerView$SavedState@37aaa78, 2131364707=android.view.AbsSavedState$1@9e3c4c, 2131364735=android.view.AbsSavedState$1@9e3c4c, 2131364736=android.view.AbsSavedState$1@9e3c4c, 2131364750=android.view.AbsSavedState$1@9e3c4c, 2131364755=android.view.AbsSavedState$1@9e3c4c, 2131364756=android.view.AbsSavedState$1@9e3c4c, 2131364757=android.view.AbsSavedState$1@9e3c4c, 2131364768=android.view.AbsSavedState$1@9e3c4c, 2131364769=android.view.AbsSavedState$1@9e3c4c, 2131364772=android.view.AbsSavedState$1@9e3c4c, 2131364787=android.view.AbsSavedState$1@9e3c4c, 2131364820=android.view.AbsSavedState$1@9e3c4c, 2131364831=android.view.AbsSavedState$1@9e3c4c, 2131364847=android.view.AbsSavedState$1@9e3c4c, 2131365277=android.view.AbsSavedState$1@9e3c4c, 2131365278=android.view.AbsSavedState$1@9e3c4c, 2131365323=android.view.AbsSavedState$1@9e3c4c, 2131365446=android.view.AbsSavedState$1@9e3c4c, 2131365447=android.view.AbsSavedState$1@9e3c4c, 2131365524=android.view.AbsSavedState$1@9e3c4c, 2131365555=android.view.AbsSavedState$1@9e3c4c, 2131365588=android.view.AbsSavedState$1@9e3c4c, 2131365589=android.view.AbsSavedState$1@9e3c4c, 2131365603=android.view.AbsSavedState$1@9e3c4c, 2131365604=android.view.AbsSavedState$1@9e3c4c, 2131365629=com.airbnb.lottie.LottieAnimationView$SavedState@bfb5551, 2131365665=android.view.AbsSavedState$1@9e3c4c, 2131365666=android.view.AbsSavedState$1@9e3c4c, 2131365735=android.view.AbsSavedState$1@9e3c4c, 2131365737=android.view.AbsSavedState$1@9e3c4c, 2131365810=android.view.AbsSavedState$1@9e3c4c, 2131365826=android.view.AbsSavedState$1@9e3c4c, 2131365843=android.view.AbsSavedState$1@9e3c4c, 2131365850=com.airbnb.lottie.LottieAnimationView$SavedState@ba831b6, 2131365916=android.view.AbsSavedState$1@9e3c4c, 2131365959=android.view.AbsSavedState$1@9e3c4c, 2131366012=android.view.AbsSavedState$1@9e3c4c, 2131366092=android.view.AbsSavedState$1@9e3c4c, 2131366093=android.view.AbsSavedState$1@9e3c4c, 2131366094=android.view.AbsSavedState$1@9e3c4c, 2131366095=android.view.AbsSavedState$1@9e3c4c, 2131366096=android.view.AbsSavedState$1@9e3c4c, 2131366168=android.view.AbsSavedState$1@9e3c4c, 2131366170=android.view.AbsSavedState$1@9e3c4c, 2131366171=android.view.AbsSavedState$1@9e3c4c, 2131366229=android.view.AbsSavedState$1@9e3c4c, 2131366239=android.view.AbsSavedState$1@9e3c4c, 2131366240=android.view.AbsSavedState$1@9e3c4c, 2131366297=android.view.AbsSavedState$1@9e3c4c, 2131366323=android.view.AbsSavedState$1@9e3c4c, 2131366324=android.view.AbsSavedState$1@9e3c4c, 2131366325=android.view.AbsSavedState$1@9e3c4c, 2131366326=android.view.AbsSavedState$1@9e3c4c, 2131366329=android.view.AbsSavedState$1@9e3c4c, 2131366330=android.view.AbsSavedState$1@9e3c4c, 2131366380=android.view.AbsSavedState$1@9e3c4c, 2131366383=android.view.AbsSavedState$1@9e3c4c, 2131366441=android.view.AbsSavedState$1@9e3c4c, 2131366643=android.view.AbsSavedState$1@9e3c4c, 2131366678=android.view.AbsSavedState$1@9e3c4c, 2131366743=android.view.AbsSavedState$1@9e3c4c, 2131367225=android.view.AbsSavedState$1@9e3c4c}
+        mPopDirection=false
+        mContainer=com.autonavi.view.custom.WindowInsetsFrameLayout{4606d71 V.E...... ......ID 0,0-1920,1080 #7f0a0077 app:id/amap_fragment_container}
+        mView=com.autonavi.skin.view.SkinConstraintLayout{4991f10 V.E...... ......ID 0,0-1920,1080 #7f0a03e7 app:id/cl_index}
+        Child FragmentManager{f187c30 in MainFragment{92b3b24}}}:
+          Back Stack Index: 0
+          FragmentManager misc state:
+            mHost=androidx.fragment.app.FragmentActivity$c@9d0b573
+            mContainer=androidx.fragment.app.Fragment$d@63b0a9
+            mParent=MainFragment{92b3b24} (5a2960d6-e021-4197-a970-bf8f0e498176 id=0x7f0a0077 tag=153828132)
+            mCurState=4 mStateSaved=true mStopped=true mDestroyed=false
+    Added Fragments:
+      #0: MainFragment{92b3b24} (5a2960d6-e021-4197-a970-bf8f0e498176 id=0x7f0a0077 tag=153828132)
+    Back Stack Index: 0
+    FragmentManager misc state:
+      mHost=androidx.fragment.app.FragmentActivity$c@9d0b573
+      mContainer=androidx.fragment.app.FragmentActivity$c@9d0b573
+      mCurState=4 mStateSaved=true mStopped=true mDestroyed=false
+
+TASK null id=281 userId=0
+  ACTIVITY com.android.launcher3/.home.MainActivity dc4a834 pid=27517
+    Local Activity b2636af State:
+      mResumed=true mStopped=false mFinished=false
+      mIsInMultiWindowMode=false mIsInPictureInPictureMode=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw720dp w1280dp h604dp 240dpi lrg long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 990) mMaxBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.2 fontWeightAdjustment=0}
+      mLoadersStarted=true
+      Active Fragments in dc0a11c:
+        #0: ReportFragment{3c35125 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=androidx.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{dc0a11c in HostCallbacks{48102fa}}
+          mHost=android.app.Activity$HostCallbacks@48102fa
+          Child FragmentManager{132a0ab in ReportFragment{3c35125}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@48102fa
+              mContainer=android.app.Fragment$1@ec4b308
+              mParent=ReportFragment{3c35125 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{3c35125 #0 androidx.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@48102fa
+        mContainer=android.app.Activity$HostCallbacks@48102fa
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true
+      mRemoved=false
+      mStopped=false
+      mPausedForTransition=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false
+      mIsAmbientMode=false
+      mUnbufferedInputSource=0
+      mAttachInfo=       AttachInfo:
+        mHasWindowFocus=true
+        mWindowVisibility=0
+        mInTouchMode=true
+        mUnbufferedDispatchRequested=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$WindowInputEventReceiver
+       mInputChannel: 4471ada com.android.launcher3/com.android.launcher3.home.MainActivity (client)
+       mSeqMap: {}
+       mReceiverPtr:
+        mInputConsumer:
+          mResampleTouch = true
+          mChannel = 4471ada com.android.launcher3/com.android.launcher3.home.MainActivity (client)
+          mMsgDeferred: false
+          Batches:
+              <empty>
+          mSeqChains:
+              <empty>
+          mConsumeTimes:
+              <empty>
+          
+        mBatchedInputEventPending: false
+        mOutboundQueue:
+          <empty>
+        
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=148668875 (13998 ms ago)
+    InsetsController:
+      InsetsState
+        mDisplayFrame=Rect(0, 0 - 1920, 1080)
+        mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+        mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+        mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1776, 0 - 1899, 84) rotation=0}
+          InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+          InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+          InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+          InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+    View Hierarchy:
+      DecorView@d7fad97[MainActivity]
+        android.widget.LinearLayout{84fc016 V.E...... ........ 0,0-1920,1080}
+          android.view.ViewStub{87cdaa1 G.E...... ......I. 0,0-0,0 #10201f5 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{d28a131 V.E...... ........ 0,0-1920,1080 #1020002 android:id/content}
+            android.widget.RelativeLayout{3e039d8 V.E...... ........ 0,0-1920,1080 #7f090121 app:id/home_root_layout}
+              android.widget.FrameLayout{b1b84 V.E...... ........ 0,0-1920,1080 #7f090292 app:id/wallpaper_root}
+              android.widget.RelativeLayout{87fc7a2 V.E...... ........ 168,204-438,376 #7f090267 app:id/time_date_weather_item}
+                android.widget.TextView{3351f6d V.ED..... ........ 0,0-270,120 #7f090125 app:id/home_time}
+                android.widget.RelativeLayout{6e06bf0 V.E...... ........ 70,135-200,172 #7f09011b app:id/home_date_content}
+                  android.widget.TextView{6878c33 VFED..C.. ........ 0,0-71,37 #7f09011a app:id/home_date aid=1073741824}
+                  android.widget.TextView{a114569 V.ED..... ........ 86,0-130,37 #7f09011e app:id/home_date_week}
+                  android.widget.TextView{e62f34 G.ED..... ......ID 0,0-0,0 #7f09011c app:id/home_date_time_unit}
+                android.widget.LinearLayout{cbe4eab GFE...C.. ......I. 0,0-0,0 #7f090127 app:id/home_weather_item}
+                  android.widget.TextView{956a8fa V.ED..... ......ID 0,0-0,0 #7f090126 app:id/home_weather}
+                  android.widget.TextView{77338a1 V.ED..... ......ID 0,0-0,0 #7f090124 app:id/home_temperature}
+                  android.widget.TextView{4d65ac6 V.ED..... ......ID 0,0-0,0 #7f090123 app:id/home_temp_unit}
+                  android.widget.ImageView{14c54c6 V.ED..... ......ID 0,0-0,0 #7f09011f app:id/home_location_icon}
+                  android.widget.TextView{c41c908 V.ED..... ......ID 0,0-0,0 #7f090120 app:id/home_location_name}
+              android.widget.LinearLayout{61fc0bb V.E...... ........ 36,624-108,792 #7f090069 app:id/btn_content}
+                com.android.launcher3.lib_base.ui.blur.BlurImageView{4b6bbee VFED..C.. ........ 0,0-72,72 #7f090137 app:id/img_setting aid=1073741825}
+                com.android.launcher3.lib_base.ui.blur.BlurImageView{e0d594a VFED..C.. ........ 0,96-72,168 #7f090136 app:id/img_home aid=1073741826}
+    Looper (main, tid 1) {8bf7c1a}
+      (Total messages: 0, polling=false, quitting=false)
+    AutofillManager:
+      sessionId: 2147483647
+      state: UNKNOWN
+      context: com.android.launcher3.home.MainActivity@b2636af
+      service client: null
+      client: com.android.launcher3.home.MainActivity@b2636af (android.os.BinderProxy@bea4dcc)
+      enabled: false
+      enabledAugmentedOnly: false
+      hasService: true
+      hasCallback: false
+      onInvisibleCalled false
+      last autofilled data: null
+      id of last fill UI shown: null
+      tracked views: null
+      fillable ids: null
+      entered ids: null
+      save trigger id: null
+      save on finish(): false
+      compat mode enabled: false
+      debug: false verbose: false
+    Autofill Compat Mode: false
+    No ContentCaptureManager
+    No UiTranslationController
+    ResourcesManager:
+      total apks: 6
+      resources: 30
+      resource impls: 6
+    Local FragmentActivity b2636af State:
+      mCreated=true mResumed=true mStopped=false    Back Stack Index: 0
+    FragmentManager misc state:
+      mHost=androidx.fragment.app.FragmentActivity$HostCallbacks@6789c87
+      mContainer=androidx.fragment.app.FragmentActivity$HostCallbacks@6789c87
+      mCurState=7 mStateSaved=false mStopped=false mDestroyed=false

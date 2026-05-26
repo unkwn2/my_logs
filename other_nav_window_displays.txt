@@ -1,0 +1,519 @@
+WINDOW MANAGER DISPLAY CONTENTS (dumpsys window displays)
+  overrideConfig={0.0 ?byd_theme?mcc?mnc ?localeList ?layoutDir sw480dp w1920dp h480dp 160dpi lrg long land ?uimode ?night -touch -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 480) mAppBounds=Rect(0, 0 - 1920, 480) mMaxBounds=Rect(0, 0 - 1920, 480) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} ?fontWeightAdjustment}
+  Display: mDisplayId=4 rootTasks=0
+    init=1920x720 320dpi base=1920x480 160dpi cur=1920x480 app=1920x480 rng=480x480-1920x1920
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion()
+
+  mLayoutSeq=39
+  mCurrentFocus=null
+  mFocusedApp=null
+
+  displayId=4
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:17:36
+    * ImeContainer
+    * Leaf:3:14
+    * DefaultTaskDisplayArea
+    * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      Application tokens in top down Z order:
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1920 h=480 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mHdmiPlugged=false
+    mShowingDream=false mDreamingLockscreen=false
+    isKeyguardShowing=false
+    mTopIsFullscreen=false
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(24, 24 - 24, 24)
+      mSwipeDistanceThreshold=24
+    Looper state:
+      Looper (android.ui, tid 19) {16fc7d7}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+    mLastOrientation=-1
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=unknown
+    mDemoHdmiRotation=ROTATION_0 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 1920, 480)
+      mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=null rotation=0}
+        InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    Control map:
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+        mIsLeashReadyForDispatching=false mImeOverrideFrame=[0,0][0,0]
+        mImeShowing=false
+  overrideConfig={0.0 ?byd_theme?mcc?mnc ?localeList ?layoutDir sw360dp w960dp h360dp 320dpi nrml long land ?uimode ?night -touch -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 720) mAppBounds=Rect(0, 0 - 1920, 720) mMaxBounds=Rect(0, 0 - 1920, 720) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} ?fontWeightAdjustment}
+  Display: mDisplayId=3 rootTasks=0
+    init=1920x720 320dpi cur=1920x720 app=1920x720 rng=720x720-1920x1920
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion()
+
+  mLayoutSeq=110
+  mCurrentFocus=null
+  mFocusedApp=null
+
+  displayId=3
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:17:36
+    * ImeContainer
+    * Leaf:3:14
+    * DefaultTaskDisplayArea
+    * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      Application tokens in top down Z order:
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1920 h=720 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mHdmiPlugged=false
+    mShowingDream=false mDreamingLockscreen=false
+    isKeyguardShowing=false
+    mTopIsFullscreen=false
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(48, 48 - 48, 48)
+      mSwipeDistanceThreshold=48
+    Looper state:
+      Looper (android.ui, tid 19) {16fc7d7}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+    mLastOrientation=-1
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=unknown
+    mDemoHdmiRotation=ROTATION_0 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 1920, 720)
+      mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=null rotation=0}
+        InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    Control map:
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+        mIsLeashReadyForDispatching=false mImeOverrideFrame=[0,0][0,0]
+        mImeShowing=false
+  overrideConfig={0.0 ?byd_theme?mcc?mnc ?localeList ?layoutDir sw360dp w960dp h360dp 320dpi nrml long land ?uimode ?night -touch -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 720) mAppBounds=Rect(0, 0 - 1920, 720) mMaxBounds=Rect(0, 0 - 1920, 720) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} ?fontWeightAdjustment}
+  Display: mDisplayId=2 rootTasks=0
+    init=1920x720 320dpi cur=1920x720 app=1920x720 rng=720x720-1920x1920
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion()
+
+  mLayoutSeq=175
+  mCurrentFocus=null
+  mFocusedApp=null
+
+  displayId=2
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:17:36
+    * ImeContainer
+    * Leaf:3:14
+    * DefaultTaskDisplayArea
+    * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      Application tokens in top down Z order:
+
+  no ScreenRotationAnimation 
+
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1920 h=720 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=false mWindowManagerDrawComplete=false
+    mHdmiPlugged=false
+    mShowingDream=false mDreamingLockscreen=false
+    isKeyguardShowing=false
+    mTopIsFullscreen=false
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(48, 48 - 48, 48)
+      mSwipeDistanceThreshold=48
+    Looper state:
+      Looper (android.ui, tid 19) {16fc7d7}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+    mLastOrientation=-1
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=unknown
+    mDemoHdmiRotation=ROTATION_0 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 1920, 720)
+      mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=null rotation=0}
+        InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+    Control map:
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visible=false
+        mIsLeashReadyForDispatching=false mImeOverrideFrame=[0,0][0,0]
+        mImeShowing=false
+  mLastOrientationSource=WindowedMagnification:0:31@165803718
+  deepestLastOrientationSource=ActivityRecord{7ac783a u0 ru.yandex.yandexmaps/.SplashScreen t367}
+  overrideConfig={1.0 111000003byd_theme250mcc1mnc [en_US] ldltr sw720dp w1280dp h604dp 240dpi lrg long hdr land night finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1920, 1080) mAppBounds=Rect(0, 0 - 1920, 990) mMaxBounds=Rect(0, 0 - 1920, 1080) mWindowingMode=fullscreen mDisplayWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mMagicWindowMode=MAGIC_MODE_FULLSCREEN  mRotation=ROTATION_0} s.325 fontWeightAdjustment=0}
+  Display: mDisplayId=0 rootTasks=14
+    init=1920x1080 240dpi cur=1920x1080 app=1920x990 rng=1080x906-1920x1746
+    deferred=false mLayoutNeeded=false mTouchExcludeRegion=SkRegion((0,0,1920,1080))
+
+  mLayoutSeq=19844
+  mCurrentFocus=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+  mFocusedApp=ActivityRecord{7ac783a u0 ru.yandex.yandexmaps/.SplashScreen t367}
+
+  displayId=0
+  mWallpaperTarget=null
+  mLastWallpaperX=-1.0 mLastWallpaperY=-1.0
+
+  Display areas in top down Z order:
+    * Leaf:36:36
+    * HideDisplayCutout:32:35
+      * OneHanded:32:35
+        * FullscreenMagnification:33:35
+          * Leaf:33:35
+        * Leaf:32:32
+    * WindowedMagnification:0:31
+      * HideDisplayCutout:26:31
+        * OneHanded:26:31
+          * FullscreenMagnification:29:31
+            * Leaf:29:31
+          * Leaf:28:28
+          * FullscreenMagnification:26:27
+            * Leaf:26:27
+      * Leaf:24:25
+      * HideDisplayCutout:20:23
+        * OneHanded:20:23
+          * FullscreenMagnification:20:23
+            * Leaf:20:23
+      * OneHanded:19:19
+        * FullscreenMagnification:19:19
+          * Leaf:19:19
+      * HideDisplayCutout:18:18
+        * OneHanded:18:18
+          * FullscreenMagnification:18:18
+            * Leaf:18:18
+      * OneHanded:17:17
+        * FullscreenMagnification:17:17
+          * Leaf:17:17
+      * HideDisplayCutout:0:16
+        * OneHanded:2:16
+          * ImePlaceholder:15:16
+            * ImeContainer
+          * FullscreenMagnification:2:14
+            * Leaf:3:14
+            * DefaultTaskDisplayArea
+        * OneHandedBackgroundPanel:0:1
+          * OneHanded:0:1
+            * FullscreenMagnification:0:1
+              * Leaf:0:1
+
+  Task display areas in top down Z order:
+    TaskDisplayArea DefaultTaskDisplayArea
+      mPreferredTopFocusableRootTask=Task{3ca5365 #367 type=standard A=10143:ru.yandex.yandexmaps U=0 visible=true visibleRequested=true mode=fullscreen magicmode=0 translucent=false sz=1}
+      mLastFocusedRootTask=Task{3ca5365 #367 type=standard A=10143:ru.yandex.yandexmaps U=0 visible=true visibleRequested=true mode=fullscreen magicmode=0 translucent=false sz=1}
+      Application tokens in top down Z order:
+      * Task{3ca5365 #367 type=standard A=10143:ru.yandex.yandexmaps U=0 visible=true visibleRequested=true mode=fullscreen magicmode=0 translucent=false sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{7ac783a u0 ru.yandex.yandexmaps/.SplashScreen t367}
+      * Task{b267aa9 #277 type=home ?? U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=2}
+        bounds=[0,0][1920,1080]
+        * Task{709bf07 #281 type=home I=com.android.launcher3/.home.MainActivity U=0 rootTaskId=277 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+          bounds=[0,0][1920,1080]
+          * ActivityRecord{dc4a834 u0 com.android.launcher3/.home.MainActivity t281}
+        * Task{dc7834 #279 type=home A=10038:com.byd.launchermap U=0 rootTaskId=277 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+          bounds=[0,0][1920,1080]
+          * ActivityRecord{6b7365d u0 com.byd.launchermap/com.byd.automap.activity.MainActivity t279}
+      * Task{8d5191 #283 type=standard I=com.android.launcher3/.Launcher U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{22c18f6 u0 com.android.launcher3/.Launcher t283}
+      * Task{a42cdad #338 type=standard A=10125:com.v2ray.ang U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{9ea78e2 u0 com.v2ray.ang/.ui.MainActivity t338}
+      * Task{add3387 #370 type=standard A=1000:com.byd.airconditioning U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{74c42b4 u0 com.byd.airconditioning/.mainactivity.FullScreenMainActivity t370}
+      * Task{c0d80aa #356 type=standard A=10150:com.sr.openbyd U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{a0ef811 u0 com.sr.openbyd/.MainActivity t356}
+      * Task{d71307e #360 type=standard A=10117:com.alphainventor.filemanager U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{56c39df u0 com.alphainventor.filemanager/.activity.MainActivity t360}
+      * Task{2315e33 #355 type=standard A=10093:org.telegram.messenger.web U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=2}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{b9a1578 u0 com.android.packageinstaller/.DeleteStagedFileOnResult t355}
+        * ActivityRecord{82ad5f0 u0 org.telegram.messenger.web/org.telegram.messenger.DefaultIcon t355}
+      * Task{bed02d1 #350 type=standard A=10146:com.andrerinas.wirelesshelper U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{96c1136 u0 com.andrerinas.wirelesshelper/.MainActivity t350}
+      * Task{c03791 #5 type=undefined ?? U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=0}
+        bounds=[0,0][1920,1080]
+      * Task{5df0421 #4 type=undefined ?? U=0 visible=false visibleRequested=false mode=split-screen-secondary magicmode=0 translucent=true sz=0}
+        bounds=[967,0][1920,1080]
+      * Task{e7c889c #3 type=undefined ?? U=0 visible=false visibleRequested=false mode=split-screen-primary magicmode=0 translucent=true sz=0}
+        bounds=[0,0][953,1080]
+      * Task{fb2e873 #347 type=standard A=10121:com.gbox.android U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{40748b7 u0 com.gbox.android/.activities.MainActivity t347}
+      * Task{cb11ce0 #354 type=standard A=1000:com.byd.carsettings U=0 visible=false visibleRequested=false mode=fullscreen magicmode=0 translucent=true sz=1}
+        bounds=[0,0][1920,1080]
+        * ActivityRecord{375bb99 u0 com.byd.carsettings/.MainActivity t354}
+
+  no ScreenRotationAnimation 
+
+  rootHomeTask=Task=277
+  rootSplitScreenPrimaryTask=Task=3
+
+  PinnedTaskController
+    mIsImeShowing=false
+    mImeHeight=0
+    mAspectRatio=-1.0
+    mMinAspectRatio=0.41841003
+    mMaxAspectRatio=2.39
+    mActions=[]
+
+  DisplayFrames w=1920 h=1080 r=0
+
+  DisplayPolicy
+    mCarDockEnablesAccelerometer=true mDeskDockEnablesAccelerometer=true
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mAwake=true mScreenOnEarly=true mScreenOnFully=true
+    mKeyguardDrawComplete=true mWindowManagerDrawComplete=true
+    mHdmiPlugged=false
+    mLastBehavior=DEFAULT
+    mShowingDream=false mDreamingLockscreen=false
+    mStatusBar=Window{122aa44 u0 StatusBar}
+    mExpandedPanel=Window{3eadadc u0 NotificationShade}
+    isKeyguardShowing=false
+    mNavigationBar=Window{231eb4e u0 NavigationBar0}
+    mNavBarOpacityMode=0
+    mNavigationBarCanMove=false
+    mNavigationBarPosition=4
+    mFocusedWindow=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mTopFullscreenOpaqueWindowState=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mNavBarColorWindowCandidate=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mNavBarBackgroundWindow=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mStatusBarColorWindows=
+      Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mStatusBarBackgroundWindows=
+      Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    mTopIsFullscreen=false
+    mForceStatusBar=false mAllowLockscreenWhenOn=false
+    mRemoteInsetsControllerControlsSystemBars=false
+    SystemGestures:
+      mDisplayCutoutTouchableRegionSize=0
+      mSwipeStartThreshold=Rect(36, 36 - 36, 36)
+      mSwipeDistanceThreshold=36
+    Looper state:
+      Looper (android.ui, tid 19) {16fc7d7}
+        (Total messages: 0, polling=true, quitting=false)
+
+  DisplayRotation
+    mCurrentAppOrientation=SCREEN_ORIENTATION_UNSPECIFIED
+    mLastOrientation=-1
+    mRotation=0 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_0 mSeascapeRotation=ROTATION_180
+    mPortraitRotation=ROTATION_270 mUpsideDownRotation=ROTATION_90
+    mSupportAutoRotation=true
+    WindowOrientationListener
+      mEnabled=true
+      mCurrentRotation=ROTATION_0
+      mSensorType=null
+      mSensor={Sensor name="accel", vendor="accel", version=1, type=1, maxRange=156.8, resolution=0.009570312, power=0.2, minDelay=10000}
+      mRate=2
+      AccelSensorJudge
+        mProposedRotation=0
+        mPredictedRotation=0
+        mLastFilteredX=0.0084929345
+        mLastFilteredY=9.798684
+        mLastFilteredZ=0.0
+        mLastFilteredTimestampNanos=1779781859814820000 (-1.77958067E12ms ago)
+        mTiltHistory={last: 0.0}
+        mFlat=false
+        mSwinging=false
+        mAccelerating=false
+        mOverhead=false
+        mTouched=false
+        mTiltToleranceConfig=[[-25, 70], [-25, 65], [-25, 60], [-25, 65]]
+      BYD multimedia electric motor 0x426 status:
+        mHasMultimediaElectricMotor=0 (1:motor exist)
+        mLastOrientationAngle=0
+        mDelayOrientationAngle=-1
+        mMotorRunning=false (true: runing)
+        mSendAngleDelaying=false (true: delaying)
+        CHECK_MOTOR_RUNNINT_TIME_MS=2500ms
+        DELAY_SEND_ANGLE_TIME=3000ms
+
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=true
+    mDemoHdmiRotation=ROTATION_0 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+
+
+  WindowInsetsStateController
+    InsetsState
+      mDisplayFrame=Rect(0, 0 - 1920, 1080)
+      mDisplayCutout=DisplayCutout{insets=Rect(0, 0 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=0 displayHeight=0 density={0.0} cutoutSpec={} rotation={0} scale={0.0}}}}
+      mRoundedCorners=RoundedCorners{[RoundedCorner{position=TopLeft, radius=0, center=Point(0, 0)}, RoundedCorner{position=TopRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomRight, radius=0, center=Point(0, 0)}, RoundedCorner{position=BottomLeft, radius=0, center=Point(0, 0)}]}
+      mPrivacyIndicatorBounds=PrivacyIndicatorBounds {static bounds=Rect(1776, 0 - 1899, 84) rotation=0}
+        InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+        InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+        InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+        InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+        InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+        InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+        InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+        InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+        InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+    Control map:
+      ITYPE_IME -> Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+      ITYPE_NAVIGATION_BAR -> Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+      ITYPE_STATUS_BAR -> Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+    InsetsSourceProviders:
+      ImeInsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_IME frame=[0,0][0,0] visibleFrame=[0,990][1920,1080] visible=false
+        mControl=InsetsSourceControl type=ITYPE_IME mLeash=Surface(name=Surface(name=8d47512 InputMethod)/@0xf898c3f - animation-leash of insets_animation)/@0x88dcad8 mSurfacePosition=Point(0, 84) mInsetsHint=Insets{left=0, top=0, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{8d47512 u0 InputMethod}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=8d47512 InputMethod)/@0xf898c3f - animation-leash of insets_animation)/@0x88dcad8
+        mControlTarget=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+        mImeShowing=false
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_TAPPABLE_ELEMENT frame=[0,990][1920,1080] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{231eb4e u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_TAPPABLE_ELEMENT frame=[0,0][1920,84] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{122aa44 u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_BOTTOM_MANDATORY_GESTURES frame=[0,990][1920,1080] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{231eb4e u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_TOP_MANDATORY_GESTURES frame=[0,0][1920,84] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{122aa44 u0 StatusBar}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_RIGHT_GESTURES frame=[1920,0][1920,1080] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{231eb4e u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_LEFT_GESTURES frame=[0,0][0,1080] visible=true
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{231eb4e u0 NavigationBar0}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_NAVIGATION_BAR frame=[0,990][1920,1080] visible=true
+        mControl=InsetsSourceControl type=ITYPE_NAVIGATION_BAR mLeash=Surface(name=Surface(name=231eb4e NavigationBar0)/@0xc234fa7 - animation-leash of insets_animation)/@0x33d5e31 mSurfacePosition=Point(0, 990) mInsetsHint=Insets{left=0, top=0, right=0, bottom=90} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,990][1920,1080]
+        mWin=Window{231eb4e u0 NavigationBar0}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=231eb4e NavigationBar0)/@0xc234fa7 - animation-leash of insets_animation)/@0x33d5e31
+        mControlTarget=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
+      InsetsSourceProvider
+        mSource=InsetsSource type=ITYPE_STATUS_BAR frame=[0,0][1920,84] visible=true
+        mControl=InsetsSourceControl type=ITYPE_STATUS_BAR mLeash=Surface(name=Surface(name=122aa44 StatusBar)/@0x1f050c1 - animation-leash of insets_animation)/@0xeba3916 mSurfacePosition=Point(0, 0) mInsetsHint=Insets{left=0, top=84, right=0, bottom=0} mSkipAnimationOnce=false
+        mIsLeashReadyForDispatching=true mImeOverrideFrame=[0,0][0,0]
+        mWin=Window{122aa44 u0 StatusBar}
+        mAdapter=ControlAdapter mCapturedLeash=Surface(name=Surface(name=122aa44 StatusBar)/@0x1f050c1 - animation-leash of insets_animation)/@0xeba3916
+        mControlTarget=Window{ced9e1e u0 ru.yandex.yandexmaps/ru.yandex.yandexmaps.SplashScreen}
