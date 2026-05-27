@@ -1,0 +1,155 @@
+2026-05-27 20:34:24.794  [BOOT] file logger init at /storage/emulated/0/Android/data/com.unkwn2.yandexhud/files/hud.log
+2026-05-27 20:34:24.808  [UI] APK boot v8b — ProtocolSvc+Callback+SDK+ARHUD+FIDs
+2026-05-27 20:34:24.810  [UI] Log file: /storage/emulated/0/Android/data/com.unkwn2.yandexhud/files/hud.log
+2026-05-27 20:34:52.306  [UI] PLATFORM ->
+Build: BYD-AUTO/DiLink5.0 For BYD AUTO sdk=32
+  ro.build.product = DiLink5.0
+  ro.product.name = DiLink5.0
+2026-05-27 20:34:57.114  [UI] BIND ->
+2026-05-27 20:34:57.119  [PSB] bindService returned=true
+2026-05-27 20:35:01.123  [UI] bindService returned=true
+2026-05-27 20:35:01.131  [PSB] bound desc=com.autosdk.protocol.IProtocolAidlInterface
+2026-05-27 20:35:11.314  [BydHud] init ERR SecurityException: Neither user 10160 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+2026-05-27 20:35:11.318  [UI] INIT -> init ERR SecurityException: Neither user 10160 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+2026-05-27 20:35:22.089  [UI] PERMS -> device not init
+2026-05-27 20:35:28.303  [UI] FEATURES -> device not init
+2026-05-27 20:35:35.439  [UI] device not init
+2026-05-27 20:35:50.457  [UI] device not init
+2026-05-27 20:35:53.181  [UI] device not init
+2026-05-27 20:35:58.445  [UI] getNaviState transact failed
+2026-05-27 20:36:08.068  [UI] getMapState(0) transact failed
+2026-05-27 20:36:08.071  [UI] getMapState(1) transact failed
+2026-05-27 20:36:08.075  [UI] getMapState(2) transact failed
+2026-05-27 20:36:08.080  [UI] getMapState(3) transact failed
+2026-05-27 20:36:08.085  [UI] getMapState(4) transact failed
+2026-05-27 20:36:23.613  [UI] getNaviState transact failed
+2026-05-27 20:36:26.564  [UI] getMapState(0) transact failed
+2026-05-27 20:36:26.568  [UI] getMapState(1) transact failed
+2026-05-27 20:36:26.574  [UI] getMapState(2) transact failed
+2026-05-27 20:36:26.579  [UI] getMapState(3) transact failed
+2026-05-27 20:36:26.582  [UI] getMapState(4) transact failed
+2026-05-27 20:36:37.002  [BydHud] sendSimpleGuidanceInfo ERR NullPointerException: null receiver
+2026-05-27 20:36:37.005  [UI] sendSimpleGuidanceInfo ERR NullPointerException: null receiver
+2026-05-27 20:36:41.561  [BydHud] sendSimpleGuidanceInfo ERR NullPointerException: null receiver
+2026-05-27 20:36:41.564  [UI] sendSimpleGuidanceInfo ERR NullPointerException: null receiver
+2026-05-27 20:36:44.401  [UI] device not init
+2026-05-27 20:36:54.695  [UI] device not init
+2026-05-27 20:36:54.697  [UI] device not init
+2026-05-27 20:36:54.699  [UI] device not init
+2026-05-27 20:36:54.701  [UI] device not init
+2026-05-27 20:36:54.703  [UI] device not init
+2026-05-27 20:36:54.706  [UI] device not init
+2026-05-27 20:36:56.816  [UI] device not init
+2026-05-27 20:36:56.819  [UI] device not init
+2026-05-27 20:36:56.821  [UI] device not init
+2026-05-27 20:36:56.823  [UI] device not init
+2026-05-27 20:36:56.826  [UI] device not init
+2026-05-27 20:36:56.828  [UI] device not init
+2026-05-27 20:37:14.010  [UI] NAV(3) HUD ON ->
+2026-05-27 20:37:14.011  [PSB] setNavControl(3) desc=com.autosdk.protocol.IProtocolAidlInterface
+2026-05-27 20:37:14.014  [PSB] code=1 strat=ints ok=true reply=0
+2026-05-27 20:37:14.018  [PSB] code=1 strat=model ok=true reply=0
+2026-05-27 20:37:14.025  [PSB] code=2 strat=ints ok=true reply=-4
+2026-05-27 20:37:14.028  [PSB] code=2 strat=model ok=true reply=-4
+2026-05-27 20:37:14.030  [PSB] code=3 strat=ints ok=true reply=-4
+2026-05-27 20:37:14.033  [PSB] code=3 strat=model ok=true reply=-4
+2026-05-27 20:37:14.041  [PSB] code=4 strat=ints ok=false reply=0
+2026-05-27 20:37:14.044  [PSB] code=4 strat=model ok=false reply=0
+2026-05-27 20:37:14.047  [PSB] code=5 strat=ints ok=false reply=0
+2026-05-27 20:37:14.050  [PSB] code=5 strat=model ok=false reply=0
+2026-05-27 20:37:14.054  [PSB] code=6 strat=ints ok=false reply=0
+2026-05-27 20:37:14.057  [PSB] code=6 strat=model ok=false reply=0
+2026-05-27 20:37:14.062  [UI] setNavControl(3) desc=com.autosdk.protocol.IProtocolAidlInterface
+  code=1 strat=ints ok=true reply=0
+  code=1 strat=model ok=true reply=0
+  code=2 strat=ints ok=true reply=-4
+  code=2 strat=model ok=true reply=-4
+  code=3 strat=ints ok=true reply=-4
+  code=3 strat=model ok=true reply=-4
+  code=4 strat=ints ok=false reply=0
+  code=4 strat=model ok=false reply=0
+  code=5 strat=ints ok=false reply=0
+  code=5 strat=model ok=false reply=0
+  code=6 strat=ints ok=false reply=0
+  code=6 strat=model ok=false reply=0
+anyOk=true
+2026-05-27 20:37:24.849  [UI] NAV(0) HUD OFF ->
+2026-05-27 20:37:24.851  [PSB] setNavControl(0) desc=com.autosdk.protocol.IProtocolAidlInterface
+2026-05-27 20:37:24.861  [PSB] code=1 strat=ints ok=true reply=0
+2026-05-27 20:37:24.864  [PSB] code=1 strat=model ok=true reply=0
+2026-05-27 20:37:24.868  [PSB] code=2 strat=ints ok=true reply=-4
+2026-05-27 20:37:24.871  [PSB] code=2 strat=model ok=true reply=-4
+2026-05-27 20:37:24.873  [PSB] code=3 strat=ints ok=true reply=-4
+2026-05-27 20:37:24.876  [PSB] code=3 strat=model ok=true reply=-4
+2026-05-27 20:37:24.879  [PSB] code=4 strat=ints ok=false reply=0
+2026-05-27 20:37:24.882  [PSB] code=4 strat=model ok=false reply=0
+2026-05-27 20:37:24.885  [PSB] code=5 strat=ints ok=false reply=0
+2026-05-27 20:37:24.888  [PSB] code=5 strat=model ok=false reply=0
+2026-05-27 20:37:24.890  [PSB] code=6 strat=ints ok=false reply=0
+2026-05-27 20:37:24.893  [PSB] code=6 strat=model ok=false reply=0
+2026-05-27 20:37:24.897  [UI] setNavControl(0) desc=com.autosdk.protocol.IProtocolAidlInterface
+  code=1 strat=ints ok=true reply=0
+  code=1 strat=model ok=true reply=0
+  code=2 strat=ints ok=true reply=-4
+  code=2 strat=model ok=true reply=-4
+  code=3 strat=ints ok=true reply=-4
+  code=3 strat=model ok=true reply=-4
+  code=4 strat=ints ok=false reply=0
+  code=4 strat=model ok=false reply=0
+  code=5 strat=ints ok=false reply=0
+  code=5 strat=model ok=false reply=0
+  code=6 strat=ints ok=false reply=0
+  code=6 strat=model ok=false reply=0
+anyOk=true
+2026-05-27 20:38:07.034  [UI] NAV(3) HUD ON ->
+2026-05-27 20:38:07.035  [PSB] setNavControl(3) desc=com.autosdk.protocol.IProtocolAidlInterface
+2026-05-27 20:38:07.039  [PSB] code=1 strat=ints ok=true reply=0
+2026-05-27 20:38:07.043  [PSB] code=1 strat=model ok=true reply=0
+2026-05-27 20:38:07.047  [PSB] code=2 strat=ints ok=true reply=-4
+2026-05-27 20:38:07.052  [PSB] code=2 strat=model ok=true reply=-4
+2026-05-27 20:38:07.055  [PSB] code=3 strat=ints ok=true reply=-4
+2026-05-27 20:38:07.059  [PSB] code=3 strat=model ok=true reply=-4
+2026-05-27 20:38:07.064  [PSB] code=4 strat=ints ok=false reply=0
+2026-05-27 20:38:07.066  [PSB] code=4 strat=model ok=false reply=0
+2026-05-27 20:38:07.068  [PSB] code=5 strat=ints ok=false reply=0
+2026-05-27 20:38:07.071  [PSB] code=5 strat=model ok=false reply=0
+2026-05-27 20:38:07.073  [PSB] code=6 strat=ints ok=false reply=0
+2026-05-27 20:38:07.075  [PSB] code=6 strat=model ok=false reply=0
+2026-05-27 20:38:07.080  [UI] setNavControl(3) desc=com.autosdk.protocol.IProtocolAidlInterface
+  code=1 strat=ints ok=true reply=0
+  code=1 strat=model ok=true reply=0
+  code=2 strat=ints ok=true reply=-4
+  code=2 strat=model ok=true reply=-4
+  code=3 strat=ints ok=true reply=-4
+  code=3 strat=model ok=true reply=-4
+  code=4 strat=ints ok=false reply=0
+  code=4 strat=model ok=false reply=0
+  code=5 strat=ints ok=false reply=0
+  code=5 strat=model ok=false reply=0
+  code=6 strat=ints ok=false reply=0
+  code=6 strat=model ok=false reply=0
+anyOk=true
+2026-05-27 20:38:18.832  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.835  [PSB] registerCallback(32001) ERR NullPointerException: Attempt to invoke virtual method 'int com.baidu.naviauto.imaplbs.bean.MapMatchInfo.getRoadLevel()' on a null object reference
+2026-05-27 20:38:18.837  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.839  [PSB] registerCallback(32002) ERR NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+2026-05-27 20:38:18.844  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.846  [PSB] registerCallback(32003) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:18.850  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.853  [PSB] registerCallback(32004) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:18.856  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.858  [PSB] registerCallback(32005) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:18.861  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:18.863  [PSB] registerCallback(50001) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:18.866  [UI] registerCallback(32001) ERR NullPointerException: Attempt to invoke virtual method 'int com.baidu.naviauto.imaplbs.bean.MapMatchInfo.getRoadLevel()' on a null object reference
+registerCallback(32002) ERR NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+registerCallback(32003) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+registerCallback(32004) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+registerCallback(32005) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+registerCallback(50001) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:35.991  [UI] lastCB: onFail: 注册成功
+2026-05-27 20:38:43.315  [PSB] callback: onFail: 注册成功
+2026-05-27 20:38:43.318  [PSB] registerCallback(32004) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:43.321  [UI] registerCallback(32004) ERR NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 20:38:51.582  [UI] log copied to clipboard (10322 chars)
+2026-05-27 20:38:51.585  [UI] adb pull /storage/emulated/0/Android/data/com.unkwn2.yandexhud/files/hud.log

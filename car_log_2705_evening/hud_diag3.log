@@ -1,0 +1,392 @@
+=== HUD DIAG3 Wed May 27 20:51:47 MSK 2026 ===
+--- A: Interface descriptor (INTERFACE_TRANSACTION) ---
+Result: Parcel(
+  0x00000000: 00000019 006e0061 00720064 0069006f '....a.n.d.r.o.i.'
+  0x00000010: 002e0064 00750067 002e0069 00590042 'd...g.u.i...B.Y.'
+  0x00000020: 00410044 00740075 0053006f 00720065 'D.A.u.t.o.S.e.r.'
+  0x00000030: 00650076 00000072                   'v.e.r...        ')
+--- B: Safe read probes (getNaviState etc) via TX 4,5,7 ---
+TX4 (getNaviState? no args):
+Result: Parcel(ffffffff    '....')
+TX5 (isForegroundState? no args):
+Result: Parcel(00000000 ffffd8e5   '........')
+TX7 (getMapState? i32 0):
+Result: Parcel(00000000 bf800000   '........')
+--- C: Feature write format A: i32[1] fid i32[1] 1 i32 val ---
+TX=1 A:
+Result: Parcel(ffffffff    '....')
+TX=2 A:
+Result: Parcel(ffffffff    '....')
+TX=3 A:
+Result: Parcel(ffffffff    '....')
+TX=4 A:
+Result: Parcel(ffffffff    '....')
+TX=5 A:
+Result: Parcel(00000000 ffffd8e5   '........')
+TX=6 A:
+Result: Parcel(ffffd8e5    '....')
+TX=7 A:
+Result: Parcel(00000000 bf800000   '........')
+TX=8 A:
+Result: Parcel(ffffd8e5    '....')
+TX=9 A:
+Result: Parcel(Error: 0xffffffffffffffe0 "Broken pipe")
+TX=10 A:
+service: Service autoservice does not exist
+TX=11 A:
+service: Service autoservice does not exist
+TX=12 A:
+service: Service autoservice does not exist
+TX=13 A:
+Result: Parcel(00000000 00000000   '........')
+TX=14 A:
+Result: Parcel(ffffd8e5    '....')
+TX=15 A:
+Result: Parcel(800003e8    '....')
+TX=16 A:
+Result: Parcel(Error: 0xffffffffffffffe0 "Broken pipe")
+TX=17 A:
+service: Service autoservice does not exist
+TX=18 A:
+service: Service autoservice does not exist
+TX=19 A:
+service: Service autoservice does not exist
+TX=20 A:
+service: Service autoservice does not exist
+TX=25 A:
+service: Service autoservice does not exist
+TX=30 A:
+service: Service autoservice does not exist
+--- D: Feature write format B: i32 devtype i32 1 i32 fid i32 1 i32 val ---
+TX=1 B dt=1001:
+service: Service autoservice does not exist
+TX=2 B dt=1001:
+service: Service autoservice does not exist
+TX=3 B dt=1001:
+service: Service autoservice does not exist
+TX=4 B dt=1001:
+service: Service autoservice does not exist
+TX=5 B dt=1001:
+service: Service autoservice does not exist
+TX=6 B dt=1001:
+service: Service autoservice does not exist
+TX=7 B dt=1001:
+service: Service autoservice does not exist
+TX=8 B dt=1001:
+service: Service autoservice does not exist
+TX=9 B dt=1001:
+service: Service autoservice does not exist
+TX=10 B dt=1001:
+service: Service autoservice does not exist
+TX=1 B dt=1007:
+service: Service autoservice does not exist
+TX=2 B dt=1007:
+service: Service autoservice does not exist
+TX=3 B dt=1007:
+service: Service autoservice does not exist
+TX=4 B dt=1007:
+service: Service autoservice does not exist
+TX=5 B dt=1007:
+service: Service autoservice does not exist
+TX=6 B dt=1007:
+service: Service autoservice does not exist
+TX=7 B dt=1007:
+service: Service autoservice does not exist
+TX=8 B dt=1007:
+service: Service autoservice does not exist
+TX=9 B dt=1007:
+service: Service autoservice does not exist
+TX=10 B dt=1007:
+service: Service autoservice does not exist
+TX=1 B dt=1009:
+service: Service autoservice does not exist
+TX=2 B dt=1009:
+service: Service autoservice does not exist
+TX=3 B dt=1009:
+service: Service autoservice does not exist
+TX=4 B dt=1009:
+service: Service autoservice does not exist
+TX=5 B dt=1009:
+service: Service autoservice does not exist
+TX=6 B dt=1009:
+service: Service autoservice does not exist
+TX=7 B dt=1009:
+service: Service autoservice does not exist
+TX=8 B dt=1009:
+service: Service autoservice does not exist
+TX=9 B dt=1009:
+service: Service autoservice does not exist
+TX=10 B dt=1009:
+service: Service autoservice does not exist
+TX=1 B dt=1013:
+service: Service autoservice does not exist
+TX=2 B dt=1013:
+service: Service autoservice does not exist
+TX=3 B dt=1013:
+service: Service autoservice does not exist
+TX=4 B dt=1013:
+service: Service autoservice does not exist
+TX=5 B dt=1013:
+service: Service autoservice does not exist
+TX=6 B dt=1013:
+service: Service autoservice does not exist
+TX=7 B dt=1013:
+service: Service autoservice does not exist
+TX=8 B dt=1013:
+service: Service autoservice does not exist
+TX=9 B dt=1013:
+service: Service autoservice does not exist
+TX=10 B dt=1013:
+service: Service autoservice does not exist
+--- E: Format C (set-like): i32 1 i32 fid i32 val ---
+TX=1 C:
+service: Service autoservice does not exist
+TX=2 C:
+service: Service autoservice does not exist
+TX=3 C:
+service: Service autoservice does not exist
+TX=4 C:
+service: Service autoservice does not exist
+TX=5 C:
+service: Service autoservice does not exist
+TX=6 C:
+service: Service autoservice does not exist
+TX=7 C:
+service: Service autoservice does not exist
+TX=8 C:
+service: Service autoservice does not exist
+TX=9 C:
+service: Service autoservice does not exist
+TX=10 C:
+service: Service autoservice does not exist
+--- F: Format D (IBYDAutoDevice-like): i32 devtype i32 1 i32 fid i32 val ---
+TX=1 D dt=1001:
+service: Service autoservice does not exist
+TX=2 D dt=1001:
+service: Service autoservice does not exist
+TX=3 D dt=1001:
+service: Service autoservice does not exist
+TX=4 D dt=1001:
+service: Service autoservice does not exist
+TX=5 D dt=1001:
+service: Service autoservice does not exist
+TX=6 D dt=1001:
+service: Service autoservice does not exist
+TX=7 D dt=1001:
+service: Service autoservice does not exist
+TX=8 D dt=1001:
+service: Service autoservice does not exist
+TX=9 D dt=1001:
+service: Service autoservice does not exist
+TX=10 D dt=1001:
+service: Service autoservice does not exist
+--- G: HUD OFF (val=0) via promising TX codes ---
+TX=1 OFF:
+service: Service autoservice does not exist
+TX=2 OFF:
+service: Service autoservice does not exist
+TX=3 OFF:
+service: Service autoservice does not exist
+TX=4 OFF:
+service: Service autoservice does not exist
+TX=5 OFF:
+service: Service autoservice does not exist
+TX=6 OFF:
+service: Service autoservice does not exist
+TX=7 OFF:
+service: Service autoservice does not exist
+TX=8 OFF:
+service: Service autoservice does not exist
+TX=9 OFF:
+service: Service autoservice does not exist
+TX=10 OFF:
+service: Service autoservice does not exist
+--- H: dumpsys autoservice ---
+Can't find service: autoservice
+--- I: Framework JAR search ---
+=== /system/framework ===
+-rw-r--r-- 1 root root    10570 2009-01-01 03:00 /system/framework/DevOperator.jar
+-rw-r--r-- 1 root root    14726 2009-01-01 03:00 /system/framework/NetMonitor.jar
+-rw-r--r-- 1 root root    28765 2009-01-01 03:00 /system/framework/QPerformance.jar
+-rw-r--r-- 1 root root     4574 2009-01-01 03:00 /system/framework/QXPerformance.jar
+-rw-r--r-- 1 root root    12221 2009-01-01 03:00 /system/framework/UxPerformance.jar
+-rw-r--r-- 1 root root   105261 2009-01-01 03:00 /system/framework/WfdCommon.jar
+-rw-r--r-- 1 root root     4450 2009-01-01 03:00 /system/framework/abx.jar
+-rw-r--r-- 1 root root   544874 2009-01-01 03:00 /system/framework/am.jar
+-rw-r--r-- 1 root root   253562 2009-01-01 03:00 /system/framework/android.hardware.wifi.supplicant-V1.0-java.jar
+-rw-r--r-- 1 root root   329334 2009-01-01 03:00 /system/framework/android.hardware.wifi.supplicant-V1.1-java.jar
+-rw-r--r-- 1 root root   448774 2009-01-01 03:00 /system/framework/android.hardware.wifi.supplicant-V1.2-java.jar
+-rw-r--r-- 1 root root   848070 2009-01-01 03:00 /system/framework/android.hardware.wifi.supplicant-V1.3-java.jar
+-rw-r--r-- 1 root root    12798 2009-01-01 03:00 /system/framework/android.hidl.base-V1.0-java.jar
+-rw-r--r-- 1 root root    29874 2009-01-01 03:00 /system/framework/android.hidl.manager-V1.0-java.jar
+-rw-r--r-- 1 root root    33154 2009-01-01 03:00 /system/framework/android.test.base.jar
+-rw-r--r-- 1 root root   614654 2009-01-01 03:00 /system/framework/android.test.mock.jar
+-rw-r--r-- 1 root root   107042 2009-01-01 03:00 /system/framework/android.test.runner.jar
+-rw-r--r-- 1 root root     5702 2009-01-01 03:00 /system/framework/appwidget.jar
+-rw-r--r-- 1 root root    31258 2009-01-01 03:00 /system/framework/bmgr.jar
+-rw-r--r-- 1 root root    60589 2009-01-01 03:00 /system/framework/bmmcamera.jar
+-rw-r--r-- 1 root root     7326 2009-01-01 03:00 /system/framework/bu.jar
+-rw-r--r-- 1 root root     5350 2009-01-01 03:00 /system/framework/com.android.future.usb.accessory.jar
+-rw-r--r-- 1 root root    26922 2009-01-01 03:00 /system/framework/com.android.location.provider.jar
+-rw-r--r-- 1 root root     9274 2009-01-01 03:00 /system/framework/com.android.media.remotedisplay.jar
+-rw-r--r-- 1 root root     2946 2009-01-01 03:00 /system/framework/com.android.mediadrm.signer.jar
+-rw-r--r-- 1 root root     7986 2009-01-01 03:00 /system/framework/com.android.nfc_extras.jar
+-rw-r--r-- 1 root root    19958 2009-01-01 03:00 /system/framework/content.jar
+-rw-r--r-- 1 root root   231333 2009-01-01 03:00 /system/framework/dilink-compat-sdk.jar
+-rw-r--r-- 1 root root    46050 2009-01-01 03:00 /system/framework/ethernet-service.jar
+-rw-r--r-- 1 root root  2219810 2009-01-01 03:00 /system/framework/ext.jar
+-rw-r--r-- 1 root root     3813 2009-01-01 03:00 /system/framework/framework-graphics.jar
+-rw-r--r-- 1 root root 38824077 2009-01-01 03:00 /system/framework/framework.jar
+-rw-r--r-- 1 root root    21766 2009-01-01 03:00 /system/framework/hid.jar
+-rw-r--r-- 1 root root   571397 2009-01-01 03:00 /system/framework/ims-common.jar
+-rw-r--r-- 1 root root    15634 2009-01-01 03:00 /system/framework/incident-helper-cmd.jar
+-rw-r--r-- 1 root root    60966 2009-01-01 03:00 /system/framework/javax.obex.jar
+-rw-r--r-- 1 root root     3734 2009-01-01 03:00 /system/framework/locksettings.jar
+-rw-r--r-- 1 root root   115462 2009-01-01 03:00 /system/framework/monkey.jar
+-rw-r--r-- 1 root root   487158 2009-01-01 03:00 /system/framework/org.apache.http.legacy.jar
+-rw-r--r-- 1 root root  1048113 2009-01-01 03:00 /system/framework/panosdk.jar
+-rw-r--r-- 1 root root    69961 2009-01-01 03:00 /system/framework/qcom.fmradio.jar
+-rw-r--r-- 1 root root    12594 2009-01-01 03:00 /system/framework/requestsync.jar
+-rw-r--r-- 1 root root 21589362 2009-01-01 03:00 /system/framework/services.jar
+-rw-r--r-- 1 root root    11250 2009-01-01 03:00 /system/framework/sm.jar
+-rw-r--r-- 1 root root    13398 2009-01-01 03:00 /system/framework/svc.jar
+-rw-r--r-- 1 root root     7778 2009-01-01 03:00 /system/framework/tcmclient.jar
+-rw-r--r-- 1 root root      833 2009-01-01 03:00 /system/framework/tcmiface.jar
+-rw-r--r-- 1 root root    16390 2009-01-01 03:00 /system/framework/telecom.jar
+-rw-r--r-- 1 root root  4209457 2009-01-01 03:00 /system/framework/telephony-common.jar
+-rw-r--r-- 1 root root    33673 2009-01-01 03:00 /system/framework/telephony-ext.jar
+-rw-r--r-- 1 root root   408986 2009-01-01 03:00 /system/framework/uiautomator.jar
+-rw-r--r-- 1 root root    24374 2009-01-01 03:00 /system/framework/uinput.jar
+-rw-r--r-- 1 root root   233733 2009-01-01 03:00 /system/framework/upgradeserver-sdk.jar
+-rw-r--r-- 1 root root    19802 2009-01-01 03:00 /system/framework/vendor.qti.hardware.radio.qtiradio-V1-java.jar
+-rw-r--r-- 1 root root   819957 2009-01-01 03:00 /system/framework/voip-common.jar
+-rw-r--r-- 1 root root     4454 2009-01-01 03:00 /system/framework/vr.jar
+=== /system_ext/framework ===
+-rw-r--r-- 1 root root   11405 2009-01-01 03:00 /system_ext/framework/ActivityExt.jar
+-rw-r--r-- 1 root root    4550 2009-01-01 03:00 /system_ext/framework/audiosphere.jar
+-rw-r--r-- 1 root root   38178 2009-01-01 03:00 /system_ext/framework/com.nxp.nfc.nq.jar
+-rw-r--r-- 1 root root  359606 2009-01-01 03:00 /system_ext/framework/com.qti.dpmframework.jar
+-rw-r--r-- 1 root root  274638 2009-01-01 03:00 /system_ext/framework/com.qti.location.sdk.jar
+-rw-r--r-- 1 root root    6774 2009-01-01 03:00 /system_ext/framework/com.qti.media.secureprocessor.jar
+-rw-r--r-- 1 root root   71074 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
+-rw-r--r-- 1 root root  105386 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
+-rw-r--r-- 1 root root  127790 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.imscmservice-V2.2-java.jar
+-rw-r--r-- 1 root root   91778 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
+-rw-r--r-- 1 root root  142446 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
+-rw-r--r-- 1 root root  187226 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar
+-rw-r--r-- 1 root root  257238 2009-01-01 03:00 /system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar
+-rw-r--r-- 1 root root   60358 2009-01-01 03:00 /system_ext/framework/com.quicinc.cne.api-V1.0-java.jar
+-rw-r--r-- 1 root root   75282 2009-01-01 03:00 /system_ext/framework/com.quicinc.cne.api-V1.1-java.jar
+-rw-r--r-- 1 root root    9458 2009-01-01 03:00 /system_ext/framework/com.quicinc.cne.constants-V1.0-java.jar
+-rw-r--r-- 1 root root    9614 2009-01-01 03:00 /system_ext/framework/com.quicinc.cne.constants-V2.0-java.jar
+-rw-r--r-- 1 root root    4758 2009-01-01 03:00 /system_ext/framework/com.quicinc.cne.constants-V2.1-java.jar
+-rw-r--r-- 1 root root   14794 2009-01-01 03:00 /system_ext/framework/dpmapi.jar
+-rw-r--r-- 1 root root   25558 2009-01-01 03:00 /system_ext/framework/embmslibrary.jar
+-rw-r--r-- 1 root root   81582 2009-01-01 03:00 /system_ext/framework/extphonelib.jar
+-rw-r--r-- 1 root root   17066 2009-01-01 03:00 /system_ext/framework/izat.xt.srv.jar
+-rw-r--r-- 1 root root  149794 2009-01-01 03:00 /system_ext/framework/qcrilhook.jar
+-rw-r--r-- 1 root root   22646 2009-01-01 03:00 /system_ext/framework/qmapbridge.jar
+-rw-r--r-- 1 root root 1018526 2009-01-01 03:00 /system_ext/framework/qti-telephony-common.jar
+-rw-r--r-- 1 root root   29874 2009-01-01 03:00 /system_ext/framework/qti-telephony-hidl-wrapper.jar
+-rw-r--r-- 1 root root   49430 2009-01-01 03:00 /system_ext/framework/qti-telephony-utils.jar
+-rw-r--r-- 1 root root  296850 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V1.0-java.jar
+-rw-r--r-- 1 root root  191122 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.0-java.jar
+-rw-r--r-- 1 root root  244214 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.1-java.jar
+-rw-r--r-- 1 root root  264746 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.2-java.jar
+-rw-r--r-- 1 root root  295814 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.3-java.jar
+-rw-r--r-- 1 root root  325958 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.4-java.jar
+-rw-r--r-- 1 root root  392330 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.factory-V2.5-java.jar
+-rw-r--r-- 1 root root   25114 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.mwqem-V1.0-java.jar
+-rw-r--r-- 1 root root   25062 2009-01-01 03:00 /system_ext/framework/vendor.qti.data.slm-V1.0-java.jar
+-rw-r--r-- 1 root root   18838 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+-rw-r--r-- 1 root root   20386 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.capabilityconfigstore-V1.0-java.jar
+-rw-r--r-- 1 root root   52402 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.cne.internal.api-V1.0-java.jar
+-rw-r--r-- 1 root root   11102 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.cne.internal.constants-V1.0-java.jar
+-rw-r--r-- 1 root root   64486 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.0-java.jar
+-rw-r--r-- 1 root root   82950 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.cne.internal.server-V1.1-java.jar
+-rw-r--r-- 1 root root   35494 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.connection-V1.0-java.jar
+-rw-r--r-- 1 root root   41722 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.connection-V1.1-java.jar
+-rw-r--r-- 1 root root   44914 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
+-rw-r--r-- 1 root root   50570 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.dynamicdds-V1.1-java.jar
+-rw-r--r-- 1 root root   49538 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.flow-V1.0-java.jar
+-rw-r--r-- 1 root root  951050 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.iwlan-V1.0-java.jar
+-rw-r--r-- 1 root root 1464862 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.iwlan-V1.1-java.jar
+-rw-r--r-- 1 root root   32338 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
+-rw-r--r-- 1 root root   34826 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.lce-V1.0-java.jar
+-rw-r--r-- 1 root root   35146 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+-rw-r--r-- 1 root root   39982 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.dpmservice-V1.0-java.jar
+-rw-r--r-- 1 root root   47158 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.dpmservice-V1.1-java.jar
+-rw-r--r-- 1 root root   84842 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.fingerprint-V1.0-java.jar
+-rw-r--r-- 1 root root   31470 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.mwqemadapter-V1.0-java.jar
+-rw-r--r-- 1 root root   18270 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+-rw-r--r-- 1 root root   31362 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.slmadapter-V1.0-java.jar
+-rw-r--r-- 1 root root   20958 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.wigig.netperftuner-V1.0-java.jar
+-rw-r--r-- 1 root root   34578 2009-01-01 03:00 /system_ext/framework/vendor.qti.hardware.wigig.supptunnel-V1.0-java.jar
+-rw-r--r-- 1 root root   30558 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.callcapability-V1.0-java.jar
+-rw-r--r-- 1 root root   23930 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.callinfo-V1.0-java.jar
+-rw-r--r-- 1 root root   57250 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.configservice-V1.0-java.jar
+-rw-r--r-- 1 root root   79510 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.configservice-V1.1-java.jar
+-rw-r--r-- 1 root root   30578 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar
+-rw-r--r-- 1 root root   89346 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.factory-V1.0-java.jar
+-rw-r--r-- 1 root root  111394 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.factory-V1.1-java.jar
+-rw-r--r-- 1 root root  187734 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar
+-rw-r--r-- 1 root root  257866 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.factory-V2.1-java.jar
+-rw-r--r-- 1 root root  307726 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.factory-V2.2-java.jar
+-rw-r--r-- 1 root root   31214 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
+-rw-r--r-- 1 root root   63062 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsconfig-V1.1-java.jar
+-rw-r--r-- 1 root root   64610 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsconfig-V2.0-java.jar
+-rw-r--r-- 1 root root   79722 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsconfig-V2.1-java.jar
+-rw-r--r-- 1 root root   65402 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcssip-V1.0-java.jar
+-rw-r--r-- 1 root root   88810 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcssip-V1.1-java.jar
+-rw-r--r-- 1 root root  114290 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcssip-V1.2-java.jar
+-rw-r--r-- 1 root root   47082 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsuce-V1.0-java.jar
+-rw-r--r-- 1 root root   60926 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsuce-V1.1-java.jar
+-rw-r--r-- 1 root root   73378 2009-01-01 03:00 /system_ext/framework/vendor.qti.ims.rcsuce-V1.2-java.jar
+-rw-r--r-- 1 root root   28894 2009-01-01 03:00 /system_ext/framework/vendor.qti.latency-V2.0-java.jar
+-rw-r--r-- 1 root root   35554 2009-01-01 03:00 /system_ext/framework/vendor.qti.latency-V2.1-java.jar
+-rw-r--r-- 1 root root   56402 2009-01-01 03:00 /system_ext/framework/vendor.qti.voiceprint-V1.0-java.jar
+=== /vendor/framework ===
+=== /product/framework ===
+-rw-r--r-- 1 root root  64378 2009-01-01 03:00 /product/framework/com.qti.snapdragon.sdk.display.jar
+-rw-r--r-- 1 root root  81582 2009-01-01 03:00 /product/framework/extphonelib-product.jar
+-rw-r--r-- 1 root root 109774 2009-01-01 03:00 /product/framework/ims-ext-common.jar
+-rw-r--r-- 1 root root  29874 2009-01-01 03:00 /product/framework/qti-telephony-hidl-wrapper-prd.jar
+-rw-r--r-- 1 root root  49430 2009-01-01 03:00 /product/framework/qti-telephony-utils-prd.jar
+-rw-r--r-- 1 root root   9170 2009-01-01 03:00 /product/framework/remotesimlockmanagerlibrary.jar
+-rw-r--r-- 1 root root   9170 2009-01-01 03:00 /product/framework/uimgbalibrary.jar
+-rw-r--r-- 1 root root   6902 2009-01-01 03:00 /product/framework/uimgbamanagerlibrary.jar
+-rw-r--r-- 1 root root  27946 2009-01-01 03:00 /product/framework/uimlpalibrary.jar
+-rw-r--r-- 1 root root  12362 2009-01-01 03:00 /product/framework/uimremoteclientlibrary.jar
+-rw-r--r-- 1 root root  13190 2009-01-01 03:00 /product/framework/uimremoteserverlibrary.jar
+-rw-r--r-- 1 root root  13762 2009-01-01 03:00 /product/framework/uimremotesimlocklibrary.jar
+-rw-r--r-- 1 root root  73538 2009-01-01 03:00 /product/framework/uimservicelibrary.jar
+=== /odm/framework ===
+--- J: Boot classpath ---
+
+
+--- K: Service list (all BYD-related) ---
+0	AutoContainerNative: []
+1	BYDMgmt: [android.os.IBYDMgmtService]
+2	DevOperatorService: [byd.DevOperator.IDevOperator]
+6	IBYDCDRService: [android.cdrservice.IBYDCDRService]
+7	IBYDSDCardService: [android.sdcardservice.IBYDSDCardService]
+8	NetMonitorService: [byd.NetMonitor.INetMonitor]
+17	acquisitionsrv: [android.gui.IBYDAcquisitionService]
+46	auto_container: [android.os.IAutoContainer]
+47	autofill: [android.view.autofill.IAutoFillManager]
+59	byd_auth: [android.app.IBYDAuthService]
+60	byd_datacached: [android.os.appstartup.IAppStartupDataCachedManager]
+61	byd_updated_service: [com.byd.hotfix.IUpdateServiceInterface]
+62	bydcameramanager: [android.hardware.IBYDCameraService]
+64	carpadinfosrv: []
+65	carrier_config: [com.android.internal.telephony.ICarrierConfigLoader]
+69	cloud_server_app_service: [com.byd.cloudserviceapp.aidl.ICloudServiceApp]
+74	connect_manager_service: [com.byd.connectmanager.IBYDConnectManager]
+82	crossservice: [android.gui.BYDCrossServer]
+93	diagnosticsrv: [android.gui.IBYDDiagnosticService]
+160	mirror: [com.byd.mirror.IMirrorManagerService]
+163	mqttserv: [android.os.IBYDCloudMqttServer]
+246	ts.car.uds.sdk.IUdsService/default: [ts.car.uds.sdk.IUdsService]
+250	upgrade_server: [com.byd.upgradesdk.IUpgradeServer]
+257	vendor.byd.ipel.IIpelEngine/default: []
+=== DONE ===

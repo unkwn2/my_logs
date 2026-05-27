@@ -1,0 +1,74 @@
+2026-05-27 21:04:44.766  [HUD-Main] MainActivity created. Log at /storage/emulated/0/Android/data/com.unkwn2.yandexhud/files/hud.log
+2026-05-27 21:05:30.159  [HUD-Proto] bindService returned=true
+2026-05-27 21:05:30.219  [HUD-Proto] onServiceConnected ComponentInfo{com.byd.amapservice/com.autosdk.protocol.service.ProtocolService} binder=android.os.BinderProxy@b6fd22b
+2026-05-27 21:05:37.152  [HUD-Proto] bind() already bound
+2026-05-27 21:05:44.059  [HUD-Proto] getNaviState -> null
+2026-05-27 21:05:44.062  [HUD-Proto] isForegroundState -> null
+2026-05-27 21:05:54.863  [HUD-Proto] getMapState(0) -> null
+2026-05-27 21:05:54.865  [HUD-Proto] getMapState(1) -> null
+2026-05-27 21:05:54.868  [HUD-Proto] getMapState(2) -> null
+2026-05-27 21:05:54.871  [HUD-Proto] getMapState(3) -> null
+2026-05-27 21:05:54.873  [HUD-Proto] getMapState(4) -> null
+2026-05-27 21:05:54.878  [HUD-Proto] getMapState(5) -> null
+2026-05-27 21:05:54.881  [HUD-Proto] getMapState(6) -> null
+2026-05-27 21:05:54.884  [HUD-Proto] getMapState(7) -> null
+2026-05-27 21:05:54.886  [HUD-Proto] getMapState(8) -> null
+2026-05-27 21:05:54.889  [HUD-Proto] getMapState(9) -> null
+2026-05-27 21:05:54.891  [HUD-Proto] getMapState(10) -> null
+2026-05-27 21:05:54.894  [HUD-Proto] getMapState(11) -> null
+2026-05-27 21:05:54.897  [HUD-Proto] getMapState(12) -> null
+2026-05-27 21:06:17.601  [HUD-Proto] bind() already bound
+2026-05-27 21:06:21.862  [HUD-Proto] getNaviState -> null
+2026-05-27 21:06:21.864  [HUD-Proto] isForegroundState -> null
+2026-05-27 21:06:27.861  [HUD-Proto] getMapState(0) -> null
+2026-05-27 21:06:27.864  [HUD-Proto] getMapState(1) -> null
+2026-05-27 21:06:27.867  [HUD-Proto] getMapState(2) -> null
+2026-05-27 21:06:27.871  [HUD-Proto] getMapState(3) -> null
+2026-05-27 21:06:27.875  [HUD-Proto] getMapState(4) -> null
+2026-05-27 21:06:27.878  [HUD-Proto] getMapState(5) -> null
+2026-05-27 21:06:27.880  [HUD-Proto] getMapState(6) -> null
+2026-05-27 21:06:27.883  [HUD-Proto] getMapState(7) -> null
+2026-05-27 21:06:27.886  [HUD-Proto] getMapState(8) -> null
+2026-05-27 21:06:27.888  [HUD-Proto] getMapState(9) -> null
+2026-05-27 21:06:27.892  [HUD-Proto] getMapState(10) -> null
+2026-05-27 21:06:27.894  [HUD-Proto] getMapState(11) -> null
+2026-05-27 21:06:27.896  [HUD-Proto] getMapState(12) -> null
+2026-05-27 21:06:33.812  [HUD-Proto] setICompatibleIDVersion(1) OK
+2026-05-27 21:06:45.384  [HUD-Bcast] NAVI_STATE state=1
+2026-05-27 21:06:51.332  [HUD-Bcast] GUIDE turn=3 dist=200
+2026-05-27 21:06:56.410  [HUD-Bcast] GUIDE turn=0 dist=150
+2026-05-27 21:06:56.562  [HUD-Bcast] GUIDE turn=1 dist=160
+2026-05-27 21:06:56.714  [HUD-Bcast] GUIDE turn=2 dist=170
+2026-05-27 21:06:56.867  [HUD-Bcast] GUIDE turn=3 dist=180
+2026-05-27 21:06:57.019  [HUD-Bcast] GUIDE turn=4 dist=190
+2026-05-27 21:06:57.171  [HUD-Bcast] GUIDE turn=5 dist=200
+2026-05-27 21:06:57.324  [HUD-Bcast] GUIDE turn=6 dist=210
+2026-05-27 21:06:57.478  [HUD-Bcast] GUIDE turn=7 dist=220
+2026-05-27 21:06:57.632  [HUD-Bcast] GUIDE turn=8 dist=230
+2026-05-27 21:06:57.784  [HUD-Bcast] GUIDE turn=9 dist=240
+2026-05-27 21:06:57.936  [HUD-Bcast] GUIDE turn=10 dist=250
+2026-05-27 21:06:58.088  [HUD-Bcast] GUIDE turn=11 dist=260
+2026-05-27 21:06:58.240  [HUD-Bcast] GUIDE turn=12 dist=270
+2026-05-27 21:07:08.643  [HUD-Bcast] NAVI_STATE state=9
+2026-05-27 21:07:24.877  [HUD-Proto] bind() already bound
+2026-05-27 21:07:30.560  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.562  [HUD-Proto] registerCallBack id=32001 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'int com.baidu.naviauto.imaplbs.bean.MapMatchInfo.getRoadLevel()' on a null object reference
+2026-05-27 21:07:30.566  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.568  [HUD-Proto] registerCallBack id=32002 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'int java.lang.Integer.intValue()' on a null object reference
+2026-05-27 21:07:30.570  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.572  [HUD-Proto] registerCallBack id=32003 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 21:07:30.576  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.578  [HUD-Proto] registerCallBack id=32004 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 21:07:30.580  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.582  [HUD-Proto] registerCallBack id=32005 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 21:07:30.584  [HUD-Proto] onSuccess 注册成功
+2026-05-27 21:07:30.586  [HUD-Proto] registerCallBack id=50001 ex: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.Boolean.booleanValue()' on a null object reference
+2026-05-27 21:11:12.223  [HUD-Proto] bind() already bound
+2026-05-27 21:11:13.494  [HUD-Proto] setICompatibleIDVersion(1) OK
+2026-05-27 21:11:17.614  [HUD-Proto] setProtocolModelData pid=30406 act=1 op=-2147483648 OK-transact
+2026-05-27 21:11:20.461  [HUD-Proto] setProtocolModelData pid=30000 act=-2147483648 op=3 OK-transact
+2026-05-27 21:11:23.891  [HUD-Proto] setProtocolModelData pid=30000 act=-2147483648 op=4 OK-transact
+2026-05-27 21:11:25.409  [HUD-Proto] setProtocolModelData pid=30000 act=-2147483648 op=3 OK-transact
+2026-05-27 21:11:26.212  [HUD-Main] btn ex: android.content.ActivityNotFoundException: No Activity found to handle Intent { act=android.settings.ACCESSIBILITY_SETTINGS }
+2026-05-27 21:11:45.940  [HUD-Proto] setProtocolModelData pid=30000 act=-2147483648 op=4 OK-transact
+2026-05-27 21:11:47.875  [HUD-Proto] unbind done
