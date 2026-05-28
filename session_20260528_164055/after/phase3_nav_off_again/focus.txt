@@ -1,0 +1,8 @@
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=Window{c639c1f u0 com.byd.carsettings/com.byd.carsettings.MainActivity}
+  mFocusedApp=ActivityRecord{85d935b u0 com.byd.carsettings/.MainActivity t21}

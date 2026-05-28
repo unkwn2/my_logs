@@ -1,0 +1,9 @@
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=null
+  mFocusedApp=null
+  mCurrentFocus=Window{3e4ce82 u0 com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity}
+  mFocusedApp=ActivityRecord{ed3862 u0 com.alphainventor.filemanager/.activity.MainActivity t16}
+    mTopFullscreenOpaqueWindowState=Window{3e4ce82 u0 com.alphainventor.filemanager/com.alphainventor.filemanager.activity.MainActivity}
