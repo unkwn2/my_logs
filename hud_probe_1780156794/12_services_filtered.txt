@@ -1,0 +1,355 @@
+
+  * ServiceRecord{80926b5 u0 com.byd.amapservice/com.example.amapservice.AmapService}
+    intent={act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService}
+    packageName=com.byd.amapservice
+    processName=com.byd.amapservice
+    baseDir=/system/priv-app/AdapterAmapService/AdapterAmapService.apk
+    dataDir=/data/user/0/com.byd.amapservice
+    app=ProcessRecord{7da0e73 3734:com.byd.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.unkwn2.yandexhud
+    recentCallingUid=10173
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.byd.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:28; callerTargetSdkVersion:28; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=2 foregroundNoti=Notification(channel=default shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-19h59m1s748ms startingBgTimeout=--
+    lastActivity=-1h50m27s899ms restartTime=-4h39m13s917ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+
+--
+
+  * ServiceRecord{9bbcc15 u0 com.byd.weatherhelper/.WeatherFloatWindowService}
+    intent={act=com.byd.controlweather pkg=com.byd.weatherhelper cmp=com.byd.weatherhelper/.WeatherFloatWindowService}
+    packageName=com.byd.weatherhelper
+    processName=com.byd.weatherhelper
+    baseDir=/system/app/WeatherHelper/WeatherHelper.apk
+    dataDir=/data/user/0/com.byd.weatherhelper
+    app=ProcessRecord{2abcd0e 23653:com.byd.weatherhelper/u0a29}
+--
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.android.systemui; callingUid: 10080; uidState: PER ; intent: Intent { act=com.byd.controlweather pkg=com.byd.weatherhelper cmp=com.byd.weatherhelper/.WeatherFloatWindowService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:31; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m34s54ms startingBgTimeout=--
+    lastActivity=-2m33s248ms restartTime=-2m33s861ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{a7546a1 CREATE}:
+      intent={cmp=com.byd.weatherhelper/.WeatherFloatWindowService}
+      binder=android.os.BinderProxy@fa50c6
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{e54e887 ProcessRecord{2abcd0e 23653:com.byd.weatherhelper/u0a29}}
+        Per-process Connections:
+          ConnectionRecord{401a34e u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@963ae49}
+    * IntentBindRecord{86a53b4 CREATE}:
+      intent={act=com.byd.controlweather pkg=com.byd.weatherhelper cmp=com.byd.weatherhelper/.WeatherFloatWindowService}
+      binder=android.os.BinderProxy@bfeabdd
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{dbab352 ProcessRecord{4328901 1940:com.android.systemui/u0a80}}
+        Per-process Connections:
+          ConnectionRecord{2996709 u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    All Connections:
+      ConnectionRecord{401a34e u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@963ae49}
+      ConnectionRecord{2996709 u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+
+  * ServiceRecord{bf3debf u0 com.byd.yunnian/com.byd.yunnain.service.YunNianService}
+    intent={act=com.byd.yunnian.secret pkg=com.byd.yunnian}
+    packageName=com.byd.yunnian
+    processName=com.byd.yunnian:remote
+--
+
+  * ServiceRecord{c29ad51 u0 com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+    intent={cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.byd.launchermap
+    recentCallingUid=10038
+    allowStartForeground=52
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.byd.launchermap; callingUid: 10038; uidState: IMPF; intent: Intent { cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService (has extras) }; code:ACTIVITY_STARTER; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m32s594ms startingBgTimeout=--
+    lastActivity=-2m32s591ms restartTime=-2m32s591ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2c74f0f CREATE}:
+      intent={cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+      binder=null
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d8d6b9c ProcessRecord{3f86fe6 23747:com.byd.launchermap/u0a38}}
+        Per-process Connections:
+          ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+    All Connections:
+      ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+
+  * ServiceRecord{55a2294 u0 com.byd.diLinkAccount/com.byd.accountcenter.aidl.BYDAccount3PartService}
+    intent={act=diLink_Account_sdk_for_3part pkg=com.byd.diLinkAccount}
+    packageName=com.byd.diLinkAccount
+    processName=com.byd.diLinkAccount
+--
+
+  * ServiceRecord{df34975 u0 com.android.launcher3/.cardwindow.CardWindowService}
+    intent={cmp=com.android.launcher3/.cardwindow.CardWindowService}
+    packageName=com.android.launcher3
+    processName=com.android.launcher3
+    baseDir=/system/priv-app/Launcher3/Launcher3.apk
+    dataDir=/data/user/0/com.android.launcher3
+    app=ProcessRecord{b67fa52 15587:com.android.launcher3/1000}
+--
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.android.launcher3; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.android.launcher3/.cardwindow.CardWindowService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2h3m49s23ms startingBgTimeout=-29m42s878ms
+    lastActivity=-2m30s981ms restartTime=-29m57s879ms createdFromFg=false
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=2
+
+  * ServiceRecord{c1e942 u0 com.byd.bluetoothcall/.model.service.BluetoothCallService}
+--
+
+  * ServiceRecord{1251292 u0 com.byd.launchermap/com.autosdk.protocol.service.ProtocolService}
+    intent={act=action.com.autosdk.protocol.ProtocolService cmp=com.byd.launchermap/com.autosdk.protocol.service.ProtocolService}
+    packageName=com.byd.launchermap
+    processName=com.byd.launchermap
+    baseDir=/data/app/~~w4NbNkGPiAJ5cNMwCbYQwQ==/com.byd.launchermap-_FOdqZ0Pefmj2DyjhjNkYg==/base.apk
+    dataDir=/data/user/0/com.byd.launchermap
+    app=ProcessRecord{3f86fe6 23747:com.byd.launchermap/u0a38}
+--
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.byd.dipilot.dms; callingUid: 1000; uidState: PER ; intent: Intent { act=action.com.autosdk.protocol.ProtocolService cmp=com.byd.launchermap/com.autosdk.protocol.service.ProtocolService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:30; callerTargetSdkVersion:32; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m34s0ms startingBgTimeout=--
+    lastActivity=-2m33s77ms restartTime=-2m33s688ms createdFromFg=false
+    Bindings:
+    * IntentBindRecord{230ece6 CREATE}:
+      intent={act=action.com.autosdk.protocol.ProtocolService cmp=com.byd.launchermap/com.autosdk.protocol.service.ProtocolService}
+      binder=android.os.BinderProxy@6e72227
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{dfb9cd4 ProcessRecord{5b5051 4374:com.byd.autovoice/1000}}
+        Per-process Connections:
+          ConnectionRecord{93d5f4b u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@f5b181a}
+      * Client AppBindRecord{de28e7d ProcessRecord{7da0e73 3734:com.byd.amapservice/1000}}
+        Per-process Connections:
+          ConnectionRecord{aaf5458 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@9a8b53b}
+      * Client AppBindRecord{28ef172 ProcessRecord{90010b6 6676:dms.remoteservice/1000}}
+        Per-process Connections:
+          ConnectionRecord{d69ee41 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@ff15128}
+    All Connections:
+      ConnectionRecord{aaf5458 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@9a8b53b}
+      ConnectionRecord{93d5f4b u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@f5b181a}
+      ConnectionRecord{d69ee41 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@ff15128}
+
+  * ServiceRecord{bd0d09f u0 com.byd.autovoice/.service.NaviTTSService}
+    intent={act=com.byd.autovoice.NAVI_TTS pkg=com.byd.autovoice}
+    packageName=com.byd.autovoice
+    processName=com.byd.autovoice
+    baseDir=/system/app/BydAutoVoice/BydAutoVoice.apk
+    dataDir=/data/user/0/com.byd.autovoice
+    app=ProcessRecord{5b5051 4374:com.byd.autovoice/1000}
+--
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.byd.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { act=com.byd.autovoice.NAVI_TTS pkg=com.byd.autovoice }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:31; callerTargetSdkVersion:28; startForegroundCount:0; bindFromPackage:null]
+    createTime=-19h59m1s792ms startingBgTimeout=--
+    lastActivity=-2m28s247ms restartTime=-4h39m13s179ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{499b9c3 CREATE}:
+      intent={act=com.byd.autovoice.NAVI_TTS pkg=com.byd.autovoice}
+      binder=android.os.BinderProxy@bdfb240
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{40e9579 ProcessRecord{3f86fe6 23747:com.byd.launchermap/u0a38}}
+        Per-process Connections:
+          ConnectionRecord{c5bfdd7 u0 CR com.byd.autovoice/.service.NaviTTSService:@1262956}
+      * Client AppBindRecord{56b2be ProcessRecord{7da0e73 3734:com.byd.amapservice/1000}}
+        Per-process Connections:
+          ConnectionRecord{fc277bf u0 CR com.byd.autovoice/.service.NaviTTSService:@32439de}
+    All Connections:
+      ConnectionRecord{c5bfdd7 u0 CR com.byd.autovoice/.service.NaviTTSService:@1262956}
+      ConnectionRecord{fc277bf u0 CR com.byd.autovoice/.service.NaviTTSService:@32439de}
+
+  * ServiceRecord{bdc6d9e u0 com.byd.autovoice/com.byd.autovoice_function.function.media.api.control.BYDMediaService}
+    intent={act=com.byd.action.AUTOVOICE_MEDIA_REGISTER pkg=com.byd.autovoice}
+    packageName=com.byd.autovoice
+    processName=com.byd.autovoice
+--
+
+  * ServiceRecord{f5baf11 u0 com.example.amapservice/com.byd.cluster.menu.service.MenuService}
+    intent={cmp=com.example.amapservice/com.byd.cluster.menu.service.MenuService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.example.amapservice
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.example.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.example.amapservice/com.byd.cluster.menu.service.MenuService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+    createTime=-19h59m5s648ms startingBgTimeout=--
+    lastActivity=-4h39m17s818ms restartTime=-4h39m17s818ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{1059c20 u0 com.byd.clientconfigurationservice/.service.ClientConfigurationService}
+--
+
+  * ServiceRecord{7462716 u0 com.example.amapservice/.AmapService}
+    intent={cmp=com.example.amapservice/.AmapService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.unkwn2.yandexhud
+    recentCallingUid=10173
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.example.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.example.amapservice/.AmapService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+    createTime=-19h59m5s727ms startingBgTimeout=--
+    lastActivity=-1h50m27s906ms restartTime=-4h39m17s895ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=11
+
+  * ServiceRecord{83833fa u0 com.google.android.inputmethod.latin/com.android.inputmethod.latin.LatinIME}
+--
+  * ServiceRecord{2166d u0 com.byd.launchermap/com.byd.automap.service.VolumeService}
+    intent={act=byd.media.NAVI_STREAM_MUTE_CHANGED_ACTION cmp=com.byd.launchermap/com.byd.automap.service.VolumeService}
+    packageName=com.byd.launchermap
+    processName=com.byd.launchermap
+    baseDir=/data/app/~~w4NbNkGPiAJ5cNMwCbYQwQ==/com.byd.launchermap-_FOdqZ0Pefmj2DyjhjNkYg==/base.apk
+    dataDir=/data/user/0/com.byd.launchermap
+    app=ProcessRecord{3f86fe6 23747:com.byd.launchermap/u0a38}
+--
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.byd.launchermap; callingUid: 10038; uidState: IMPF; intent: Intent { act=byd.media.NAVI_STREAM_MUTE_CHANGED_ACTION cmp=com.byd.launchermap/com.byd.automap.service.VolumeService }; code:ACTIVITY_STARTER; tempAllowListReason:<null>; targetSdkVersion:30; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=5 foregroundNoti=Notification(channel=default shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-2m32s302ms startingBgTimeout=--
+    lastActivity=-2m32s299ms restartTime=-2m32s299ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+--
+
+  * ServiceRecord{ad4883f u0 com.byd.autovoice/com.amap.api.location.APSService}
+    intent={cmp=com.byd.autovoice/com.amap.api.location.APSService}
+    packageName=com.byd.autovoice
+    processName=com.byd.autovoice
+    baseDir=/system/app/BydAutoVoice/BydAutoVoice.apk
+    dataDir=/data/user/0/com.byd.autovoice
+    app=ProcessRecord{5b5051 4374:com.byd.autovoice/1000}
+--
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.byd.autovoice; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.byd.autovoice/com.amap.api.location.APSService (has extras) }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:31; callerTargetSdkVersion:31; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m33s130ms startingBgTimeout=--
+    lastActivity=-2m33s129ms restartTime=-2m33s129ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{bab16d5 CREATE}:
+      intent={cmp=com.byd.autovoice/com.amap.api.location.APSService}
+      binder=android.os.BinderProxy@68bceea
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{58e95db ProcessRecord{5b5051 4374:com.byd.autovoice/1000}}
+        Per-process Connections:
+          ConnectionRecord{2ea3c5e u0 CR com.byd.autovoice/com.amap.api.location.APSService:@c39c199}
+    All Connections:
+      ConnectionRecord{2ea3c5e u0 CR com.byd.autovoice/com.amap.api.location.APSService:@c39c199}
+
+  * ServiceRecord{d1342a3 u0 com.byd.softwareactivation/.idriving.SoftwareActivationService}
+    intent={cmp=com.byd.softwareactivation/.idriving.SoftwareActivationService}
+    packageName=com.byd.softwareactivation
+    processName=com.byd.softwareactivation
+--
+    conn=android.os.BinderProxy@106177a flags=0x0
+  * ConnectionRecord{c5bfdd7 u0 CR com.byd.autovoice/.service.NaviTTSService:@1262956}
+    binding=AppBindRecord{40e9579 com.byd.autovoice/.service.NaviTTSService:com.byd.launchermap}
+    conn=android.os.BinderProxy@1262956 flags=0x1
+  * ConnectionRecord{56f29a0 u0 CR FGS CAPS DEAD android.ext.services/.autofill.InlineSuggestionRenderServiceImpl:@128f2a3}
+    binding=AppBindRecord{a03ebab android.ext.services/.autofill.InlineSuggestionRenderServiceImpl:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@128f2a3 flags=0x4001001
+  * ConnectionRecord{6b74249 u0 CR com.alipay.arome.app/com.alipay.mobile.aromeservice.AromeService:@15ed050}
+--
+    conn=android.os.BinderProxy@3242728 flags=0x1
+  * ConnectionRecord{fc277bf u0 CR com.byd.autovoice/.service.NaviTTSService:@32439de}
+    binding=AppBindRecord{56b2be com.byd.autovoice/.service.NaviTTSService:com.byd.amapservice}
+    conn=android.os.BinderProxy@32439de flags=0x1
+  * ConnectionRecord{3da6c3b u0 CR com.byd.dishare/com.byd.mirror.MirrorService:@3a182ca}
+    binding=AppBindRecord{8d78afc com.byd.dishare/com.byd.mirror.MirrorService:com.byd.dishare}
+    conn=android.os.BinderProxy@3a182ca flags=0x1
+  * ConnectionRecord{ffaa94c u0 CR com.byd.mediacenter/com.tencent.qqmusicplayerprocess.service.QQPlayerServiceNew:@3b1357f}
+--
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@785fe10 flags=0x41
+  * ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+    binding=AppBindRecord{d8d6b9c com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:com.byd.launchermap}
+    conn=android.os.BinderProxy@791a7db flags=0x1
+  * ConnectionRecord{cd3be0e u0 CR vendor.qti.iwlan/.IWlanNetworkService:@7967c09}
+    binding=AppBindRecord{c5c7221 vendor.qti.iwlan/.IWlanNetworkService:com.android.phone}
+    conn=android.os.BinderProxy@7967c09 flags=0x1
+  * ConnectionRecord{15b529a u0 CR com.baidu.map.location/com.baidu.location.f:@79c9b45}
+--
+    conn=android.os.BinderProxy@9026488 flags=0x0
+  * ConnectionRecord{401a34e u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@963ae49}
+    binding=AppBindRecord{e54e887 com.byd.weatherhelper/.WeatherFloatWindowService:com.byd.weatherhelper}
+    conn=android.os.BinderProxy@963ae49 flags=0x1
+  * ConnectionRecord{7bff1ba u0 CR com.qti.phone/.ExtTelephonyService:@981c2e5}
+    binding=AppBindRecord{2a6d3c1 com.qti.phone/.ExtTelephonyService:com.android.phone}
+    conn=android.os.BinderProxy@981c2e5 flags=0x1
+  * ConnectionRecord{3e6a81a u0 com.byd.dipilot.dms/.boxes.server.FrameServer:@991d6c5}
+--
+    conn=android.os.BinderProxy@991d6c5 flags=0x0
+  * ConnectionRecord{aaf5458 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@9a8b53b}
+    binding=AppBindRecord{de28e7d com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:com.byd.amapservice}
+    conn=android.os.BinderProxy@9a8b53b flags=0x1
+  * ConnectionRecord{77d6d0c u0 CR com.byd.wlan/.BydWlanService:@9b9b03f}
+    binding=AppBindRecord{71ecde7 com.byd.wlan/.BydWlanService:com.byd.crosscontrol}
+    conn=android.os.BinderProxy@9b9b03f flags=0x1
+  * ConnectionRecord{75456b6 u0 CR IMP FGS org.codeaurora.ims/.ImsService:@9dcee51}
+--
+    conn=android.os.BinderProxy@be8657d flags=0x0
+  * ConnectionRecord{2ea3c5e u0 CR com.byd.autovoice/com.amap.api.location.APSService:@c39c199}
+    binding=AppBindRecord{58e95db com.byd.autovoice/com.amap.api.location.APSService:com.byd.autovoice}
+    conn=android.os.BinderProxy@c39c199 flags=0x1
+  * ConnectionRecord{e3cefd9 u0 CR com.byd.autovoice/com.byd.autovoice_function.function.media.api.control.BYDMediaService:@c7f7a20}
+    binding=AppBindRecord{65a1035 com.byd.autovoice/com.byd.autovoice_function.function.media.api.control.BYDMediaService:com.byd.mediacenter}
+    conn=android.os.BinderProxy@c7f7a20 flags=0x1
+  * ConnectionRecord{c505829 u0 CR com.byd.mediacontroller/.service.MainService:@cb911b0}
+--
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@ceb7e3c flags=0x2101001
+  * ConnectionRecord{2901f82 u0 CR DEAD com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{a6cd6b4 com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{a08ffd9 u0 CR DEAD com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{a6cd6b4 com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{ea475f u0 CR DEAD com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{cfa72dd com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{fd1b70 u0 CR DEAD com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{9906e52 com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{5f928 u0 CR DEAD com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{9882523 com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{2996709 u0 CR com.byd.weatherhelper/.WeatherFloatWindowService:@d326acd}
+    binding=AppBindRecord{dbab352 com.byd.weatherhelper/.WeatherFloatWindowService:com.android.systemui}
+    conn=android.os.BinderProxy@d326acd flags=0x1
+  * ConnectionRecord{c5cc4b9 u0 CR IMP FGS com.android.server.telecom/.components.TelecomService:@d581680}
+    binding=AppBindRecord{56ac830 com.android.server.telecom/.components.TelecomService:system}
+    conn=android.app.LoadedApk$ServiceDispatcher$InnerConnection@d581680 flags=0x4000041
+  * ConnectionRecord{abf6aba u0 CR com.byd.car.icebox/.IceBoxService:@d5f7fe5}
+--
+    conn=android.os.BinderProxy@f58bf8c flags=0x1
+  * ConnectionRecord{93d5f4b u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@f5b181a}
+    binding=AppBindRecord{dfb9cd4 com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:com.byd.autovoice}
+    conn=android.os.BinderProxy@f5b181a flags=0x1
+  * ConnectionRecord{db2b83 u0 CR com.byd.diLinkAccount/com.byd.accountcenter.aidl.DiLinkAccountSDKService:@f8c1232}
+    binding=AppBindRecord{fbf4f1 com.byd.diLinkAccount/com.byd.accountcenter.aidl.DiLinkAccountSDKService:com.byd.ditrainer.ditrainer_service}
+    conn=android.os.BinderProxy@f8c1232 flags=0x1
+  * ConnectionRecord{c931dfe u0 CR com.byd.diLinkAccount/com.byd.accountcenter.aidl.DiLinkAccountSDKService:@f98a5b9}
+--
+    conn=android.os.BinderProxy@ff00ce9 flags=0x1
+  * ConnectionRecord{d69ee41 u0 CR com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:@ff15128}
+    binding=AppBindRecord{28ef172 com.byd.launchermap/com.autosdk.protocol.service.ProtocolService:dms.remoteservice}
+    conn=android.os.BinderProxy@ff15128 flags=0x1
+
+Active foreground apps - user 0:
+  #10: com.van.diplus
+    mNumActive=2 mAppOnTop=false mShownWhileTop=false mShownWhileScreenOn=true
+--
+    mStartTime=-2m19s710ms mStartVisibleTime=-2m19s710ms
+  #0: com.byd.amapservice
+    mNumActive=1 mAppOnTop=true mShownWhileTop=true mShownWhileScreenOn=true
+    mStartTime=-19h59m1s553ms mStartVisibleTime=-19h22m58s577ms

@@ -1,0 +1,45 @@
+rmnet_offload 28672 0 - Live 0x0000000000000000 (O)
+rmnet_shs 159744 0 - Live 0x0000000000000000 (O)
+wlan 10227712 0 - Live 0x0000000000000000 (O)
+radio_i2c_rtc6226_qca 57344 0 - Live 0x0000000000000000
+wsa_macro_dlkm 90112 0 - Live 0x0000000000000000
+swr_dmic_dlkm 32768 0 - Live 0x0000000000000000
+native_dlkm 196608 0 - Live 0x0000000000000000
+hdmi_dlkm 32768 0 - Live 0x0000000000000000
+slimbus_ngd 81920 0 - Live 0x0000000000000000
+wcd937x_slave_dlkm 20480 0 - Live 0x0000000000000000
+pinctrl_wcd_dlkm 20480 0 - Live 0x0000000000000000
+machine_dlkm 253952 0 - Live 0x0000000000000000
+stub_dlkm 20480 1 - Live 0x0000000000000000
+wsa883x_dlkm 65536 1 machine_dlkm, Live 0x0000000000000000
+wcd938x_slave_dlkm 20480 0 - Live 0x0000000000000000
+va_macro_dlkm 131072 0 - Live 0x0000000000000000
+hid_aksys 20480 0 - Live 0x0000000000000000
+wcd937x_dlkm 126976 1 machine_dlkm, Live 0x0000000000000000
+swr_haptics_dlkm 24576 0 - Live 0x0000000000000000
+tx_macro_dlkm 155648 0 - Live 0x0000000000000000
+rx_macro_dlkm 139264 0 - Live 0x0000000000000000
+platform_dlkm 4558848 51 native_dlkm, Live 0x0000000000000000
+swr_ctrl_dlkm 61440 4 wsa_macro_dlkm,va_macro_dlkm,tx_macro_dlkm,rx_macro_dlkm, Live 0x0000000000000000
+wcd938x_dlkm 151552 2 swr_dmic_dlkm,machine_dlkm, Live 0x0000000000000000
+bolero_cdc_dlkm 69632 5 wsa_macro_dlkm,machine_dlkm,va_macro_dlkm,tx_macro_dlkm,rx_macro_dlkm, Live 0x0000000000000000
+mbhc_dlkm 61440 2 wcd937x_dlkm,wcd938x_dlkm, Live 0x0000000000000000
+wcd9xxx_dlkm 40960 5 wcd937x_dlkm,wcd938x_dlkm, Live 0x0000000000000000
+pinctrl_lpi_dlkm 32768 6 - Live 0x0000000000000000
+rdbg 32768 0 - Live 0x0000000000000000
+adsp_loader_dlkm 20480 0 - Live 0x0000000000000000
+q6_dlkm 1671168 10 native_dlkm,machine_dlkm,va_macro_dlkm,platform_dlkm,swr_ctrl_dlkm,bolero_cdc_dlkm,wcd9xxx_dlkm,pinctrl_lpi_dlkm, Live 0x0000000000000000
+bt_fm_slim 32768 1 - Live 0x0000000000000000
+qcom_edac 20480 0 - Live 0x0000000000000000
+btpower 36864 1 bt_fm_slim, Live 0x0000000000000000
+swr_dlkm 40960 8 swr_dmic_dlkm,wcd937x_slave_dlkm,wsa883x_dlkm,wcd938x_slave_dlkm,wcd937x_dlkm,swr_haptics_dlkm,swr_ctrl_dlkm,wcd938x_dlkm, Live 0x0000000000000000
+rmnet_core 217088 3 rmnet_offload,rmnet_shs, Live 0x0000000000000000 (O)
+slimbus 57344 2 slimbus_ngd,bt_fm_slim, Live 0x0000000000000000
+apr_dlkm 245760 3 platform_dlkm,adsp_loader_dlkm,q6_dlkm, Live 0x0000000000000000
+q6_notifier_dlkm 24576 2 pinctrl_lpi_dlkm,apr_dlkm, Live 0x0000000000000000
+wcd_core_dlkm 40960 8 wsa_macro_dlkm,machine_dlkm,wsa883x_dlkm,va_macro_dlkm,wcd937x_dlkm,tx_macro_dlkm,rx_macro_dlkm,wcd938x_dlkm, Live 0x0000000000000000
+q6_pdr_dlkm 20480 1 q6_notifier_dlkm, Live 0x0000000000000000
+rmnet_ctl 20480 1 rmnet_core, Live 0x0000000000000000 (O)
+snd_event_dlkm 20480 5 machine_dlkm,bolero_cdc_dlkm,pinctrl_lpi_dlkm,q6_dlkm,apr_dlkm, Live 0x0000000000000000
+bperf_taskacct 36864 0 - Live 0x0000000000000000 (O)
+msm_drm 2240512 19 - Live 0x0000000000000000

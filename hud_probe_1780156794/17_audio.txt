@@ -1,0 +1,752 @@
+Audio event log: audio services lifecycle
+05-29 23:00:50:985 AudioService()
+
+Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.AudioService$AudioHandler) {b4ace1} @ 16842164
+    Looper (AudioService, tid 138) {a05a06}
+      (Total messages: 0, polling=true, quitting=false)
+
+MediaFocusControl dump time: 7:01:02 PM
+
+Audio Focus stack entries (last is top of stack):
+  source:android.os.BinderProxy@65858c7 -- pack: com.byd.mediacenter -- client: android.media.AudioManager@ffe7701com.byd.mediacenter.bluetoothmusic.core.BluetoothMusicCore$$ExternalSyntheticLambda0@36129a6 -- gain: GAIN -- flags:  -- loss: none -- notified: true -- limbofalse -- uid: 10057 -- attr: AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_BTMUSIC flags=0x800 tags= bundle=null -- sdk:33
+
+
+No external focus policy
+
+
+
+ Notify on duck:  true
+
+ In ring or call: false
+
+
+
+Audio event log: focus commands as seen by MediaFocusControl
+05-30 15:25:38:510 requestAudioFocus() from uid/pid 10114/26089 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@7983018ve@503fa71 callingPack=ru.yandex.music req=1 flags=0x0 sdk=34
+05-30 15:25:39:090 abandonAudioFocus() from uid/pid 1002/10068 clientId=android.media.AudioManager@a36b311com.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@3ff9c76
+05-30 15:25:42:037 focus requester:android.media.AudioManager@7983018ve@503fa71 in uid:10114 pack:ru.yandex.music died
+05-30 15:36:34:286 requestAudioFocus() from uid/pid 1002/10068 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@a36b311com.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@3ff9c76 callingPack=com.android.bluetooth req=1 flags=0x2 sdk=32
+05-30 15:36:34:294 abandonAudioFocus() from uid/pid 1002/10068 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:41:16:203 requestAudioFocus() from uid/pid 1002/10068 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@a36b311com.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@3ff9c76 callingPack=com.android.bluetooth req=1 flags=0x2 sdk=32
+05-30 15:41:16:208 abandonAudioFocus() from uid/pid 1002/10068 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:41:16:521 requestAudioFocus() from uid/pid 1000/1090 AA=USAGE_NOTIFICATION_RINGTONE/CONTENT_TYPE_SONIFICATION clientId=AudioFocus_For_Phone_Ring_And_Calls callingPack=com.android.server.telecom req=2 flags=0x4 sdk=0
+05-30 15:41:18:179 requestAudioFocus() from uid/pid 1000/1090 AA=USAGE_VOICE_COMMUNICATION/CONTENT_TYPE_SPEECH clientId=AudioFocus_For_Phone_Ring_And_Calls callingPack=com.android.server.telecom req=2 flags=0x4 sdk=0
+05-30 15:41:25:647 abandonAudioFocus() from uid/pid 1000/1090 clientId=AudioFocus_For_Phone_Ring_And_Calls
+05-30 15:41:25:654 abandonAudioFocus() from uid/pid 1000/1090 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:43:57:691 abandonAudioFocus() from uid/pid 10057/3043 clientId=android.media.AudioManager@7846e5fcom.tencent.qqmusicsdk.player.listener.AudioFocusListener$$ExternalSyntheticLambda0@97e20ac
+05-30 15:44:06:117 requestAudioFocus() from uid/pid 1002/10068 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@a36b311com.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@3ff9c76 callingPack=com.android.bluetooth req=1 flags=0x2 sdk=32
+05-30 15:44:06:132 abandonAudioFocus() from uid/pid 1002/10068 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:44:12:309 abandonAudioFocus() from uid/pid 10057/3043 clientId=android.media.AudioManager@1b4bbccom.byd.mediacenter.bluetoothmusic.core.BluetoothMusicCore$$ExternalSyntheticLambda0@c1ab745
+05-30 15:44:13:707 abandonAudioFocus() from uid/pid 1002/10068 clientId=android.media.AudioManager@a36b311com.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@3ff9c76
+05-30 15:49:49:000 requestAudioFocus() from uid/pid 10057/18827 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@5e655cbcom.byd.mediacenter.bluetoothmusic.core.BluetoothMusicCore$$ExternalSyntheticLambda0@73891a8 callingPack=com.byd.mediacenter req=1 flags=0x0 sdk=33
+05-30 15:49:49:056 abandonAudioFocus() from uid/pid 10057/18827 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:49:57:621 requestAudioFocus() from uid/pid 1002/20183 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@c39668dcom.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@fbdd042 callingPack=com.android.bluetooth req=1 flags=0x2 sdk=32
+05-30 15:49:57:686 abandonAudioFocus() from uid/pid 1002/20183 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:50:19:716 requestAudioFocus() from uid/pid 10114/15571 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@f5b6b58ve@2b1b4b1 callingPack=ru.yandex.music req=1 flags=0x0 sdk=34
+05-30 15:50:20:267 abandonAudioFocus() from uid/pid 1002/20183 clientId=android.media.AudioManager@c39668dcom.android.bluetooth.a2dpsink.A2dpSinkStreamHandler$1@fbdd042
+05-30 15:50:21:825 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:50:53:516 abandonAudioFocus() from uid/pid 10140/22261 clientId=android.media.AudioManager@a36c290m8.u@3f8e789
+05-30 15:54:23:047 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:57:18:946 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 15:58:47:521 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:01:20:051 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:04:12:888 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:07:38:222 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:11:16:917 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:14:26:250 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:15:13:589 abandonAudioFocus() from uid/pid 10140/22261 clientId=android.media.AudioManager@a36c290m8.u@3f8e789
+05-30 16:16:34:542 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:20:07:012 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:24:36:209 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:28:00:913 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:34:35:822 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:39:52:290 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:45:08:291 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:48:25:472 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:52:23:823 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:55:51:858 abandonAudioFocus() from uid/pid 10057/18827 clientId=android.media.AudioManager@f209435com.tencent.qqmusicsdk.player.listener.AudioFocusListener$$ExternalSyntheticLambda0@40570ca
+05-30 16:56:06:044 abandonAudioFocus() from uid/pid 10114/15571 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 16:56:06:530 abandonAudioFocus() from uid/pid 10057/18827 clientId=android.media.AudioManager@5e655cbcom.byd.mediacenter.bluetoothmusic.core.BluetoothMusicCore$$ExternalSyntheticLambda0@73891a8
+05-30 16:56:07:696 focus requester:android.media.AudioManager@f5b6b58ve@2b1b4b1 in uid:10114 pack:ru.yandex.music died
+05-30 18:57:28:305 requestAudioFocus() from uid/pid 10057/17694 AA=USAGE_MEDIA/CONTENT_TYPE_BTMUSIC clientId=android.media.AudioManager@ffe7701com.byd.mediacenter.bluetoothmusic.core.BluetoothMusicCore$$ExternalSyntheticLambda0@36129a6 callingPack=com.byd.mediacenter req=1 flags=0x0 sdk=33
+05-30 18:57:28:312 abandonAudioFocus() from uid/pid 10057/17694 clientId=android.media.AudioManager@43685cfcom.android.server.audio.IviVehicleAudioBroker$1@5b57e65
+05-30 18:57:57:426 requestAudioFocus() from uid/pid 10114/18961 AA=USAGE_MEDIA/CONTENT_TYPE_MUSIC clientId=android.media.AudioManager@fd1396eve@4a9280f callingPack=ru.yandex.music req=1 flags=0x0 sdk=34
+05-30 18:58:00:116 focus requester:android.media.AudioManager@fd1396eve@4a9280f in uid:10114 pack:ru.yandex.music died
+Multi Audio Focus enabled :false
+
+Stream volumes (device: index)
+- STREAM_VOICE_CALL:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 39
+   streamVolume:11
+   Current: 2 (speaker): 11, 40000000 (default): 8
+   Devices: speaker
+- STREAM_SYSTEM:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 7
+   streamVolume:7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_RING:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 39
+   streamVolume:5
+   Current: 2 (speaker): 5, 40000000 (default): 8
+   Devices: speaker
+- STREAM_MUSIC:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 39
+   streamVolume:5
+   Current: 2 (speaker): 5, 40000000 (default): 8
+   Devices: speaker
+- STREAM_ALARM:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 7
+   streamVolume:6
+   Current: 2 (speaker): 6, 40000000 (default): 6
+   Devices: speaker
+- STREAM_NOTIFICATION:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 7
+   streamVolume:5
+   Current: 2 (speaker): 5, 40000000 (default): 5
+   Devices: speaker
+- STREAM_BLUETOOTH_SCO:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_SYSTEM_ENFORCED:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 7
+   streamVolume:7
+   Current: 2 (speaker): 7, 40000000 (default): 7
+   Devices: speaker
+- STREAM_DTMF:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:2
+   Current: 2 (speaker): 2, 40000000 (default): 3
+   Devices: speaker
+- STREAM_TTS:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:5
+   Current: 2 (speaker): 5, 40000000 (default): 5
+   Devices: speaker
+- STREAM_ACCESSIBILITY:
+   Muted: false
+   Muted Internally: false
+   Min: 1
+   Max: 15
+   streamVolume:3
+   Current: 2 (speaker): 3, 40000000 (default): 4
+   Devices: speaker
+- STREAM_ASSISTANT:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 15
+   streamVolume:2
+   Current: 2 (speaker): 2, 40000000 (default): 3
+   Devices: speaker
+- STREAM_FM:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 39
+   streamVolume:5
+   Current: 2 (speaker): 5, 40000000 (default): 8
+   Devices: speaker
+- STREAM_AUX:
+   Muted: false
+   Muted Internally: false
+   Min: 5
+   Max: 24
+   streamVolume:10
+   Current: 2 (speaker): 10, 40000000 (default): 10
+   Devices: speaker
+- STREAM_BT_MUSIC:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 39
+   streamVolume:10
+   Current: 2 (speaker): 10, 40000000 (default): 8
+   Devices: speaker
+- STREAM_NAVI:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 10
+   streamVolume:3
+   Current: 2 (speaker): 3, 40000000 (default): 4
+   Devices: speaker
+- STREAM_MUTE:
+   Muted: false
+   Muted Internally: false
+   Min: 0
+   Max: 39
+   streamVolume:0
+   Current: 2 (speaker): 0, 40000000 (default): 0
+   Devices: speaker
+- STREAM_BTTS:
+   Muted: false
+   Muted Internally: false
+   Min: 5
+   Max: 24
+   streamVolume:12
+   Current: 2 (speaker): 12, 40000000 (default): 15
+   Devices: speaker
+
+- mute affected streams = 0x1d06f
+
+Volume Groups (device: index)
+- VOLUME GROUP AUDIO_STREAM_ACCESSIBILITY:
+   Min: 1
+   Max: 15
+   Current: 40000000 (default): 4
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_ALARM:
+   Min: 1
+   Max: 7
+   Current: 40000000 (default): 6
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_ASSISTANT:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 3
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_BLUETOOTH_SCO:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 7
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_DTMF:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 3
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_ENFORCED_AUDIBLE:
+   Min: 0
+   Max: 7
+   Current: 40000000 (default): 7
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_MUSIC:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_NOTIFICATION:
+   Min: 0
+   Max: 7
+   Current: 40000000 (default): 5
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_REROUTING:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_RING:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_SYSTEM:
+   Min: 0
+   Max: 7
+   Current: 40000000 (default): 7
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_TTS:
+   Min: 0
+   Max: 15
+   Current: 40000000 (default): 5
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_VOICE_CALL:
+   Min: 1
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_FM:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_AUX:
+   Min: 5
+   Max: 24
+   Current: 40000000 (default): 10
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_BT_MUSIC:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_NAVI:
+   Min: 0
+   Max: 10
+   Current: 40000000 (default): 4
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_MUTE:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 0
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_BTTS:
+   Min: 5
+   Max: 24
+   Current: 40000000 (default): 15
+   Devices: speaker
+- VOLUME GROUP AUDIO_STREAM_CALL_ASSISTANT:
+   Min: 0
+   Max: 39
+   Current: 40000000 (default): 8
+   Devices: speaker
+
+Ringer mode: 
+- mode (internal) = NORMAL
+- mode (external) = NORMAL
+- zen mode:ZEN_MODE_OFF
+- ringer mode affected streams = 0x1a6 (STREAM_SYSTEM,STREAM_RING,STREAM_NOTIFICATION,STREAM_SYSTEM_ENFORCED,STREAM_DTMF)
+- ringer mode muted streams = 0x0
+- delegate = ZenModeHelper
+
+Audio mode: 
+- Requested mode = MODE_NORMAL
+- Actual mode = MODE_NORMAL
+- Mode owner: 
+   None
+- Mode owner stack: 
+   Empty
+
+Audio routes:
+  mMainType=0x0
+  mBluetoothName=null
+
+Other state:
+  mVolumeController=VolumeController(android.os.BinderProxy@f949ef4,mVisible=false)
+  mSafeMediaVolumeState=SAFE_MEDIA_VOLUME_ACTIVE
+  mSafeMediaVolumeIndex=100
+  mSafeUsbMediaVolumeIndex=100
+  mSafeUsbMediaVolumeDbfs=-37.0
+  sIndependentA11yVolume=false
+  mPendingVolumeCommand=null
+  mMusicActiveMs=0
+  mMcc=250
+  mCameraSoundForced=false
+  mHasVibrator=true
+  mVolumePolicy=VolumePolicy[volumeDownToEnterSilent=false,volumeUpToExitSilent=false,doNotDisturbWhenSilent=false,vibrateToSilentDebounce=400]
+  mAvrcpAbsVolSupported=false
+  mBtScoOnByApp=false
+  mIsSingleVolume=false
+  mUseFixedVolume=false
+  mFixedVolumeDevices=0x1000,0x800,0x200000,0x40000,0x40001
+  mFullVolumeDevices=
+  mExtVolumeController=null
+  mHdmiAudioSystemClient=null
+  mHdmiPlaybackClient=null
+  mHdmiTvClient=null
+  mHdmiSystemAudioSupported=false
+  mHdmiCecVolumeControlEnabled=false
+  mIsCallScreeningModeSupported=true
+  mic mute FromSwitch=false FromRestrictions=false FromApi=false from system=false
+  mAssistantUid=0
+  mCurrentImeUid=0
+  mMonitorRotation=false
+  Accessibility service Uids:
+  - 10080
+  - 1000
+  - 10139
+
+Audio policies:
+Audio event log: dynamic policy events (logged when command received by AudioService)
+
+PlaybackActivityMonitor dump time: 7:01:02 PM
+
+  playback listeners:
+ (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@f6e361d (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@dd81092 (S)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@cf7ba63 (P)com.android.server.audio.PlaybackActivityMonitor$PlayMonitorClient@bd6b660
+
+
+  players:
+  AudioPlaybackConfiguration piid:79 deviceId:0 type:android.media.SoundPool u/pid:1000/1090 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:87 deviceId:0 type:android.media.SoundPool u/pid:1000/2594 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:95 deviceId:0 type:android.media.MediaPlayer u/pid:10080/1940 state:idle attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:103 deviceId:0 type:android.media.SoundPool u/pid:10080/1940 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:111 deviceId:0 type:android.media.MediaPlayer u/pid:1000/3480 state:idle attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:119 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:127 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:135 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:143 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:151 deviceId:0 type:android.media.SoundPool u/pid:1000/4480 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:159 deviceId:0 type:android.media.SoundPool u/pid:1000/4480 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:167 deviceId:0 type:android.media.SoundPool u/pid:1000/4480 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:175 deviceId:0 type:android.media.SoundPool u/pid:1000/4480 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:183 deviceId:0 type:android.media.SoundPool u/pid:1000/4755 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:207 deviceId:0 type:android.media.SoundPool u/pid:1000/4374 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:215 deviceId:0 type:android.media.SoundPool u/pid:1000/4374 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_BTTS flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:231 deviceId:0 type:android.media.AudioTrack u/pid:1000/4881 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_NAVI flags=0x800 tags= bundle=null sessionId:105
+  AudioPlaybackConfiguration piid:247 deviceId:0 type:android.media.AudioTrack u/pid:1000/4881 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_BTTS flags=0x800 tags= bundle=null sessionId:113
+  AudioPlaybackConfiguration piid:255 deviceId:3 type:android.media.AudioTrack u/pid:1000/4881 state:stopped attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_NAVI flags=0x4800 tags= bundle=null sessionId:129
+  AudioPlaybackConfiguration piid:383 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:391 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:487 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:495 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:615 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:623 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:647 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:655 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:951 deviceId:0 type:android.media.MediaPlayer u/pid:10057/17694 state:idle attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:959 deviceId:0 type:android.media.MediaPlayer u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:967 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:975 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:983 deviceId:0 type:android.media.SoundPool u/pid:1000/4047 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:991 deviceId:0 type:external proxy u/pid:1002/23799 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null sessionId:569
+  AudioPlaybackConfiguration piid:999 deviceId:0 type:android.media.MediaPlayer u/pid:10140/25702 state:idle attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:1023 deviceId:0 type:android.media.SoundPool u/pid:10139/27881 state:idle attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_NAVI flags=0x800 tags= bundle=null sessionId:0
+  AudioPlaybackConfiguration piid:1031 deviceId:0 type:android.media.SoundPool u/pid:1000/18964 state:idle attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null sessionId:0
+
+  ducked players piids:
+
+  faded out players piids:
+
+  muted player piids:
+
+  banned uids:
+
+Audio event log: playback activity as reported through PlayerBase
+05-30 16:28:00:971 player piid:871 state:device DeviceId:3
+05-30 16:28:01:894 player piid:863 state:stopped DeviceId:0
+05-30 16:34:35:614 player piid:863 state:stopped DeviceId:0
+05-30 16:34:35:614 releasing player piid:863
+05-30 16:34:35:811 new player piid:879 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:34:35:818 player piid:879 state:started DeviceId:0
+05-30 16:34:35:860 player piid:879 state:device DeviceId:3
+05-30 16:34:40:649 player piid:871 state:stopped DeviceId:0
+05-30 16:35:40:395 player piid:79 state:started DeviceId:0
+05-30 16:37:24:795 player piid:79 state:started DeviceId:0
+05-30 16:37:25:721 player piid:79 state:started DeviceId:0
+05-30 16:37:34:917 player piid:79 state:started DeviceId:0
+05-30 16:38:21:042 player piid:79 state:started DeviceId:0
+05-30 16:38:21:447 player piid:79 state:started DeviceId:0
+05-30 16:39:52:044 player piid:871 state:stopped DeviceId:0
+05-30 16:39:52:044 releasing player piid:871
+05-30 16:39:52:286 new player piid:887 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:39:52:287 player piid:887 state:started DeviceId:0
+05-30 16:39:52:336 player piid:887 state:device DeviceId:3
+05-30 16:39:54:412 player piid:879 state:stopped DeviceId:0
+05-30 16:44:48:620 player piid:79 state:started DeviceId:0
+05-30 16:44:55:809 player piid:79 state:started DeviceId:0
+05-30 16:45:08:112 player piid:879 state:stopped DeviceId:0
+05-30 16:45:08:114 releasing player piid:879
+05-30 16:45:08:289 new player piid:895 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:45:08:291 player piid:895 state:started DeviceId:0
+05-30 16:45:08:324 player piid:895 state:device DeviceId:3
+05-30 16:45:10:765 player piid:887 state:stopped DeviceId:0
+05-30 16:45:28:287 player piid:79 state:started DeviceId:0
+05-30 16:45:40:897 player piid:79 state:started DeviceId:0
+05-30 16:46:08:763 player piid:79 state:started DeviceId:0
+05-30 16:46:15:461 player piid:79 state:started DeviceId:0
+05-30 16:46:16:597 player piid:79 state:started DeviceId:0
+05-30 16:46:18:090 player piid:79 state:started DeviceId:0
+05-30 16:46:20:007 player piid:79 state:started DeviceId:0
+05-30 16:46:24:386 player piid:79 state:started DeviceId:0
+05-30 16:47:34:565 player piid:79 state:started DeviceId:0
+05-30 16:48:25:272 player piid:887 state:stopped DeviceId:0
+05-30 16:48:25:272 releasing player piid:887
+05-30 16:48:25:468 new player piid:911 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:48:25:470 player piid:911 state:started DeviceId:0
+05-30 16:48:25:530 player piid:911 state:device DeviceId:3
+05-30 16:48:29:088 player piid:895 state:stopped DeviceId:0
+05-30 16:52:23:565 player piid:895 state:stopped DeviceId:0
+05-30 16:52:23:568 releasing player piid:895
+05-30 16:52:23:818 new player piid:919 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:52:23:822 player piid:919 state:started DeviceId:0
+05-30 16:52:23:846 player piid:919 state:device DeviceId:3
+05-30 16:52:29:377 player piid:911 state:stopped DeviceId:0
+05-30 16:56:05:881 player piid:911 state:stopped DeviceId:0
+05-30 16:56:05:881 releasing player piid:911
+05-30 16:56:06:040 new player piid:927 uid/pid:10114/15571 type:android.media.AudioTrack attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:457
+05-30 16:56:06:041 player piid:927 state:started DeviceId:0
+05-30 16:56:06:180 player piid:927 state:device DeviceId:3
+05-30 16:56:06:496 releasing player piid:743
+05-30 16:56:07:251 releasing player piid:695
+05-30 16:56:07:696 releasing player piid:919
+05-30 16:56:07:696 releasing player piid:927
+05-30 16:56:08:145 releasing player piid:711
+05-30 16:56:09:349 releasing player piid:639
+05-30 16:56:09:620 releasing player piid:663
+05-30 16:56:09:622 releasing player piid:671
+05-30 18:57:23:560 new player piid:951 uid/pid:10057/17694 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0xA00 tags= bundle=null session:0
+05-30 18:57:32:484 new player piid:959 uid/pid:1000/4047 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null session:0
+05-30 18:57:32:490 new player piid:967 uid/pid:1000/4047 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null session:0
+05-30 18:57:32:495 player piid:959 new AudioAttributes:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null
+05-30 18:57:32:523 new player piid:975 uid/pid:1000/4047 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null session:0
+05-30 18:57:32:699 new player piid:983 uid/pid:1000/4047 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_MUSIC flags=0x800 tags= bundle=null session:0
+05-30 18:57:33:421 player piid:79 state:started DeviceId:0
+05-30 18:57:34:488 new player piid:991 uid/pid:1002/23799 type:unknown attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_UNKNOWN flags=0x0 tags= bundle=null session:569
+05-30 18:57:36:482 new player piid:999 uid/pid:10140/25702 type:android.media.MediaPlayer attr:AudioAttributes: usage=USAGE_UNKNOWN content=CONTENT_TYPE_UNKNOWN flags=0x800 tags= bundle=null session:0
+05-30 18:57:38:855 new player piid:1007 uid/pid:10139/25332 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_NAVI flags=0x800 tags= bundle=null session:0
+05-30 18:57:48:770 releasing player piid:1007
+05-30 18:57:49:593 new player piid:1023 uid/pid:10139/27881 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_MEDIA content=CONTENT_TYPE_NAVI flags=0x800 tags= bundle=null session:0
+05-30 18:58:40:815 player piid:79 state:started DeviceId:0
+05-30 18:58:46:091 player piid:79 state:started DeviceId:0
+05-30 19:00:03:164 player piid:79 state:started DeviceId:0
+05-30 19:00:04:414 player piid:79 state:started DeviceId:0
+05-30 19:00:05:034 player piid:79 state:started DeviceId:0
+05-30 19:00:06:697 player piid:79 state:started DeviceId:0
+05-30 19:00:09:886 player piid:79 state:started DeviceId:0
+05-30 19:00:10:365 player piid:79 state:started DeviceId:0
+05-30 19:00:12:566 player piid:79 state:started DeviceId:0
+05-30 19:00:14:570 player piid:79 state:started DeviceId:0
+05-30 19:00:15:260 new player piid:1031 uid/pid:1000/18964 type:android.media.SoundPool attr:AudioAttributes: usage=USAGE_ASSISTANCE_SONIFICATION content=CONTENT_TYPE_SONIFICATION flags=0x80800 tags= bundle=null session:0
+05-30 19:00:15:444 player piid:79 state:started DeviceId:0
+05-30 19:00:17:042 player piid:79 state:started DeviceId:0
+05-30 19:00:18:163 player piid:79 state:started DeviceId:0
+05-30 19:00:20:211 player piid:79 state:started DeviceId:0
+05-30 19:00:20:968 player piid:79 state:started DeviceId:0
+05-30 19:00:21:441 player piid:79 state:started DeviceId:0
+05-30 19:00:22:041 player piid:79 state:started DeviceId:0
+05-30 19:00:22:772 player piid:79 state:started DeviceId:0
+05-30 19:00:23:475 player piid:79 state:started DeviceId:0
+05-30 19:00:24:961 player piid:79 state:started DeviceId:0
+05-30 19:00:25:514 player piid:79 state:started DeviceId:0
+05-30 19:00:28:475 player piid:79 state:started DeviceId:0
+05-30 19:00:30:156 player piid:79 state:started DeviceId:0
+05-30 19:00:39:123 player piid:79 state:started DeviceId:0
+05-30 19:00:39:859 player piid:79 state:started DeviceId:0
+
+  allowed capture policies:
+
+RecordActivityMonitor dump time: 7:01:02 PM
+riid 943; active? true
+  session:545 -- source client=VOICE_RECOGNITION, dev=7ch 16000Hz ENCODING_PCM_16BIT -- uid:1000 -- patch:133 -- pack:com.byd.cameramanager -- format client=7ch 16000Hz ENCODING_PCM_16BIT, dev=7ch 16000Hz ENCODING_PCM_16BIT -- silenced:false -- effects client=, dev=
+riid 1015; active? true
+  session:585 -- source client=VOICE_RECOGNITION, dev=1ch 16000Hz ENCODING_PCM_16BIT -- uid:10140 -- patch:137 -- pack:ru.bydconnect -- format client=1ch 16000Hz ENCODING_PCM_16BIT, dev=1ch 16000Hz ENCODING_PCM_16BIT -- silenced:false -- effects client=, dev=
+
+
+Audio event log: recording activity received by AudioService
+05-29 23:36:58:492 rec update riid:263 uid:1000 session:137 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-29 23:37:13:207 rec update riid:287 uid:10143 session:169 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-29 23:37:14:074 rec stop riid:287 uid:10143 session:169 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-29 23:51:48:659 rec start riid:343 uid:10141 session:193 src:MIC not silenced pack:ru.yandex.yandexnavi
+05-29 23:52:00:620 rec stop riid:343 uid:10141 session:193 src:MIC not silenced pack:ru.yandex.yandexnavi
+05-29 23:52:03:157 rec start riid:351 uid:10141 session:201 src:MIC not silenced pack:ru.yandex.yandexnavi
+05-29 23:52:20:741 rec stop riid:351 uid:10141 session:201 src:MIC not silenced pack:ru.yandex.yandexnavi
+05-29 23:59:42:074 rec stop riid:263 uid:1000 session:137 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 12:34:19:069 rec update riid:359 uid:1000 session:217 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 12:34:33:520 rec start riid:423 uid:10143 session:249 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 12:34:36:459 rec stop riid:423 uid:10143 session:249 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 12:34:51:443 rec update riid:447 uid:10140 session:265 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 12:35:04:656 rec update riid:447 uid:10140 session:265 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 12:35:04:671 rec start riid:463 uid:10143 session:273 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 12:35:06:185 rec stop riid:463 uid:10143 session:273 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 12:35:06:232 rec update riid:447 uid:10140 session:265 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 12:58:20:075 rec stop riid:359 uid:1000 session:217 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 12:58:35:564 rec release riid:447 uid:10140 session:265 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 15:25:02:988 rec start riid:471 uid:1000 session:281 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 15:25:27:509 rec start riid:559 uid:10140 session:329 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 15:41:18:230 rec stop riid:471 uid:1000 session:281 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 15:41:25:597 rec update riid:607 uid:1000 session:393 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 15:43:57:284 rec stop riid:607 uid:1000 session:393 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 15:44:13:262 rec release riid:559 uid:10140 session:329 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 15:49:43:909 rec start riid:631 uid:1000 session:409 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 15:50:10:168 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 15:53:32:733 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 15:53:32:915 rec update riid:751 uid:10143 session:489 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:01:17:518 rec stop riid:751 uid:10143 session:489 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:01:17:519 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:01:31:752 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:01:31:754 rec update riid:791 uid:10143 session:505 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:06:03:728 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:06:03:728 rec stop riid:791 uid:10143 session:505 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:47:39:225 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:47:39:241 rec start riid:903 uid:10143 session:529 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:55:50:860 rec stop riid:631 uid:1000 session:409 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 16:55:50:964 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:55:50:969 rec stop riid:903 uid:10143 session:529 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:56:06:313 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:56:06:344 rec start riid:935 uid:10143 session:537 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:56:06:524 rec stop riid:935 uid:10143 session:537 src:MIC not silenced pack:ru.yandex.yandexmaps
+05-30 16:56:06:525 rec update riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 16:56:07:251 rec release riid:703 uid:10140 session:449 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+05-30 18:57:22:893 rec update riid:943 uid:1000 session:545 src:VOICE_RECOGNITION not silenced pack:com.byd.cameramanager
+05-30 18:57:40:883 rec update riid:1015 uid:10140 session:585 src:VOICE_RECOGNITION not silenced pack:ru.bydconnect
+
+AudioDeviceBroker:
+  Message handler (watch for unhandled messages):
+    Handler (com.android.server.audio.AudioDeviceBroker$BrokerHandler) {43d1719} @ 16842193
+      Looper (AudioDeviceBroker, tid 141) {162a3de}
+        (Total messages: 0, polling=true, quitting=false)
+
+  BECOMING_NOISY_INTENT_DEVICES_SET=
+ 0x400 0x800 0x1000 0x8000000 0x80 0x100 0x200 0x2000 0x4000 0x4000000 0x20000 0x4 0x8
+  Preferred devices for strategy:
+
+  Connected devices:
+
+  APM Connected device (A2DP sink only):
+
+  Communication route clients:
+
+  Computed Preferred communication device: null
+
+  Applied Preferred communication device: null
+  Active communication device: AudioDeviceAttributes: role:output type:speaker addr:
+  mCommunicationStrategyId: 15
+
+  mModeOwnerPid: 0
+
+  mBluetoothHeadset: null
+  mBluetoothHeadsetDevice: null
+  mScoAudioState: SCO_STATE_INACTIVE
+  mScoAudioMode: SCO_MODE_VIRTUAL_CALL
+
+  mHearingAid: null
+  mA2dp: null
+  mAvrcpAbsVolSupported: false
+
+SoundEffects:
+  Message handler (watch for unhandled messages):
+  Handler (com.android.server.audio.SoundEffectsHelper$SfxHandler) {a199bf} @ 16842194
+    Looper (AS.SfxWorker, tid 133) {a60d88c}
+      (Total messages: 0, polling=true, quitting=false)
+  Default attenuation (dB): -6
+Audio event log: Sound Effects Loading
+05-29 23:00:51:831 effects loading started
+05-29 23:00:51:907 effect Effect_Tick.ogg loaded
+05-29 23:00:51:923 effect KeypressStandard.ogg loaded
+05-29 23:00:51:965 effect KeypressSpacebar.ogg loaded
+05-29 23:00:51:991 effect KeypressDelete.ogg loaded
+05-29 23:00:52:067 effect KeypressReturn.ogg loaded
+05-29 23:00:52:100 effect KeypressInvalid.ogg loaded
+05-29 23:00:52:101 effects loading completed
+
+
+
+Event logs:
+Audio event log: phone state (logged after successful call to AudioSystem.setPhoneState(int, int))
+05-30 15:41:16:617 setMode(MODE_RINGTONE) from package=com.android.server.telecom pid=1090 selected mode=MODE_RINGTONE by pid=1090
+05-30 15:41:18:518 setMode(MODE_IN_CALL) from package=com.android.server.telecom pid=1090 selected mode=MODE_IN_CALL by pid=1090
+05-30 15:41:25:589 setMode(MODE_NORMAL) from package=com.android.server.telecom pid=1090 selected mode=MODE_NORMAL by pid=0
+
+
+Audio event log: wired/A2DP/hearing aid device connection
+05-29 23:00:51:813 onUpdateCommunicationRoute, preferredCommunicationDevice: null eventSource: resetBluetoothSco
+05-29 23:00:51:815 removePreferredDevicesForStrategySync, strategy: 15
+05-29 23:00:51:822 onUpdateCommunicationRoute, preferredCommunicationDevice: null eventSource: resetBluetoothSco
+05-29 23:00:51:827 removePreferredDevicesForStrategySync, strategy: 15
+05-30 15:41:18:531 onUpdateCommunicationRoute, preferredCommunicationDevice: null eventSource: setNewModeOwner
+05-30 15:41:18:537 removePreferredDevicesForStrategySync, strategy: 15
+05-30 15:41:25:628 onUpdateCommunicationRoute, preferredCommunicationDevice: null eventSource: setNewModeOwner
+05-30 15:41:25:630 removePreferredDevicesForStrategySync, strategy: 15
+
+
+Audio event log: force use (logged before setForceUse() is executed)
+05-29 23:00:51:319 setForceUse(FOR_SYSTEM, FORCE_NONE) due to AudioService ctor
+05-29 23:00:51:321 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+05-29 23:00:51:321 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+05-29 23:00:51:570 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-29 23:00:51:831 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-29 23:00:51:831 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-29 23:00:52:688 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+05-29 23:00:52:689 setForceUse(FOR_ENCODED_SURROUND, FORCE_NONE) due to readPersistedSettings
+05-29 23:00:52:727 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-29 23:00:53:033 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+05-30 07:00:02:170 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+05-30 12:34:58:414 setForceUse(FOR_DOCK, FORCE_ANALOG_DOCK) due to readDockAudioSettings
+05-30 15:41:16:856 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-30 15:41:18:546 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-30 15:41:18:552 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-30 15:41:25:645 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+05-30 15:41:25:661 setForceUse(FOR_VIBRATE_RINGING, FORCE_NONE) due to muteRingerModeStreams() from u/pid:1000/1090
+
+
+Audio event log: volume changes (logged when command received by AudioService)
+05-29 23:36:59:813 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-29 23:36:59:889 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-29 23:37:00:075 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 12:34:24:990 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 12:34:25:690 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:25:04:587 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:25:04:638 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:25:04:741 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:49:44:549 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:49:44:574 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:49:44:710 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 15:50:45:229 setStreamVolume(stream:STREAM_MUSIC index:1 flags:0x0) from ru.bydconnect
+05-30 15:50:53:512 setStreamVolume(stream:STREAM_MUSIC index:7 flags:0x0) from ru.bydconnect
+05-30 15:53:43:152 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x1) from android
+05-30 15:53:43:180 setStreamVolume(stream:STREAM_MUSIC index:5 flags:0x1) from android
+05-30 15:53:45:541 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x1) from android
+05-30 15:53:55:742 setStreamVolume(stream:STREAM_MUSIC index:5 flags:0x1) from android
+05-30 15:54:48:546 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x1) from android
+05-30 15:55:28:745 setStreamVolume(stream:STREAM_MUSIC index:7 flags:0x1) from android
+05-30 15:55:29:738 setStreamVolume(stream:STREAM_MUSIC index:8 flags:0x1) from android
+05-30 15:57:53:545 setStreamVolume(stream:STREAM_MUSIC index:7 flags:0x1) from android
+05-30 16:02:36:739 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x1) from android
+05-30 16:15:05:712 setStreamVolume(stream:STREAM_MUSIC index:1 flags:0x0) from ru.bydconnect
+05-30 16:15:13:582 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x0) from ru.bydconnect
+05-30 16:36:16:085 setStreamVolume(stream:STREAM_MUSIC index:7 flags:0x1) from android
+05-30 16:36:16:113 setStreamVolume(stream:STREAM_MUSIC index:8 flags:0x1) from android
+05-30 16:36:16:693 setStreamVolume(stream:STREAM_MUSIC index:9 flags:0x1) from android
+05-30 16:37:08:285 setStreamVolume(stream:STREAM_MUSIC index:8 flags:0x1) from android
+05-30 16:37:08:886 setStreamVolume(stream:STREAM_MUSIC index:7 flags:0x1) from android
+05-30 16:41:12:871 setStreamVolume(stream:STREAM_MUSIC index:6 flags:0x1) from android
+05-30 16:41:19:275 setStreamVolume(stream:STREAM_MUSIC index:5 flags:0x1) from android
+05-30 18:57:27:699 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+05-30 18:57:28:415 adjustStreamVolume(stream:STREAM_NAVI dir:ADJUST_UNMUTE flags:0x0) from com.byd.launchermap
+
+
+Supported System Usages:
+	USAGE_CALL_ASSISTANT
+
+
+
+Spatial audio:
+mHasSpatializerEffect:false
+isSpatializerEnabled:false
+isSpatialAudioEnabled:true
+
+AudioSystemAdapter:
+ mDevicesForStreamCache:
+	 stream:0 device:speaker
+	 stream:1 device:speaker
+	 stream:2 device:speaker
+	 stream:3 device:speaker
+	 stream:4 device:speaker
+	 stream:5 device:speaker
+	 stream:6 device:speaker
+	 stream:7 device:speaker
+	 stream:8 device:speaker
+	 stream:9 device:speaker
+	 stream:10 device:speaker
+	 stream:11 device:speaker
+	 stream:12 device:speaker
+	 stream:13 device:speaker
+	 stream:14 device:speaker
+	 stream:15 device:speaker
+	 stream:16 device:speaker
+	 stream:17 device:speaker
+ mDevicesForAttrCache:

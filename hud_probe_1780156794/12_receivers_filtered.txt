@@ -1,0 +1,197 @@
+        7d8d2cb com.tencent.mtt/.external.reader.thirdcall.ThirdCallDispatchActivityAlias
+      image/x-xwindowdump:
+        30e4777 com.tencent.mtt/.external.reader.thirdcall.ThirdCallOpenByQBAlias
+      application/x-mswinurl:
+        c9f6013 com.alphainventor.filemanager/.activity.MSURLLauncherActivity
+--
+        30e4777 com.tencent.mtt/.external.reader.thirdcall.ThirdCallOpenByQBAlias
+      application/atom+xml:
+        2f62044 com.tencent.mtt/.MainActivity
+      application/7z:
+        c2fb380 com.tencent.mtt/.external.reader.thirdcall.ThirdCallZipReaderActivityAlias
+--
+      mycar:
+        2d85849 com.byd.mycar/.activity.SkyWindowActivity
+        2d85849 com.byd.mycar/.activity.SkyWindowActivity
+        cf5285a com.byd.mycar/.activity.EntryActivity
+        6752f7c com.byd.mycar/.activity.CarWindowActivity
+      skype:
+        b7fc82d io.github.muntashirakon.AppManager/.intercept.ActivityInterceptor
+        b7fc82d io.github.muntashirakon.AppManager/.intercept.ActivityInterceptor
+--
+        79bc096 com.byd.carsettings/com.byd.systemsettings.unsupport.UnsupportActivity
+      com.byd.synclink.window.action:
+        ebda2ee com.byd.synclink/.ui.PhoneCarFullScreenActivity
+      com.huawei.hwid.ACTION_SMS_VERIFICATIONCODE:
+        28af834 com.huawei.hwid/com.huawei.hms.runtimekit.stubexplicit.HwIDReadSmsVerificationCodeActivity
+--
+        1378a27 com.bilibili.bilithings/.splash.SplashActivity
+        e6a4534 com.alipay.arome.app/com.alipay.android.app.flybird.ui.window.FlyBirdWindowActivity
+        2748b4a com.byd.auto_photo/.MainActivity
+        552f1d2 com.byd.droneclient/.MainActivity
+        d251b2f com.android.traceur/.MainTvActivity
+--
+        f334840 com.byd.bydbootguide/.activity.WarningActivity
+        ebf1bdd com.byd.clusterdebug/.MainActivity
+        f0c8957 com.google.android.inputmethod.latin/com.google.android.libraries.inputmethod.launcher.LauncherActivity
+        2b358a9 com.android.systemui/.Somnambulator
+        b277f6a com.tencent.mtt/.SplashActivity
+--
+        824b83c com.byd.bydbootguide/.activity.HelpCenterActivity
+        d5770d2 air.StrelkaHUDPREMIUM/air.StrelkaSD.SplashScreenActivity
+        ad2982a com.alipay.arome.app/com.alipay.android.msp.ui.views.MspWebActivity
+        bc6ecde com.v2ray.ang/.ui.MainActivity
+        9ef6c74 com.unkwn2.yandexhud/.HudV18Activity
+        6040530 com.byd.appstore/.MainActivity
+        a2a6081 com.huawei.hwid/com.huawei.hms.StatementActivity
+        8d904d3 com.android.traceur/.MainActivity
+--
+        b7fc82d io.github.muntashirakon.AppManager/.intercept.ActivityInterceptor
+        f7bb0a0 air.StrelkaHUDPREMIUM/air.StrelkaSD.MainActivity
+        bc32917 com.tencent.mtt/.MiPushDispatchActivity
+        76e5df4 de.szalkowski.activitylauncher.rustore_fork/.ui.activity.RootLauncherActivity
+        aebffbb com.ivolk.StrelkaGPS/.MainActivity
+--
+        edc5f0 com.ss.android.ugc.aweme/cn.everphohto.template_base.process.clip.CutClipActivity
+      com.byd.cluster.projectionmanager.service.startTopEmptyActivity:
+        80d6d37 com.example.amapservice/com.byd.cluster.projectionmanager.service.TopEmptyActivity
+      android.intent.action.MANAGE_PACKAGE_STORAGE:
+        5101109 com.byd.carsettings/com.byd.systemsettings.applications.ApplicationActivity
+      com.google.android.gms.actions.SEARCH_ACTION:
+--
+        7672752 com.ss.android.ugc.aweme/com.bytedance.push.notification.PushActivity
+      com.byd.cluster.projectionmanager.service.startBottomEmptyActivity:
+        7582fd1 com.example.amapservice/com.byd.cluster.projectionmanager.service.BottomEmptyActivity
+      com.yandex.messenger.WEB_SDK_NOTIFICATION_CLICK:
+        2b395e6 ru.yandex.music/.main.MainScreenActivity
+      com.gbox.android.search:
+--
+        6207e90 ru.yandex.yandexnavi/com.yandex.mapkit.internal.MapkitElection$MapkitElectionReceiver
+        b17c81e air.StrelkaHUDPREMIUM/air.StrelkaSD.Receivers.BootDeviceReceiver
+        a84a59f ru.bydconnect/.service.SubscriberService$BootStartReceiver
+        148eca9 ru.yandex.yandexnavi/.ui.bluetooth.ServiceStarter
+        23276af ru.yandex.yandexmaps/com.evernote.android.job.JobBootReceiver
+--
+        8c94170 com.byd.multipletheme/.activitys.RemoteBroadcastReceiver
+      com.byd.weather.action.HIDE_WINDOW:
+        9fd0558 com.byd.weatherhelper/.receiver.WeatherReceiver
+      ru.mts.push.sdk.UPDATE_NOTIFICATION:
+        8635326 ru.mts.music.android/ru.mts.push.NotificationReceiver
+--
+        7e86212 com.arlosoft.macrodroid/dev.skomlach.biometric.compat.utils.DeviceUnlockedReceiver
+        b17c81e air.StrelkaHUDPREMIUM/air.StrelkaSD.Receivers.BootDeviceReceiver
+        23276af ru.yandex.yandexmaps/com.evernote.android.job.JobBootReceiver
+        78711cb air.StrelkaSDFREE/air.StrelkaSD.Receivers.BootDeviceReceiver
+        3ea02a2 com.ivolk.StrelkaGPS/.ExtCommands
+--
+        8ba6df6 com.byd.droneclient/androidx.profileinstaller.ProfileInstallReceiver
+        7b55a12 com.unkwn2.yandexhud/androidx.profileinstaller.ProfileInstallReceiver
+        d0ebb33 com.byd.customkey/androidx.profileinstaller.ProfileInstallReceiver
+        396eb02 com.bydmate.app/androidx.profileinstaller.ProfileInstallReceiver
+        23a79e org.eobdfacile.android/androidx.profileinstaller.ProfileInstallReceiver
+--
+        f083f0f com.byd.carsettings/com.byd.systemsettings.wifi2.utils.PerHotWifiReceiver
+      com.byd.weather.action.SHOW_WINDOW:
+        9fd0558 com.byd.weatherhelper/.receiver.WeatherReceiver
+      android.intent.action.AIRPLANE_MODE:
+        3ea02a2 com.ivolk.StrelkaGPS/.ExtCommands
+--
+      android.bluetooth.device.action.ACL_CONNECTED:
+        dfb36cc air.StrelkaHUDPREMIUM/air.StrelkaSD.Receivers.BluetoothConnectionReceiver
+        3ea02a2 com.ivolk.StrelkaGPS/.ExtCommands
+        8a3d327 com.mybedy.antiradar.rustore/com.mybedy.antiradar.service.BluetoothConnectionReceiver
+        36c80c1 air.StrelkaSDFREE/air.StrelkaSD.Receivers.BluetoothConnectionReceiver
+--
+        cffa73d com.huawei.hwid/com.huawei.hms.fwksdk.broadcast.PersistCoreReceiver
+      com.byd.action.AUTOVOICE_REWIND:
+        b7035b6 cmgyunting.vehicleplayer.cnr/com.kaolafm.kradio.receiver.BydSpeechCtlReceiver
+      byd.intent.action.IMAGE_ON:
+        dd5de30 com.byd.bydcamera/.BydCameraReceiver
+--
+        1d1c74 com.gbox.android/androidx.profileinstaller.ProfileInstallReceiver
+        7b55a12 com.unkwn2.yandexhud/androidx.profileinstaller.ProfileInstallReceiver
+        fbbc2e7 ru.yandex.music/androidx.profileinstaller.ProfileInstallReceiver
+        de68d5e com.arlosoft.macrodroid/androidx.profileinstaller.ProfileInstallReceiver
+        7656f34 com.ovz.carscanner.rustore/androidx.profileinstaller.ProfileInstallReceiver
+--
+        84aa82c com.elm.elm327.obd2.eobd.obd.car.scanner.diagnostics.tool.dashboard.doctor.check.engine.torque.speed.trouble.codes.mary/androidx.profileinstaller.ProfileInstallReceiver
+        7b55a12 com.unkwn2.yandexhud/androidx.profileinstaller.ProfileInstallReceiver
+      com.byd.action.GAME_PERFORMANCE_MODE_ENABLED:
+        4be2188 com.byd.dipilot.dms/.receiver.DmsGameBroadcastReceiver
+      android.vehicle.settings.ACTION_ADJUSTMENT_VOICE_PLAYBACK_VOLUME:
+--
+        84aa82c com.elm.elm327.obd2.eobd.obd.car.scanner.diagnostics.tool.dashboard.doctor.check.engine.torque.speed.trouble.codes.mary/androidx.profileinstaller.ProfileInstallReceiver
+        7b55a12 com.unkwn2.yandexhud/androidx.profileinstaller.ProfileInstallReceiver
+        7656f34 com.ovz.carscanner.rustore/androidx.profileinstaller.ProfileInstallReceiver
+        33ea61d com.byd.mediacenter/androidx.profileinstaller.ProfileInstallReceiver
+      ru.yandex.searchlib.notification.action.NOTIFICATION_START:
+--
+        1465669 com.qti.qualcomm.datastatusnotification/.BootReceiver
+        b17c81e air.StrelkaHUDPREMIUM/air.StrelkaSD.Receivers.BootDeviceReceiver
+        3d1a2ba com.youku.car/com.youku.service.push.receiver.LocalPushReceiver
+        a84a59f ru.bydconnect/.service.SubscriberService$BootStartReceiver
+        148eca9 ru.yandex.yandexnavi/.ui.bluetooth.ServiceStarter
+--
+      android.bluetooth.device.action.ACL_DISCONNECTED:
+        dfb36cc air.StrelkaHUDPREMIUM/air.StrelkaSD.Receivers.BluetoothConnectionReceiver
+        3ea02a2 com.ivolk.StrelkaGPS/.ExtCommands
+        8a3d327 com.mybedy.antiradar.rustore/com.mybedy.antiradar.service.BluetoothConnectionReceiver
+        36c80c1 air.StrelkaSDFREE/air.StrelkaSD.Receivers.BluetoothConnectionReceiver
+--
+        3efad2b com.maxxt.pcradio/.service.MediaButtonIntentReceiver
+        844627 com.ss.android.ugc.aweme/.xiaoyi.CardProjectStatusReceiver
+        f48ef65 com.byd.mediacenter/.MediaReceiver
+      android.intent.action.DOCK_EVENT:
+        3ea02a2 com.ivolk.StrelkaGPS/.ExtCommands
+--
+        4677a02 com.ovz.russcanner/crc64e5711c1ef8b7e0cf.AACarService
+        8c4f554 ru.yandex.yandexmaps/ru.yandex.yandexnavi.projected.platformkit.presentation.service.NavigationCarAppService
+        b1b0022 com.mybedy.antiradar.rustore/com.mybedy.antiradar.car.CarAppService
+        5f80f93 com.ovz.carscanner.rustore/crc642239d77d0333b67d.AACarService
+      com.ss.android.vivo.message:
+--
+        717eea com.alipay.arome.app/com.alipay.android.app.MspService
+      ru.mts.music.action.REWIND:
+        decfa9d ru.mts.music.android/ru.mts.music.common.service.player.MusicService
+      com.google.android.gms.droidguard.service.INIT:
+        58efe99 com.gbox.android/.components.DGService
+--
+        c5d9165 com.huawei.hwid/com.huawei.hms.runtimekit.stubexplicit.GameNotifyAppStateService
+      com.yandex.music.sdk.foreground.action.REWIND:
+        64000bb ru.yandex.yandexmaps/com.yandex.music.sdk.helper.foreground.mediasession.MediaSessionService
+      android.net.INetworkStackConnector.Test:
+        2940ebb com.android.networkstack/com.android.server.TestNetworkStackService
+--
+        f2161d9 com.byd.cmgamecenter/.ForegroundService
+      ru.yandex.music.action.REWIND:
+        45c167e ru.yandex.music/.common.service.player.MediaSessionService
+      com.byd.minikaraoke.messenger:
+        80398ae com.byd.minikaraoke/com.blankj.utilcode.util.MessengerUtils$ServerService
+--
+      android.service.notification.NotificationListenerService:
+        881d3f com.unkwn2.yandexhud/.HudNavListenerService
+        68c9dd3 com.gbox.android/com.vlite.sdk.proxy.NotificationServiceStub
+        9fca76e com.arlosoft.macrodroid/.triggers.services.NotificationServiceOreo
+        2c3f3e0 com.byd.bluetoothleservice/com.netease.cloudmusic.mediacontrollersdk.NotificationListener
+        5a36609 com.sr.openbyd/.services.HudNavigationListenerService
+        b368b70 com.arlosoft.macrodroid/.triggers.services.NotificationService
+        814bdca com.byd.diLinkAccount/com.byd.accountcenter.notification.NotificationService
+      com.ss.android.newmedia.message.cache.action:
+--
+        248e10d io.github.muntashirakon.AppManager/.accessibility.NoRootAccessibilityService
+        d25fb55 com.unkwn2.yandexhud/.HudAccessibilityService
+        585ffb com.apkpure.aegon/.services.AutoInstallService
+        9c6d78d com.android.systemui/.custom.StatusBarAccessibilityService
+        5e253d3 com.sr.openbyd/.services.SteeringWheelAccessibilityService
+--
+      ACTION_ROUTE_VARIANTS_SCREEN:
+        8c4f554 ru.yandex.yandexmaps/ru.yandex.yandexnavi.projected.platformkit.presentation.service.NavigationCarAppService
+      ru.yandex.searchlib.CLIDABLE:
+        7dd8fa8 ru.yandex.yandexnavi/ru.yandex.searchlib.notification.BarMarkerService
+      android.media.browse.MediaBrowserService:
+--
+      com.byd.controlweather:
+        5e91f04 com.byd.weatherhelper/.WeatherFloatWindowService
+      com.byd.autovoice.isr:
+        726ae83 com.byd.autovoice/.service.SrService
+      com.alipay.mobile.accountauthbiz.outer.AlipayAutoLoginService:

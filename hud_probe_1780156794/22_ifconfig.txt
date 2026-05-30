@@ -1,0 +1,193 @@
+rmnet_data3 Link encap:UNSPEC  
+          inet addr:100.65.132.142  Mask:255.255.255.252 
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:1162 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:1481 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:301924 TX bytes:176985 
+
+erspan0   Link encap:UNSPEC  
+          BROADCAST MULTICAST  MTU:1450  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+sit0      Link encap:UNSPEC  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+rmnet_data4 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+rmnet_data0 Link encap:UNSPEC  
+          inet6 addr: fe80::885c:39ff:fe95:b15c/64 Scope: Link
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:40 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:43 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:2648 TX bytes:2872 
+
+ip_vti0   Link encap:UNSPEC  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+eth0      Link encap:UNSPEC    Driver rtase
+          inet addr:192.168.195.2  Bcast:192.168.195.255  Mask:255.255.255.0 
+          inet6 addr: fe80::280:fff:fe11:7000/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:336365 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:161092 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:30612787 TX bytes:13136314 
+
+rmnet_data2 Link encap:UNSPEC  
+          inet addr:172.18.98.11  Mask:255.255.255.248 
+          UP RUNNING  MTU:1280  Metric:1
+          RX packets:7914 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:16121 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:1643377 TX bytes:1994812 
+
+rmnet_data1 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:9161 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:23559 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:4042538 TX bytes:2433901 
+
+r_rmnet_data0 Link encap:UNSPEC  
+          inet6 addr: fe80::8d1:12ff:fe1a:93d8/64 Scope: Link
+          UP RUNNING  MTU:3000  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:59 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:3912 
+
+gretap0   Link encap:UNSPEC  
+          BROADCAST MULTICAST  MTU:1462  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+ip6_vti0  Link encap:UNSPEC  
+          NOARP  MTU:1364  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+dummy0    Link encap:UNSPEC  
+          inet6 addr: fe80::9c40:19ff:febe:2e68/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:1042 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:204644 
+
+rmnet_data5 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+wlan0     Link encap:UNSPEC    Driver cnss_pci
+          inet addr:10.91.86.152  Bcast:10.91.86.255  Mask:255.255.255.0 
+          inet6 addr: fe80::5476:4eff:fea3:dce/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:278488 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:189846 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:3000 
+          RX bytes:291423184 TX bytes:26871054 
+
+pimreg    Link encap:UNSPEC  
+          UP RUNNING NOARP  MTU:1472  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+r_rmnet_data3 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+ip6gre0   Link encap:UNSPEC  
+          NOARP  MTU:1448  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+r_rmnet_data2 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+r_rmnet_data1 Link encap:UNSPEC  
+          [NO FLAGS]  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+ip6tnl0   Link encap:UNSPEC  
+          NOARP  MTU:1452  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+rmnet_ipa0 Link encap:UNSPEC  
+          UP RUNNING  MTU:9216  Metric:1
+          RX packets:16491 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:74662 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:3827853 TX bytes:6122074 
+
+tunl0     Link encap:UNSPEC  
+          NOARP  MTU:1480  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+gre0      Link encap:UNSPEC  
+          NOARP  MTU:1476  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+p2p0      Link encap:UNSPEC    Driver cnss_pci
+          BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:3000 
+          RX bytes:0 TX bytes:0 
+
+lo        Link encap:UNSPEC  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:41666 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:41666 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:12891320 TX bytes:12891320 
+

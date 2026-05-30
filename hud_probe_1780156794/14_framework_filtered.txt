@@ -1,0 +1,2 @@
+boot-dilink-compat-sdk.vdex
+dilink-compat-sdk.jar

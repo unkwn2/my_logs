@@ -1,0 +1,103 @@
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{80926b5 u0 com.byd.amapservice/com.example.amapservice.AmapService}
+    intent={act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService}
+    packageName=com.byd.amapservice
+    processName=com.byd.amapservice
+    baseDir=/system/priv-app/AdapterAmapService/AdapterAmapService.apk
+    dataDir=/data/user/0/com.byd.amapservice
+    app=ProcessRecord{7da0e73 3734:com.byd.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.unkwn2.yandexhud
+    recentCallingUid=10173
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.byd.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:28; callerTargetSdkVersion:28; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=2 foregroundNoti=Notification(channel=default shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-19h59m0s770ms startingBgTimeout=--
+    lastActivity=-1h50m26s921ms restartTime=-4h39m12s939ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{80926b5 u0 com.byd.amapservice/com.example.amapservice.AmapService}
+    intent={act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService}
+    packageName=com.byd.amapservice
+    processName=com.byd.amapservice
+    baseDir=/system/priv-app/AdapterAmapService/AdapterAmapService.apk
+    dataDir=/data/user/0/com.byd.amapservice
+    app=ProcessRecord{7da0e73 3734:com.byd.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.unkwn2.yandexhud
+    recentCallingUid=10173
+    allowStartForeground=10
+    startForegroundCount=1
+    infoAllowStartForeground=[callingPackage: com.byd.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { act=com.byd.amapservice cmp=com.byd.amapservice/com.example.amapservice.AmapService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<broadcast:1000:android.intent.action.TIME_SET,reason:,reasonCode:TIME_CHANGED,duration:20000,callingUid:1000>; targetSdkVersion:28; callerTargetSdkVersion:28; startForegroundCount:0; bindFromPackage:null]
+    isForeground=true foregroundId=2 foregroundNoti=Notification(channel=default shortcut=null contentView=null vibrate=null sound=null defaults=0x0 flags=0x62 color=0x00000000 vis=PRIVATE)
+    createTime=-19h59m0s791ms startingBgTimeout=--
+    lastActivity=-1h50m26s942ms restartTime=-4h39m12s960ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=6
+
+  * ServiceRecord{c29ad51 u0 com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+    intent={cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.byd.launchermap
+    recentCallingUid=10038
+    allowStartForeground=52
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.byd.launchermap; callingUid: 10038; uidState: IMPF; intent: Intent { cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService (has extras) }; code:ACTIVITY_STARTER; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:30; startForegroundCount:0; bindFromPackage:null]
+    createTime=-2m31s634ms startingBgTimeout=--
+    lastActivity=-2m31s631ms restartTime=-2m31s631ms createdFromFg=true
+    Bindings:
+    * IntentBindRecord{2c74f0f CREATE}:
+      intent={cmp=com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService}
+      binder=null
+      requested=true received=true hasBound=true doRebind=false
+      * Client AppBindRecord{d8d6b9c ProcessRecord{3f86fe6 23747:com.byd.launchermap/u0a38}}
+        Per-process Connections:
+          ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+    All Connections:
+      ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+
+  * ServiceRecord{f5baf11 u0 com.example.amapservice/com.byd.cluster.menu.service.MenuService}
+    intent={cmp=com.example.amapservice/com.byd.cluster.menu.service.MenuService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.example.amapservice
+    recentCallingUid=1000
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.example.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.example.amapservice/com.byd.cluster.menu.service.MenuService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+    createTime=-19h59m4s681ms startingBgTimeout=--
+    lastActivity=-4h39m16s851ms restartTime=-4h39m16s851ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=1
+
+  * ServiceRecord{7462716 u0 com.example.amapservice/.AmapService}
+    intent={cmp=com.example.amapservice/.AmapService}
+    packageName=com.example.amapservice
+    processName=com.example.amapservice
+    baseDir=/system/priv-app/AmapService/AmapService.apk
+    dataDir=/data/user/0/com.example.amapservice
+    app=ProcessRecord{3e4db46 2620:com.example.amapservice/1000}
+    allowWhileInUsePermissionInFgs=true
+    recentCallingPackage=com.unkwn2.yandexhud
+    recentCallingUid=10173
+    allowStartForeground=10
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: com.example.amapservice; callingUid: 1000; uidState: PER ; intent: Intent { cmp=com.example.amapservice/.AmapService }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<null>; targetSdkVersion:33; callerTargetSdkVersion:33; startForegroundCount:0; bindFromPackage:null]
+    createTime=-19h59m4s758ms startingBgTimeout=--
+    lastActivity=-1h50m26s937ms restartTime=-4h39m16s926ms createdFromFg=true
+    startRequested=true delayedStop=false stopIfKilled=false callStart=true lastStartId=11
+
+  Connection bindings to services:
+  * ConnectionRecord{88b6278 u0 CR com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:@791a7db}
+    binding=AppBindRecord{d8d6b9c com.example.amapservice/com.byd.cluster.projectionmanager.service.BydProjectionService:com.byd.launchermap}
+    conn=android.os.BinderProxy@791a7db flags=0x1

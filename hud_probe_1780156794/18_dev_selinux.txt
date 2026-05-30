@@ -1,0 +1,241 @@
+total 8
+drwxr-xr-x 27 root         root            u:object_r:device:s0                                     4800 2026-05-30 18:57 .
+drwxrwxrwt 32 root         root            u:object_r:rootfs:s0                                      900 2026-05-29 23:00 ..
+crw-------  1 root         root            u:object_r:device:s0                                 242,   4 2026-05-29 23:00 0:0:0:0
+crw-------  1 root         root            u:object_r:device:s0                                 242,   5 2026-05-29 23:00 0:0:0:1
+crw-------  1 root         root            u:object_r:device:s0                                 242,   6 2026-05-29 23:00 0:0:0:2
+crw-------  1 root         root            u:object_r:device:s0                                 242,   7 2026-05-29 23:00 0:0:0:3
+crw-------  1 root         root            u:object_r:device:s0                                 242,   8 2026-05-29 23:00 0:0:0:4
+crw-------  1 root         root            u:object_r:device:s0                                 242,   2 2026-05-29 23:00 0:0:0:49456
+crw-------  1 system       system          u:object_r:vendor_bsg_device:s0                      242,   1 2026-05-29 23:00 0:0:0:49476
+crw-------  1 root         root            u:object_r:device:s0                                 242,   0 2026-05-29 23:00 0:0:0:49488
+crw-------  1 root         root            u:object_r:device:s0                                 242,   9 2026-05-29 23:00 0:0:0:5
+crw-------  1 root         root            u:object_r:device:s0                                 242,  10 2026-05-30 18:57 1:0:0:0
+drwx--x--x  2 root         root            u:object_r:properties_device:s0                          7180 2026-05-29 23:00 __properties__
+crw-rw-r--  1 system       system          u:object_r:vendor_qdsp_device:s0                     511,   0 2026-05-29 23:00 adsprpc-smd
+crw-r--r--  1 system       system          u:object_r:vendor_xdsp_device:s0                     511,   1 2026-05-29 23:00 adsprpc-smd-secure
+crw-------  1 root         root            u:object_r:device:s0                                 237,   1 2026-05-29 23:00 apr_apps2
+crw-rw-rw-  1 root         root            u:object_r:ashmem_device:s0                           10, 126 2026-05-29 23:00 ashmem
+crw-rw-rw-  1 root         root            u:object_r:ashmem_libcutils_device:s0                 10, 126 2026-05-29 23:00 ashmembafefbe8-800e-4330-aa97-991522186d7a
+crw-r-----  1 radio        radio           u:object_r:vendor_at_device:s0                       237,   0 2026-05-29 23:00 at_mdm0
+crw-r-----  1 radio        radio           u:object_r:vendor_at_device:s0                       482,   0 2026-05-29 23:00 at_usb0
+crw-------  1 root         root            u:object_r:vendor_at_device:s0                       482,   1 2026-05-29 23:00 at_usb1
+crw-------  1 root         root            u:object_r:vendor_at_device:s0                       482,   2 2026-05-29 23:00 at_usb2
+lrwxrwxrwx  1 root         root            u:object_r:binder_device:s0                                20 2026-05-29 23:00 binder -> /dev/binderfs/binder
+drwxr-xr-x  3 root         root            u:object_r:binderfs:s0                                      0 2026-05-29 23:00 binderfs
+dr-xr-xr-x  4 system       system          u:object_r:cgroup:s0                                        0 2026-05-29 23:00 blkio
+drwxr-xr-x  6 root         root            u:object_r:block_device:s0                               3200 2026-05-30 18:57 block
+drwxr-xr-x  3 root         root            u:object_r:device:s0                                       60 2026-05-29 23:00 boringssl
+crw-------  1 root         root            u:object_r:device:s0                                  10, 119 2026-05-29 23:00 bperf
+crw-rw----  1 bluetooth    system          u:object_r:vendor_bt_device:s0                       483,   0 2026-05-29 23:00 btfmslim
+crw-rw----  1 bluetooth    system          u:object_r:vendor_bt_device:s0                       489,   0 2026-05-29 23:00 btpower
+drwxr-xr-x  3 root         root            u:object_r:device:s0                                       60 2026-05-29 23:00 bus
+crw-rw-r--  1 root         root            u:object_r:diagnosticsrv_diag_device:s0               10,   0 2026-05-29 23:00 byd_adc
+crw-------  1 root         root            u:object_r:device:s0                                  10, 123 2026-05-29 23:00 cam_diag_gpio
+crw-rw----  1 cameraserver system          u:object_r:cam_sensor_device:s0                       10, 121 2026-05-29 23:00 cam_errcode
+crw-rw----  1 cameraserver system          u:object_r:cam_sensor_device:s0                       10, 122 2026-05-29 23:00 cam_power_supervise
+crw-------  1 root         root            u:object_r:device:s0                                 497,   0 2026-05-29 23:00 camera_diag
+crw-------  1 root         root            u:object_r:device:s0                                  10, 124 2026-05-29 23:00 camera_diag_i2c
+crw-------  1 root         root            u:object_r:device:s0                                 481,   1 2026-05-29 23:00 ccid_bulk
+crw-------  1 root         root            u:object_r:device:s0                                 481,   0 2026-05-29 23:00 ccid_ctrl
+-?????????  ? ?            ?               ?                                                           ?                ? celld.startpipe
+d?????????  ? ?            ?               ?                                                           ?                ? cgroup_info
+crw-------  1 root         root            u:object_r:console_device:s0                         136,   0 2026-05-29 23:00 console
+crw-rw-rw-  1 root         root            u:object_r:container_device:s0                        10, 125 2026-05-29 23:00 container
+crw-------  1 root         root            u:object_r:vendor_latency_device:s0                   10, 120 2026-05-29 23:00 cpu_dma_latency
+-r--r--r--  1 root         root            u:object_r:dev_cpu_variant:s0                              10 2026-05-29 23:00 cpu_variant:arm
+-r--r--r--  1 root         root            u:object_r:dev_cpu_variant:s0                               7 2026-05-29 23:00 cpu_variant:arm64
+dr-xr-xr-x 13 system       system          u:object_r:cgroup:s0                                        0 2026-05-29 23:00 cpuctl
+dr-xr-xr-x 12 system       system          u:object_r:cgroup:s0                                        0 2026-05-29 23:00 cpuset
+crw-------  1 root         root            u:object_r:device:s0                                 252,   0 2026-05-29 23:00 dcc_sram
+crw-------  1 root         root            u:object_r:dm_device:s0                               10, 236 2026-05-29 23:00 device-mapper
+drwxr-xr-x  2 root         root            u:object_r:dm_user_device:s0                               40 2026-05-29 23:00 dm-user
+crw-rw----  1 usb          usb             u:object_r:vendor_rmnet_device:s0                    506,   1 2026-05-29 23:00 dpl_ctrl
+drwxr-xr-x  2 root         root            u:object_r:device:s0                                      120 2026-05-29 23:00 dri
+drwxr-xr-x  2 root         root            u:object_r:device:s0                                       40 2026-05-29 23:00 dual_sf_mode_2
+-?????????  ? ?            ?               ?                                                           ?                ? event-log-tags
+lrwxrwxrwx  1 root         root            u:object_r:device:s0                                       13 2026-05-29 23:00 fd -> /proc/self/fd
+drwxrwx---  2 shell        system          u:object_r:device:s0                                       40 2026-05-29 23:00 ffs-diag
+drwxrwx---  2 shell        system          u:object_r:device:s0                                       40 2026-05-29 23:00 ffs-diag-1
+drwxrwx---  2 shell        system          u:object_r:device:s0                                       40 2026-05-29 23:00 ffs-diag-2
+drwxrwx---  2 root         system          u:object_r:fscklogs:s0                                     40 2026-05-29 23:01 fscklogs
+crw-rw-rw-  1 root         root            u:object_r:device:s0                                   1,   7 2026-05-29 23:00 full
+crw-------  1 root         root            u:object_r:fuse_device:s0                             10, 229 2026-05-29 23:00 fuse
+crw-------  1 root         root            u:object_r:device:s0                                 254,   0 2026-05-29 23:00 gpiochip0
+crw-------  1 root         root            u:object_r:device:s0                                 254,   1 2026-05-29 23:00 gpiochip1
+crw-------  1 root         root            u:object_r:device:s0                                 254,   2 2026-05-29 23:00 gpiochip2
+crw-------  1 root         root            u:object_r:device:s0                                 254,   3 2026-05-29 23:00 gpiochip3
+crw-------  1 root         root            u:object_r:device:s0                                 254,   4 2026-05-29 23:00 gpiochip4
+crw-------  1 root         root            u:object_r:device:s0                                 229,   0 2026-05-29 23:00 hvc0
+crw-------  1 root         root            u:object_r:device:s0                                 229,   1 2026-05-29 23:00 hvc1
+crw-------  1 root         root            u:object_r:device:s0                                 229,   2 2026-05-29 23:00 hvc2
+crw-------  1 root         root            u:object_r:device:s0                                 229,   3 2026-05-29 23:00 hvc3
+crw-------  1 root         root            u:object_r:device:s0                                 229,   4 2026-05-29 23:00 hvc4
+crw-------  1 root         root            u:object_r:device:s0                                 229,   5 2026-05-29 23:00 hvc5
+crw-------  1 root         root            u:object_r:device:s0                                 229,   6 2026-05-29 23:00 hvc6
+crw-------  1 root         root            u:object_r:device:s0                                 229,   7 2026-05-29 23:00 hvc7
+crw-------  1 root         root            u:object_r:hw_random_device:s0                        10, 183 2026-05-29 23:00 hw_random
+lrwxrwxrwx  1 root         root            u:object_r:hwbinder_device:s0                              22 2026-05-29 23:00 hwbinder -> /dev/binderfs/hwbinder
+crw-------  1 root         root            u:object_r:device:s0                                  89,   0 2026-05-29 23:00 i2c-0
+crw-------  1 root         root            u:object_r:i2c_device:s0                              89,   1 2026-05-29 23:00 i2c-1
+crw-------  1 root         root            u:object_r:device:s0                                  89,   2 2026-05-29 23:00 i2c-2
+crw-------  1 root         root            u:object_r:device:s0                                  89,   3 2026-05-29 23:00 i2c-3
+crw-rw-r--  1 system       system          u:object_r:iio_device:s0                             244,   0 2026-05-29 23:00 iio:device0
+drwxr-xr-x  2 root         root            u:object_r:input_device:s0                                240 2026-05-29 23:00 input
+crw-rw-r--  1 system       system          u:object_r:ion_device:s0                              10, 127 2026-05-29 23:00 ion
+crw-rw----  1 radio        radio           u:object_r:vendor_ipa_dev:s0                         496,   0 2026-05-29 23:00 ipa
+crw-------  1 root         root            u:object_r:device:s0                                 486,   0 2026-05-29 23:00 ipaIpv6CTTable
+crw-rw----  1 radio        radio           u:object_r:vendor_ipa_dev:s0                         487,   0 2026-05-29 23:00 ipaNatTable
+crw-rw----  1 system       vendor_adpl_odl u:object_r:vendor_ipa_dev:s0                         495,   0 2026-05-29 23:00 ipa_adpl
+crw-rw----  1 radio        radio           u:object_r:vendor_ipa_dev:s0                         494,   0 2026-05-29 23:00 ipa_odl_ctl
+crw-------  1 root         root            u:object_r:device:s0                                 485,   0 2026-05-29 23:00 ipa_tethering_bridge
+crw-rw-rw-  1 system       system          u:object_r:ipel_device:s0                            491,   0 2026-05-29 23:00 ipel
+crw-rw-rw-  1 system       system          u:object_r:gpu_device:s0                             510,   0 2026-05-29 23:00 kgsl-3d0
+crw--w----  1 root         system          u:object_r:kmsg_device:s0                              1,  11 2026-05-29 23:00 kmsg
+crw-------  1 root         root            u:object_r:loop_control_device:s0                     10, 237 2026-05-29 23:00 loop-control
+crw-rw----  1 system       camera          u:object_r:video_device:s0                           246,   0 2026-05-29 23:00 media0
+crw-rw----  1 system       camera          u:object_r:video_device:s0                           246,   1 2026-05-29 23:00 media1
+crw-rw-r--  1 system       system          u:object_r:vendor_membuf_dev:s0                      240,   0 2026-05-29 23:00 membuf
+dr-xr-xr-x  5 root         root            u:object_r:cgroup:s0                                        0 2026-05-29 23:00 memcg
+crw-------  1 root         root            u:object_r:vendor_mhi_device:s0                      241,   0 2026-05-30 18:57 mhi_1103_00.01.00_pipe_0
+crw-rw----  1 system       system          u:object_r:vendor_mhi_diag_device:s0                 241,   1 2026-05-30 18:57 mhi_1103_00.01.00_pipe_4
+crw-rw-r--  1 system       system          u:object_r:odmm_device:s0                            498,   0 2026-05-29 23:00 mmc_use_info
+crw-------  1 root         root            u:object_r:device:s0                                 256,   0 2026-05-29 23:00 msm-rng
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 113 2026-05-29 23:00 msm_aac
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 116 2026-05-29 23:00 msm_aac_in
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 112 2026-05-29 23:00 msm_alac
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 111 2026-05-29 23:00 msm_amrnb
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 115 2026-05-29 23:00 msm_amrnb_in
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 110 2026-05-29 23:00 msm_amrwb
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 114 2026-05-29 23:00 msm_amrwb_in
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 109 2026-05-29 23:00 msm_amrwbplus
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 108 2026-05-29 23:00 msm_ape
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 118 2026-05-29 23:00 msm_audio_cal
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 107 2026-05-29 23:00 msm_evrc
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10,  98 2026-05-29 23:00 msm_evrc_in
+crw-------  1 root         root            u:object_r:audio_device:s0                            10, 106 2026-05-29 23:00 msm_g711alaw
+crw-------  1 root         root            u:object_r:audio_device:s0                            10,  97 2026-05-29 23:00 msm_g711alaw_in
+crw-------  1 root         root            u:object_r:audio_device:s0                            10, 105 2026-05-29 23:00 msm_g711mlaw
+crw-------  1 root         root            u:object_r:audio_device:s0                            10,  96 2026-05-29 23:00 msm_g711mlaw_in
+crw-------  1 root         root            u:object_r:audio_device:s0                           490,   0 2026-05-29 23:00 msm_hdcp
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 104 2026-05-29 23:00 msm_hweffects
+crw-------  1 root         root            u:object_r:audio_device:s0                            10, 103 2026-05-29 23:00 msm_mp3
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 102 2026-05-29 23:00 msm_multi_aac
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 101 2026-05-29 23:00 msm_qcelp
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10,  95 2026-05-29 23:00 msm_qcelp_in
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 117 2026-05-29 23:00 msm_rtac
+crw-------  1 root         root            u:object_r:audio_device:s0                           251,   0 2026-05-29 23:00 msm_sps
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10, 100 2026-05-29 23:00 msm_wma
+crw-rw----  1 system       audio           u:object_r:audio_device:s0                            10,  99 2026-05-29 23:00 msm_wmapro
+drwxr-xr-x  2 root         root            u:object_r:device:s0                                       60 2026-05-29 23:00 net
+crw-rw-rw-  1 root         root            u:object_r:null_device:s0                              1,   3 2026-05-29 23:00 null
+crw-rw----  1 radio        vpn             u:object_r:ppp_device:s0                             108,   0 2026-05-29 23:00 ppp
+crw-rw-rw-  1 root         root            u:object_r:ptmx_device:s0                              5,   2 2026-05-30 18:59 ptmx
+drwxr-xr-x  2 root         root            u:object_r:devpts:s0                                        0 2026-05-29 23:00 pts
+crw-rw----  1 system       drmrpc          u:object_r:vendor_qce_device:s0                      492,   0 2026-05-29 23:00 qce
+crw-rw----  1 system       drmrpc          u:object_r:tee_device:s0                             509,   0 2026-05-29 23:00 qseecom
+crw-rw----  1 system       system          u:object_r:vendor_qvr_external_sensor_device:s0      501,   0 2026-05-29 23:00 qvr_external_sensor_ioctl
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   7 2026-05-29 23:00 ramdump_a660_zap
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   9 2026-05-29 23:00 ramdump_adsp
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   1 2026-05-29 23:00 ramdump_adsp_rh
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  14 2026-05-29 23:00 ramdump_cdsp
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   2 2026-05-29 23:00 ramdump_cdsp_minidump
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   8 2026-05-29 23:00 ramdump_md_a660_zap
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  10 2026-05-29 23:00 ramdump_md_adsp
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  15 2026-05-29 23:00 ramdump_md_cdsp
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  13 2026-05-29 23:00 ramdump_md_modem
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   4 2026-05-29 23:00 ramdump_md_trustedvm
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  17 2026-05-29 23:00 ramdump_md_venus
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   6 2026-05-29 23:00 ramdump_md_yupik_ipa_fws
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_microdump_modem_device:s0  238,   0 2026-05-29 23:00 ramdump_microdump_modem
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  12 2026-05-29 23:00 ramdump_modem
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   3 2026-05-29 23:00 ramdump_trustedvm
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  16 2026-05-29 23:00 ramdump_venus
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,  11 2026-05-29 23:00 ramdump_wlan
+crw-r-----  1 system       system          u:object_r:vendor_ramdump_device:s0                  238,   5 2026-05-29 23:00 ramdump_yupik_ipa_fws
+crw-rw-rw-  1 root         root            u:object_r:random_device:s0                            1,   8 2026-05-29 23:00 random
+crw-------  1 root         root            u:object_r:device:s0                                 488,   2 2026-05-29 23:00 rdbg_adsp
+crw-------  1 root         root            u:object_r:device:s0                                 488,   5 2026-05-29 23:00 rdbg_cdsp
+crw-------  1 root         root            u:object_r:device:s0                                 488,   1 2026-05-29 23:00 rdbg_modem
+crw-------  1 root         root            u:object_r:device:s0                                 488,   4 2026-05-29 23:00 rdbg_wcnss
+crw-------  1 root         root            u:object_r:device:s0                                  10, 242 2026-05-29 23:00 rfkill
+crw-rw----  1 usb          usb             u:object_r:vendor_rmnet_device:s0                    506,   0 2026-05-29 23:00 rmnet_ctrl
+crw-------  1 root         root            u:object_r:device:s0                                 253,   0 2026-05-29 23:00 rpmsg_ctrl0
+crw-------  1 root         root            u:object_r:device:s0                                 253,   1 2026-05-29 23:00 rpmsg_ctrl1
+crw-------  1 root         root            u:object_r:device:s0                                 253,   2 2026-05-29 23:00 rpmsg_ctrl2
+crw-rw----  1 system       system          u:object_r:rtc_device:s0                             247,   0 2026-05-29 23:00 rtc0
+crw-rw----  1 system       system          u:object_r:rtc_device:s0                             247,   1 2026-05-29 23:00 rtc1
+crw-rw-rw-  1 root         root            u:object_r:kmsg_device:s0                            200,   0 2026-05-29 23:00 rtcore
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   0 2026-05-29 23:00 sg0
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   1 2026-05-29 23:00 sg1
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   2 2026-05-29 23:00 sg2
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   3 2026-05-29 23:00 sg3
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   4 2026-05-29 23:00 sg4
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   5 2026-05-29 23:00 sg5
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   6 2026-05-29 23:00 sg6
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   7 2026-05-29 23:00 sg7
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   8 2026-05-29 23:00 sg8
+crw-------  1 root         root            u:object_r:vendor_sg_device:s0                        21,   9 2026-05-30 18:57 sg9
+crw-rw----  1 system       drmrpc          u:object_r:tee_device:s0                             239,   0 2026-05-29 23:00 smcinvoke
+crw-rw----  1 radio        radio           u:object_r:vendor_smd_device:s0                      237,   5 2026-05-29 23:00 smd11
+crw-rw----  1 bluetooth    bluetooth       u:object_r:vendor_smd7_device:s0                     237,   3 2026-05-29 23:00 smd7
+crw-------  1 root         root            u:object_r:vendor_smd_device:s0                      237,   4 2026-05-29 23:00 smd8
+crw-r-----  1 radio        radio           u:object_r:vendor_smd_device:s0                      237,   2 2026-05-29 23:00 smdcntl8
+drwxr-xr-x  2 root         root            u:object_r:audio_device:s0                               1360 2026-05-29 23:00 snd
+drwxr-xr-x 11 root         root            u:object_r:socket_device:s0                               980 2026-05-30 18:58 socket
+crw-rw----  1 system       system          u:object_r:spi_device:s0                             154,   0 2026-05-29 23:00 spidev_ivi
+lrwxrwxrwx  1 root         root            u:object_r:device:s0                                       15 2026-05-29 23:00 stderr -> /proc/self/fd/2
+lrwxrwxrwx  1 root         root            u:object_r:device:s0                                       15 2026-05-29 23:00 stdin -> /proc/self/fd/0
+lrwxrwxrwx  1 root         root            u:object_r:device:s0                                       15 2026-05-29 23:00 stdout -> /proc/self/fd/1
+drwxr-xr-x  9 system       system          u:object_r:device:s0                                      180 2026-05-29 23:00 stune
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   2 2026-05-29 23:00 subsys_a660_zap
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   3 2026-05-29 23:00 subsys_adsp
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   6 2026-05-29 23:00 subsys_cdsp
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   5 2026-05-29 23:00 subsys_modem
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   0 2026-05-29 23:00 subsys_trustedvm
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   7 2026-05-29 23:00 subsys_venus
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   4 2026-05-29 23:00 subsys_wlan
+crw-r-----  1 system       system          u:object_r:vendor_ssr_device:s0                      493,   1 2026-05-29 23:00 subsys_yupik_ipa_fws
+crw-rw----  1 root         camera          u:object_r:vendor_synx_device:s0                     505,   0 2026-05-29 23:00 synx_device
+drwxr-xr-x  4 system       system          u:object_r:device:s0                                       80 2026-05-29 23:00 sys
+crw-rw-rw-  1 root         root            u:object_r:owntty_device:s0                            5,   0 2026-05-29 23:00 tty
+crw-------  1 root         root            u:object_r:device:s0                                 236,   0 2026-05-29 23:00 ttyEUD0
+crw-rw----  1 bluetooth    net_bt          u:object_r:hci_attach_dev:s0                         234,   0 2026-05-30 19:00 ttyHS0
+crw-rw----  1 system       system          u:object_r:device:s0                                 234,   1 2026-05-29 23:00 ttyHS1
+crw-rw----  1 system       system          u:object_r:console_device:s0                         234,   2 2026-05-29 23:00 ttyHS2
+crw-------  1 root         root            u:object_r:console_device:s0                         234,   3 2026-05-29 23:00 ttyHS3
+crw-------  1 root         root            u:object_r:console_device:s0                         136,   0 2026-05-29 23:00 ttyHSL0
+crw-------  1 root         root            u:object_r:tty_device:s0                             235,   0 2026-05-29 23:00 ttyMSM0
+crw-rw----  1 system       vpn             u:object_r:tun_device:s0                              10, 200 2026-05-29 23:00 tun
+crw-------  1 root         root            u:object_r:vendor_bsg_device:s0                      242,   3 2026-05-29 23:00 ufs-bsg0
+crw-rw----  1 uhid         uhid            u:object_r:uhid_device:s0                             10, 239 2026-05-29 23:00 uhid
+crw-rw----  1 uhid         uhid            u:object_r:uhid_device:s0                             10, 223 2026-05-29 23:00 uinput
+crw-rw----  1 system       system          u:object_r:uio_device:s0                             508,   0 2026-05-29 23:00 uio0
+crw-rw-rw-  1 root         root            u:object_r:random_device:s0                            1,   9 2026-05-29 23:00 urandom
+drwxrwxr-x  5 shell        system          u:object_r:device:s0                                      100 2026-05-29 23:00 usb-ffs
+crw-rw----  1 root         usb             u:object_r:usbaccessory_device:s0                     10,  94 2026-05-29 23:00 usb_accessory
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   4 2026-05-29 23:00 v4l-subdev0
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   5 2026-05-29 23:00 v4l-subdev1
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  14 2026-05-29 23:00 v4l-subdev10
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  15 2026-05-29 23:00 v4l-subdev11
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  16 2026-05-29 23:00 v4l-subdev12
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  17 2026-05-29 23:00 v4l-subdev13
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  18 2026-05-29 23:00 v4l-subdev14
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  19 2026-05-29 23:00 v4l-subdev15
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   6 2026-05-29 23:00 v4l-subdev2
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   7 2026-05-29 23:00 v4l-subdev3
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   8 2026-05-29 23:00 v4l-subdev4
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   9 2026-05-29 23:00 v4l-subdev5
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  10 2026-05-29 23:00 v4l-subdev6
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  11 2026-05-29 23:00 v4l-subdev7
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  12 2026-05-29 23:00 v4l-subdev8
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,  13 2026-05-29 23:00 v4l-subdev9
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   2 2026-05-29 23:00 video0
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   3 2026-05-29 23:00 video1
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   0 2026-05-29 23:00 video32
+crw-rw----  1 system       camera          u:object_r:video_device:s0                            81,   1 2026-05-29 23:00 video33
+lrwxrwxrwx  1 root         root            u:object_r:vndbinder_device:s0                             23 2026-05-29 23:00 vndbinder -> /dev/binderfs/vndbinder
+crw-rw----  1 wifi         wifi            u:object_r:vendor_wlan_device:s0                     480,   0 2026-05-29 23:00 wlan
+crw-rw----  1 radio        radio           u:object_r:vendor_ipa_dev:s0                         484,   0 2026-05-29 23:00 wwan_ioctl
+crw-rw-rw-  1 root         system          u:object_r:xdja_usb_device:s0                        180, 192 2026-05-30 18:57 xdjausb0
+crw-rw-rw-  1 root         root            u:object_r:zero_device:s0                              1,   5 2026-05-29 23:00 zero

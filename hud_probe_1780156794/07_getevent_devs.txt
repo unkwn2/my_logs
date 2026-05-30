@@ -1,0 +1,95 @@
+add device 1: /dev/input/event0
+  name:     "accel-iner"
+  events:
+    ABS (0003): ABS_X                 : value 81, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_Y                 : value 723, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_Z                 : value 3984, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_MISC              : value 0, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 2: /dev/input/event2
+  name:     "temp-iner"
+  events:
+    ABS (0003): ABS_MISC              : value 3107, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 3: /dev/input/event3
+  name:     "himax-touchscreen"
+  events:
+    KEY (0001): KEY_HOME              KEY_POWER             KEY_MENU              KEY_BACK             
+                KEY_SEARCH            BTN_TOUCH             KEY_APPSELECT        
+    ABS (0003): ABS_MT_SLOT           : value 0, min 0, max 4, fuzz 0, flat 0, resolution 0
+                ABS_MT_TOUCH_MAJOR    : value 0, min 0, max 200, fuzz 0, flat 0, resolution 0
+                ABS_MT_WIDTH_MAJOR    : value 0, min 0, max 200, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_X     : value 0, min 0, max 1919, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_Y     : value 0, min 0, max 1079, fuzz 0, flat 0, resolution 0
+                ABS_MT_TRACKING_ID    : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+                ABS_MT_PRESSURE       : value 0, min 0, max 200, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 4: /dev/input/event8
+  name:     "als_sensor_can"
+  events:
+    ABS (0003): ABS_MISC              : value 0, min 0, max 130000, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 5: /dev/input/event10
+  name:     "Audio Data Monitor"
+  events:
+    KEY (0001): 015e                 
+  input props:
+    <none>
+add device 6: /dev/input/event7
+  name:     "gpio-keys"
+  events:
+    KEY (0001): 0054                  KEY_ZENKAKUHANKAKU   
+  input props:
+    <none>
+add device 7: /dev/input/event1
+  name:     "gyro-iner"
+  events:
+    ABS (0003): ABS_RX                : value -1, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_RY                : value -7, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_RZ                : value 6, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_MISC              : value 0, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 8: /dev/input/event5
+  name:     "gyro"
+  events:
+    ABS (0003): ABS_RX                : value 11, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_RY                : value -5, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_RZ                : value -2, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_MISC              : value 0, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 9: /dev/input/event4
+  name:     "accel"
+  events:
+    ABS (0003): ABS_X                 : value 4, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_Y                 : value 4092, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_Z                 : value 0, min -32768, max 32767, fuzz 0, flat 0, resolution 0
+                ABS_MISC              : value 0, min 0, max 0, fuzz 0, flat 0, resolution 0
+  input props:
+    <none>
+add device 10: /dev/input/event6
+  name:     "simulate-keys"
+  events:
+    KEY (0001): KEY_RO                KEY_KATAKANA          KEY_HIRAGANA          KEY_HENKAN           
+                KEY_KATAKANAHIRAGANA  KEY_MUHENKAN          KEY_KPJPCOMMA         KEY_MUTE             
+                KEY_VOLUMEDOWN        KEY_VOLUMEUP          KEY_POWER             KEY_KPEQUAL          
+                010a                  010b                  010c                  010d                 
+                010e                  010f                  BTN_JOYSTICK          BTN_THUMB            
+                BTN_THUMB2            BTN_TOP               BTN_TOP2              BTN_PINKIE           
+                012c                  012d                  012e                  BTN_DEAD             
+                BTN_GAMEPAD           BTN_EAST              BTN_C                 BTN_NORTH            
+                BTN_WEST              BTN_TR                BTN_TL2               BTN_TR2              
+                BTN_SELECT            BTN_START             BTN_MODE              BTN_THUMBL           
+                KEY_FN                KEY_FN_ESC            KEY_FN_F1             KEY_FN_F2            
+                KEY_FN_F3             KEY_FN_F4             KEY_FN_F5             KEY_FN_F6            
+                KEY_FN_F7             KEY_FN_F8             KEY_FN_F9             KEY_FN_F10           
+                KEY_FN_F11            KEY_FN_F12            KEY_FN_1              KEY_FN_2             
+                KEY_FN_D              KEY_FN_E              01ef                  01f0                 
+                KEY_BRL_DOT6          KEY_BRL_DOT7          KEY_BRL_DOT9         
+  input props:
+    <none>

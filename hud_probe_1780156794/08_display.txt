@@ -1,0 +1,909 @@
+DISPLAY MANAGER (dumpsys display)
+  mOnlyCode=false
+  mSafeMode=false
+  mPendingTraversal=false
+  mViewports=[DisplayViewport{type=INTERNAL, valid=true, isActive=true, displayId=0, uniqueId='local:4630946674560563842', physicalPort=130, orientation=0, logicalFrame=Rect(0, 0 - 1920, 1080), physicalFrame=Rect(0, 0 - 1920, 1080), deviceWidth=1920, deviceHeight=1080}]
+  mDefaultDisplayDefaultColorMode=0
+  mWifiDisplayScanRequestCount=0
+  mStableDisplaySize=Point(2560, 1440)
+  mMinimumBrightnessCurve=[(0.0, 0.0), (2000.0, 50.0), (4000.0, 90.0)]
+
+
+Display States: size=4
+  Display Id=0
+  Display State=ON
+  Display Brightness=0.21176471
+  Display SdrBrightness=0.21176471
+  Display Id=2
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+  Display Id=3
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+  Display Id=4
+  Display State=ON
+  Display Brightness=0.0
+  Display SdrBrightness=0.0
+
+mOnekeyScreenOffs:{}
+
+mIsKeepLightOns:{0=1}
+
+Backlight Ctrl: size=0
+
+OnekeyCallbacks: size=0
+
+Display Adapters: size=4
+  LocalDisplayAdapter
+  VirtualDisplayAdapter
+  OverlayDisplayAdapter
+    mCurrentOverlaySetting=
+    mOverlays: size=0
+  WifiDisplayAdapter
+    mCurrentStatus=WifiDisplayStatus{featureState=2, scanState=0, activeDisplayState=0, activeDisplay=null, displays=[], sessionInfo=WifiDisplaySessionInfo:
+        Client/Owner: Client
+        GroupId: 
+        Passphrase: 
+        SessionId: 0
+        IP Address: }
+    mFeatureState=2
+    mScanState=0
+    mActiveDisplayState=0
+    mActiveDisplay=null
+    mDisplays=[]
+    mAvailableDisplays=[]
+    mRememberedDisplays=[]
+    mPendingStatusChangeBroadcast=false
+    mSupportsProtectedBuffers=true
+    mDisplayController:
+      mWifiDisplayOnSetting=false
+      mWifiP2pEnabled=true
+      mWfdEnabled=false
+      mWfdEnabling=false
+      mNetworkInfo=null
+      mScanRequested=false
+      mDiscoverPeersInProgress=false
+      mDesiredDevice=null
+      mConnectingDisplay=null
+      mDisconnectingDisplay=null
+      mCancelingDisplay=null
+      mConnectedDevice=null
+      mConnectionRetriesLeft=0
+      mRemoteDisplay=null
+      mRemoteDisplayInterface=null
+      mRemoteDisplayConnected=false
+      mAdvertisedDisplay=null
+      mAdvertisedDisplaySurface=null
+      mAdvertisedDisplayWidth=0
+      mAdvertisedDisplayHeight=0
+      mAdvertisedDisplayFlags=0
+      mAvailableWifiDisplayPeers: size=0
+
+Display Devices: size=4
+  DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4630946674560563842", 1920 x 1080, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 240, 320.842 x 318.976 dpi, appVsyncOff 1000000, presDeadline 16666666, touch INTERNAL, rotation 0, type INTERNAL, address {port=130, model=0x40446d76f6f57a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, state ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 1.0, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+    mAdapter=LocalDisplayAdapter
+    mUniqueId=local:4630946674560563842
+    mDisplayToken=android.os.BinderProxy@9ef5512
+    mCurrentLayerStack=0
+    mCurrentFlags=1
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1920, 1080)
+    mCurrentDisplayRect=Rect(0, 0 - 1920, 1080)
+    mCurrentSurface=null
+    mPhysicalDisplayId=4630946674560563842
+    mDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primaryRefreshRateRange=[0 240] appRequestRefreshRateRange=[0 240]}
+    mDisplayModeSpecsInvalid=false
+    mActiveModeId=1
+    mActiveColorMode=0
+    mDefaultModeId=1
+    mState=ON
+    mBrightnessState=0.21176471
+    mBacklightMode=1
+    mBacklightAdapter=BacklightAdapter [useSurfaceControl=true (force_anyway? false), backlight=null]
+    mAllmSupported=false
+    mAllmRequested=false
+    mGameContentTypeSupported=false
+    mGameContentTypeRequested=false
+    mStaticDisplayInfo=StaticDisplayInfo{isInternal=true, density=1.5, secure=true, deviceProductInfo=DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}}
+    mSfDisplayModes=
+      DisplayMode{id=0, width=1920, height=1080, xDpi=320.842, yDpi=318.976, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, group=0}
+    mActiveSfDisplayMode=DisplayMode{id=0, width=1920, height=1080, xDpi=320.842, yDpi=318.976, refreshRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, group=0}
+    mSupportedModes=
+      DisplayModeRecord{mMode={id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}}
+    mSupportedColorModes=[0]
+    mDisplayDeviceConfig=DisplayDeviceConfig{mLoadedFrom=<config.xml>, mBacklight=null, mNits=null, mRawBacklight=null, mRawNits=null, mBrightness=null, mBrightnessToBacklightSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mBacklightToBrightnessSpline=MonotoneCubicSpline{[(0.0, 0.0: 1.0), (1.0, 1.0: 1.0)]}, mBacklightMinimum=0.039215688, mBacklightMaximum=1.0, mBrightnessDefault=1.0, mQuirks=null, isHbmEnabled=false, mHbmData=null, mBrightnessRampFastDecrease=0.7058824, mBrightnessRampFastIncrease=0.7058824, mBrightnessRampSlowDecrease=0.23529412, mBrightnessRampSlowIncrease=0.23529412, mScreenDarkeningMinThreshold=0.0, mScreenBrighteningMinThreshold=0.0, mAmbientLuxDarkeningMinThreshold=0.0, mAmbientLuxBrighteningMinThreshold=0.0, mAmbientLightSensor=Sensor{type: , name: , refreshRateRange: [0.0, Infinity]} , mProximitySensor=Sensor{type: , name: , refreshRateRange: [0.0, Infinity]} , mRefreshRateLimitations= []}
+  DisplayDeviceInfo{"fission_bg_XDJAScreenProjection": uniqueId="virtual:com.byd.containerservice,1000,fission_bg_XDJAScreenProjection,0", 1920 x 720, modeId 2, defaultModeId 2, supportedModes [{id=2, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, allmSupported false, gameContentTypeSupported false, density 320, 320.0 x 320.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, owner com.byd.containerservice (uid 1000), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0, FLAG_PRESENTATION, FLAG_OWN_CONTENT_ONLY}
+    mAdapter=VirtualDisplayAdapter
+    mUniqueId=virtual:com.byd.containerservice,1000,fission_bg_XDJAScreenProjection,0
+    mDisplayToken=android.os.BinderProxy@4bee4e3
+    mCurrentLayerStack=2
+    mCurrentFlags=0
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1920, 720)
+    mCurrentDisplayRect=Rect(0, 0 - 1920, 720)
+    mCurrentSurface=Surface(name=null)/@0x735bab3
+    mFlags=11
+    mDisplayState=ON
+    mStopped=false
+    mDisplayIdToMirror=0
+    mWindowTokenClientToMirror=null
+  DisplayDeviceInfo{"shared_fission_bg_XDJAScreenProjection_0": uniqueId="virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_0,0", 1920 x 720, modeId 3, defaultModeId 3, supportedModes [{id=3, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, allmSupported false, gameContentTypeSupported false, density 320, 320.0 x 320.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, owner com.byd.containerservice (uid 1000), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0, FLAG_PRESENTATION, FLAG_OWN_CONTENT_ONLY}
+    mAdapter=VirtualDisplayAdapter
+    mUniqueId=virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_0,0
+    mDisplayToken=android.os.BinderProxy@97e8599
+    mCurrentLayerStack=3
+    mCurrentFlags=0
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1920, 720)
+    mCurrentDisplayRect=Rect(0, 0 - 1920, 720)
+    mCurrentSurface=Surface(name=null)/@0x4e9b05e
+    mFlags=11
+    mDisplayState=ON
+    mStopped=false
+    mDisplayIdToMirror=0
+    mWindowTokenClientToMirror=null
+  DisplayDeviceInfo{"shared_fission_bg_XDJAScreenProjection_1": uniqueId="virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_1,0", 1920 x 720, modeId 4, defaultModeId 4, supportedModes [{id=4, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities null, allmSupported false, gameContentTypeSupported false, density 320, 320.0 x 320.0 dpi, appVsyncOff 0, presDeadline 16666666, touch NONE, rotation 0, type VIRTUAL, deviceProductInfo null, state ON, owner com.byd.containerservice (uid 1000), frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0, FLAG_PRESENTATION, FLAG_OWN_CONTENT_ONLY}
+    mAdapter=VirtualDisplayAdapter
+    mUniqueId=virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_1,0
+    mDisplayToken=android.os.BinderProxy@1f0ec3f
+    mCurrentLayerStack=4
+    mCurrentFlags=0
+    mCurrentOrientation=0
+    mCurrentLayerStackRect=Rect(0, 0 - 1920, 480)
+    mCurrentDisplayRect=Rect(0, 120 - 1920, 600)
+    mCurrentSurface=Surface(name=null)/@0x349f90c
+    mFlags=11
+    mDisplayState=ON
+    mStopped=false
+    mDisplayIdToMirror=0
+    mWindowTokenClientToMirror=null
+
+LogicalDisplayMapper:
+  mSingleDisplayDemoMode=false
+  mCurrentLayout=[{addr: {port=130, model=0x40446d76f6f57a}, dispId: 0(ON)}]
+  mDeviceStateOnWhichToWakeUp=-1
+  
+  Logical Displays: size=4
+  Display 0:
+    mDisplayId=0
+    mPhase=1
+    mLayerStack=0
+    mHasContent=true
+    mDesiredDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primaryRefreshRateRange=[0 240] appRequestRefreshRateRange=[0 240]}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mPrimaryDisplayDevice=Built-in Screen
+    mBaseDisplayInfo=DisplayInfo{"Built-in Screen", displayId 0", displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1920 x 1080, largest app 1920 x 1080, smallest app 1920 x 1080, appVsyncOff 1000000, presDeadline 16666666, mode 1, defaultMode 1, modes [{id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type INTERNAL, uniqueId "local:4630946674560563842", app 1920 x 1080, density 240 (320.842 x 318.976) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=130, model=0x40446d76f6f57a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 1.0}
+    mOverrideDisplayInfo=DisplayInfo{"Built-in Screen", displayId 0", displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1920 x 1080, largest app 1920 x 1746, smallest app 1080 x 906, appVsyncOff 1000000, presDeadline 16666666, mode 1, defaultMode 1, modes [{id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type INTERNAL, uniqueId "local:4630946674560563842", app 1920 x 990, density 240 (320.842 x 318.976) dpi, layerStack 0, colorMode 0, supportedColorModes [0], address {port=130, model=0x40446d76f6f57a}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=0}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 1.0}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+  
+  Display 2:
+    mDisplayId=2
+    mPhase=1
+    mLayerStack=2
+    mHasContent=true
+    mDesiredDisplayModeSpecs={baseModeId=2 allowGroupSwitching=false primaryRefreshRateRange=[0 240] appRequestRefreshRateRange=[0 240]}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mPrimaryDisplayDevice=fission_bg_XDJAScreenProjection
+    mBaseDisplayInfo=DisplayInfo{"fission_bg_XDJAScreenProjection", displayId 2", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 720, largest app 1920 x 720, smallest app 1920 x 720, appVsyncOff 0, presDeadline 16666666, mode 2, defaultMode 2, modes [{id=2, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,fission_bg_XDJAScreenProjection,0", app 1920 x 720, density 320 (320.0 x 320.0) dpi, layerStack 2, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mOverrideDisplayInfo=DisplayInfo{"fission_bg_XDJAScreenProjection", displayId 2", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 720, largest app 1920 x 1920, smallest app 720 x 720, appVsyncOff 0, presDeadline 16666666, mode 2, defaultMode 2, modes [{id=2, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,fission_bg_XDJAScreenProjection,0", app 1920 x 720, density 320 (320.0 x 320.0) dpi, layerStack 2, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+  
+  Display 3:
+    mDisplayId=3
+    mPhase=1
+    mLayerStack=3
+    mHasContent=false
+    mDesiredDisplayModeSpecs={baseModeId=3 allowGroupSwitching=false primaryRefreshRateRange=[0 240] appRequestRefreshRateRange=[0 240]}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mPrimaryDisplayDevice=shared_fission_bg_XDJAScreenProjection_0
+    mBaseDisplayInfo=DisplayInfo{"shared_fission_bg_XDJAScreenProjection_0", displayId 3", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 720, largest app 1920 x 720, smallest app 1920 x 720, appVsyncOff 0, presDeadline 16666666, mode 3, defaultMode 3, modes [{id=3, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_0,0", app 1920 x 720, density 320 (320.0 x 320.0) dpi, layerStack 3, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mOverrideDisplayInfo=DisplayInfo{"shared_fission_bg_XDJAScreenProjection_0", displayId 3", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 720, largest app 1920 x 1920, smallest app 720 x 720, appVsyncOff 0, presDeadline 16666666, mode 3, defaultMode 3, modes [{id=3, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_0,0", app 1920 x 720, density 320 (320.0 x 320.0) dpi, layerStack 3, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+  
+  Display 4:
+    mDisplayId=4
+    mPhase=1
+    mLayerStack=4
+    mHasContent=false
+    mDesiredDisplayModeSpecs={baseModeId=4 allowGroupSwitching=false primaryRefreshRateRange=[0 240] appRequestRefreshRateRange=[0 240]}
+    mRequestedColorMode=0
+    mDisplayOffset=(0, 0)
+    mDisplayScalingDisabled=false
+    mPrimaryDisplayDevice=shared_fission_bg_XDJAScreenProjection_1
+    mBaseDisplayInfo=DisplayInfo{"shared_fission_bg_XDJAScreenProjection_1", displayId 4", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 720, largest app 1920 x 720, smallest app 1920 x 720, appVsyncOff 0, presDeadline 16666666, mode 4, defaultMode 4, modes [{id=4, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_1,0", app 1920 x 720, density 320 (320.0 x 320.0) dpi, layerStack 4, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mOverrideDisplayInfo=DisplayInfo{"shared_fission_bg_XDJAScreenProjection_1", displayId 4", displayGroupId 0, FLAG_PRESENTATION, real 1920 x 480, largest app 1920 x 1920, smallest app 480 x 480, appVsyncOff 0, presDeadline 16666666, mode 4, defaultMode 4, modes [{id=4, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}], hdrCapabilities null, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, type VIRTUAL, uniqueId "virtual:com.byd.containerservice,1000,shared_fission_bg_XDJAScreenProjection_1,0", app 1920 x 480, density 160 (320.0 x 320.0) dpi, layerStack 4, colorMode 0, supportedColorModes [0], deviceProductInfo null, owner com.byd.containerservice (uid 1000), removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.0, brightnessMaximum 0.0, brightnessDefault 0.0}
+    mRequestedMinimalPostProcessing=false
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+  
+  DeviceStateToLayoutMap:
+    Registered Layouts:
+    state(-1): [{addr: {port=130, model=0x40446d76f6f57a}, dispId: 0(ON)}]
+
+Callbacks: size=21
+  0: mPid=1090, mWifiDisplayScanRequested=false
+  1: mPid=1940, mWifiDisplayScanRequested=false
+  2: mPid=2018, mWifiDisplayScanRequested=false
+  3: mPid=2095, mWifiDisplayScanRequested=false
+  4: mPid=2372, mWifiDisplayScanRequested=false
+  5: mPid=2524, mWifiDisplayScanRequested=false
+  6: mPid=2594, mWifiDisplayScanRequested=false
+  7: mPid=3533, mWifiDisplayScanRequested=false
+  8: mPid=4480, mWifiDisplayScanRequested=false
+  9: mPid=4720, mWifiDisplayScanRequested=false
+  10: mPid=4968, mWifiDisplayScanRequested=false
+  11: mPid=15587, mWifiDisplayScanRequested=false
+  12: mPid=18960, mWifiDisplayScanRequested=false
+  13: mPid=18962, mWifiDisplayScanRequested=false
+  14: mPid=23747, mWifiDisplayScanRequested=false
+  15: mPid=23799, mWifiDisplayScanRequested=false
+  16: mPid=24126, mWifiDisplayScanRequested=false
+  17: mPid=24626, mWifiDisplayScanRequested=false
+  18: mPid=24768, mWifiDisplayScanRequested=false
+  19: mPid=27323, mWifiDisplayScanRequested=false
+  20: mPid=27881, mWifiDisplayScanRequested=false
+
+Display Power Controllers: size=4
+
+Display Power Controller:
+  mDisplayId=0
+  mLightSensor={Sensor name="als-can", vendor="als-can", version=1, type=5, maxRange=32000.0, resolution=0.0125, power=0.2, minDelay=10000}
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessRangeDefault=1.0
+  mScreenBrightnessDozeConfig=0.0
+  mScreenBrightnessDimConfig=0.05
+  mScreenBrightnessForVrRangeMinimum=0.307087
+  mScreenBrightnessForVrRangeMaximum=1.0
+  mScreenBrightnessForVrDefault=0.33464
+  mUseSoftwareAutoBrightnessConfig=true
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=true
+  mCachedBrightnessInfo.brightness=0.21176471
+  mCachedBrightnessInfo.adjustedBrightness=0.21176471
+  mCachedBrightnessInfo.brightnessMin=0.0
+  mCachedBrightnessInfo.brightnessMax=1.0
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.highBrightnessTransitionPoint=Infinity
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mUnfinishedBusiness=false
+  mWaitingForNegativeProximity=false
+  mProximitySensor=null
+  mProximitySensorEnabled=false
+  mProximityThreshold=0.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (16774512 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLastUserSetScreenBrightness=0.21176471
+  mPendingScreenBrightnessSetting=NaN
+  mTemporaryScreenBrightness=NaN
+  mAutoBrightnessAdjustment=0.0
+  mBrightnessReason=manual
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mPendingAutoBrightnessAdjustment=NaN
+  mScreenBrightnessForVrFloat=0.33464
+  mAppliedAutoBrightness=false
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mAppliedScreenBrightnessOverride=false
+  mAppliedTemporaryBrightness=false
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mScreenOnBlockStartRealTime=71809558
+  mScreenOffBlockStartRealTime=64533918
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mPowerRequestBacklight=1
+  mScreenBrightnessRampAnimator.isAnimating()=false
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mOneKeyBacklight=false (true: keep backlight 0)
+  mScreenBrightness=0.21176471
+  mSdrScreenBrightness=0.21176471
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.21176471
+  mPendingBacklightMode=1
+  mPendingSdrBacklight=0.21176471
+  mActualState=ON
+  mActualBacklight=0.21176471
+  mActualSdrBacklight=0.21176471
+  mActualBacklightMode=1
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+  mBacklightModeChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=0
+  mDisplayWidth=1920
+  mDisplayHeight=1080
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+
+BydAutomatic Brightness Controller Configuration:
+  mSupportAutobrightnessType=0 (0:no, 1:screen sensor, 2:car sensor)
+  mLightSensor={Sensor name="als-can", vendor="als-can", version=1, type=5, maxRange=32000.0, resolution=0.0125, power=0.2, minDelay=10000}
+  mLightSensorEnabled=false
+  mIviAutoBrightnessEnable=true
+  mClusterAutoBrightnessEnable=true
+  mTargetLevel=-1
+  mIviCurrentLevel=-1
+  mClusterCurrentLevel=60
+  mClusterDatabaseLevel=60
+  mClusterDerating=0 (1:enable)
+  m3E3Value=7
+  mScreenAutoBrightness=NaN
+  mLoggingEnabled=false
+  mCurrentLightSensorRate=0
+  BRIGHTNESS_UP_CYCLE=50
+  BRIGHTNESS_DOWN_CYCLE=50
+  AMBIENT_LIGHT_CHECK_CYCLE=800
+  SCREEN_SENSOR_TIMES=1
+  mClusterSupportAutoBrightness=false
+  mClusterPanelId=0x17
+  mAccStatus=2 (2:acc on)
+  mHorizontalNit=-1
+  mVerticalNit=-1
+
+AmbientLightRingBuffer{ mAmbientLights={-1, -1, -1}}
+
+nit-level relationship:
+  level  1: nit=    30, upnit=    59, downnit=    25, percent=  4%
+  level  2: nit=   270, upnit=   329, downnit=   210, percent=  7%
+  level  3: nit=  1020, upnit=  1207, downnit=   833, percent= 14%
+  level  4: nit=  2340, upnit=  2669, downnit=  2010, percent= 21%
+  level  5: nit=  4260, upnit=  4739, downnit=  3789, percent= 28%
+  level  6: nit=  6780, upnit=  7409, downnit=  6150, percent= 35%
+  level  7: nit=  9840, upnit= 10604, downnit=  9075, percent= 42%
+  level  8: nit= 13410, upnit= 14302, downnit= 12518, percent= 49%
+  level  9: nit= 17040, upnit= 17947, downnit= 16133, percent= 55%
+  level 10: nit= 21000, upnit= 21989, downnit= 20010, percent= 61%
+  level 11: nit= 26160, upnit= 27449, downnit= 24870, percent= 68%
+  level 12: nit= 31890, upnit= 33322, downnit= 30458, percent= 75%
+  level 13: nit= 39090, upnit= 40889, downnit= 37290, percent= 83%
+  level 14: nit= 47070, upnit= 49064, downnit= 45075, percent= 91%
+  level 15: nit=2147483647, upnit=2147483647, downnit=2147483647, percent=100%
+3e3 brightness-level relationship:
+  cluster brightness=  2, level  2
+  cluster brightness=  4, level  5
+  cluster brightness=  6, level  6
+  cluster brightness=  8, level  7
+  cluster brightness= 10, level  8
+  cluster brightness= 12, level  9
+  cluster brightness=100, level 10
+
+HighBrightnessModeController:
+  mBrightness=0.0
+  mCurrentMin=0.0
+  mCurrentMax=1.0
+  mHbmMode=off
+  mHbmData=null
+  mAmbientLux=0.0 (old/invalid)
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.0
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= false
+  mRunningStartTimeMillis=-1 (16774513 ms ago)
+  mIsThermalStatusWithinLimit=true
+  mIsBlockedByLowPowerMode=false
+  width*height=1920*1080
+  mEvents=
+  SkinThermalStatusObserver:
+    mStarted: false
+    ThermalService not available
+
+
+Display Power Controller:
+  mDisplayId=2
+  mLightSensor=null
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessRangeDefault=0.0
+  mScreenBrightnessDozeConfig=0.0
+  mScreenBrightnessDimConfig=0.05
+  mScreenBrightnessForVrRangeMinimum=0.307087
+  mScreenBrightnessForVrRangeMaximum=1.0
+  mScreenBrightnessForVrDefault=0.33464
+  mUseSoftwareAutoBrightnessConfig=false
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=true
+  mCachedBrightnessInfo.brightness=0.0
+  mCachedBrightnessInfo.adjustedBrightness=0.0
+  mCachedBrightnessInfo.brightnessMin=0.0
+  mCachedBrightnessInfo.brightnessMax=1.0
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.highBrightnessTransitionPoint=Infinity
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mUnfinishedBusiness=false
+  mWaitingForNegativeProximity=false
+  mProximitySensor=null
+  mProximitySensorEnabled=false
+  mProximityThreshold=0.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (16774514 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLastUserSetScreenBrightness=NaN
+  mPendingScreenBrightnessSetting=NaN
+  mTemporaryScreenBrightness=NaN
+  mAutoBrightnessAdjustment=0.0
+  mBrightnessReason=manual
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mPendingAutoBrightnessAdjustment=NaN
+  mScreenBrightnessForVrFloat=0.33464
+  mAppliedAutoBrightness=false
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mAppliedScreenBrightnessOverride=false
+  mAppliedTemporaryBrightness=false
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mScreenOnBlockStartRealTime=71809635
+  mScreenOffBlockStartRealTime=64533941
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mPowerRequestBacklight=1
+  mScreenBrightnessRampAnimator.isAnimating()=false
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mOneKeyBacklight=false (true: keep backlight 0)
+  mScreenBrightness=0.0
+  mSdrScreenBrightness=0.0
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.0
+  mPendingBacklightMode=2147483647
+  mPendingSdrBacklight=0.0
+  mActualState=ON
+  mActualBacklight=0.0
+  mActualSdrBacklight=0.0
+  mActualBacklightMode=2147483647
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+  mBacklightModeChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=2
+  mDisplayWidth=1920
+  mDisplayHeight=720
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+HighBrightnessModeController:
+  mBrightness=0.0
+  mCurrentMin=0.0
+  mCurrentMax=1.0
+  mHbmMode=off
+  mHbmData=null
+  mAmbientLux=0.0 (old/invalid)
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.0
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= false
+  mRunningStartTimeMillis=-1 (16774514 ms ago)
+  mIsThermalStatusWithinLimit=true
+  mIsBlockedByLowPowerMode=false
+  width*height=1920*720
+  mEvents=
+  SkinThermalStatusObserver:
+    mStarted: false
+    ThermalService not available
+
+
+Display Power Controller:
+  mDisplayId=3
+  mLightSensor=null
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessRangeDefault=0.0
+  mScreenBrightnessDozeConfig=0.0
+  mScreenBrightnessDimConfig=0.05
+  mScreenBrightnessForVrRangeMinimum=0.307087
+  mScreenBrightnessForVrRangeMaximum=1.0
+  mScreenBrightnessForVrDefault=0.33464
+  mUseSoftwareAutoBrightnessConfig=false
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=true
+  mCachedBrightnessInfo.brightness=0.0
+  mCachedBrightnessInfo.adjustedBrightness=0.0
+  mCachedBrightnessInfo.brightnessMin=0.0
+  mCachedBrightnessInfo.brightnessMax=1.0
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.highBrightnessTransitionPoint=Infinity
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mUnfinishedBusiness=false
+  mWaitingForNegativeProximity=false
+  mProximitySensor=null
+  mProximitySensorEnabled=false
+  mProximityThreshold=0.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (16774515 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLastUserSetScreenBrightness=NaN
+  mPendingScreenBrightnessSetting=NaN
+  mTemporaryScreenBrightness=NaN
+  mAutoBrightnessAdjustment=0.0
+  mBrightnessReason=manual
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mPendingAutoBrightnessAdjustment=NaN
+  mScreenBrightnessForVrFloat=0.33464
+  mAppliedAutoBrightness=false
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mAppliedScreenBrightnessOverride=false
+  mAppliedTemporaryBrightness=false
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mScreenOnBlockStartRealTime=71809636
+  mScreenOffBlockStartRealTime=64533948
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mPowerRequestBacklight=1
+  mScreenBrightnessRampAnimator.isAnimating()=false
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mOneKeyBacklight=false (true: keep backlight 0)
+  mScreenBrightness=0.0
+  mSdrScreenBrightness=0.0
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.0
+  mPendingBacklightMode=2147483647
+  mPendingSdrBacklight=0.0
+  mActualState=ON
+  mActualBacklight=0.0
+  mActualSdrBacklight=0.0
+  mActualBacklightMode=2147483647
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+  mBacklightModeChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=3
+  mDisplayWidth=1920
+  mDisplayHeight=720
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+HighBrightnessModeController:
+  mBrightness=0.0
+  mCurrentMin=0.0
+  mCurrentMax=1.0
+  mHbmMode=off
+  mHbmData=null
+  mAmbientLux=0.0 (old/invalid)
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.0
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= false
+  mRunningStartTimeMillis=-1 (16774515 ms ago)
+  mIsThermalStatusWithinLimit=true
+  mIsBlockedByLowPowerMode=false
+  width*height=1920*720
+  mEvents=
+  SkinThermalStatusObserver:
+    mStarted: false
+    ThermalService not available
+
+
+Display Power Controller:
+  mDisplayId=4
+  mLightSensor=null
+
+Display Power Controller Locked State:
+  mDisplayReadyLocked=true
+  mPendingRequestLocked=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mPendingRequestChangedLocked=false
+  mPendingWaitForNegativeProximityLocked=false
+  mPendingUpdatePowerStateLocked=false
+
+Display Power Controller Configuration:
+  mScreenBrightnessRangeDefault=0.0
+  mScreenBrightnessDozeConfig=0.0
+  mScreenBrightnessDimConfig=0.05
+  mScreenBrightnessForVrRangeMinimum=0.307087
+  mScreenBrightnessForVrRangeMaximum=1.0
+  mScreenBrightnessForVrDefault=0.33464
+  mUseSoftwareAutoBrightnessConfig=false
+  mAllowAutoBrightnessWhileDozingConfig=false
+  mSkipScreenOnBrightnessRamp=false
+  mColorFadeFadesConfig=false
+  mColorFadeEnabled=true
+  mCachedBrightnessInfo.brightness=0.0
+  mCachedBrightnessInfo.adjustedBrightness=0.0
+  mCachedBrightnessInfo.brightnessMin=0.0
+  mCachedBrightnessInfo.brightnessMax=1.0
+  mCachedBrightnessInfo.hbmMode=0
+  mCachedBrightnessInfo.highBrightnessTransitionPoint=Infinity
+  mDisplayBlanksAfterDozeConfig=false
+  mBrightnessBucketsInDozeConfig=false
+
+Display Power Controller Thread State:
+  mPowerRequest=policy=BRIGHT, useProximitySensor=false, screenBrightnessOverride=NaN, useAutoBrightness=true, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScreenOn=false, lowPowerMode=false, boostScreenBrightness=false, dozeScreenBrightness=NaN, dozeScreenState=UNKNOWN, backlight = 1, backlightMode = 1
+  mUnfinishedBusiness=false
+  mWaitingForNegativeProximity=false
+  mProximitySensor=null
+  mProximitySensorEnabled=false
+  mProximityThreshold=0.0
+  mProximity=Unknown
+  mPendingProximity=Unknown
+  mPendingProximityDebounceTime=-1 (16774515 ms ago)
+  mScreenOffBecauseOfProximity=false
+  mLastUserSetScreenBrightness=NaN
+  mPendingScreenBrightnessSetting=NaN
+  mTemporaryScreenBrightness=NaN
+  mAutoBrightnessAdjustment=0.0
+  mBrightnessReason=manual
+  mTemporaryAutoBrightnessAdjustment=NaN
+  mPendingAutoBrightnessAdjustment=NaN
+  mScreenBrightnessForVrFloat=0.33464
+  mAppliedAutoBrightness=false
+  mAppliedDimming=false
+  mAppliedLowPower=false
+  mAppliedScreenBrightnessOverride=false
+  mAppliedTemporaryBrightness=false
+  mDozing=false
+  mSkipRampState=RAMP_STATE_SKIP_NONE
+  mScreenOnBlockStartRealTime=71809639
+  mScreenOffBlockStartRealTime=64533950
+  mPendingScreenOnUnblocker=null
+  mPendingScreenOffUnblocker=null
+  mPendingScreenOff=false
+  mReportedToPolicy=REPORTED_TO_POLICY_SCREEN_ON
+  mPowerRequestBacklight=1
+  mScreenBrightnessRampAnimator.isAnimating()=false
+  mColorFadeOnAnimator.isStarted()=false
+  mColorFadeOffAnimator.isStarted()=false
+
+Display Power State:
+  mStopped=false
+  mScreenState=ON
+  mOneKeyBacklight=false (true: keep backlight 0)
+  mScreenBrightness=0.0
+  mSdrScreenBrightness=0.0
+  mScreenReady=true
+  mScreenUpdatePending=false
+  mColorFadePrepared=false
+  mColorFadeLevel=1.0
+  mColorFadeReady=true
+  mColorFadeDrawPending=false
+
+Photonic Modulator State:
+  mPendingState=ON
+  mPendingBacklight=0.0
+  mPendingBacklightMode=2147483647
+  mPendingSdrBacklight=0.0
+  mActualState=ON
+  mActualBacklight=0.0
+  mActualSdrBacklight=0.0
+  mActualBacklightMode=2147483647
+  mStateChangeInProgress=false
+  mBacklightChangeInProgress=false
+  mBacklightModeChangeInProgress=false
+
+Color Fade State:
+  mPrepared=false
+  mMode=1
+  mDisplayLayerStack=4
+  mDisplayWidth=1920
+  mDisplayHeight=480
+  mSurfaceVisible=false
+  mSurfaceAlpha=0.0
+HighBrightnessModeController:
+  mBrightness=0.0
+  mCurrentMin=0.0
+  mCurrentMax=1.0
+  mHbmMode=off
+  mHbmData=null
+  mAmbientLux=0.0 (old/invalid)
+  mIsInAllowedAmbientRange=false
+  mIsAutoBrightnessEnabled=false
+  mIsHdrLayerPresent=false
+  mBrightnessMin=0.0
+  mBrightnessMax=1.0
+  remainingTime=0
+  mIsTimeAvailable= false
+  mRunningStartTimeMillis=-1 (16774515 ms ago)
+  mIsThermalStatusWithinLimit=true
+  mIsBlockedByLowPowerMode=false
+  width*height=1920*720
+  mEvents=
+  SkinThermalStatusObserver:
+    mStarted: false
+    ThermalService not available
+
+
+BrightnessTracker state:
+  mStarted=false
+  mLightSensor={Sensor name="als-can", vendor="als-can", version=1, type=5, maxRange=32000.0, resolution=0.0125, power=0.2, minDelay=10000}
+  mLastBatteryLevel=NaN
+  mLastBrightness=-1.0
+  mLastSensorReadings.size=0
+  mEventsDirty=false
+  mEvents.size=0
+  mWriteBrightnessTrackerStateScheduled=false
+  mSensorRegistered=false
+  mColorSamplingEnabled=false
+  mNoFramesToSample=0
+  mFrameRate=0.0
+
+PersistentDataStore
+  mLoaded=true
+  mDirty=false
+  RememberedWifiDisplays:
+  DisplayStates:
+    0: local:4630946674560563842
+      ColorMode=0
+      BrightnessValue=0.21176471
+      DisplayBrightnessConfigurations: 
+  StableDeviceValues:
+      StableDisplayWidth=2560
+      StableDisplayHeight=1440
+  GlobalBrightnessConfigurations:
+
+DisplayModeDirector
+  mSupportedModesByDisplay:
+    0 -> [{id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}]
+    2 -> [{id=2, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}]
+    3 -> [{id=3, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}]
+    4 -> [{id=4, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}]
+  mDefaultModeByDisplay:
+    0 -> {id=1, width=1920, height=1080, fps=60.000004, alternativeRefreshRates=[]}
+    2 -> {id=2, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}
+    3 -> {id=3, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}
+    4 -> {id=4, width=1920, height=720, fps=60.0, alternativeRefreshRates=[]}
+  mVotesByDisplay:
+    -1:
+      PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> Vote{width=-1, height=-1, minRefreshRate=0.0, maxRefreshRate=240.0, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}
+      PRIORITY_USER_SETTING_MIN_REFRESH_RATE -> Vote{width=-1, height=-1, minRefreshRate=0.0, maxRefreshRate=Infinity, disableRefreshRateSwitching=false, baseModeRefreshRate=0.0}
+  mModeSwitchingType: SWITCHING_TYPE_WITHIN_GROUPS
+  mAlwaysRespectAppRequest: false
+  SettingsObserver
+    mDefaultRefreshRate: 0.0
+    mDefaultPeakRefreshRate: 240.0
+  AppRequestObserver
+    mAppRequestedModeByDisplay:
+    mAppPreferredRefreshRateRangeByDisplay:
+  BrightnessObserver
+    mAmbientLux: -1.0
+    mBrightness: 54
+    mDefaultDisplayState: 2
+    mLowPowerModeEnabled: false
+    mRefreshRateChangeable: true
+    mShouldObserveDisplayLowChange: false
+    mShouldObserveAmbientLowChange: false
+    mRefreshRateInLowZone: 0
+    mShouldObserveDisplayHighChange: false
+    mShouldObserveAmbientHighChange: false
+    mRefreshRateInHighZone: 0
+    mLastSensorData: 0.0
+    mTimestamp: 1970-01-01 03:00:00.000
+  UdfpsObserver
+    mLocalHbmEnabled: 
+    mGlobalHbmEnabled: 
+   HbmObserver
+     mHbmMode: {}
+     mHbmActive: {}
+     mRefreshRateInHbmSunlight: 0
+     mRefreshRateInHbmHdr: 0
+  SkinThermalStatusObserver:
+    mStatus: -1
+  SensorObserver
+    mIsProxActive=false
+    mDozeStateByDisplay:
+      0 -> false
+      2 -> false
+      3 -> false
+      4 -> false
+BrightnessSynchronizer
+  mLatestIntBrightness=54
+  mLatestFloatBrightness=0.21176471
+  mCurrentUpdate=null
+  mPendingUpdate=null

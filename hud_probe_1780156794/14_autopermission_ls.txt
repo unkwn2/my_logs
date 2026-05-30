@@ -1,0 +1,5 @@
+total 184
+drwxr-xr-x 3 root root   4096 2009-01-01 03:00 .
+drwxr-xr-x 6 root root   4096 2009-01-01 03:00 ..
+-rw-r--r-- 1 root root 173881 2009-01-01 03:00 AutoPermission.apk
+drwxr-xr-x 3 root root   4096 2009-01-01 03:00 oat

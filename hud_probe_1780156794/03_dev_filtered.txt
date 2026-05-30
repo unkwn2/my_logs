@@ -1,0 +1,1 @@
+crw-rw-r--  1 root         root             10,   0 2026-05-29 23:00 byd_adc

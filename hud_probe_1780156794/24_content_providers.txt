@@ -1,0 +1,875 @@
+Data connected: true
+Battery saver: false
+Background network restriction:  disabled
+Auto sync: u0=true 
+Storage low: false
+Clock valid: true
+Accounts: 6
+Now: 72034299 (2026-05-30 19:01:07)
+Uptime: 20h00m34s
+Time spent syncing: 0s, sync not in progress
+
+Active Syncs: 0
+
+Pending Syncs: 0
+
+Periodic Syncs: 2
+JobId=100007 unkwn/com.yandex.sirenes u0 [com.yandex.passport.sync.ru.yandex.music] PERIODIC Reason=Periodic (period=1d00h00m00s flex=57m36s) Owner={u0a114 ru.yandex.music [10]}
+JobId=100006 unkwn/com.yandex.strannik u0 [com.yandex.passport.sync.ru.yandex.yandexmaps] PERIODIC Reason=Periodic (period=1d00h00m00s flex=57m36s) Owner={u0a143 ru.yandex.yandexmaps [10]}
+
+Sync Status
+Account unkwn u0 com.yandex.sirenes
+=======================================================================
+Authority                                 Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time   Last Sync            Backoff  
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+com.yandex.passport.sync.ru.yandex.music  1         true     Total  0    0     10   0     0     1     11   0     0    1m44s  PERIODIC SUCCESS       
+                                                             Today                                                    0s     2026-05-14 08:56:51    
+                                                             Yestr             1                      1               44s                           
+Account MTC u0 ru.mts.app
+=======================================================================
+Authority  Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time  Last Sync  Backoff  
+---------------------------------------------------------------------------------------------------------------
+Account 7672777101 u0 org.telegram.messenger
+=======================================================================
+Authority             Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time  Last Sync            Backoff  
+------------------------------------------------------------------------------------------------------------------------------------
+com.android.contacts  1         false    Total  0    0     0    0     0     1     1    0     0    0s    OTHER SUCCESS          
+                                         Today                                                    0s    2025-11-08 10:43:15    
+                                         Yestr                              1     1               0s                           
+Account casyjoker@gmail.com u0 com.gbox
+=======================================================================
+Authority  Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time  Last Sync  Backoff  
+---------------------------------------------------------------------------------------------------------------
+Account 抖音 u0 com.ss.android.ugc.aweme
+=======================================================================
+Authority  Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time  Last Sync  Backoff  
+---------------------------------------------------------------------------------------------------------------
+Account unkwn u0 com.yandex.strannik
+=======================================================================
+Authority                                      Syncable  Enabled  Stats  Loc  Poll  Per  Feed  User  Othr  Tot  Fail  Can  Time   Last Sync            Backoff  
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+com.yandex.passport.sync.ru.yandex.yandexmaps  1         true     Total  0    0     6    0     0     1     7    0     0    1m48s  PERIODIC SUCCESS       
+                                                                  Today                                                    0s     2026-05-14 08:56:51    
+                                                                  Yestr             1                      1               41s                           
+
+Sync Statistics
+  Today:  Success (2 for 86.1s avg=43.0s) Failure (0)
+  Week-1: Success (2 for 68.1s avg=34.0s) Failure (0)
+  Week-8: Success (4 for 27.5s avg=6.8s) Failure (0)
+  Week-10: Success (2 for 9.8s avg=4.9s) Failure (0)
+  Week-11: Success (2 for 9.7s avg=4.8s) Failure (0)
+  Week-13: Success (2 for 2.2s avg=1.1s) Failure (0)
+  Week-14: Success (1 for 2.6s avg=2.6s) Failure (0)
+  Week-15: Success (1 for 0.6s avg=0.6s) Failure (0)
+  Week-16: Success (2 for 0.6s avg=0.3s) Failure (0)
+  Week-17: Success (2 for 12.8s avg=6.4s) Failure (0)
+  Week-20: Success (1 for 2.2s avg=2.2s) Failure (0)
+  Week-26: Success (1 for 0.0s avg=0.0s) Failure (0)
+  Week-27: Success (2 for 0.7s avg=0.3s) Failure (0)
+
+Per Adapter History
+(SERVER is now split up to FEED and OTHER)
+  unkwn/com.yandex.sirenes u0 [com.yandex.passport.sync.ru.yandex.music]
+    Per source last syncs:
+         OTHER  Success: 2025-11-01 10:44:57  Failure: N/A
+         LOCAL  Success: N/A  Failure: N/A
+          POLL  Success: N/A  Failure: N/A
+          USER  Success: N/A  Failure: N/A
+      PERIODIC  Success: 2026-05-14 08:56:51  Failure: N/A
+          FEED  Success: N/A  Failure: N/A
+    Last syncs:
+      2026-05-14 08:56:51 success Source=PERIODIC Elapsed=44s Reason=Periodic Extras=[]
+      2026-05-03 13:22:46 success Source=PERIODIC Elapsed=26s Reason=Periodic Extras=[]
+      2026-03-19 08:55:14 success Source=PERIODIC Elapsed=7s Reason=Periodic Extras=[]
+      2026-03-16 09:48:48 success Source=PERIODIC Elapsed=6s Reason=Periodic Extras=[]
+      2026-02-27 14:54:02 success Source=PERIODIC Elapsed=5s Reason=Periodic Extras=[]
+      2026-02-24 08:16:10 success Source=PERIODIC Elapsed=4s Reason=Periodic Extras=[]
+      2026-02-11 14:36:01 success Source=PERIODIC Elapsed=1s Reason=Periodic Extras=[]
+      2026-02-04 08:21:09 success Source=PERIODIC Elapsed=2s Reason=Periodic Extras=[]
+      2026-01-19 13:54:38 success Source=PERIODIC Elapsed=0s Reason=Periodic Extras=[]
+      2026-01-15 14:53:53 success Source=PERIODIC Elapsed=6s Reason=Periodic Extras=[]
+  7672777101/org.telegram.messenger u0 [com.android.contacts]
+    Per source last syncs:
+         OTHER  Success: 2025-11-08 10:43:15  Failure: N/A
+         LOCAL  Success: N/A  Failure: N/A
+          POLL  Success: N/A  Failure: N/A
+          USER  Success: N/A  Failure: N/A
+      PERIODIC  Success: N/A  Failure: N/A
+          FEED  Success: N/A  Failure: N/A
+    Last syncs:
+      2025-11-08 10:43:15 success Source=OTHER Elapsed=0s Reason=AccountsUpdated Extras=[initialize=true ]
+  unkwn/com.yandex.strannik u0 [com.yandex.passport.sync.ru.yandex.yandexmaps]
+    Per source last syncs:
+         OTHER  Success: 2026-02-10 08:35:06  Failure: N/A
+         LOCAL  Success: N/A  Failure: N/A
+          POLL  Success: N/A  Failure: N/A
+          USER  Success: N/A  Failure: N/A
+      PERIODIC  Success: 2026-05-14 08:56:51  Failure: N/A
+          FEED  Success: N/A  Failure: N/A
+    Last syncs:
+      2026-05-14 08:56:51 success Source=PERIODIC Elapsed=41s Reason=Periodic Extras=[]
+      2026-05-03 13:23:06 success Source=PERIODIC Elapsed=41s Reason=Periodic Extras=[]
+      2026-03-19 08:55:15 success Source=PERIODIC Elapsed=6s Reason=Periodic Extras=[]
+      2026-03-16 09:48:50 success Source=PERIODIC Elapsed=7s Reason=Periodic Extras=[]
+      2026-02-27 14:54:02 success Source=PERIODIC Elapsed=4s Reason=Periodic Extras=[]
+      2026-02-24 08:16:11 success Source=PERIODIC Elapsed=5s Reason=Periodic Extras=[]
+      2026-02-10 08:35:06 success Source=OTHER Elapsed=0s Reason=AutoSync Exemption=top Extras=[]
+SyncManager Config:
+  mInitialSyncRetryTimeInSeconds=30
+  mRetryTimeIncreaseFactor=2.0
+  mMaxSyncRetryTimeInSeconds=3600
+  mMaxRetriesWithAppStandbyExemption=5
+  mKeyExemptionTempWhitelistDurationInSeconds=600
+
+Sync adapters for UserInfo{0:Owner:c13}:
+  ServiceInfo: SyncAdapterType {name=com.yandex.passport.sync.ru.yandex.music, type=com.yandex.sirenes, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=true, settingsActivity=null, packageName=ru.yandex.music}, ComponentInfo{ru.yandex.music/com.yandex.sirenes.internal.core.sync.SyncService}, uid 10114
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=org.telegram.messenger, userVisible=true, supportsUploading=true, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=org.telegram.messenger.web}, ComponentInfo{org.telegram.messenger.web/org.telegram.messenger.ContactsSyncAdapterService}, uid 10093
+  ServiceInfo: SyncAdapterType {name=com.yandex.passport.sync.ru.yandex.yandexmaps, type=com.yandex.strannik, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=true, settingsActivity=null, packageName=ru.yandex.yandexmaps}, ComponentInfo{ru.yandex.yandexmaps/com.yandex.strannik.internal.core.sync.SyncService}, uid 10143
+  ServiceInfo: SyncAdapterType {name=com.alipay.mobile.performance.account, type=com.eg.android.AlipayGphone.perf, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=false, settingsActivity=null, packageName=com.alipay.arome.app}, ComponentInfo{com.alipay.arome.app/com.alipay.mobile.performance.sync.PerfSyncService}, uid 10052
+  ServiceInfo: SyncAdapterType {name=com.android.contacts, type=com.gbox.com.whatsapp, userVisible=true, supportsUploading=false, isAlwaysSyncable=false, allowParallelSyncs=false, settingsActivity=null, packageName=com.gbox.android}, ComponentInfo{com.gbox.android/com.gbox.android.components.WhatsAppContactsSyncAdapterService}, uid 10121
+  ServiceInfo: SyncAdapterType {name=com.yandex.passport.sync.ru.yandex.yandexnavi, type=com.yandex.passport, userVisible=false, supportsUploading=false, isAlwaysSyncable=true, allowParallelSyncs=true, settingsActivity=null, packageName=ru.yandex.yandexnavi}, ComponentInfo{ru.yandex.yandexnavi/com.yandex.passport.internal.core.sync.SyncService}, uid 10141
+
+
+Observer tree:
+  settings/config/privacy: pid=1090 uid=1000 user=0 target=bc5a367
+  settings/config/privacy: pid=1940 uid=10080 user=0 target=e3226d3
+  settings/config/privacy: pid=2279 uid=1000 user=0 target=536eda1
+  settings/config/privacy: pid=2494 uid=1000 user=0 target=97f4a6b
+  settings/config/privacy: pid=2524 uid=1001 user=0 target=d8aee07
+  settings/config/privacy: pid=3251 uid=10089 user=0 target=d70f1dc
+  settings/config/privacy: pid=3377 uid=1000 user=0 target=8a82126
+  settings/config/privacy: pid=3412 uid=1000 user=0 target=3af410e
+  settings/config/privacy: pid=3507 uid=1000 user=0 target=dd4e17
+  settings/config/privacy: pid=3607 uid=1000 user=0 target=9ba770b
+  settings/config/privacy: pid=3589 uid=1000 user=0 target=f220ea8
+  settings/config/privacy: pid=3768 uid=1000 user=0 target=8e0d384
+  settings/config/privacy: pid=3684 uid=1000 user=0 target=8d83fa2
+  settings/config/privacy: pid=3933 uid=1000 user=0 target=955905b
+  settings/config/privacy: pid=3976 uid=1000 user=0 target=c50aa88
+  settings/config/privacy: pid=4047 uid=1000 user=0 target=30ed39
+  settings/config/privacy: pid=4415 uid=1000 user=0 target=9cc71f5
+  settings/config/privacy: pid=4480 uid=1000 user=0 target=cfe1fe1
+  settings/config/privacy: pid=4517 uid=1000 user=0 target=ebdc351
+  settings/config/privacy: pid=4374 uid=1000 user=0 target=d2bbc24
+  settings/config/privacy: pid=4720 uid=1000 user=0 target=dcbc3ba
+  settings/config/privacy: pid=4755 uid=1000 user=0 target=82965d1
+  settings/config/privacy: pid=4825 uid=1000 user=0 target=b8d8e0d
+  settings/config/privacy: pid=4864 uid=1000 user=0 target=66a506c
+  settings/config/privacy: pid=4968 uid=1000 user=0 target=5eb58e8
+  settings/config/privacy: pid=5011 uid=1000 user=0 target=61a5819
+  settings/config/privacy: pid=4948 uid=1000 user=0 target=b08cab7
+  settings/config/privacy: pid=6278 uid=10020 user=0 target=9d86e2
+  settings/config/privacy: pid=4118 uid=1000 user=0 target=82cd570
+  settings/config/privacy: pid=6676 uid=1000 user=0 target=1ed4f2f
+  settings/config/privacy: pid=17267 uid=1000 user=0 target=2acfebe
+  settings/config/privacy: pid=15587 uid=1000 user=0 target=3be4167
+  settings/config/privacy: pid=17601 uid=10088 user=0 target=67e70a1
+  settings/config/privacy: pid=17609 uid=1000 user=0 target=7bd05b4
+  settings/config/privacy: pid=17736 uid=1000 user=0 target=7bebd96
+  settings/config/privacy: pid=17841 uid=1000 user=0 target=aac05bc
+  settings/config/privacy: pid=23848 uid=1000 user=0 target=454d5f3
+  settings/config/privacy: pid=23799 uid=1002 user=0 target=4dbde55
+  settings/config/privacy: pid=25655 uid=1000 user=0 target=153a60e
+  settings/config/privacy: pid=25974 uid=2000 user=0 target=6b524fd
+  settings/config/privacy: pid=26660 uid=1000 user=0 target=70ac2d2
+  settings/config/privacy: pid=18964 uid=1000 user=0 target=92bf4a1
+  settings/config/activity_manager: pid=1090 uid=1000 user=0 target=acab23f
+  settings/config/widget: pid=1090 uid=1000 user=0 target=95cf6c3
+  settings/config/activity_manager_native_boot: pid=1090 uid=1000 user=0 target=15f8c04
+  settings/config/configuration: pid=1090 uid=1000 user=0 target=85916b3
+  settings/config/connectivity: pid=1090 uid=1000 user=0 target=13a86e
+  settings/config/connectivity: pid=2041 uid=1073 user=0 target=ea8fd70
+  settings/config/input_native_boot: pid=1090 uid=1000 user=0 target=25105a5
+  settings/config/intelligence_content_suggestions: pid=1090 uid=1000 user=0 target=c035188
+  settings/config/lmkd_native: pid=1090 uid=1000 user=0 target=4a4ad07
+  settings/config/media_native: pid=1090 uid=1000 user=0 target=aeea1d2
+  settings/config/netd_native: pid=1090 uid=1000 user=0 target=41cc959
+  settings/config/profcollect_native_boot: pid=1090 uid=1000 user=0 target=3b0dfcc
+  settings/config/runtime_native: pid=1090 uid=1000 user=0 target=e08331b
+  settings/config/runtime_native_boot: pid=1090 uid=1000 user=0 target=c871df6
+  settings/config/statsd_native: pid=1090 uid=1000 user=0 target=daafecd
+  settings/config/statsd_native_boot: pid=1090 uid=1000 user=0 target=e21dad0
+  settings/config/storage_native_boot: pid=1090 uid=1000 user=0 target=9349cef
+  settings/config/storage_native_boot: pid=3251 uid=10089 user=0 target=da167cb
+  settings/config/window_manager_native_boot: pid=1090 uid=1000 user=0 target=d29a0da
+  settings/config/latency_tracker: pid=1090 uid=1000 user=0 target=bc50fc1
+  settings/config/latency_tracker: pid=1940 uid=10080 user=0 target=cf9784f
+  settings/config/display_manager: pid=1090 uid=1000 user=0 target=c4f896d
+  settings/config/android: pid=1090 uid=1000 user=0 target=e655df0
+  settings/config/window_manager: pid=1090 uid=1000 user=0 target=3dbd28f
+  settings/config/systemui: pid=1090 uid=1000 user=0 target=7970b4e
+  settings/config/systemui: pid=1940 uid=10080 user=0 target=355f7e1
+  settings/config/systemui: pid=17939 uid=10090 user=0 target=f5e7070
+  settings/config/device_idle: pid=1090 uid=1000 user=0 target=e9bd620
+  settings/config/textclassifier: pid=1090 uid=1000 user=0 target=d655caa
+  settings/config/wifi: pid=1090 uid=1000 user=0 target=614c55f
+  settings/config/system_time: pid=1090 uid=1000 user=0 target=877e086
+  settings/config/biometrics: pid=1090 uid=1000 user=0 target=bcea0d6
+  settings/config/media: pid=1090 uid=1000 user=0 target=cbeae5b
+  settings/config/reboot_readiness: pid=1090 uid=1000 user=0 target=8ea7a27
+  settings/config/autofill: pid=1090 uid=1000 user=0 target=fde28ed
+  settings/config/clipboard: pid=1090 uid=1000 user=0 target=c7aa47a
+  settings/config/app_standby: pid=1090 uid=1000 user=0 target=2791f5
+  settings/config/alarm_manager: pid=1090 uid=1000 user=0 target=892ed5
+  settings/config/location: pid=1090 uid=1000 user=0 target=5e5ff7a
+  settings/config/jobscheduler: pid=1090 uid=1000 user=0 target=416fba0
+  settings/config/app_hibernation: pid=1090 uid=1000 user=0 target=1a3aebc
+  settings/config/attention_manager_service: pid=1090 uid=1000 user=0 target=e15c8aa
+  settings/config/battery_saver: pid=1090 uid=1000 user=0 target=5b3bd57
+  settings/config/package_manager_service: pid=1090 uid=1000 user=0 target=1921917
+  settings/config/game_overlay: pid=1090 uid=1000 user=0 target=9fb0b48
+  settings/config/app_compat_overrides: pid=1090 uid=1000 user=0 target=61aeab7
+  settings/config/app_compat: pid=1090 uid=1000 user=0 target=ad14008
+  settings/config/bluetooth: pid=1090 uid=1000 user=0 target=eb70c09
+  settings/config/bluetooth: pid=23799 uid=1002 user=0 target=e523a32
+  settings/config/blobstore: pid=1090 uid=1000 user=0 target=d29ccdc
+  settings/config/rollback: pid=1090 uid=1000 user=0 target=8e1823
+  settings/config/constrain_display_apis: pid=1090 uid=1000 user=0 target=e0e0d1e
+  settings/config/interaction_jank_monitor: pid=1940 uid=10080 user=0 target=18972f1
+  settings/config/rollback_boot: pid=1090 uid=1000 user=0 target=c7a7165
+  settings/config/game_driver: pid=1090 uid=1000 user=0 target=e410406
+  settings/config/appsearch: pid=1090 uid=1000 user=0 target=92a5925
+  settings/config/contacts_provider: pid=6278 uid=10020 user=0 target=2362c8d
+  settings/global: pid=1090 uid=1000 user=0 target=541e265
+  settings/global: pid=17267 uid=1000 user=0 target=da08860
+  settings/global/activity_manager_constants: pid=1090 uid=1000 user=0 target=3669312
+  settings/global/activity_starts_logging_enabled: pid=1090 uid=1000 user=0 target=3669312
+  settings/global/foreground_service_starts_logging_enabled: pid=1090 uid=1000 user=0 target=3669312
+  settings/global/debug_view_attributes: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_allowlist: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_opt_in_apps: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_denylists: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_denylists: pid=1090 uid=1000 user=-1 target=6355aeb
+  settings/global/enable_gpu_debug_layers: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/angle_gl_driver_selection_values: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_denylist: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/show_angle_in_use_dialog_box: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/gpu_debug_app: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_prerelease_opt_in_apps: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_sphal_libraries: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/angle_debug_package: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/angle_egl_features: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/gpu_debug_layers: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/gpu_debug_layer_app: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_all_apps: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/debug_view_attributes_application_package: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/updatable_driver_production_opt_out_apps: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/angle_gl_driver_selection_pkgs: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/angle_gl_driver_all_angle: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/gpu_debug_layers_gles: pid=1090 uid=1000 user=0 target=a171855
+  settings/global/hide_error_dialogs: pid=1090 uid=1000 user=-1 target=4d49a79
+  settings/global/development_settings_enabled: pid=1090 uid=1000 user=-1 target=647b3b
+  settings/global/development_settings_enabled: pid=1940 uid=10080 user=-1 target=6a1931e
+  settings/global/development_settings_enabled: pid=24586 uid=10019 user=0 target=e42a7ed
+  settings/global/native_flags_health_check_enabled: pid=1090 uid=1000 user=0 target=8a1fb1
+  settings/global/cached_apps_freezer: pid=1090 uid=1000 user=0 target=e10f0a6
+  settings/global/window_animation_scale: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/transition_animation_scale: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/transition_animation_scale: pid=1940 uid=10080 user=0 target=1545653
+  settings/global/animator_duration_scale: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/animator_duration_scale: pid=1940 uid=10080 user=0 target=e5b88ad
+  settings/global/animator_duration_scale: pid=24626 uid=10042 user=0 target=d4bee35
+  settings/global/animator_duration_scale: pid=24768 uid=10142 user=0 target=75c631b
+  settings/global/animator_duration_scale: pid=18962 uid=10117 user=0 target=f2a0944
+  settings/global/policy_control: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/force_desktop_mode_on_external_displays: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/enable_freeform_support: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/force_resizable_activities: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/enable_non_resizable_multi_window: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/render_shadows_in_compositor: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/wm_display_settings_path: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/byd.scene.mode.state106: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/byd.scene.mode.state106: pid=2594 uid=1000 user=-1 target=9cf63db
+  settings/global/maximum_obscuring_opacity_for_touch: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/global/maximum_obscuring_opacity_for_touch: pid=1090 uid=1000 user=-1 target=d9754f7
+  settings/global/disable_window_blurs: pid=1090 uid=1000 user=0 target=380bfb4
+  settings/global/power_button_long_press: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/global/power_button_long_press_duration_ms: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/global/power_button_very_long_press: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/global/key_chord_power_volume_up: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/global/power_button_suppression_delay_after_gesture_wake: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/global/block_untrusted_touches: pid=1090 uid=1000 user=-1 target=25885cd
+  settings/global/ble_scan_always_enabled: pid=1090 uid=1000 user=0 target=8c7580b
+  settings/global/airplane_mode_on: pid=1090 uid=1000 user=0 target=5637c3d
+  settings/global/airplane_mode_on: pid=2524 uid=1001 user=0 target=ebf5150
+  settings/global/airplane_mode_on: pid=1940 uid=10080 user=0 target=369151b
+  settings/global/airplane_mode_on: pid=1940 uid=10080 user=0 target=54b54d0
+  settings/global/airplane_mode_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/global/airplane_mode_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/global/airplane_mode_on: pid=2524 uid=1001 user=0 target=54fc8bb
+  settings/global/airplane_mode_on: pid=2524 uid=1001 user=0 target=3a83597
+  settings/global/device_policy_constants: pid=1090 uid=1000 user=-1 target=f741aa
+  settings/global/use_open_wifi_package: pid=1090 uid=1000 user=0 target=7e6445a
+  settings/global/use_open_wifi_package: pid=1090 uid=1000 user=0 target=2b6f7ba
+  settings/global/wifi_networks_available_notification_on: pid=1090 uid=1000 user=0 target=91e29d1
+  settings/global/wifi_wakeup_enabled: pid=1090 uid=1000 user=0 target=194646c
+  settings/global/http_proxy: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/mobile_data_always_on: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/wifi_always_requested: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/network_avoid_bad_wifi: pid=1090 uid=1000 user=0 target=439d0ea
+  settings/global/network_metered_multipath_preference: pid=1090 uid=1000 user=0 target=439d0ea
+  settings/global/private_dns_default_mode: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/private_dns_mode: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/private_dns_specifier: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/global/nsd_on: pid=1090 uid=1000 user=0 target=85cb469
+  settings/global/zen_mode: pid=1090 uid=1000 user=0 target=b57ef9b
+  settings/global/zen_mode: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/global/zen_mode: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/global/zen_mode: pid=1940 uid=10080 user=0 target=11a3e71
+  settings/global/zen_mode: pid=1940 uid=10080 user=0 target=86ab24d
+  settings/global/zen_mode: pid=1940 uid=10080 user=0 target=ef80644
+  settings/global/zen_mode: pid=1940 uid=10080 user=0 target=3782471
+  settings/global/auto_time: pid=1090 uid=1000 user=0 target=ae3c974
+  settings/global/auto_time: pid=1090 uid=1000 user=0 target=3af209a
+  settings/global/auto_time_zone: pid=1090 uid=1000 user=0 target=94be52f
+  settings/global/adb_enabled: pid=1090 uid=1000 user=0 target=23ab51e
+  settings/global/adb_wifi_enabled: pid=1090 uid=1000 user=0 target=23ab51e
+  settings/global/zen_mode_config_etag: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/global/zen_mode_config_etag: pid=1940 uid=10080 user=0 target=4714aa9
+  settings/global/zen_mode_config_etag: pid=1940 uid=10080 user=0 target=86ab24d
+  settings/global/dock_audio_media_enabled: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/global/encoded_surround_output: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/global/encoded_surround_output_enabled_formats: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/global/device_provisioned: pid=1090 uid=1000 user=-1 target=bc4bd91
+  settings/global/device_provisioned: pid=1090 uid=1000 user=0 target=bc337c2
+  settings/global/device_provisioned: pid=1940 uid=10080 user=0 target=2770d5c
+  settings/global/device_provisioned: pid=1940 uid=10080 user=0 target=9553019
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=832d51a
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=594d7c7
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=b77c29f
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=fc980f0
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=e28be0a
+  settings/global/device_provisioned: pid=2524 uid=1001 user=0 target=6a0fb86
+  settings/global/battery_stats_constants: pid=1090 uid=1000 user=0 target=c83c593
+  settings/global/battery_charging_state_update_delay: pid=1090 uid=1000 user=0 target=c83c593
+  settings/global/app_standby_enabled: pid=1090 uid=1000 user=0 target=1759700
+  settings/global/enable_restricted_bucket: pid=1090 uid=1000 user=0 target=1759700
+  settings/global/adaptive_battery_management_enabled: pid=1090 uid=1000 user=0 target=1759700
+  settings/global/binder_calls_stats: pid=1090 uid=1000 user=0 target=5dd0aad
+  settings/global/binder_calls_stats: pid=2524 uid=1001 user=0 target=3dc1801
+  settings/global/looper_stats: pid=1090 uid=1000 user=0 target=f6b8973
+  settings/global/apply_ramping_ringer: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/global/forced_app_standby_enabled: pid=1090 uid=1000 user=0 target=e00487f
+  settings/global/forced_app_standby_for_small_battery_enabled: pid=1090 uid=1000 user=0 target=e00487f
+  settings/global/network_recommendations_package: pid=1090 uid=1000 user=0 target=6ddbc68
+  settings/global/network_recommendations_enabled: pid=1090 uid=1000 user=0 target=6ddbc68
+  settings/global/location_background_throttle_interval_ms: pid=1090 uid=1000 user=-1 target=e682fed
+  settings/global/location_background_throttle_package_whitelist: pid=1090 uid=1000 user=-1 target=46b450f
+  settings/global/wifi_scan_always_enabled: pid=1090 uid=1000 user=0 target=b59a5fc
+  settings/global/kernel_cpu_thread_reader: pid=1090 uid=1000 user=0 target=90d9e87
+  settings/global/power_manager_constants: pid=1090 uid=1000 user=0 target=bb6d805
+  settings/global/battery_saver_constants: pid=1090 uid=1000 user=0 target=491e803
+  settings/global/battery_saver_device_specific_constants: pid=1090 uid=1000 user=0 target=491e803
+  settings/global/stay_on_while_plugged_in: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/global/theater_mode_on: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/global/device_demo_mode: pid=1090 uid=1000 user=0 target=6aedc99
+  settings/global/enable_ephemeral_feature: pid=1090 uid=1000 user=-1 target=7a743b
+  settings/global/low_power: pid=1090 uid=1000 user=0 target=dbc8393
+  settings/global/low_power: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/overlay_display_devices: pid=1090 uid=1000 user=0 target=93f263d
+  settings/global/wifi_display_on: pid=1090 uid=1000 user=0 target=55c53fb
+  settings/global/wifi_display_certification_on: pid=1090 uid=1000 user=0 target=55c53fb
+  settings/global/wifi_display_wps_config: pid=1090 uid=1000 user=0 target=55c53fb
+  settings/global/app_ops_constants: pid=1090 uid=1000 user=0 target=c304d8e
+  settings/global/appop_history_parameters: pid=1090 uid=1000 user=0 target=c754545
+  settings/global/hidden_api_blacklist_exemptions: pid=1090 uid=1000 user=0 target=d627b8f
+  settings/global/hidden_api_policy: pid=1090 uid=1000 user=0 target=d627b8f
+  settings/global/force_non_debuggable_final_build_for_compat: pid=1090 uid=1000 user=0 target=89118dd
+  settings/global/bcast_fg_constants: pid=1090 uid=1000 user=0 target=258bb38
+  settings/global/bcast_bg_constants: pid=1090 uid=1000 user=0 target=4509076
+  settings/global/bcast_offload_constants: pid=1090 uid=1000 user=0 target=67a52e4
+  settings/global/low_power_trigger_level: pid=1090 uid=1000 user=-1 target=e2d3e02
+  settings/global/low_power_trigger_level: pid=1940 uid=10080 user=-1 target=e6b7c1e
+  settings/global/low_power_trigger_level: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/sync_manager_constants: pid=1090 uid=1000 user=0 target=b159137
+  settings/global/zram_enabled: pid=1090 uid=1000 user=0 target=804cc1e
+  settings/global/app_binding_constants: pid=1090 uid=1000 user=0 target=52f89d
+  settings/global/restricted_networking_mode: pid=1090 uid=1000 user=0 target=4523936
+  settings/global/netstats_combine_subtype_enabled: pid=1090 uid=1000 user=0 target=54310e7
+  settings/global/uids_allowed_on_restricted_networks: pid=1090 uid=1000 user=-1 target=4b350fb
+  settings/global/network_default_daily_multipath_quota_bytes: pid=1090 uid=1000 user=0 target=7b2dbf0
+  settings/global/max_notification_enqueue_rate: pid=1090 uid=1000 user=-1 target=891884d
+  settings/global/qs_media_controls: pid=1090 uid=1000 user=-1 target=891884d
+  settings/global/gnss_satellite_blocklist: pid=1090 uid=1000 user=-1 target=7538f10
+  settings/global/autofill_compat_mode_allowed_packages: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/global/autofill_logging_level: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/global/autofill_max_partitions_size: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/global/autofill_max_visible_datasets: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/global/tether_force_usb_functions: pid=2041 uid=1073 user=0 target=75da129
+  settings/global/emergency_gesture_power_button_cooldown_period_ms: pid=1090 uid=1000 user=0 target=e244077
+  settings/global/always_on_display_constants: pid=1940 uid=10080 user=-1 target=a6e9ec2
+  settings/global/sysui_demo_allowed: pid=1940 uid=10080 user=0 target=e67a771
+  settings/global/sysui_tuner_demo_on: pid=1940 uid=10080 user=0 target=21ee4db
+  settings/global/lockscreenSimpleUserSwitcher: pid=1940 uid=10080 user=0 target=b6396ba
+  settings/global/add_users_when_locked: pid=1940 uid=10080 user=0 target=b6396ba
+  settings/global/allow_user_switching_when_system_user_locked: pid=1940 uid=10080 user=0 target=b6396ba
+  settings/global/heads_up_snooze_length_ms: pid=1940 uid=10080 user=0 target=bb2a5ce
+  settings/global/sms_short_code_confirmation: pid=2524 uid=1001 user=0 target=f15a48a
+  settings/global/sms_short_code_confirmation: pid=2524 uid=1001 user=0 target=5d005c3
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=d025bd5
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=bdbe2db
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=a4b308d
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=722fae9
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=5972a0f
+  settings/global/sms_short_code_rule: pid=2524 uid=1001 user=0 target=9a75ca5
+  settings/global/data_roaming-1: pid=2524 uid=1001 user=0 target=594d7c7
+  settings/global/data_roaming-1: pid=2524 uid=1001 user=0 target=b77c29f
+  settings/global/device_provisioning_mobile_data: pid=2524 uid=1001 user=0 target=832d51a
+  settings/global/device_provisioning_mobile_data: pid=2524 uid=1001 user=0 target=fc980f0
+  settings/global/show_temperature_warning: pid=1940 uid=10080 user=0 target=10d9a1b
+  settings/global/show_usb_temperature_alarm: pid=1940 uid=10080 user=0 target=c3a8991
+  settings/global/user_switcher_enabled: pid=1940 uid=10080 user=0 target=274825a
+  settings/global/battery_estimates_last_update_time: pid=1940 uid=10080 user=0 target=545b4f1
+  settings/global/battery_estimates_last_update_time: pid=1940 uid=10080 user=0 target=3920355
+  settings/global/battery_estimates_last_update_time: pid=1940 uid=10080 user=0 target=e33ec72
+  settings/global/battery_estimates_last_update_time: pid=1940 uid=10080 user=0 target=7484c85
+  settings/global/sentrymode_feature: pid=1940 uid=10080 user=0 target=f8375d3
+  settings/global/mobile_data1: pid=1940 uid=10080 user=0 target=85b4c2b
+  settings/global/mobile_data1: pid=1940 uid=10080 user=0 target=af3d22e
+  settings/global/mobile_data1: pid=1940 uid=10080 user=0 target=9feca69
+  settings/global/mobile_data1: pid=1940 uid=10080 user=0 target=2d585e
+  settings/global/mobile_data1: pid=2524 uid=1001 user=0 target=54fc8bb
+  settings/global/mobile_data1: pid=2524 uid=1001 user=0 target=e7513c5
+  settings/global/mobile_data: pid=1940 uid=10080 user=0 target=af3d22e
+  settings/global/data_roaming: pid=1940 uid=10080 user=0 target=af3d22e
+  settings/global/data_roaming1: pid=1940 uid=10080 user=0 target=af3d22e
+  settings/global/data_roaming1: pid=2524 uid=1001 user=0 target=e28be0a
+  settings/global/data_roaming1: pid=2524 uid=1001 user=0 target=6a0fb86
+  settings/global/data_roaming1: pid=2524 uid=1001 user=0 target=e7513c5
+  settings/global/data_roaming1: pid=2524 uid=1001 user=0 target=12f8542
+  settings/global/byd_map_state: pid=1940 uid=10080 user=0 target=a398829
+  settings/global/sentrymode_enabled_switch: pid=1940 uid=10080 user=0 target=25da53c
+  settings/global/low_power_sticky: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/automatic_power_save_mode: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/dynamic_power_savings_enabled: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/dynamic_power_savings_disable_threshold: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/low_power_sticky_auto_disable_enabled: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/low_power_sticky_auto_disable_level: pid=1090 uid=1000 user=0 target=59f3cfb
+  settings/global/adb_allowed_connection_time: pid=1090 uid=1000 user=0 target=e4f5e88
+  settings/global/backup_agent_timeout_parameters: pid=1090 uid=1000 user=0 target=39bdecd
+  settings/global/sentrymode_enabled: pid=3684 uid=1000 user=0 target=a45da50
+  settings/global/wifi_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/global/wifi_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/global/wifi_on: pid=2119 uid=10060 user=0 target=6ddf8c9
+  settings/global/bluetooth.byd.xcall_run: pid=4480 uid=1000 user=-1 target=a310a3f
+  settings/global/mobile_data-1: pid=2524 uid=1001 user=0 target=3a83597
+  settings/global/bg_perfetto_enable: pid=1090 uid=1000 user=0 target=8034a27
+  settings/global/bg_perfetto_mode: pid=1090 uid=1000 user=0 target=8034a27
+  settings/global/bg_perfetto_buffer: pid=1090 uid=1000 user=0 target=8034a27
+  settings/global/sync_link_window_info: pid=15587 uid=1000 user=0 target=115d37a
+  settings/global/mini_window_info: pid=15587 uid=1000 user=0 target=115d37a
+  settings/global/bluetooth_disabled_profiles: pid=23799 uid=1002 user=0 target=33b89e1
+  settings/global/security_call_status: pid=23799 uid=1002 user=0 target=901ffa8
+  settings/secure/multi_press_timeout: pid=1090 uid=1000 user=0 target=a171855
+  settings/secure/long_press_timeout: pid=1090 uid=1000 user=0 target=a171855
+  settings/secure/long_press_timeout: pid=1090 uid=1000 user=-1 target=2206191
+  settings/secure/font_weight_adjustment: pid=1090 uid=1000 user=-1 target=4d49a79
+  settings/secure/accessibility_display_inversion_enabled: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/secure/accessibility_display_inversion_enabled: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/accessibility_display_inversion_enabled: pid=1940 uid=10080 user=0 target=e6fc3a0
+  settings/secure/accessibility_display_inversion_enabled: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/immersive_mode_confirmations: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/secure/back_gesture_inset_scale_left: pid=1090 uid=1000 user=-1 target=f92424d
+  settings/secure/back_gesture_inset_scale_left: pid=1090 uid=1000 user=-1 target=7f0a905
+  settings/secure/back_gesture_inset_scale_left: pid=1090 uid=1000 user=-1 target=3e1d025
+  settings/secure/back_gesture_inset_scale_left: pid=1090 uid=1000 user=-1 target=45032dd
+  settings/secure/back_gesture_inset_scale_right: pid=1090 uid=1000 user=-1 target=f92424d
+  settings/secure/back_gesture_inset_scale_right: pid=1090 uid=1000 user=-1 target=7f0a905
+  settings/secure/back_gesture_inset_scale_right: pid=1090 uid=1000 user=-1 target=3e1d025
+  settings/secure/back_gesture_inset_scale_right: pid=1090 uid=1000 user=-1 target=45032dd
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=f92424d
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=418f8a
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=bc4bd91
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=8a0137f
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=38634aa
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=929f438
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=5ef377
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=7f0a905
+  settings/secure/user_setup_complete: pid=1940 uid=10080 user=0 target=2770d5c
+  settings/secure/user_setup_complete: pid=1940 uid=10080 user=-1 target=9553019
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=3e1d025
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=-1 target=45032dd
+  settings/secure/user_setup_complete: pid=1090 uid=1000 user=0 target=5f03ad0
+  settings/secure/show_rotation_suggestions: pid=1090 uid=1000 user=-1 target=f8a57c
+  settings/secure/camera_autorotate: pid=1090 uid=1000 user=-1 target=f8a57c
+  settings/secure/accessibility_shortcut_target_service: pid=1090 uid=1000 user=-1 target=badf228
+  settings/secure/accessibility_shortcut_target_service: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_shortcut_target_service: pid=1940 uid=10080 user=0 target=b856389
+  settings/secure/accessibility_shortcut_on_lock_screen: pid=1090 uid=1000 user=-1 target=badf228
+  settings/secure/accessibility_shortcut_dialog_shown: pid=1090 uid=1000 user=-1 target=badf228
+  settings/secure/incall_power_button_behavior: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/incall_back_button_behavior: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/wake_gesture_enabled: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/default_input_method: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/default_input_method: pid=1090 uid=1000 user=-1 target=bc4bd91
+  settings/secure/default_input_method: pid=1090 uid=1000 user=0 target=24d0e6
+  settings/secure/default_input_method: pid=1090 uid=1000 user=-1 target=923e724
+  settings/secure/volume_hush_gesture: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/system_navigation_keys_enabled: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/secure/accessibility_large_pointer_icon: pid=1090 uid=1000 user=-1 target=799b21b
+  settings/secure/touch_exploration_enabled: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_display_magnification_enabled: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_autoclick_enabled: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/enabled_accessibility_services: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/enabled_accessibility_services: pid=24626 uid=10042 user=0 target=cd6ac3b
+  settings/secure/enabled_accessibility_services: pid=18962 uid=10117 user=0 target=ab4cb62
+  settings/secure/touch_exploration_granted_accessibility_services: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/high_text_contrast_enabled: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_soft_keyboard_mode: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_soft_keyboard_mode: pid=1090 uid=1000 user=0 target=24d0e6
+  settings/secure/show_ime_with_hard_keyboard: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/show_ime_with_hard_keyboard: pid=1090 uid=1000 user=0 target=24d0e6
+  settings/secure/show_ime_with_hard_keyboard: pid=24126 uid=10122 user=0 target=d714fd1
+  settings/secure/accessibility_button_target_component: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_button_targets: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_button_targets: pid=1940 uid=10080 user=0 target=b856389
+  settings/secure/accessibility_button_targets: pid=1940 uid=10080 user=-1 target=7e5763c
+  settings/secure/accessibility_non_interactive_ui_timeout_ms: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_interactive_ui_timeout_ms: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_magnification_mode: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/accessibility_magnification_capability: pid=1090 uid=1000 user=-1 target=361b8c
+  settings/secure/mobile_data_preferred_uids: pid=1090 uid=1000 user=0 target=8ab2f60
+  settings/secure/sms_default_application: pid=1090 uid=1000 user=0 target=7269b11
+  settings/secure/sms_default_application: pid=1090 uid=1000 user=0 target=d008c4e
+  settings/secure/sms_default_application: pid=1940 uid=10080 user=0 target=ded694
+  settings/secure/sms_default_application: pid=1940 uid=10080 user=0 target=dff2132
+  settings/secure/location_time_zone_detection_enabled: pid=1090 uid=1000 user=-1 target=1995cc5
+  settings/secure/search_global_search_activity: pid=1090 uid=1000 user=0 target=3f5ee72
+  settings/secure/trust_agents_extend_unlock: pid=1090 uid=1000 user=0 target=ce5dcb6
+  settings/secure/lock_screen_when_trust_lost: pid=1090 uid=1000 user=0 target=ce5dcb6
+  settings/secure/pubkey_blacklist: pid=1090 uid=1000 user=0 target=98a5e23
+  settings/secure/serial_blacklist: pid=1090 uid=1000 user=0 target=263c0d9
+  settings/secure/biometric_keyguard_enabled: pid=1090 uid=1000 user=-1 target=c2bf1ac
+  settings/secure/biometric_app_enabled: pid=1090 uid=1000 user=-1 target=c2bf1ac
+  settings/secure/face_unlock_always_require_confirmation: pid=1090 uid=1000 user=-1 target=c2bf1ac
+  settings/secure/voice_interaction_service: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/secure/voice_interaction_service: pid=1090 uid=1000 user=-1 target=9642659
+  settings/secure/ui_night_mode: pid=1090 uid=1000 user=0 target=a840bbc
+  settings/secure/location_mode: pid=1090 uid=1000 user=-1 target=a632a17
+  settings/secure/location_mode: pid=1090 uid=1000 user=-1 target=9523028
+  settings/secure/locationPackagePrefixBlacklist: pid=1090 uid=1000 user=-1 target=76650b3
+  settings/secure/locationPackagePrefixWhitelist: pid=1090 uid=1000 user=-1 target=a4dde9
+  settings/secure/adaptive_connectivity_enabled: pid=1090 uid=1000 user=0 target=d44e2b5
+  settings/secure/adaptive_sleep: pid=1090 uid=1000 user=-1 target=881d77f
+  settings/secure/screensaver_enabled: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/screensaver_activate_on_sleep: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/screensaver_activate_on_dock: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/sleep_timeout: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/attentive_timeout: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/doze_always_on: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/doze_always_on: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/double_tap_to_wake: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/secure/instant_apps_enabled: pid=1090 uid=1000 user=-1 target=7a743b
+  settings/secure/match_content_frame_rate: pid=1090 uid=1000 user=0 target=dbc8393
+  settings/secure/minimal_post_processing_allowed: pid=1090 uid=1000 user=0 target=87dbda6
+  settings/secure/enabled_input_methods: pid=1090 uid=1000 user=0 target=24d0e6
+  settings/secure/selected_input_method_subtype: pid=1090 uid=1000 user=0 target=24d0e6
+  settings/secure/selected_input_method_subtype: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/secure/notification_badging: pid=1090 uid=1000 user=-1 target=891884d
+  settings/secure/notification_bubbles: pid=1090 uid=1000 user=-1 target=891884d
+  settings/secure/notification_history_enabled: pid=1090 uid=1000 user=-1 target=891884d
+  settings/secure/notification_history_enabled: pid=1090 uid=1000 user=-1 target=356e9b9
+  settings/secure/notification_history_enabled: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/lock_screen_allow_private_notifications: pid=1090 uid=1000 user=-1 target=891884d
+  settings/secure/lock_screen_allow_private_notifications: pid=1940 uid=10080 user=-1 target=ef80644
+  settings/secure/lock_screen_allow_private_notifications: pid=1940 uid=10080 user=-1 target=20e9df5
+  settings/secure/lock_screen_show_notifications: pid=1090 uid=1000 user=-1 target=891884d
+  settings/secure/lock_screen_show_notifications: pid=1940 uid=10080 user=-1 target=ef80644
+  settings/secure/lock_screen_show_notifications: pid=1940 uid=10080 user=-1 target=20e9df5
+  settings/secure/doze_pulse_on_double_tap: pid=1090 uid=1000 user=-1 target=ad0c794
+  settings/secure/doze_pulse_on_double_tap: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/autofill_service: pid=1090 uid=1000 user=-1 target=4fcc2e
+  settings/secure/one_handed_mode_activated: pid=1940 uid=10080 user=0 target=d7f84b7
+  settings/secure/one_handed_mode_enabled: pid=1940 uid=10080 user=0 target=ccd9b8d
+  settings/secure/swipe_bottom_to_notification_enabled: pid=1940 uid=10080 user=0 target=cfdb553
+  settings/secure/camera_gesture_disabled: pid=1090 uid=1000 user=0 target=e244077
+  settings/secure/camera_double_tap_power_gesture_disabled: pid=1090 uid=1000 user=0 target=e244077
+  settings/secure/camera_lift_trigger_enabled: pid=1090 uid=1000 user=0 target=e244077
+  settings/secure/emergency_gesture_enabled: pid=1090 uid=1000 user=0 target=e244077
+  settings/secure/dialer_default_application: pid=1090 uid=1000 user=-1 target=659c4a3
+  settings/secure/qs_media_resumption: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/qs_media_recommend: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_volume_down_silent: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_volume_up_silent: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_do_not_disturb: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/icon_blacklist: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/show_media_when_bypassing: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/accessibility_button_mode: pid=1940 uid=10080 user=-1 target=ce58d77
+  settings/secure/lockscreen_show_controls: pid=1940 uid=10080 user=0 target=616644c
+  settings/secure/high_priority: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/lockscreen_show_wallet: pid=1940 uid=10080 user=0 target=faf0e4
+  settings/secure/nfc_payment_default_component: pid=1940 uid=10080 user=0 target=7fa0c02
+  settings/secure/controls_providers: pid=1940 uid=10080 user=0 target=7832c81
+  settings/secure/doze_tap_gesture: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/rtt_calling_mode: pid=2524 uid=1001 user=0 target=18faddf
+  settings/secure/rtt_calling_mode1: pid=2524 uid=1001 user=0 target=18faddf
+  settings/secure/assistant: pid=1940 uid=10080 user=-1 target=7d62d91
+  settings/secure/assist_long_press_home_enabled: pid=1940 uid=10080 user=-1 target=7d62d91
+  settings/secure/assist_touch_gesture_enabled: pid=1940 uid=10080 user=-1 target=7d62d91
+  settings/secure/lock_screen_show_silent_notifications: pid=1940 uid=10080 user=-1 target=ef80644
+  settings/secure/theme_customization_overlay_packages: pid=1940 uid=10080 user=-1 target=6c5d1e7
+  settings/secure/sysui_keyguard_right: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_keyguard_left: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/clock_seconds: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/lock_screen_custom_clock_face: pid=1940 uid=10080 user=-1 target=58601f3
+  settings/secure/docked_clock_face: pid=1940 uid=10080 user=-1 target=58601f3
+  settings/secure/lockscreen_use_double_line_clock: pid=1940 uid=10080 user=0 target=59403c8
+  settings/secure/keyguard_slice_uri: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/status_bar_show_vibrate_icon: pid=1940 uid=10080 user=0 target=d05dbe
+  settings/secure/sysui_qs_tiles: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/qs_auto_tiles: pid=1940 uid=10080 user=-1 target=3afde70
+  settings/secure/night_display_activated: pid=1940 uid=10080 user=0 target=99217a5
+  settings/secure/night_display_activated: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/night_display_auto_mode: pid=1940 uid=10080 user=0 target=99217a5
+  settings/secure/night_display_auto_mode: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/night_display_custom_start_time: pid=1940 uid=10080 user=0 target=99217a5
+  settings/secure/night_display_custom_start_time: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/night_display_custom_end_time: pid=1940 uid=10080 user=0 target=99217a5
+  settings/secure/night_display_custom_end_time: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/night_display_color_temperature: pid=1940 uid=10080 user=0 target=99217a5
+  settings/secure/night_display_color_temperature: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/reduce_bright_colors_activated: pid=1940 uid=10080 user=0 target=d4a8bd2
+  settings/secure/reduce_bright_colors_activated: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/qs_show_brightness: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_qs_fancy_anim: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/sysui_qs_move_whole_rows: pid=1940 uid=10080 user=0 target=198ca0b
+  settings/secure/accessibility_display_daltonizer_enabled: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/accessibility_display_daltonizer: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/display_white_balance_enabled: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/reduce_bright_colors_level: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/secure/backup_manager_constants: pid=1090 uid=1000 user=0 target=db9835c
+  settings/secure/enhLocationServices_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/secure/enhLocationServices_on: pid=4454 uid=10075 user=-1 target=e801313
+  settings/system/time_12_24: pid=1090 uid=1000 user=0 target=a171855
+  settings/system/time_12_24: pid=1940 uid=10080 user=-1 target=5122e2a
+  settings/system/time_12_24: pid=4774 uid=10101 user=0 target=4a23574
+  settings/system/time_12_24: pid=4480 uid=1000 user=-1 target=a310a3f
+  settings/system/time_12_24: pid=15587 uid=1000 user=0 target=e49f335
+  settings/system/time_12_24: pid=4847 uid=10034 user=0 target=9a71a81
+  settings/system/font_scale: pid=1090 uid=1000 user=-1 target=4d49a79
+  settings/system/pointer_location: pid=1090 uid=1000 user=-1 target=d4ba6a7
+  settings/system/ext_force_refresh_rate_list: pid=1090 uid=1000 user=0 target=43e9d77
+  settings/system/ext_force_refresh_rate_list: pid=1090 uid=1000 user=0 target=bec3a4e
+  settings/system/ext_force_refresh_rate_list: pid=1090 uid=1000 user=0 target=5c918f
+  settings/system/ext_force_refresh_rate_list: pid=1090 uid=1000 user=0 target=7046208
+  settings/system/accelerometer_rotation: pid=1090 uid=1000 user=-1 target=f8a57c
+  settings/system/accelerometer_rotation: pid=1940 uid=10080 user=-1 target=b471357
+  settings/system/user_rotation: pid=1090 uid=1000 user=-1 target=f8a57c
+  settings/system/end_button_behavior: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/system/screen_off_timeout: pid=1090 uid=1000 user=-1 target=50408d4
+  settings/system/screen_off_timeout: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/system/pointer_speed: pid=1090 uid=1000 user=-1 target=e43c4ff
+  settings/system/show_touches: pid=1090 uid=1000 user=-1 target=9874915
+  settings/system/mode_ringer_streams_affected: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/system/master_mono: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/system/master_balance: pid=1090 uid=1000 user=0 target=8fe8e46
+  settings/system/vibrate_input_devices: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/system/vibrate_when_ringing: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/system/haptic_feedback_intensity: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/system/notification_vibration_intensity: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/system/ring_vibration_intensity: pid=1090 uid=1000 user=-1 target=b468df4
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=576cc75
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=576cc75
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=bfc266
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=bfc266
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=14c3a54
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=14c3a54
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=e57f906
+  settings/system/screen_brightness_for_vr_float: pid=1090 uid=1000 user=-1 target=e57f906
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=576cc75
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=576cc75
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=6aedc99
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=bfc266
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=bfc266
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=14c3a54
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=14c3a54
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=e57f906
+  settings/system/screen_auto_brightness_adj: pid=1090 uid=1000 user=-1 target=e57f906
+  settings/system/peak_refresh_rate: pid=1090 uid=1000 user=0 target=dbc8393
+  settings/system/min_refresh_rate: pid=1090 uid=1000 user=0 target=dbc8393
+  settings/system/screen_brightness: pid=1090 uid=1000 user=-1 target=c87fd00
+  settings/system/screen_brightness: pid=1940 uid=10080 user=0 target=390e66c
+  settings/system/screen_brightness: pid=1940 uid=10080 user=0 target=11a5e3b
+  settings/system/screen_brightness: pid=1940 uid=10080 user=0 target=38bf9e2
+  settings/system/notification_light_pulse: pid=1090 uid=1000 user=-1 target=891884d
+  settings/system/haptic_feedback_enabled: pid=1940 uid=10080 user=0 target=79e1bc7
+  settings/system/haptic_feedback_enabled: pid=1940 uid=10080 user=0 target=dd7afbc
+  settings/system/byd_gesture_switch: pid=2594 uid=1000 user=-1 target=9cf63db
+  settings/system/byd_gesture_switch: pid=1940 uid=10080 user=-1 target=d71312c
+  settings/system/byd_gesture_switch: pid=4374 uid=1000 user=-1 target=dc69b76
+  settings/system/hide_rotation_lock_toggle_for_accessibility: pid=1940 uid=10080 user=-1 target=b471357
+  settings/system/status_bar_show_battery_percent: pid=1940 uid=10080 user=0 target=545b4f1
+  settings/system/status_bar_show_battery_percent: pid=1940 uid=10080 user=0 target=3920355
+  settings/system/status_bar_show_battery_percent: pid=1940 uid=10080 user=0 target=e33ec72
+  settings/system/status_bar_show_battery_percent: pid=1940 uid=10080 user=0 target=7484c85
+  settings/system/remote_screenage_origins: pid=1090 uid=1000 user=0 target=5d49844
+  settings/system/remote_screenage_origins: pid=4415 uid=1000 user=0 target=1dd5c90
+  settings/system/remote_screenage_origins: pid=1940 uid=10080 user=0 target=3243512
+  settings/system/display_color_mode: pid=1090 uid=1000 user=0 target=a3cc2e6
+  settings/system/usagestat_events_max_count: pid=1090 uid=1000 user=-1 target=4374be5
+  settings/system/persist.byd.baios.splitscreen.status: pid=15587 uid=1000 user=0 target=b3fdd9c
+  carsettings/global: pid=2494 uid=1000 user=0 target=f8b4b6f
+  carsettings/global: pid=2494 uid=1000 user=0 target=f8b4b6f
+  carsettings/global/app_auto_rotation: pid=1090 uid=1000 user=-1 target=dfb6535
+  carsettings/global/app_auto_rotation: pid=1940 uid=10080 user=0 target=e514255
+  carsettings/global/auto_time: pid=1090 uid=1000 user=0 target=5d2cbb4
+  carsettings/global/auto_brightness: pid=1090 uid=1000 user=-1 target=6aedc99
+  carsettings/global/auto_brightness_instrument: pid=1090 uid=1000 user=-1 target=614a630
+  carsettings/global/screen_brightness_instrument: pid=1090 uid=1000 user=-1 target=614a630
+  carsettings/global/sys_screen_mode: pid=1940 uid=10080 user=0 target=390e66c
+  carsettings/global/sys_screen_mode: pid=1940 uid=10080 user=0 target=8e16d5b
+  carsettings/global/auto_split_screen: pid=1940 uid=10080 user=0 target=1a55278
+  carsettings/global/remote_location: pid=1940 uid=10080 user=0 target=e6d53b8
+  carsettings/global/remote_location: pid=1940 uid=10080 user=0 target=a985d38
+  carsettings/global/remote_location: pid=1090 uid=1000 user=0 target=5d49844
+  carsettings/global/remote_location: pid=1940 uid=10080 user=0 target=f06aee0
+  carsettings/global/sys_day_or_night: pid=1940 uid=10080 user=0 target=11a5e3b
+  carsettings/global/sys_day_or_night: pid=1940 uid=10080 user=0 target=38bf9e2
+  carsettings/global/byd_app_theme_res_info: pid=1090 uid=1000 user=0 target=89638fd
+  carsettings/config/panorama_type: pid=4720 uid=1000 user=-1 target=58dd938
+  carrier_information/carrier: pid=1090 uid=1000 user=0 target=967fe62
+  com.byd.synclink.CastStatusProvider/connection_status: pid=1090 uid=1000 user=0 target=cecf5c5
+  com.byd.synclink.CastStatusProvider/connection_status: pid=17694 uid=10057 user=0 target=5ccc6c4
+  com.byd.synclink.CastStatusProvider/connection_status: pid=23747 uid=10038 user=0 target=126d65d
+  com.byd.synclink.CastStatusProvider/phone_navigation_focus: pid=23747 uid=10038 user=0 target=a97f4a3
+  com.android.contacts/contacts: pid=1090 uid=1000 user=-1 target=2d88e7c
+  com.android.contacts/contacts: pid=1090 uid=1000 user=0 target=4f61861
+  com.android.calendar/instances/when: pid=1090 uid=1000 user=0 target=17fe810
+  com.android.calendar/events: pid=1090 uid=1000 user=0 target=17fe810
+  com.android.calendar/calendars: pid=1090 uid=1000 user=0 target=17fe810
+  com.byd.carStatusProvider/car_status/set_car_status_maintenance_time: pid=2372 uid=1000 user=0 target=2905379
+  com.byd.carStatusProvider/car_status/set_car_status_maintenance_mile: pid=2372 uid=1000 user=0 target=2905379
+  com.byd.carStatusProvider/car_status/maintenance_time_switch_state: pid=2372 uid=1000 user=0 target=2905379
+  com.byd.carStatusProvider/car_status/maintenance_mile_switch_state: pid=2372 uid=1000 user=0 target=2905379
+  com.byd.mediacenter.provider/info: pid=2620 uid=1000 user=0 target=206cd98
+  com.byd.wallpaper/external/wallpaperchange: pid=1940 uid=10080 user=0 target=da64ec2
+  com.byd.wallpaper/wallpaperState: pid=23848 uid=1000 user=0 target=8f84bf6
+  telephony/siminfo/backup_and_restore/suw_restore: pid=2524 uid=1001 user=0 target=882492a
+  telephony/siminfo/ims_rcs_uce_enabled: pid=2524 uid=1001 user=0 target=b2cda8a
+  telephony/siminfo/cross_sim_calling_enabled/1: pid=2524 uid=1001 user=0 target=adc9a97
+  telephony/siminfo/cross_sim_calling_enabled/1: pid=2524 uid=1001 user=0 target=23f58a2
+  telephony/siminfo/wfc_mode/1: pid=2266 uid=10078 user=0 target=a321734
+  telephony/siminfo/wfc_roaming_mode/1: pid=2266 uid=10078 user=0 target=5d4be59
+  telephony/carriers: pid=2524 uid=1001 user=0 target=3f3b862
+  telephony/carriers: pid=2524 uid=1001 user=0 target=acae95e
+  telephony/carriers: pid=2524 uid=1001 user=0 target=1544948
+  telephony/carriers: pid=2524 uid=1001 user=0 target=d5bf751
+  telephony/carriers: pid=2524 uid=1001 user=0 target=54fc8bb
+  telephony/carriers: pid=2524 uid=1001 user=0 target=3a83597
+  telephony/carriers: pid=2524 uid=1001 user=0 target=12f8542
+  telephony/carriers/preferapn: pid=2524 uid=1001 user=0 target=ce1e82f
+  telephony/carriers/preferapn: pid=2524 uid=1001 user=0 target=d40864a
+  carrier_id/all: pid=2524 uid=1001 user=0 target=ce1e82f
+  carrier_id/all: pid=2524 uid=1001 user=0 target=d40864a
+  com.android.systemui.keyguard/main: pid=1940 uid=10080 user=0 target=bc7bd9d
+  com.byd.accountProvider/account_msg: pid=1940 uid=10080 user=0 target=e161536
+  com.byd.accountProvider/account_save_flag: pid=1940 uid=10080 user=0 target=bd945a4
+  com.byd.accountProvider/account_big_data: pid=5011 uid=1000 user=0 target=262b535
+  call_log: pid=1090 uid=1000 user=0 target=96d8b92
+  mms-sms: pid=1090 uid=1000 user=0 target=cb12153
+  com.byd.cmgameprovider/gamePkgList: pid=4374 uid=1000 user=0 target=45c5d4
+  com.byd.cmgameprovider/gamePkgList: pid=4374 uid=1000 user=0 target=ecfa5cb
+  com.byd.cmgameprovider/gamePkgList: pid=4374 uid=1000 user=0 target=478dce1
+  com.byd.cmgameprovider/gamePkgList: pid=4374 uid=1000 user=0 target=9856796
+  com.byd.cmgameprovider/gamePkgList: pid=15587 uid=1000 user=0 target=7eabab9
+  com.byd.cmgameprovider/gamePkgList: pid=4374 uid=1000 user=0 target=2612f70
+  com.byd.cmgameprovider/gameIconShowSwitch: pid=15587 uid=1000 user=0 target=7eabab9
+  sentrymode/sentrymode_video_event: pid=3684 uid=1000 user=0 target=ae0c46c
+  cdr/cdr_video_normal: pid=4755 uid=1000 user=0 target=10650d8
+  cdr/cdr_video_event_inner: pid=4755 uid=1000 user=0 target=4c52f16
+  cdr/cdr_video_event: pid=4755 uid=1000 user=0 target=efba284
+  cdr/cdr_photo: pid=4755 uid=1000 user=0 target=4a9b7b1
+  cdr/cdr_photo_inner: pid=4755 uid=1000 user=0 target=3f11ded
+  com.byd.auto_camera.fun: pid=4374 uid=1000 user=0 target=c463bb1
+  com.byd.auto_photo: pid=4374 uid=1000 user=0 target=c463bb1
+  com.byd.card/dynamic_card: pid=15587 uid=1000 user=0 target=36d7759
+  com.byd.card/card: pid=23747 uid=10038 user=0 target=bdb7cfb
+  com.byd.mediacenter.PreferenceContentProvider/URL_SETTING: pid=17694 uid=10057 user=0 target=d9d2e7a
+  com.byd.mediacenter.PreferenceContentProvider/URL_SETTING/key_show_type: pid=17694 uid=10057 user=0 target=4809b58
+  com.byd.mediacenter.KuwoContentProvider/kwhd_downpathmusicfiles_remote: pid=17694 uid=10057 user=0 target=9c9bbe2
+  com.byd.weatherdata.utils.WeatherContentProvider/weather: pid=23653 uid=10029 user=0 target=cbf2112
+  user_dictionary/words: pid=24126 uid=10122 user=0 target=5343227
+  media/external/audio/media: pid=17694 uid=10057 user=0 target=a3d9a89
+  media/external/images/media: pid=27323 uid=10052 user=0 target=c6fc9c1
+  media/external_primary: pid=17694 uid=10057 user=0 target=4f7f19a
+  media/4A21-0000: pid=17694 uid=10057 user=0 target=77323
+  com.alipay.mobile.arome.provider/bridge: pid=27289 uid=1000 user=0 target=a8f8977
+  com.alipay.mobile.arome.provider/uploadLog: pid=27323 uid=10052 user=0 target=e054d10
+  com.byd.common.db.provider.state/fusionstate: pid=15587 uid=1000 user=0 target=b4982fb
+  com.byd.common.db.provider.state/fusionstate: pid=15587 uid=1000 user=0 target=2bd1756
+  com.byd.common.db.provider.app/fusionapp: pid=15587 uid=1000 user=0 target=3e064c4
+
+  pid 1090: 374 observers
+  pid 1940: 126 observers
+  pid 2524: 47 observers
+  pid 15587: 11 observers
+  pid 4374: 9 observers
+  pid 17694: 7 observers
+  pid 4454: 6 observers
+  pid 4755: 6 observers
+  pid 2372: 4 observers
+  pid 23799: 4 observers
+  pid 2494: 3 observers
+  pid 3684: 3 observers
+  pid 4480: 3 observers
+  pid 23747: 3 observers
+  pid 2041: 2 observers
+  pid 2266: 2 observers
+  pid 2594: 2 observers
+  pid 3251: 2 observers
+  pid 4415: 2 observers
+  pid 4720: 2 observers
+  pid 5011: 2 observers
+  pid 6278: 2 observers
+  pid 17267: 2 observers
+  pid 18962: 2 observers
+  pid 23848: 2 observers
+  pid 24126: 2 observers
+  pid 24626: 2 observers
+  pid 27323: 2 observers
+  pid 2119: 1 observers
+  pid 2279: 1 observers
+  pid 2620: 1 observers
+  pid 3377: 1 observers
+  pid 3412: 1 observers
+  pid 3507: 1 observers
+  pid 3589: 1 observers
+  pid 3607: 1 observers
+  pid 3768: 1 observers
+  pid 3933: 1 observers
+  pid 3976: 1 observers
+  pid 4047: 1 observers
+  pid 4118: 1 observers
+  pid 4517: 1 observers
+  pid 4774: 1 observers
+  pid 4825: 1 observers
+  pid 4847: 1 observers
+  pid 4864: 1 observers
+  pid 4948: 1 observers
+  pid 4968: 1 observers
+  pid 6676: 1 observers
+  pid 17601: 1 observers
+  pid 17609: 1 observers
+  pid 17736: 1 observers
+  pid 17841: 1 observers
+  pid 17939: 1 observers
+  pid 18964: 1 observers
+  pid 23653: 1 observers
+  pid 24586: 1 observers
+  pid 24768: 1 observers
+  pid 25655: 1 observers
+  pid 25974: 1 observers
+  pid 26660: 1 observers
+  pid 27289: 1 observers
+
+  Total number of nodes: 481
+  Total number of observers: 668
+  # of watched binders: 402
+  # of death recipients: 668
+
+Observer leaking UIDs: {}
+
+Cached content:
+  User 0:
+    {com.android.documentsui={Pair{com.android.documentsui content://com.android.documentsui.archives/root}=Bundle[mParcelledData.dataSize=48]}, com.android.externalstorage={}, com.android.providers.downloads={Pair{com.android.documentsui content://com.android.providers.downloads.documents/root}=Bundle[mParcelledData.dataSize=380]}, com.android.mtp={Pair{com.android.documentsui content://com.android.mtp.documents/root}=Bundle[mParcelledData.dataSize=48]}, com.termux={}, com.android.providers.media.module={}}

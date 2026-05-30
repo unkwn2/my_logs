@@ -1,0 +1,328 @@
+netstat: /proc/ktc: Permission denied
+netstat: /proc/keys: Permission denied
+netstat: /proc/kmsg: Permission denied
+netstat: /proc/misc: Permission denied
+netstat: /proc/iomem: Permission denied
+netstat: /proc/locks: Permission denied
+netstat: /proc/swaps: Permission denied
+netstat: /proc/crypto: Permission denied
+netstat: /proc/cgroups: Permission denied
+netstat: /proc/cmdline: Permission denied
+netstat: /proc/devices: Permission denied
+netstat: /proc/ioports: Permission denied
+netstat: /proc/consoles: Permission denied
+netstat: /proc/kallsyms: Permission denied
+netstat: /proc/buddyinfo: Permission denied
+netstat: /proc/diskstats: Permission denied
+netstat: /proc/key-users: Permission denied
+netstat: /proc/schedstat: Permission denied
+netstat: /proc/kpagecount: Permission denied
+netstat: /proc/kpageflags: Permission denied
+netstat: /proc/partitions: Permission denied
+netstat: /proc/execdomains: Permission denied
+netstat: /proc/kpagecgroup: Permission denied
+netstat: /proc/sched_debug: Permission denied
+netstat: /proc/vmallocinfo: Permission denied
+netstat: /proc/pagetypeinfo: Permission denied
+netstat: /proc/sysrq-trigger: Permission denied
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program Name
+tcp        0      6 0.0.0.0:50051           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50020           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50021           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:42885           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:41381           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 192.168.195.2:52101     0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:6789          0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50022           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50054           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50023           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50055           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:43816           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:41770           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 0.0.0.0:6666            0.0.0.0:*               LISTEN      -
+tcp        0      0 0.0.0.0:139             0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50028           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50029           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50030           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50031           0.0.0.0:*               UNKNOWN     -
+tcp        0      4 0.0.0.0:44176           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 0.0.0.0:51249           0.0.0.0:*               LISTEN      -
+tcp        0      0 192.168.195.2:6001      0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50034           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:44946           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 192.168.195.2:53202     0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50035           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50036           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50037           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:40373           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:42325           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 127.0.0.1:53            0.0.0.0:*               LISTEN      -
+tcp        0      0 192.168.195.2:53        0.0.0.0:*               LISTEN      -
+tcp        0      0 192.168.195.2:51222     0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50040           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:42424           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 192.168.195.2:51224     0.0.0.0:*               LISTEN      -
+tcp        0      0 127.0.0.1:7800          0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50041           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:40441           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 10.91.86.152:9209       0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50010           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50011           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:40027           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50044           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:40860           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50045           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 0.0.0.0:445             0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50048           0.0.0.0:*               UNKNOWN     -
+tcp        0      6 0.0.0.0:50049           0.0.0.0:*               UNKNOWN     -
+tcp        0      0 127.0.0.1:60001         0.0.0.0:*               LISTEN      -
+tcp        0      6 0.0.0.0:50050           0.0.0.0:*               UNKNOWN     -
+tcp        0      1 172.18.98.11:40290      113.45.253.36:9105      SYN_SENT    -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37280         ESTABLISHED -
+tcp        0     31 10.91.86.152:48548      213.180.204.179:443     FIN_WAIT1   -
+tcp        0      0 10.91.86.152:49412      59.82.43.205:443        TIME_WAIT   -
+tcp        0      1 10.91.86.152:44632      106.55.88.125:8080      FIN_WAIT1   -
+tcp        0      0 127.0.0.1:37280         127.0.0.1:6789          ESTABLISHED -
+tcp        0      1 172.18.98.11:41320      1.1.1.1:4443            SYN_SENT    -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37234         ESTABLISHED -
+tcp        0      1 10.91.86.152:48282      77.88.55.88:443         FIN_WAIT1   -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37246         ESTABLISHED -
+tcp        0      0 10.91.86.152:43512      43.154.240.27:443       ESTABLISHED -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37232         ESTABLISHED -
+tcp        0      0 10.91.86.152:49400      59.82.43.205:443        TIME_WAIT   -
+tcp        0      0 10.91.86.152:49376      59.82.43.205:443        TIME_WAIT   -
+tcp        0      1 172.18.98.11:40834      217.74.244.2:853        SYN_SENT    -
+tcp        0      0 10.91.86.152:43012      59.82.113.171:443       ESTABLISHED -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37262         ESTABLISHED -
+tcp        0      0 10.91.86.152:49424      59.82.43.205:443        ESTABLISHED -
+tcp        0      0 10.91.86.152:49382      59.82.43.205:443        TIME_WAIT   -
+tcp        0      0 127.0.0.1:37234         127.0.0.1:6789          ESTABLISHED -
+tcp        0      1 172.18.98.11:49018      1.1.1.1:443             SYN_SENT    -
+tcp        0      0 10.91.86.152:49378      59.82.43.205:443        TIME_WAIT   -
+tcp        0      1 10.91.86.152:37204      110.75.255.192:443      FIN_WAIT1   -
+tcp        0      0 10.91.86.152:49394      59.82.43.205:443        TIME_WAIT   -
+tcp        0      0 10.91.86.152:40912      203.209.230.36:443      ESTABLISHED -
+tcp        0      0 127.0.0.1:37232         127.0.0.1:6789          ESTABLISHED -
+tcp        0      1 10.91.86.152:42878      87.250.254.145:443      FIN_WAIT1   -
+tcp        0      0 127.0.0.1:37262         127.0.0.1:6789          ESTABLISHED -
+tcp        0      0 10.91.86.152:49434      59.82.43.205:443        TIME_WAIT   -
+tcp        0      0 127.0.0.1:6789          127.0.0.1:37268         ESTABLISHED -
+tcp        0      0 127.0.0.1:37246         127.0.0.1:6789          ESTABLISHED -
+tcp        0      0 10.91.86.152:49442      59.82.43.205:443        TIME_WAIT   -
+tcp        0      0 127.0.0.1:37268         127.0.0.1:6789          ESTABLISHED -
+tcp        0      1 172.18.98.11:43850      217.74.244.1:853        SYN_SENT    -
+tcp        0      0 10.91.86.152:38522      59.82.43.205:443        TIME_WAIT   -
+tcp        0      1 10.91.86.152:45454      77.88.21.119:443        FIN_WAIT1   -
+tcp6       0      6 [::]:50019              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50056              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:43816              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50057              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50058              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50026              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50059              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50027              [::]:*                  UNKNOWN     -
+tcp6       0      0 [::]:139                [::]:*                  LISTEN      -
+tcp6       0      6 [::]:50028              [::]:*                  UNKNOWN     -
+tcp6       0      0 ::ffff:192.168.195:7788 [::]:*                  LISTEN      -
+tcp6       0      0 [::]:13132              [::]:*                  LISTEN      -
+tcp6       0      6 [::]:50029              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50030              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50031              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:44946              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:42994              [::]:*                  UNKNOWN     -
+tcp6       0      0 [::]:5555               [::]:*                  LISTEN      -
+tcp6       0      6 [::]:40373              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:40981              [::]:*                  UNKNOWN     -
+tcp6       0      0 ::1:53                  [::]:*                  LISTEN      -
+tcp6       0      0 fe80::280:fff:fe11:7:53 [::]:*                  LISTEN      -
+tcp6       0      6 [::]:50038              [::]:*                  UNKNOWN     -
+tcp6       0      0 [::]:9302               [::]:*                  LISTEN      5669/aps_diplus
+tcp6       0      6 [::]:50039              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50040              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:43768              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50041              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:40441              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:41049              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50042              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50043              [::]:*                  UNKNOWN     -
+tcp6       0      0 [::]:8988               [::]:*                  LISTEN      -
+tcp6       0      6 [::]:50044              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50045              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:44061              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:42973              [::]:*                  UNKNOWN     -
+tcp6       0      0 [::]:445                [::]:*                  LISTEN      -
+tcp6       0      6 [::]:50016              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50048              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:40384              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50017              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50049              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:44833              [::]:*                  UNKNOWN     -
+tcp6       0      6 [::]:50018              [::]:*                  UNKNOWN     -
+tcp6       0      0 ::ffff:127.0.0.1:5555   ::ffff:127.0.0.1:47308  ESTABLISHED -
+tcp6       0      1 ::ffff:172.18.98.:48582 ::ffff:124.71.65.1:8883 SYN_SENT    -
+tcp6      24      0 ::ffff:127.0.0.1:47308  ::ffff:127.0.0.1:5555   ESTABLISHED -
+tcp6      32      0 ::ffff:10.91.86.1:41276 ::ffff:18.159.87.17:443 CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:44084 ::ffff:43.109.53.16:443 ESTABLISHED -
+tcp6       1      0 ::ffff:10.91.86.1:42696 ::ffff:43.152.29.15:443 CLOSE_WAIT  -
+tcp6       0      1 ::ffff:10.91.86.1:42830 ::ffff:158.160.185.:443 FIN_WAIT1   -
+tcp6      32      0 ::ffff:10.91.86.1:39660 ::ffff:121.37.220.3:443 CLOSE_WAIT  -
+tcp6       0      1 ::ffff:10.91.86.1:39292 ::ffff:87.250.251.1:443 FIN_WAIT1   -
+tcp6      32      0 ::ffff:10.91.86.1:38914 ::ffff:43.109.53.18:443 CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:37574 ::ffff:173.194.221.:443 ESTABLISHED -
+tcp6      32      0 ::ffff:10.91.86.1:44434 ::ffff:122.9.48.238:443 CLOSE_WAIT  -
+tcp6      32      0 ::ffff:10.91.86.1:49944 ::ffff:101.91.136.1:443 CLOSE_WAIT  -
+tcp6       1      0 ::ffff:10.91.86.1:38944 ::ffff:211.100.3.13:80  CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:38124 ::ffff:213.180.193.:443 ESTABLISHED -
+tcp6       0      1 ::ffff:10.91.86.1:39364 ::ffff:87.250.251.1:443 FIN_WAIT1   -
+tcp6       1      0 ::ffff:10.91.86.1:47934 ::ffff:120.76.200.24:80 CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:38134 ::ffff:213.180.193.:443 ESTABLISHED -
+tcp6       0      1 ::ffff:10.91.86.1:37584 ::ffff:87.250.247.1:443 FIN_WAIT1   -
+tcp6       0      1 ::ffff:10.91.86.1:46164 ::ffff:158.160.185.:443 FIN_WAIT1   -
+tcp6       0      1 ::ffff:172.18.98.:37918 ::ffff:1.1.1.1:443      SYN_SENT    -
+tcp6       0      0 ::ffff:100.65.132:39880 ::ffff:121.37.26.16:443 TIME_WAIT   -
+tcp6      25      0 ::ffff:10.91.86.1:37420 ::ffff:163.171.242.:443 CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:45052 ::ffff:212.188.39.4:443 ESTABLISHED -
+tcp6       0     88 ::ffff:10.91.86.1:41536 ::ffff:63.181.214.1:443 ESTABLISHED -
+tcp6       0      1 ::ffff:10.91.86.1:39318 ::ffff:87.250.251.1:443 FIN_WAIT1   -
+tcp6       1      0 ::ffff:10.91.86.1:38950 ::ffff:211.100.3.13:80  CLOSE_WAIT  -
+tcp6       0      1 ::ffff:10.91.86.1:46294 ::ffff:213.180.193.:443 FIN_WAIT1   -
+tcp6       0      1 ::ffff:172.18.98.:37388 ::ffff:122.9.108.19:443 SYN_SENT    -
+tcp6       0      0 ::ffff:127.0.0.1:8988   ::ffff:127.0.0.1:39660  ESTABLISHED -
+tcp6       1      0 ::ffff:10.91.86.1:38930 ::ffff:211.100.3.13:80  CLOSE_WAIT  -
+tcp6       0      0 ::ffff:10.91.86.1:41420 ::ffff:183.2.144.20:443 ESTABLISHED -
+tcp6       0      0 ::ffff:10.91.86.1:41796 ::ffff:158.160.185.:443 ESTABLISHED -
+tcp6       0    956 ::ffff:10.91.86.1:48092 ::ffff:87.250.250.2:443 FIN_WAIT1   -
+tcp6       0      0 ::ffff:10.91.86.1:38128 ::ffff:213.180.193.:443 ESTABLISHED -
+tcp6      25      0 ::ffff:10.91.86.1:38574 ::ffff:59.82.122.13:443 CLOSE_WAIT  -
+tcp6       0      0 ::ffff:127.0.0.1:39660  ::ffff:127.0.0.1:8988   ESTABLISHED -
+tcp6       0      1 ::ffff:172.18.98.:42890 ::ffff:113.45.38.1:9999 SYN_SENT    -
+tcp6      25      0 ::ffff:10.91.86.1:37422 ::ffff:163.171.242.:443 CLOSE_WAIT  -
+tcp6       0     93 ::ffff:10.91.86.1:41034 ::ffff:180.76.11.20:443 ESTABLISHED -
+tcp6      32      0 ::ffff:10.91.86.1:38324 ::ffff:203.205.232.:443 CLOSE_WAIT  -
+tcp6      25      0 ::ffff:10.91.86.1:45736 ::ffff:122.228.102.:443 CLOSE_WAIT  -
+tcp6      32      0 ::ffff:10.91.86.1:46340 ::ffff:116.63.84.62:443 CLOSE_WAIT  -
+tcp6       0      1 ::ffff:172.18.98.:37376 ::ffff:122.9.108.19:443 SYN_SENT    -
+tcp6       0     89 ::ffff:10.91.86.1:46982 ::ffff:3.77.105.1:443   FIN_WAIT1   -
+tcp6       1      0 ::ffff:10.91.86.1:39344 ::ffff:119.23.210.5:852 CLOSE_WAIT  -
+tcp6       0    280 ::ffff:10.91.86.1:47354 ::ffff:5.45.215.17:443  FIN_WAIT1   -
+tcp6       0      1 ::ffff:192.168.19:43274 ::ffff:192.168.19:50010 SYN_SENT    -
+tcp6       0      0 ::ffff:10.91.86.15:5555 ::ffff:10.91.86.1:40960 ESTABLISHED -
+tcp6       0      1 ::ffff:10.91.86.1:39378 ::ffff:87.250.251.1:443 FIN_WAIT1   -
+tcp6      32      0 ::ffff:10.91.86.1:39930 ::ffff:14.22.7.140:443  CLOSE_WAIT  -
+tcp6      32      0 ::ffff:10.91.86.1:39928 ::ffff:14.22.7.140:443  CLOSE_WAIT  -
+tcp6       0      1 ::ffff:10.91.86.1:47706 ::ffff:3.77.105.1:443   FIN_WAIT1   -
+tcp6       0      1 ::ffff:172.18.98.:42378 ::ffff:124.71.27.2:8999 SYN_SENT    -
+tcp6       0      0 ::ffff:10.91.86.1:39260 ::ffff:111.124.200.:443 ESTABLISHED -
+tcp6       1      0 ::ffff:10.91.86.1:44678 ::ffff:122.9.203.1:8821 CLOSE_WAIT  -
+tcp6       0      1 ::ffff:172.18.98.:49010 ::ffff:1.1.1.1:443      SYN_SENT    -
+tcp6       0   3443 ::ffff:10.91.86.1:48066 ::ffff:87.250.250.2:443 FIN_WAIT1   -
+udp        0      0 0.0.0.0:44426           0.0.0.0:*               UNKNOWN     -
+udp        0      0 0.0.0.0:44876           0.0.0.0:*               UNKNOWN     -
+udp        0      0 0.0.0.0:44946           0.0.0.0:*               UNKNOWN     -
+udp        0      0 192.168.195.2:53501     0.0.0.0:*                           -
+udp   182976      0 0.0.0.0:13400           0.0.0.0:*                           -
+udp    87360      0 0.0.0.0:13400           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:30490           0.0.0.0:*                           -
+udp        0      0 192.168.195.2:30490     0.0.0.0:*                           -
+udp        0      0 172.18.98.11:47992      217.74.244.1:53         ESTABLISHED -
+udp        0      0 0.0.0.0:40373           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:40441           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:7701            0.0.0.0:*                           -
+udp        0      0 0.0.0.0:40593           0.0.0.0:*                           -
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           -
+udp        0      0 192.168.195.2:53        0.0.0.0:*                           -
+udp        0      0 10.91.86.152:68         10.91.86.153:67         ESTABLISHED -
+udp        0      0 172.18.98.11:41030      217.74.244.1:53         ESTABLISHED -
+udp        0      0 10.91.86.255:137        0.0.0.0:*                           -
+udp        0      0 10.91.86.152:137        0.0.0.0:*                           -
+udp        0      0 192.168.195.255:137     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:137       0.0.0.0:*                           -
+udp        0      0 0.0.0.0:137             0.0.0.0:*                           -
+udp        0      0 10.91.86.255:138        0.0.0.0:*                           -
+udp        0      0 10.91.86.152:138        0.0.0.0:*                           -
+udp        0      0 192.168.195.255:138     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:138       0.0.0.0:*                           -
+udp        0      0 0.0.0.0:138             0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50016           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50017           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50018           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50019           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50020           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50021           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50026           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50027           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50030           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50031           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50032           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50033           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50036           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50037           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50040           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50041           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50044           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50045           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50046           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50047           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50052           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50053           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50058           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:50059           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:41945           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:42271           0.0.0.0:*                           -
+udp        0      0 0.0.0.0:42884           0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51215     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51221     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51252     192.168.195.3:51402     ESTABLISHED -
+udp        0      0 192.168.195.2:51253     192.168.195.3:51403     ESTABLISHED -
+udp        0      0 192.168.195.2:51254     192.168.195.3:51404     ESTABLISHED -
+udp        0      0 192.168.195.2:51263     192.168.195.3:51221     ESTABLISHED -
+udp        0      0 0.0.0.0:43745           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:43816           0.0.0.0:*               ESTABLISHED -
+udp        0      0 192.168.195.2:52103     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:52105     0.0.0.0:*                           -
+udp        0      0 0.0.0.0:43948           0.0.0.0:*                           -
+udp6       0      0 [::]:44946              [::]:*                  UNKNOWN     -
+udp6       0      0 [::]:46020              [::]:*                              -
+udp6       0      0 fe80::885c:39ff:f:46207 [::]:*                              -
+udp6       0      0 [::]:30000              [::]:*                              -
+udp6       0      0 fe80::885c:39ff:f:47783 [::]:*                              -
+udp6       0      0 [::]:40373              [::]:*                              -
+udp6       0      0 [::]:40391              [::]:*                              -
+udp6       0      0 [::]:40441              [::]:*                              -
+udp6       0      0 [::]:7702               [::]:*                              -
+udp6       0      0 ::1:53                  [::]:*                              -
+udp6       0      0 fe80::280:fff:fe11:7:53 [::]:*                              -
+udp6       0      0 [::]:41237              [::]:*                              -
+udp6       0      0 [::]:50012              [::]:*                              -
+udp6       0      0 [::]:50013              [::]:*                              -
+udp6       0      0 [::]:50016              [::]:*                              -
+udp6       0      0 [::]:50017              [::]:*                              -
+udp6       0      0 [::]:50022              [::]:*                              -
+udp6       0      0 [::]:50023              [::]:*                              -
+udp6       0      0 [::]:50028              [::]:*                              -
+udp6       0      0 [::]:50029              [::]:*                              -
+udp6       0      0 [::]:50030              [::]:*                              -
+udp6       0      0 [::]:50031              [::]:*                              -
+udp6       0      0 [::]:50038              [::]:*                              -
+udp6       0      0 [::]:41846              [::]:*                              -
+udp6       0      0 [::]:50039              [::]:*                              -
+udp6       0      0 [::]:50040              [::]:*                              -
+udp6       0      0 [::]:41848              [::]:*                              -
+udp6       0      0 [::]:50041              [::]:*                              -
+udp6       0      0 [::]:50042              [::]:*                              -
+udp6       0      0 [::]:50043              [::]:*                              -
+udp6       0      0 [::]:50048              [::]:*                              -
+udp6       0      0 [::]:50049              [::]:*                              -
+udp6       0      0 [::]:50050              [::]:*                              -
+udp6       0      0 [::]:50051              [::]:*                              -
+udp6       0      0 [::]:50054              [::]:*                              -
+udp6       0      0 [::]:50055              [::]:*                              -
+udp6       0      0 [::]:50056              [::]:*                              -
+udp6       0      0 [::]:50057              [::]:*                              -
+udp6       0      0 [::]:42841              [::]:*                              -
+udp6       0      0 [::]:42950              [::]:*                              -
+udp6       0      0 [::]:43145              [::]:*                              -
+udp6       0      0 [::]:43593              [::]:*                              -
+udp6       0      0 [::]:43816              [::]:*                              -
+udp6       0      0 ::ffff:192.168.19:52010 [::]:*                              -
