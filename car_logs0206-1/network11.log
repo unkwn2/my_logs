@@ -1,0 +1,216 @@
+============================================
+ HUD Network Check - Tue Jun  2 21:09:55 MSK 2026
+ uid=2000 
+============================================
+
+=== 1. Network interfaces ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: dummy0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether fa:78:49:4a:9c:6a brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::f878:49ff:fe4a:9c6a/64 scope link 
+       valid_lft forever preferred_lft forever
+3: tunl0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+4: gre0@NONE: <NOARP> mtu 1476 qdisc noop state DOWN group default qlen 1000
+    link/gre 0.0.0.0 brd 0.0.0.0
+5: gretap0@NONE: <BROADCAST,MULTICAST> mtu 1462 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+6: erspan0@NONE: <BROADCAST,MULTICAST> mtu 1450 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+7: ip_vti0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+8: ip6_vti0@NONE: <NOARP> mtu 1364 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+9: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/sit 0.0.0.0 brd 0.0.0.0
+10: ip6tnl0@NONE: <NOARP> mtu 1452 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+11: ip6gre0@NONE: <NOARP> mtu 1448 qdisc noop state DOWN group default qlen 1000
+    link/gre6 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00 brd 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+12: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:80:0f:11:70:00 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.195.2/24 brd 192.168.195.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::280:fff:fe11:7000/64 scope link 
+       valid_lft forever preferred_lft forever
+13: rmnet_ipa0: <UP,LOWER_UP> mtu 9216 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/[519] 
+15: rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::4011:9ff:fede:d18d/64 scope link 
+       valid_lft forever preferred_lft forever
+16: rmnet_data1@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 172.19.67.141/30 scope global rmnet_data1
+       valid_lft forever preferred_lft forever
+17: rmnet_data2@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 100.65.151.199/28 scope global rmnet_data2
+       valid_lft forever preferred_lft forever
+18: rmnet_data3@rmnet_ipa0: <> mtu 1280 qdisc mq state DOWN group default qlen 1000
+    link/[519] 
+19: rmnet_data4@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+20: rmnet_data5@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+21: r_rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 3000 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::d4c8:9fff:fe1c:39ac/64 scope link 
+       valid_lft forever preferred_lft forever
+22: r_rmnet_data1@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+23: r_rmnet_data2@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+24: r_rmnet_data3@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+25: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 3000
+    link/ether 56:76:4e:a3:0d:ce brd ff:ff:ff:ff:ff:ff
+    inet 10.118.206.152/24 brd 10.118.206.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5476:4eff:fea3:dce/64 scope link 
+       valid_lft forever preferred_lft forever
+26: p2p0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 3000
+    link/ether 9a:bb:1e:79:49:67 brd ff:ff:ff:ff:ff:ff
+28: pimreg@NONE: <NOARP,UP,LOWER_UP> mtu 1472 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/pimreg 
+
+--- ip route ---
+10.118.206.0/24 dev wlan0 proto kernel scope link src 10.118.206.152 
+100.65.151.192/28 dev rmnet_data2 proto kernel scope link src 100.65.151.199 
+172.19.67.140/30 dev rmnet_data1 proto kernel scope link src 172.19.67.141 
+192.168.195.0/24 dev eth0 proto kernel scope link src 192.168.195.2 
+
+=== 2. ARP table ===
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.195.48   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.20   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.11   0x1         0x2         02:22:23:01:02:0b     *        eth0
+192.168.195.22   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.33   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.3    0x1         0x2         02:22:23:01:02:03     *        eth0
+10.118.206.171   0x1         0x2         f6:b6:ea:b9:13:55     *        wlan0
+192.168.195.21   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.32   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.17   0x1         0x0         00:00:00:00:00:00     *        eth0
+
+=== 3. Ping HUD SoC (192.168.195.11) ===
+PING 192.168.195.11 (192.168.195.11) 56(84) bytes of data.
+64 bytes from 192.168.195.11: icmp_seq=1 ttl=64 time=0.467 ms
+64 bytes from 192.168.195.11: icmp_seq=2 ttl=64 time=0.428 ms
+64 bytes from 192.168.195.11: icmp_seq=3 ttl=64 time=0.521 ms
+
+--- 192.168.195.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2049ms
+rtt min/avg/max/mdev = 0.428/0.472/0.521/0.038 ms
+  ping exit code: 0 (OK)
+
+=== 4. Ping IVI self (192.168.195.2) ===
+PING 192.168.195.2 (192.168.195.2) 56(84) bytes of data.
+64 bytes from 192.168.195.2: icmp_seq=1 ttl=64 time=0.264 ms
+
+--- 192.168.195.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.264/0.264/0.264/0.000 ms
+  ping exit code: 0
+
+=== 5. Check listening UDP ports ===
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+udp        0      0 0.0.0.0:30490           0.0.0.0:*                          
+udp        0      0 192.168.195.2:30490     0.0.0.0:*                          
+udp        0      0 10.118.206.152:47022    1.95.21.33:33506        ESTABLISHED
+udp        0      0 10.118.206.152:39435    1.95.21.33:33507        ESTABLISHED
+udp        0      0 10.118.206.152:39915    1.95.21.33:33508        ESTABLISHED
+udp        0      0 0.0.0.0:7701            0.0.0.0:*                          
+udp        0      0 0.0.0.0:40664           0.0.0.0:*                          
+udp        0      0 10.118.206.152:40683    1.95.21.33:33503        ESTABLISHED
+udp        0      0 10.118.206.152:48915    1.95.21.33:33495        ESTABLISHED
+udp        0      0 10.118.206.152:48916    1.95.21.33:33498        ESTABLISHED
+udp        0      0 0.0.0.0:40896           0.0.0.0:*               ESTABLISHED
+udp        0      0 0.0.0.0:40943           0.0.0.0:*               ESTABLISHED
+udp        0      0 0.0.0.0:40986           0.0.0.0:*               ESTABLISHED
+udp        0      0 0.0.0.0:41011           0.0.0.0:*               ESTABLISHED
+udp        0      0 127.0.0.1:53            0.0.0.0:*                          
+udp        0      0 192.168.195.2:53        0.0.0.0:*                          
+udp     4352      0 10.118.206.152:68       10.118.206.171:67       ESTABLISHED
+udp        0      0 0.0.0.0:41049           0.0.0.0:*               ESTABLISHED
+udp        0      0 10.118.206.255:137      0.0.0.0:*                          
+udp        0      0 10.118.206.152:137      0.0.0.0:*                          
+udp        0      0 192.168.195.255:137     0.0.0.0:*                          
+udp        0      0 192.168.195.2:137       0.0.0.0:*                          
+udp        0      0 0.0.0.0:137             0.0.0.0:*                          
+udp        0      0 10.118.206.255:138      0.0.0.0:*                          
+udp        0      0 10.118.206.152:138      0.0.0.0:*                          
+udp        0      0 192.168.195.255:138     0.0.0.0:*                          
+udp        0      0 192.168.195.2:138       0.0.0.0:*                          
+udp        0      0 0.0.0.0:138             0.0.0.0:*                          
+
+=== 6. Check UDP port 52001 availability ===
+  (no entries found)
+
+=== 7. iptables rules ===
+
+=== 8. Multicast membership ===
+Idx	Device    : Count Querier	Group    Users Timer	Reporter
+1	lo        :     1      V3
+				010000E0     1 0:00000000		0
+2	dummy0    :     1      V3
+				010000E0     1 0:00000000		0
+12	eth0      :     4      V2
+				040200E0     1 0:00000000		0
+				020000E0     1 0:00000000		1
+				0D0000E0     1 1:000001F4		1
+				010000E0     1 0:00000000		0
+13	rmnet_ipa0:     1      V3
+				010000E0     1 0:00000000		0
+15	rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+16	rmnet_data1:     1      V3
+				010000E0     1 0:00000000		0
+17	rmnet_data2:     1      V3
+				010000E0     1 0:00000000		0
+21	r_rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+25	wlan0     :     1      V3
+				010000E0     1 0:00000000		0
+28	pimreg    :     1      V3
+				010000E0     1 0:00000000		0
+
+=== 9. DNS resolution ===
+
+[init.svc.mdnsd]: [stopped]
+[net.rmnet_data1.dns1]: [217.74.244.1]
+[net.rmnet_data1.dns2]: [217.74.244.2]
+[net.rmnet_data2.dns1]: [217.74.244.1]
+[net.rmnet_data2.dns2]: [217.74.244.2]
+[net.rmnet_data2.v6.dns1]: []
+[net.rmnet_data2.v6.dns2]: []
+[net.rmnet_data3.dns1]: [217.74.244.1]
+[net.rmnet_data3.dns2]: []
+[net.rmnet_data3.v6.dns1]: []
+[net.rmnet_data3.v6.dns2]: []
+[persist.radio.dns.log.enable]: [0]
+[sys.dns.vehicleCode]: [9e]
+
+=== 10. Network properties ===
+
+=== 11. Test UDP socket to 192.168.195.11:52011 ===
+  (using dd + /dev/udp if available)
+  /dev/udp NOT available
+
+=== 12. Kernel routing table ===
+Iface	Destination	Gateway 	Flags	RefCnt	Use	Metric	Mask		MTU	Window	IRTT                                                       
+wlan0	00CE760A	00000000	0001	0	0	0	00FFFFFF	0	0	0                                                                              
+rmnet_data2	C0974164	00000000	0001	0	0	0	F0FFFFFF	0	0	0                                                                        
+rmnet_data1	8C4313AC	00000000	0001	0	0	0	FCFFFFFF	0	0	0                                                                        
+eth0	00C3A8C0	00000000	0001	0	0	0	00FFFFFF	0	0	0                                                                               
+
+=== DONE ===
+Check results: PING_HUD=0
+If PING_HUD != 0, HUD SoC is unreachable from Android IVI
+============================================

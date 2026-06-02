@@ -1,0 +1,229 @@
+20:07:04.655  [HUD] === v29 uid=10182 ===
+20:07:04.660  [HUD] AUTO TEST: READ→CONFUSED→READ→SOME/IP→GUIDE
+20:07:04.662  [HUD] SOME/IP: SD listen + OfferService + NaviEvent
+20:07:15.855  [AUTO] ============== AUTO TEST START ==============
+20:07:15.857  [AUTO] Step 1: READ ALL FIDs BEFORE
+20:07:15.860  [SET] === READ ALL FIDs (Setting + Instrument) ===
+20:07:15.862  [SET] === Permission Status ===
+20:07:15.869  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:07:15.874  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:07:15.878  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:07:15.883  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:07:15.900  [SET] SettingDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:07:15.902  [SET] SettingDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_SETTING_COMMON.
+20:07:15.914  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:07:15.917  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:07:17.934  [AUTO] Step 2: CONFUSED DEPUTY
+20:07:17.936  [SET] === CONFUSED DEPUTY: postEvent InstrumentDevice ===
+20:07:17.937  [SET] === Permission Status ===
+20:07:17.939  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:07:17.941  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:07:17.942  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:07:17.943  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:07:17.949  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:07:17.950  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:07:17.951  [SET] ABORT: InstrumentDevice init failed
+20:07:22.953  [AUTO] Step 3: READ ALL FIDs AFTER CONFUSED
+20:07:22.954  [SET] === READ ALL FIDs (Setting + Instrument) ===
+20:07:22.955  [SET] === Permission Status ===
+20:07:22.956  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:07:22.957  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:07:22.958  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:07:22.959  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:07:22.966  [SET] SettingDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:07:22.968  [SET] SettingDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_SETTING_COMMON.
+20:07:22.973  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:07:22.976  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:07:24.977  [AUTO] Step 4: SOME/IP FULL PROBE
+20:07:24.981  [SOMEIP] ========== SOME/IP FULL PROBE ==========
+20:07:24.984  [SOMEIP] --- Step 1: Network Interfaces ---
+20:07:24.987  [SOMEIP] interface enum fail [depth=0] NullPointerException: Attempt to invoke interface method 'boolean java.util.Enumeration.hasMoreElements()' on a null object reference
+20:07:25.022  [SOMEIP]   shell: 
+20:07:25.036  [SOMEIP]   route: 
+20:07:25.037  [SOMEIP] --- Step 2: Ping ---
+20:07:25.061  [SOMEIP]   ping 192.168.195.11 → rc=2 OK ''
+20:07:25.070  [SOMEIP]   ping 192.168.195.3 → rc=2 OK ''
+20:07:25.078  [SOMEIP]   ping 192.168.195.2 → rc=2 OK ''
+20:07:25.080  [SOMEIP] --- Step 3: UDP Ports ---
+20:07:25.111  [SOMEIP]   SOME/IP ports: ''
+20:07:25.113  [SOMEIP]   NO SOME/IP ports found (netstat may need root)
+20:07:25.116  [SOMEIP]   port 30490: IN USE (socket failed: EPERM (Operation not permitted))
+20:07:25.118  [SOMEIP]   port 52001: IN USE (socket failed: EPERM (Operation not permitted))
+20:07:25.120  [SOMEIP]   port 52011: IN USE (socket failed: EPERM (Operation not permitted))
+20:07:25.122  [SOMEIP] --- Step 4: SD Listen (10s) ---
+20:07:25.129  [SOMEIP]   NO 195.x interface! Trying without interface binding...
+20:07:25.132  [SOMEIP] SD listen no-iface fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:07:25.134  [SOMEIP] SD listen no-iface fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:07:25.136  [SOMEIP] --- Step 5: Send OfferService 0x10a ---
+20:07:25.138  [SOMEIP] OfferService fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:07:25.140  [SOMEIP] OfferService fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:07:25.141  [SOMEIP] --- Step 6: Send NaviEvent to HUD ---
+20:07:25.143  [SOMEIP] NaviEvent fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:07:25.145  [SOMEIP] NaviEvent fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:07:25.147  [SOMEIP] ========== PROBE DONE ==========
+20:07:54.981  [AUTO] Step 5: SEND GUIDE + CHECK HUD
+20:07:54.990  [BC] → STATE=8 GAODE_START both pkgs
+20:07:55.295  [BC] → STATE=8 GAODE_START both pkgs
+20:07:55.606  [BC] → GUIDE icon=3 seg=200 dist=5200 road=测试路 eta=预计明天17时14分到达
+20:07:55.609  [AUTO] ============== AUTO TEST DONE ==============
+20:07:55.611  [AUTO] >>> CHECK HUD PROJECTION + CLUSTER NOW! <<<
+20:09:55.758  [KILLBC] === KILL_BydAutoMap ===
+20:09:55.838  [KILLBC] BEFORE: p1= p2=
+20:09:55.842  [BC] → KILL_BydAutoMap to com.byd.amapservice OK
+20:09:55.849  [BC] → KILL_BydAutoMap to com.example.amapservice OK
+20:09:56.894  [KILLBC] 1s: p1= p2=
+20:09:57.930  [KILLBC] 2s: p1= p2=
+20:09:58.963  [KILLBC] 3s: p1= p2=
+20:09:59.999  [KILLBC] 4s: p1= p2=
+20:10:01.038  [KILLBC] 5s: p1= p2=
+20:10:02.074  [KILLBC] 6s: p1= p2=
+20:10:03.106  [KILLBC] 7s: p1= p2=
+20:10:04.150  [KILLBC] 8s: p1= p2=
+20:10:05.184  [KILLBC] 9s: p1= p2=
+20:10:06.231  [KILLBC] 10s: p1= p2=
+20:10:06.278  [BC] startAmapService both pkgs
+20:10:06.286  [BC] startService com.byd.amapservice/com.byd.amapservice.AmapService OK
+20:10:06.299  [BC] startService com.byd.amapservice/com.example.amapservice.AmapService OK
+20:10:06.312  [BC] startService com.example.amapservice/com.example.amapservice.AmapService OK
+20:10:06.321  [BC] startService com.example.amapservice/com.example.amapservice.AmapService OK
+20:10:09.324  [SET] === READ ALL FIDs (Setting + Instrument) ===
+20:10:09.325  [SET] === Permission Status ===
+20:10:09.327  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:10:09.329  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:10:09.331  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:10:09.332  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:10:09.342  [SET] SettingDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:10:09.347  [SET] SettingDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_SETTING_COMMON.
+20:10:09.357  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:10:09.358  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:10:09.364  [BC] → STATE=8 GAODE_START both pkgs
+20:10:09.683  [BC] → STATE=8 GAODE_START both pkgs
+20:10:09.989  [BC] → GUIDE icon=3 seg=200 dist=5200 road=测试路 eta=预计明天17时20分到达
+20:10:09.991  [KILLBC] >>> CHECK HUD! <<<
+20:16:44.778  [SOMEIP] ========== SOME/IP FULL PROBE ==========
+20:16:44.783  [SOMEIP] --- Step 1: Network Interfaces ---
+20:16:44.785  [SOMEIP] interface enum fail [depth=0] NullPointerException: Attempt to invoke interface method 'boolean java.util.Enumeration.hasMoreElements()' on a null object reference
+20:16:44.815  [SOMEIP]   shell: 
+20:16:44.834  [SOMEIP]   route: 
+20:16:44.835  [SOMEIP] --- Step 2: Ping ---
+20:16:44.844  [SOMEIP]   ping 192.168.195.11 → rc=2 OK ''
+20:16:44.852  [SOMEIP]   ping 192.168.195.3 → rc=2 OK ''
+20:16:44.860  [SOMEIP]   ping 192.168.195.2 → rc=2 OK ''
+20:16:44.862  [SOMEIP] --- Step 3: UDP Ports ---
+20:16:44.894  [SOMEIP]   SOME/IP ports: ''
+20:16:44.897  [SOMEIP]   NO SOME/IP ports found (netstat may need root)
+20:16:44.898  [SOMEIP]   port 30490: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:44.899  [SOMEIP]   port 52001: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:44.901  [SOMEIP]   port 52011: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:44.906  [SOMEIP] --- Step 4: SD Listen (10s) ---
+20:16:44.908  [SOMEIP]   NO 195.x interface! Trying without interface binding...
+20:16:44.910  [SOMEIP] SD listen no-iface fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:44.912  [SOMEIP] SD listen no-iface fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:44.913  [SOMEIP] --- Step 5: Send OfferService 0x10a ---
+20:16:44.916  [SOMEIP] OfferService fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:44.917  [SOMEIP] OfferService fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:44.918  [SOMEIP] --- Step 6: Send NaviEvent to HUD ---
+20:16:44.920  [SOMEIP] NaviEvent fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:44.921  [SOMEIP] NaviEvent fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:44.922  [SOMEIP] ========== PROBE DONE ==========
+20:16:55.825  [SOMEIP] === LISTEN NAVI PORT 30s ===
+20:16:55.826  [SOMEIP] Port 52011 bind fail: socket failed: EPERM (Operation not permitted)
+20:16:55.827  [SOMEIP] Port 52001 bind fail: socket failed: EPERM (Operation not permitted)
+20:16:57.186  [NAVI] === SEND NAVI DIRECT via SOME/IP ===
+20:16:57.194  [SOMEIP] ========== SOME/IP FULL PROBE ==========
+20:16:57.196  [SOMEIP] --- Step 1: Network Interfaces ---
+20:16:57.199  [SOMEIP] interface enum fail [depth=0] NullPointerException: Attempt to invoke interface method 'boolean java.util.Enumeration.hasMoreElements()' on a null object reference
+20:16:57.228  [SOMEIP]   shell: 
+20:16:57.244  [SOMEIP]   route: 
+20:16:57.246  [SOMEIP] --- Step 2: Ping ---
+20:16:57.255  [SOMEIP]   ping 192.168.195.11 → rc=2 OK ''
+20:16:57.267  [SOMEIP]   ping 192.168.195.3 → rc=2 OK ''
+20:16:57.280  [SOMEIP]   ping 192.168.195.2 → rc=2 OK ''
+20:16:57.282  [SOMEIP] --- Step 3: UDP Ports ---
+20:16:57.312  [SOMEIP]   SOME/IP ports: ''
+20:16:57.315  [SOMEIP]   NO SOME/IP ports found (netstat may need root)
+20:16:57.316  [SOMEIP]   port 30490: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:57.317  [SOMEIP]   port 52001: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:57.319  [SOMEIP]   port 52011: IN USE (socket failed: EPERM (Operation not permitted))
+20:16:57.320  [SOMEIP] --- Step 4: SD Listen (10s) ---
+20:16:57.324  [SOMEIP]   NO 195.x interface! Trying without interface binding...
+20:16:57.325  [SOMEIP] SD listen no-iface fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:57.327  [SOMEIP] SD listen no-iface fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:57.329  [SOMEIP] --- Step 5: Send OfferService 0x10a ---
+20:16:57.331  [SOMEIP] OfferService fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:57.333  [SOMEIP] OfferService fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:57.335  [SOMEIP] --- Step 6: Send NaviEvent to HUD ---
+20:16:57.336  [SOMEIP] NaviEvent fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:16:57.338  [SOMEIP] NaviEvent fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:16:57.340  [SOMEIP] ========== PROBE DONE ==========
+20:17:02.195  [BC] → STATE=8 GAODE_START both pkgs
+20:17:02.498  [BC] → STATE=8 GAODE_START both pkgs
+20:17:02.805  [BC] → GUIDE icon=3 seg=200 dist=5200 road=测试路 eta=预计明天17时34分到达
+20:17:02.806  [NAVI] >>> CHECK HUD! <<<
+20:17:11.467  [COPY] NavFusion toggle log command copied
+20:18:31.853  [AUTO] ============== AUTO TEST START ==============
+20:18:31.856  [AUTO] Step 1: READ ALL FIDs BEFORE
+20:18:31.857  [SET] === READ ALL FIDs (Setting + Instrument) ===
+20:18:31.859  [SET] === Permission Status ===
+20:18:31.861  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:18:31.862  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:18:31.863  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:18:31.863  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:18:31.874  [SET] SettingDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:18:31.876  [SET] SettingDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_SETTING_COMMON.
+20:18:31.883  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:18:31.888  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:18:33.889  [AUTO] Step 2: CONFUSED DEPUTY
+20:18:33.891  [SET] === CONFUSED DEPUTY: postEvent InstrumentDevice ===
+20:18:33.892  [SET] === Permission Status ===
+20:18:33.894  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:18:33.895  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:18:33.896  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:18:33.898  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:18:33.905  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:18:33.908  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:18:33.909  [SET] ABORT: InstrumentDevice init failed
+20:18:38.911  [AUTO] Step 3: READ ALL FIDs AFTER CONFUSED
+20:18:38.912  [SET] === READ ALL FIDs (Setting + Instrument) ===
+20:18:38.913  [SET] === Permission Status ===
+20:18:38.914  [SET]   BYDAUTO_SETTING_COMMON = DENIED
+20:18:38.916  [SET]   BYDAUTO_SETTING_SET = DENIED
+20:18:38.917  [SET]   BYDAUTO_INSTRUMENT_COMMON = DENIED
+20:18:38.918  [SET]   BYDAUTO_INSTRUMENT_SET = DENIED
+20:18:38.924  [SET] SettingDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:18:38.926  [SET] SettingDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_SETTING_COMMON.
+20:18:38.932  [SET] InstrumentDevice init FAIL [depth=0] InvocationTargetException: (no message)
+20:18:38.934  [SET] InstrumentDevice init FAIL [depth=1] SecurityException: Neither user 10182 nor current process has android.permission.BYDAUTO_INSTRUMENT_COMMON.
+20:18:40.936  [AUTO] Step 4: SOME/IP FULL PROBE
+20:18:40.938  [SOMEIP] ========== SOME/IP FULL PROBE ==========
+20:18:40.939  [SOMEIP] --- Step 1: Network Interfaces ---
+20:18:40.941  [SOMEIP] interface enum fail [depth=0] NullPointerException: Attempt to invoke interface method 'boolean java.util.Enumeration.hasMoreElements()' on a null object reference
+20:18:40.964  [SOMEIP]   shell: 
+20:18:40.985  [SOMEIP]   route: 
+20:18:40.987  [SOMEIP] --- Step 2: Ping ---
+20:18:40.997  [SOMEIP]   ping 192.168.195.11 → rc=2 OK ''
+20:18:41.008  [SOMEIP]   ping 192.168.195.3 → rc=2 OK ''
+20:18:41.014  [SOMEIP]   ping 192.168.195.2 → rc=2 OK ''
+20:18:41.016  [SOMEIP] --- Step 3: UDP Ports ---
+20:18:41.037  [SOMEIP]   SOME/IP ports: ''
+20:18:41.039  [SOMEIP]   NO SOME/IP ports found (netstat may need root)
+20:18:41.040  [SOMEIP]   port 30490: IN USE (socket failed: EPERM (Operation not permitted))
+20:18:41.041  [SOMEIP]   port 52001: IN USE (socket failed: EPERM (Operation not permitted))
+20:18:41.042  [SOMEIP]   port 52011: IN USE (socket failed: EPERM (Operation not permitted))
+20:18:41.043  [SOMEIP] --- Step 4: SD Listen (10s) ---
+20:18:41.044  [SOMEIP]   NO 195.x interface! Trying without interface binding...
+20:18:41.046  [SOMEIP] SD listen no-iface fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:18:41.047  [SOMEIP] SD listen no-iface fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:18:41.048  [SOMEIP] --- Step 5: Send OfferService 0x10a ---
+20:18:41.049  [SOMEIP] OfferService fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:18:41.051  [SOMEIP] OfferService fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:18:41.053  [SOMEIP] --- Step 6: Send NaviEvent to HUD ---
+20:18:41.057  [SOMEIP] NaviEvent fail [depth=0] SocketException: socket failed: EPERM (Operation not permitted)
+20:18:41.058  [SOMEIP] NaviEvent fail [depth=1] ErrnoException: socket failed: EPERM (Operation not permitted)
+20:18:41.059  [SOMEIP] ========== PROBE DONE ==========
+20:19:10.938  [AUTO] Step 5: SEND GUIDE + CHECK HUD
+20:19:10.942  [BC] → STATE=8 GAODE_START both pkgs
+20:19:11.248  [BC] → STATE=8 GAODE_START both pkgs
+20:19:11.562  [BC] → GUIDE icon=3 seg=200 dist=5200 road=测试路 eta=预计明天17时38分到达
+20:19:11.563  [AUTO] ============== AUTO TEST DONE ==============
+20:19:11.564  [AUTO] >>> CHECK HUD PROJECTION + CLUSTER NOW! <<<

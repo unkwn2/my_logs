@@ -1,0 +1,159 @@
+LOGCAT CLEARED. Now press APK buttons (READ ALL, CONFUSED!, GUIDE).
+Logging for 60 seconds to /sdcard/hud_live.log ...
+Logcat PID=13484 logging to /sdcard/hud_live.log
+Waiting 60s ...
+=== LOG SAVED ===
+667 /sdcard/hud_live.log
+First 50 lines:
+--------- beginning of main
+06-02 20:18:24.185  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:18:24.223  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:24.224  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:24.226  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:24.474  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:18:24.474  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:18:24.482  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:18:24.513  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:18:24.513  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:18:24.815  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:18:25.175  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:18:25.471  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:18:25.473  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:18:25.473  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:18:25.517  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:18:25.517  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:18:25.845  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:18:26.173  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:18:26.229  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:26.229  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:26.231  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:26.367  1933  1933 D AbsBYDAutoDevice: int eventTypes is 13400008
+06-02 20:18:26.367  1933  1933 D AbsBYDAutoDevice: int eventTypes is 2cb0005c
+06-02 20:18:26.367  1933  1933 D AbsBYDAutoDevice: int eventTypes is 2cb000f8
+06-02 20:18:26.418 19019 19037 D BYDAutoBodyworkDevice: getAutoType type is: 158
+06-02 20:18:26.446  1933  1933 D AbsBYDAutoDevice: int eventTypes is 12d0002a
+--------- beginning of system
+06-02 20:18:26.451  1091  1255 D ActivityManager: BYDMgmtService resumed appInfo.processName:com.android.launcher3 className:com.android.launcher3.LauncherApplication uid:1000 p.mPid8992 size:136
+06-02 20:18:26.466  1091  1134 D ActivityManager: calling setThreadUIRelated with callee: 8992, caller: 8992, tid: 19664
+06-02 20:18:26.483  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:18:26.483  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:18:26.483  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:18:26.530  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:18:26.530  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:18:26.822  1091  4368 D ActivityManager: calling setThreadUIRelated with callee: 18659, caller: 18659, tid: 7427
+06-02 20:18:26.874  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:18:27.176  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:18:27.478  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:18:27.478  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:18:27.478  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:18:27.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:18:27.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:18:27.901  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:18:28.096 17159 18248 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:18:28.099 17159 18248 D BYDAutoBodyworkDevice: getPowerLevel level is: 2
+06-02 20:18:28.100 17159 18248 D AbsBYDAutoDevice: int eventTypes is 42100024
+06-02 20:18:28.101 17159 18248 D BYDAutoBodyworkDevice: getPowerLevel level is: 2
+06-02 20:18:28.101 17159 18248 D AbsBYDAutoDevice: int eventTypes is 42100024
+06-02 20:18:28.101 17159 18248 D BYDAutoBodyworkDevice: getFuelElecLowPower state is: 0
+...
+Last 100 lines:
+06-02 20:19:12.507  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:12.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:12.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:13.080  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:13.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:13.502  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:13.502  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:13.506  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:13.525  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:13.525  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:13.793  1091  1485 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+06-02 20:19:14.105  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:14.178  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:14.437  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:14.438  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:14.440  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:14.504  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:14.504  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:14.504  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:14.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:14.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:15.126  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:15.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:15.502  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:15.506  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:15.506  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:15.517  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:15.517  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:16.130  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:16.179  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:16.446  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:16.446  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:16.448  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:16.500  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:16.500  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:16.506  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:16.520  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:16.520  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:17.159  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:17.178  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:17.503  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:17.503  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:17.508  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:17.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:17.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:18.178  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:18.188  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:18.471  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:18.472  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:18.474  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:18.503  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:18.503  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:18.508  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:18.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:18.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:18.818  1091  1485 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+06-02 20:19:19.185  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:19.216  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:19.507  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:19.507  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:19.508  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:19.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:19.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:20.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:20.247  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:20.476  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:20.477  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:20.478  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:20.504  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:20.504  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:20.507  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:20.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:20.518  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:21.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:21.271  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:21.516  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:21.516  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:21.519  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:21.521  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:21.521  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:22.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:22.299  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:22.486  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:22.486  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:22.490  4650  6178 D BYDAutoBodyworkDevice: getAutoVIN is:bydBC428D2325D80E52
+06-02 20:19:22.502  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:22.503  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:22.509  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:22.520  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:22.521  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:23.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:23.327  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]
+06-02 20:19:23.509  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 0
+06-02 20:19:23.510  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 0
+06-02 20:19:23.510  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 0
+06-02 20:19:23.521  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =48600040, value = 1
+06-02 20:19:23.521  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =42f00037, value = 1
+06-02 20:19:23.844  1091  1485 D AbsBYDAutoDevice: set featureID is 4c11e024 intValue is 2
+06-02 20:19:24.177  5887  5887 D BYDAutoSettingDevice: postEvent device_type: 1023, event_type =40200037, value = 1
+06-02 20:19:24.354  3458  4027 D AbsBYDAutoDevice: set featureIDs is int[]: [6dc00826, 6dc00810, 6dc00818, 6dc00808, 6dc00827, ] intArrayValue is int[]: [1, 28, 5, 0, 1, ]

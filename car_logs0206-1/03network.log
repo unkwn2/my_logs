@@ -1,0 +1,197 @@
+=== HUD SOME/IP Bare Test pid=14442 ===
+uid=2000 date=Tue Jun  2 21:04:32 MSK 2026
+
+--- NETWORK ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: dummy0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether fa:78:49:4a:9c:6a brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::f878:49ff:fe4a:9c6a/64 scope link 
+       valid_lft forever preferred_lft forever
+3: tunl0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+4: gre0@NONE: <NOARP> mtu 1476 qdisc noop state DOWN group default qlen 1000
+    link/gre 0.0.0.0 brd 0.0.0.0
+5: gretap0@NONE: <BROADCAST,MULTICAST> mtu 1462 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+6: erspan0@NONE: <BROADCAST,MULTICAST> mtu 1450 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+7: ip_vti0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+8: ip6_vti0@NONE: <NOARP> mtu 1364 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+9: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/sit 0.0.0.0 brd 0.0.0.0
+10: ip6tnl0@NONE: <NOARP> mtu 1452 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+11: ip6gre0@NONE: <NOARP> mtu 1448 qdisc noop state DOWN group default qlen 1000
+    link/gre6 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00 brd 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+12: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:80:0f:11:70:00 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.195.2/24 brd 192.168.195.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::280:fff:fe11:7000/64 scope link 
+       valid_lft forever preferred_lft forever
+13: rmnet_ipa0: <UP,LOWER_UP> mtu 9216 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/[519] 
+15: rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::4011:9ff:fede:d18d/64 scope link 
+       valid_lft forever preferred_lft forever
+16: rmnet_data1@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 172.19.67.141/30 scope global rmnet_data1
+       valid_lft forever preferred_lft forever
+17: rmnet_data2@rmnet_ipa0: <> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/[519] 
+18: rmnet_data3@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 100.65.151.199/28 scope global rmnet_data3
+       valid_lft forever preferred_lft forever
+19: rmnet_data4@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+20: rmnet_data5@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+21: r_rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 3000 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::d4c8:9fff:fe1c:39ac/64 scope link 
+       valid_lft forever preferred_lft forever
+22: r_rmnet_data1@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+23: r_rmnet_data2@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+24: r_rmnet_data3@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+25: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 3000
+    link/ether 56:76:4e:a3:0d:ce brd ff:ff:ff:ff:ff:ff
+    inet 10.118.206.152/24 brd 10.118.206.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5476:4eff:fea3:dce/64 scope link 
+       valid_lft forever preferred_lft forever
+26: p2p0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 3000
+    link/ether 9a:bb:1e:79:49:67 brd ff:ff:ff:ff:ff:ff
+28: pimreg@NONE: <NOARP,UP,LOWER_UP> mtu 1472 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/pimreg 
+--- ROUTE ---
+10.118.206.0/24 dev wlan0 proto kernel scope link src 10.118.206.152 
+100.65.151.192/28 dev rmnet_data3 proto kernel scope link src 100.65.151.199 
+172.19.67.140/30 dev rmnet_data1 proto kernel scope link src 172.19.67.141 
+192.168.195.0/24 dev eth0 proto kernel scope link src 192.168.195.2 
+--- ARP ---
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.195.48   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.20   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.11   0x1         0x2         02:22:23:01:02:0b     *        eth0
+192.168.195.22   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.33   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.3    0x1         0x2         02:22:23:01:02:03     *        eth0
+10.118.206.171   0x1         0x2         f6:b6:ea:b9:13:55     *        wlan0
+192.168.195.21   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.32   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.17   0x1         0x0         00:00:00:00:00:00     *        eth0
+
+--- PING HUD ---
+PING 192.168.195.11 (192.168.195.11) 56(84) bytes of data.
+64 bytes from 192.168.195.11: icmp_seq=1 ttl=64 time=0.490 ms
+64 bytes from 192.168.195.11: icmp_seq=2 ttl=64 time=0.590 ms
+
+--- 192.168.195.11 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1006ms
+rtt min/avg/max/mdev = 0.490/0.540/0.590/0.050 ms
+Ping exit: 0
+
+--- PING IVI ---
+PING 192.168.195.2 (192.168.195.2) 56(84) bytes of data.
+64 bytes from 192.168.195.2: icmp_seq=1 ttl=64 time=0.093 ms
+
+--- 192.168.195.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.093/0.093/0.093/0.000 ms
+Ping exit: 0
+
+--- UDP SOCKET TEST via /proc/net ---
+Listening on port CB21 (52001):
+Connection to CB43 (52011):
+Connection to 7716 (30490 = mcast):
+
+--- MULTICAST ---
+Idx	Device    : Count Querier	Group    Users Timer	Reporter
+1	lo        :     1      V3
+				010000E0     1 0:00000000		0
+2	dummy0    :     1      V3
+				010000E0     1 0:00000000		0
+12	eth0      :     4      V2
+				040200E0     1 1:00000366		1
+				020000E0     1 1:000002CD		1
+				0D0000E0     1 1:00000021		1
+				010000E0     1 0:00000000		0
+13	rmnet_ipa0:     1      V3
+				010000E0     1 0:00000000		0
+15	rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+16	rmnet_data1:     1      V3
+				010000E0     1 0:00000000		0
+18	rmnet_data3:     1      V3
+				010000E0     1 0:00000000		0
+21	r_rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+25	wlan0     :     1      V3
+				010000E0     1 0:00000000		0
+28	pimreg    :     1      V3
+				010000E0     1 0:00000000		0
+2    dummy0          1     0     333300000001
+2    dummy0          1     0     01005e000001
+5    gretap0         1     0     333300000001
+5    gretap0         2     0     333300000002
+26   p2p0            1     0     333300000001
+26   p2p0            2     0     333300000002
+6    erspan0         1     0     333300000001
+6    erspan0         2     0     333300000002
+25   wlan0           1     0     01005e000001
+25   wlan0           1     0     333300000001
+25   wlan0           1     0     3333ffa30dce
+25   wlan0           2     0     333300000002
+25   wlan0           1     0     3333ff000000
+12   eth0            1     0     01005e000001
+12   eth0            1     0     01005e00000d
+12   eth0            1     0     01005e000002
+12   eth0            1     0     333300000001
+12   eth0            1     0     3333ff117000
+12   eth0            2     0     333300000002
+12   eth0            1     0     3333ff000000
+12   eth0            1     0     01005e000204
+
+--- FIREWALL ---
+
+--- QUICK NETCAT TEST ---
+/system/bin/nc
+nc: Unknown option 'z' (see "nc --help")
+/system/bin/nc
+nc: Unknown option 'z' (see "nc --help")
+
+--- SEND RAW UDP to HUD:52011 ---
+/storage/4A21-0000/download/03_hud_someip_bare.sh[123]: can't create /dev/udp/192.168.195.11/52011: No such file or directory
+/dev/udp NOT available
+
+--- SEND RAW UDP via app_process (no jar needed) ---
+/apex/com.android.art/bin/dalvikvm
+dalvikvm available
+/system/bin/app_process
+app_process available
+
+--- BIND TO 52001 AND LISTEN (backend test) ---
+Error changing dalvik-cache ownership : Permission denied
+app_process background test done
+
+=== HUD Bare Test Complete ===
+Key questions answered:
+1. Can we ping 192.168.195.11? YES/NO
+2. Can we send UDP to 52011? YES/NO
+3. Can we bind to 52001? YES/NO
+4. Can we join 224.0.2.4? YES/NO
+5. Does HUD respond? YES/NO
+Log: /data/local/tmp/hud_bare_1780423472.log

@@ -1,0 +1,1026 @@
+=== START Tue Jun  2 20:15:02 MSK 2026 ===
+=== 1. IP ADDR ===
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: dummy0: <BROADCAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/ether fa:78:49:4a:9c:6a brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::f878:49ff:fe4a:9c6a/64 scope link 
+       valid_lft forever preferred_lft forever
+3: tunl0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+4: gre0@NONE: <NOARP> mtu 1476 qdisc noop state DOWN group default qlen 1000
+    link/gre 0.0.0.0 brd 0.0.0.0
+5: gretap0@NONE: <BROADCAST,MULTICAST> mtu 1462 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+6: erspan0@NONE: <BROADCAST,MULTICAST> mtu 1450 qdisc noop state DOWN group default qlen 1000
+    link/ether 00:00:00:00:00:00 brd ff:ff:ff:ff:ff:ff
+7: ip_vti0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/ipip 0.0.0.0 brd 0.0.0.0
+8: ip6_vti0@NONE: <NOARP> mtu 1364 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+9: sit0@NONE: <NOARP> mtu 1480 qdisc noop state DOWN group default qlen 1000
+    link/sit 0.0.0.0 brd 0.0.0.0
+10: ip6tnl0@NONE: <NOARP> mtu 1452 qdisc noop state DOWN group default qlen 1000
+    link/tunnel6 :: brd ::
+11: ip6gre0@NONE: <NOARP> mtu 1448 qdisc noop state DOWN group default qlen 1000
+    link/gre6 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00 brd 00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00
+12: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+    link/ether 00:80:0f:11:70:00 brd ff:ff:ff:ff:ff:ff
+    inet 192.168.195.2/24 brd 192.168.195.255 scope global eth0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::280:fff:fe11:7000/64 scope link 
+       valid_lft forever preferred_lft forever
+13: rmnet_ipa0: <UP,LOWER_UP> mtu 9216 qdisc pfifo_fast state UNKNOWN group default qlen 1000
+    link/[519] 
+15: rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::4011:9ff:fede:d18d/64 scope link 
+       valid_lft forever preferred_lft forever
+16: rmnet_data1@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 172.19.67.141/30 scope global rmnet_data1
+       valid_lft forever preferred_lft forever
+17: rmnet_data2@rmnet_ipa0: <> mtu 1500 qdisc mq state DOWN group default qlen 1000
+    link/[519] 
+18: rmnet_data3@rmnet_ipa0: <UP,LOWER_UP> mtu 1500 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet 100.65.151.199/28 scope global rmnet_data3
+       valid_lft forever preferred_lft forever
+19: rmnet_data4@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+20: rmnet_data5@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+21: r_rmnet_data0@rmnet_ipa0: <UP,LOWER_UP> mtu 3000 qdisc mq state UNKNOWN group default qlen 1000
+    link/[519] 
+    inet6 fe80::d4c8:9fff:fe1c:39ac/64 scope link 
+       valid_lft forever preferred_lft forever
+22: r_rmnet_data1@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+23: r_rmnet_data2@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+24: r_rmnet_data3@rmnet_ipa0: <> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/[519] 
+25: wlan0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 3000
+    link/ether 56:76:4e:a3:0d:ce brd ff:ff:ff:ff:ff:ff
+    inet 10.118.206.152/24 brd 10.118.206.255 scope global wlan0
+       valid_lft forever preferred_lft forever
+    inet6 fe80::5476:4eff:fea3:dce/64 scope link 
+       valid_lft forever preferred_lft forever
+26: p2p0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 3000
+    link/ether 9a:bb:1e:79:49:67 brd ff:ff:ff:ff:ff:ff
+28: pimreg@NONE: <NOARP,UP,LOWER_UP> mtu 1472 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/pimreg 
+=== 2. IP ROUTE ===
+10.118.206.0/24 dev wlan0 proto kernel scope link src 10.118.206.152 
+100.65.151.192/28 dev rmnet_data3 proto kernel scope link src 100.65.151.199 
+172.19.67.140/30 dev rmnet_data1 proto kernel scope link src 172.19.67.141 
+192.168.195.0/24 dev eth0 proto kernel scope link src 192.168.195.2 
+=== 3. IGMP MULTICAST ===
+Idx	Device    : Count Querier	Group    Users Timer	Reporter
+1	lo        :     1      V3
+				010000E0     1 0:00000000		0
+2	dummy0    :     1      V3
+				010000E0     1 0:00000000		0
+12	eth0      :     4      V2
+				040200E0     1 0:00000000		0
+				020000E0     1 1:000000EA		1
+				0D0000E0     1 1:000001E2		1
+				010000E0     1 0:00000000		0
+13	rmnet_ipa0:     1      V3
+				010000E0     1 0:00000000		0
+15	rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+16	rmnet_data1:     1      V3
+				010000E0     1 0:00000000		0
+18	rmnet_data3:     1      V3
+				010000E0     1 0:00000000		0
+21	r_rmnet_data0:     1      V3
+				010000E0     1 0:00000000		0
+25	wlan0     :     1      V3
+				010000E0     1 0:00000000		0
+28	pimreg    :     1      V3
+				010000E0     1 0:00000000		0
+=== 4. ARP TABLE ===
+IP address       HW type     Flags       HW address            Mask     Device
+192.168.195.22   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.32   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.3    0x1         0x2         02:22:23:01:02:03     *        eth0
+192.168.195.33   0x1         0x0         00:00:00:00:00:00     *        eth0
+10.118.206.171   0x1         0x2         f6:b6:ea:b9:13:55     *        wlan0
+192.168.195.17   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.20   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.48   0x1         0x0         00:00:00:00:00:00     *        eth0
+192.168.195.11   0x1         0x2         02:22:23:01:02:0b     *        eth0
+192.168.195.21   0x1         0x0         00:00:00:00:00:00     *        eth0
+=== 5. PING HUD SoC ===
+PING 192.168.195.11 (192.168.195.11) 56(84) bytes of data.
+64 bytes from 192.168.195.11: icmp_seq=1 ttl=64 time=0.466 ms
+64 bytes from 192.168.195.11: icmp_seq=2 ttl=64 time=0.476 ms
+64 bytes from 192.168.195.11: icmp_seq=3 ttl=64 time=4.29 ms
+
+--- 192.168.195.11 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2043ms
+rtt min/avg/max/mdev = 0.466/1.744/4.292/1.801 ms
+--- ping exit=0 ---
+=== 6. PING ADAS ===
+PING 192.168.195.3 (192.168.195.3) 56(84) bytes of data.
+64 bytes from 192.168.195.3: icmp_seq=1 ttl=64 time=1.57 ms
+64 bytes from 192.168.195.3: icmp_seq=2 ttl=64 time=1.46 ms
+64 bytes from 192.168.195.3: icmp_seq=3 ttl=64 time=1.38 ms
+
+--- 192.168.195.3 ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 1.383/1.472/1.574/0.084 ms
+=== 7. PING SELF ===
+PING 192.168.195.2 (192.168.195.2) 56(84) bytes of data.
+64 bytes from 192.168.195.2: icmp_seq=1 ttl=64 time=0.124 ms
+
+--- 192.168.195.2 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.124/0.124/0.124/0.000 ms
+=== 8. NETSTAT UDP ===
+netstat: /proc/ktc: Permission denied
+netstat: /proc/keys: Permission denied
+netstat: /proc/kmsg: Permission denied
+netstat: /proc/misc: Permission denied
+netstat: /proc/iomem: Permission denied
+netstat: /proc/locks: Permission denied
+netstat: /proc/swaps: Permission denied
+netstat: /proc/crypto: Permission denied
+netstat: /proc/cgroups: Permission denied
+netstat: /proc/cmdline: Permission denied
+netstat: /proc/devices: Permission denied
+netstat: /proc/ioports: Permission denied
+netstat: /proc/consoles: Permission denied
+netstat: /proc/kallsyms: Permission denied
+netstat: /proc/buddyinfo: Permission denied
+netstat: /proc/diskstats: Permission denied
+netstat: /proc/key-users: Permission denied
+netstat: /proc/schedstat: Permission denied
+netstat: /proc/kpagecount: Permission denied
+netstat: /proc/kpageflags: Permission denied
+netstat: /proc/partitions: Permission denied
+netstat: /proc/execdomains: Permission denied
+netstat: /proc/kpagecgroup: Permission denied
+netstat: /proc/sched_debug: Permission denied
+netstat: /proc/vmallocinfo: Permission denied
+netstat: /proc/pagetypeinfo: Permission denied
+netstat: /proc/sysrq-trigger: Permission denied
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program Name
+udp        0      0 0.0.0.0:30490           0.0.0.0:*                           -
+udp        0      0 192.168.195.2:30490     0.0.0.0:*                           -
+udp        0      0 10.118.206.152:47022    1.95.21.33:33506        ESTABLISHED -
+udp        0      0 10.118.206.152:39435    1.95.21.33:33507        ESTABLISHED -
+udp        0      0 10.118.206.152:39915    1.95.21.33:33508        ESTABLISHED -
+udp        0      0 0.0.0.0:7701            0.0.0.0:*                           -
+udp        0      0 0.0.0.0:40664           0.0.0.0:*                           -
+udp        0      0 10.118.206.152:40683    1.95.21.33:33503        ESTABLISHED -
+udp        0      0 10.118.206.152:48915    1.95.21.33:33495        ESTABLISHED -
+udp        0      0 10.118.206.152:48916    1.95.21.33:33498        ESTABLISHED -
+udp        0      0 0.0.0.0:40896           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:40943           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:40986           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:41011           0.0.0.0:*               ESTABLISHED -
+udp        0      0 127.0.0.1:53            0.0.0.0:*                           -
+udp        0      0 192.168.195.2:53        0.0.0.0:*                           -
+udp        0      0 10.118.206.152:68       10.118.206.171:67       ESTABLISHED -
+udp        0      0 0.0.0.0:41049           0.0.0.0:*               ESTABLISHED -
+udp        0      0 10.118.206.255:137      0.0.0.0:*                           -
+udp        0      0 10.118.206.152:137      0.0.0.0:*                           -
+udp        0      0 192.168.195.255:137     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:137       0.0.0.0:*                           -
+udp        0      0 0.0.0.0:137             0.0.0.0:*                           -
+udp        0      0 10.118.206.255:138      0.0.0.0:*                           -
+udp        0      0 10.118.206.152:138      0.0.0.0:*                           -
+udp        0      0 192.168.195.255:138     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:138       0.0.0.0:*                           -
+udp        0      0 0.0.0.0:138             0.0.0.0:*                           -
+udp        0      0 10.118.206.152:49423    1.95.21.33:33501        ESTABLISHED -
+udp        0      0 172.19.67.141:41688     217.74.244.1:53         ESTABLISHED -
+udp        0      0 0.0.0.0:50012           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50013           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50014           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50015           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50016           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50017           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50018           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50019           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50020           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50021           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50022           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50023           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50030           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50031           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50032           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50033           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50038           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50039           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50042           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50043           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50046           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50047           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50050           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:50051           0.0.0.0:*               ESTABLISHED -
+udp        0      0 10.118.206.152:41922    1.95.21.33:33505        ESTABLISHED -
+udp        0      0 0.0.0.0:41980           0.0.0.0:*               ESTABLISHED -
+udp        0      0 172.19.67.141:42452     217.74.244.1:53         ESTABLISHED -
+udp        0      0 172.19.67.141:42543     217.74.244.1:53         ESTABLISHED -
+udp        0      0 0.0.0.0:42754           0.0.0.0:*               ESTABLISHED -
+udp        0      0 10.118.206.152:42813    1.95.21.33:33504        ESTABLISHED -
+udp        0      0 10.118.206.152:42895    1.95.21.33:33496        ESTABLISHED -
+udp        0      0 0.0.0.0:42989           0.0.0.0:*               ESTABLISHED -
+udp        0      0 192.168.195.2:51215     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51221     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51252     192.168.195.3:51402     ESTABLISHED -
+udp        0      0 192.168.195.2:51253     192.168.195.3:51403     ESTABLISHED -
+udp        0      0 192.168.195.2:51254     192.168.195.3:51404     ESTABLISHED -
+udp        0      0 192.168.195.2:51263     192.168.195.3:51221     ESTABLISHED -
+udp        0      0 10.118.206.152:43168    1.95.21.33:33500        ESTABLISHED -
+udp        0      0 0.0.0.0:43331           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:43558           0.0.0.0:*               ESTABLISHED -
+udp        0      0 0.0.0.0:43687           0.0.0.0:*               ESTABLISHED -
+udp        0      0 192.168.195.2:52103     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:52105     0.0.0.0:*                           -
+udp        0      0 10.118.206.152:45208    1.95.21.33:33497        ESTABLISHED -
+udp        0      0 192.168.195.2:53501     0.0.0.0:*                           -
+udp        0      0 10.118.206.152:37459    1.95.21.33:33499        ESTABLISHED -
+udp    74688      0 0.0.0.0:13400           0.0.0.0:*                           -
+udp    73920      0 0.0.0.0:13400           0.0.0.0:*                           -
+udp        0      0 10.118.206.152:38148    1.95.21.33:33494        ESTABLISHED -
+udp        0      0 10.118.206.152:46689    1.95.21.33:33502        ESTABLISHED -
+udp6       0      0 [::]:40015              [::]:*                  UNKNOWN     -
+udp6       0      0 [::]:7702               [::]:*                              -
+udp6       0      0 [::]:40986              [::]:*                              -
+udp6       0      0 ::1:53                  [::]:*                              -
+udp6       0      0 fe80::280:fff:fe11:7:53 [::]:*                              -
+udp6       0      0 [::]:41261              [::]:*                              -
+udp6       0      0 fe80::4011:9ff:fe:49942 [::]:*                              -
+udp6       0      0 [::]:50014              [::]:*                              -
+udp6       0      0 [::]:50015              [::]:*                              -
+udp6       0      0 [::]:50016              [::]:*                              -
+udp6       0      0 [::]:50017              [::]:*                              -
+udp6       0      0 [::]:50018              [::]:*                              -
+udp6       0      0 [::]:50019              [::]:*                              -
+udp6       0      0 [::]:50020              [::]:*                              -
+udp6       0      0 [::]:50021              [::]:*                              -
+udp6       0      0 [::]:50024              [::]:*                              -
+udp6       0      0 [::]:50025              [::]:*                              -
+udp6       0      0 [::]:50028              [::]:*                              -
+udp6       0      0 [::]:50029              [::]:*                              -
+udp6       0      0 [::]:50030              [::]:*                              -
+udp6       0      0 [::]:50031              [::]:*                              -
+udp6       0      0 [::]:50034              [::]:*                              -
+udp6       0      0 [::]:50035              [::]:*                              -
+udp6       0      0 [::]:50038              [::]:*                              -
+udp6       0      0 [::]:50039              [::]:*                              -
+udp6       0      0 [::]:50046              [::]:*                              -
+udp6       0      0 [::]:50047              [::]:*                              -
+udp6       0      0 [::]:50048              [::]:*                              -
+udp6       0      0 [::]:50049              [::]:*                              -
+udp6       0      0 [::]:50056              [::]:*                              -
+udp6       0      0 [::]:50057              [::]:*                              -
+udp6       0      0 [::]:42071              [::]:*                              -
+udp6       0      0 [::]:42145              [::]:*                              -
+udp6       0      0 [::]:42754              [::]:*                              -
+udp6       0      0 [::]:42989              [::]:*                              -
+udp6       0      0 [::]:43049              [::]:*                              -
+udp6       0      0 [::]:43150              [::]:*                              -
+udp6       0      0 [::]:43558              [::]:*                              -
+udp6       0      0 [::]:43812              [::]:*                              -
+udp6       0      0 ::ffff:192.168.19:52010 [::]:*                              -
+udp6       0      0 fe80::4011:9ff:fe:44126 [::]:*                              -
+udp6       0      0 [::]:44279              [::]:*                              -
+udp6       0      0 [::]:44816              [::]:*                              -
+udp6       0      0 [::]:30000              [::]:*                              -
+=== 9. SOME/IP PORTS ===
+udp        0      0 0.0.0.0:30490           0.0.0.0:*                           -
+udp        0      0 192.168.195.2:30490     0.0.0.0:*                           -
+udp        0      0 192.168.195.2:51252     192.168.195.3:51402     ESTABLISHED -
+udp        0      0 192.168.195.2:51253     192.168.195.3:51403     ESTABLISHED -
+udp        0      0 192.168.195.2:51254     192.168.195.3:51404     ESTABLISHED -
+=== 10. PROCESSES ===
+USER           PID  PPID     VSZ    RSS WCHAN            ADDR S NAME                       
+root             1     0 2319572   9220 0                   0 S init
+root             4     1 2294084   4944 0                   0 S init
+root             6     1 2236976   6136 0                   0 S ueventd
+logd            34     1 2349136  12428 0                   0 S logd
+lmkd            35     1 2137132   3760 0                   0 S lmkd
+system          36     1 2222152   3700 0                   0 S servicemanager
+system          37     1 2184684   5448 0                   0 S hwservicemanager
+system          38     1 2188336   3524 0                   0 S vndservicemanager
+system          43     1 2241900   4248 0                   0 S qseecomd
+root            44     1 2213132   3380 0                   0 S cellsservice
+system          45     1 2197844   3948 0                   0 S logcat
+root            46     1 2272652   7292 0                   0 S vold
+keystore        60     1 2459156  11148 0                   0 S keystore2
+system          61     1 2178824   4384 0                   0 S android.hardware.gatekeeper@1.0-service-qti
+root            72     1 2137440   2240 0                   0 S sh
+system          73     1 2184860   2028 0                   0 S tombstoned
+root            77     1 2226732   3912 0                   0 S mmc_use_info_record
+root            89     1 2246172   4792 0                   0 S DevOperatorServer
+root            90     1 4165432  11020 0                   0 S vendor.ts.someip@1.0-service
+radio           92     1 2412720   5108 0                   0 S ipacm
+statsd         116     1 2393924   3960 0                   0 S statsd
+root           121     1 3166488  30712 0                   0 S netd
+root           122     1 6490600 217604 0                   0 S zygote64
+root           126     1 1850132  94424 0                   0 S zygote
+system         127     1 2535912  11624 0                   0 S autoservice
+system         176     1 3574072   4856 0                   0 S ssgtzd
+audioserver    178     1  113592  29416 0                   0 S android.hardware.audio.service
+system         238     1 2177316   3992 0                   0 S android.hidl.allocator@1.0-service
+system         254     1 2281112   5892 0                   0 S vendor.byd.ipel@1.0-service
+system         274     1 2233180   3908 0                   0 S qccsyshal@1.2-service
+bluetooth      275     1 2406552   5808 0                   0 S android.hardware.bluetooth@1.0-service-qti
+cameraserver   282     1 3667288 101516 0                   0 S android.hardware.camera.provider@2.4-service_64
+media          285     1 2238800   4540 0                   0 S android.hardware.drm@1.3-service.clearkey
+gps            304     1 2659896   8608 0                   0 S android.hardware.gnss@2.1-service-qti
+mediacodec     307     1 2576820   7684 0                   0 S android.hardware.media.c2@1.0-service-dolby
+system         308     1 2237876   4388 0                   0 S android.hardware.memtrack@1.0-service
+wifi           310     1 2344596  21564 0                   0 S android.hardware.wifi@1.0-service
+media          313     1 2201892   3956 0                   0 S qconfigservice
+system         314     1 2291316   4456 0                   0 S qesdk-manager
+system         316     1 2247576   3984 0                   0 S vendor.hardware.rtkethernet@1.0-service
+nfc            320     1 2238444   3484 0                   0 S vendor.nxp.hardware.nfc@2.0-service
+system         324     1 2463780  13820 0                   0 S vendor.qti.hardware.display.composer-service
+system         326     1 2173120   3852 0                   0 S dspservice
+system         327     1 2293828   4608 0                   0 S vendor.qti.hardware.eid@1.0-service
+root           328     1 2241684   5656 0                   0 S vendor.qti.hardware.iop@2.0-service
+root           330     1 2250932   3852 0                   0 S vendor.qti.hardware.limits@1.0-service
+root           332     1 2795528  10176 0                   0 S vendor.qti.hardware.perf@2.2-service
+system         337     1 2168436   3640 0                   0 S vendor.qti.hardware.secureprocessor@1.0
+system         338     1 2258768   4288 0                   0 S vendor.qti.hardware.servicetracker@1.2-service
+system         341     1 2198968   4340 0                   0 S vendor.qti.hardware.soter@1.0-service
+system         343     1 2151912   3972 0                   0 S vendor.qti.hardware.vibrator.service
+mediacodec     354     1   53392  11312 0                   0 S media.hwcodec
+system         356     1 2178508   4304 0                   0 S vendor.qti.qspmhal@1.0-service
+media          359     1 2285672   5032 0                   0 S vppservice
+system         361     1 2312216   5428 0                   0 S tecControl
+root           362     1 2258872   3516 0                   0 S stateservice
+system         368     1 2224208   2184 0                   0 S lowirpcd
+system         373     1 2253208   2448 0                   0 S pd-mapper
+system         382     1 3015388  40708 0                   0 S accanimation
+audioserver    383     1 3833812  39876 0                   0 S audioserver
+credstore      384     1 2140156   4408 0                   0 S credstore
+system         386     1 2903460  46840 0                   0 S surfaceflinger
+system         387     1 2253876   3732 0                   0 S spdaemon
+vendor_rfs     389     1 2246948   3096 0                   0 S tftp_server
+system         404     1 2244996   3284 0                   0 S mcu_log_collection
+system         438     1 2362772   3924 0                   0 S dpmQmiMgr
+system         496     1 2200464   4220 0                   0 S qwesd
+system         501     1   13476   2200 0                   0 S crashlogd
+shell          520     1 2216712   5836 0                   0 S cnss_diag
+drm            522     1   22652   2980 0                   0 S drmserver
+nobody         524     1 2179848   2708 0                   0 S traced_probes
+nobody         529     1 2199548   3248 0                   0 S traced
+system         544     1 2416872   4240 0                   0 S NetMonitorServer
+system         545     1 3469460   5396 0                   0 S vendor.ts.uds@1.0-service.default
+root           546     1 2316668   4936 0                   0 S dpmd
+system         547     1 2248324   3872 0                   0 S feature_enabler_client
+system         553   546 2344648   3804 0                   0 S dpmd
+radio          644     1 2315604   2876 0                   0 S qmipriod
+root           648     1 2996112  26792 0                   0 S gbacqservice
+root           649     1 2991456  27448 0                   0 S vhds
+root           652     1 2880300  27056 0                   0 S gbdataservice
+root           653     1 2229796   3596 0                   0 S deservice
+root           654     1 2801680  26460 0                   0 S mqttserv
+root           658     1 2238056   4876 0                   0 S cloudctrlserv
+root           661     1 2414600   6148 0                   0 S strategyservice
+root           662     1 4309184  25908 0                   0 S safekeyservice
+root           666     1 2831856  25876 0                   0 S diagnosticsrv
+root           667     1 2537608  11360 0                   0 S acquisitionsrv
+root           670     1 2503068  11196 0                   0 S crossservice
+root           673     1 2158752   3060 0                   0 S smb
+root           674     1 2262224   5172 0                   0 S carpadinfosrv
+system         746     1 2296436   3756 0                   0 S time_daemon
+system         748     1 2281748   3200 0                   0 S byd_updated
+cameraserver   749     1 3156104  35932 0                   0 S cameraserver
+root           751     1 2308396   6584 0                   0 S graphmonitorservice
+incidentd      759     1 2268764   4144 0                   0 S incidentd
+root           770     1 2324692   6892 0                   0 S installd
+mediaex        779     1 2721884  27420 0                   0 S media.extractor
+media          784     1 2474336   8656 0                   0 S media.metrics
+media          790     1   59280  10864 0                   0 S mediaserver
+root           795     1 2745444  25956 0                   0 S diagmgrsrv
+root           806     1 2232664   5896 0                   0 S storaged
+wifi           809     1 2213220   6564 0                   0 S wificond
+system         810     1 2318660   6944 0                   0 S perfservice
+system         814     1   17832   3124 0                   0 S wfdhdcphalservice
+mediacodec     816     1   30996   6232 0                   0 S media.codec
+system         817     1 2565428   7812 0                   0 S cnd
+system         828     1   20824   3564 0                   0 S wifidisplayhalservice
+radio          830     1 2691256   7924 0                   0 S imsdaemon
+radio          836     1 2180048   2720 0                   0 S ipacm-diag
+radio          844     1 3231364   9456 0                   0 S netmgrd
+radio          846     1 2244344   2932 0                   0 S port-bridge
+root           847     1 2149624   4464 0                   0 S poweropt-service
+system         848     1 2326132   4712 0                   0 S adsprpcd
+media          849     1 2220856   4744 0                   0 S audioadsprpcd
+system         850     1 2289268   4916 0                   0 S cdsprpcd
+system         855     1   13268   2276 0                   0 S wfdvndservice
+mediacodec     858     1 2758596  15664 0                   0 S media.swcodec
+system         862     1 2424492   5820 0                   0 S cnss-daemon
+radio          863     1    7564   1464 0                   0 S ssgqmigd
+gps            864     1 2231700   4160 0                   0 S mlid
+gps            866     1 2228276   4552 0                   0 S loc_launcher
+system         869     1 2323972   5004 0                   0 S ATFWD-daemon
+system         870     1 2219548   5980 0                   0 S gatekeeperd
+root           872     1 2355576   7420 0                   0 S update_engine
+gps            875   866 2273504   5120 0                   0 S lowi-server
+gps            876   866 2376024   7764 0                   0 S xtra-daemon
+system         884     1 2255564   4304 0                   0 S diagcommd
+system         904     1 2339080   5056 0                   0 S qcc-trd
+system         911     1 2277176   4600 0                   0 S qfp-daemon
+system         916     1 2233424   4472 0                   0 S tloc_daemon
+radio          960     1 4082968  20404 0                   0 S qcrilNrd
+radio          993     1 3956148  18760 0                   0 S qcrilNrd
+radio         1006     1 2280056   3524 0                   0 S qti
+radio         1021     1 2358884   4708 0                   0 S adpl
+root          1049     1 2374584   3724 0                   0 S nmbd
+system        1091   122 12117348 700216 0                  0 S system_server
+radio         1129     1 2390788   7048 0                   0 S shsusrd
+root          1132     1 2415176   3524 0                   0 S smbd
+root          1136  1132 2413756   2628 0                   0 S smbd
+root          1137  1132 2413748   1920 0                   0 S smbd
+radio         1852     1 2488968   6096 0                   0 S ims_rtp_daemon
+bluetooth     1871   122 6174368 106840 0                   0 S com.qualcomm.qtil.btdsda
+root          1912   126 1778956  37380 0                   0 S usap32
+root          1913   126 1778956  37384 0                   0 S usap32
+root          1914   126 1778956  37384 0                   0 S usap32
+root          1916   126 1778956  37384 0                   0 S usap32
+root          1917   126 1778956  37392 0                   0 S usap32
+root          1919   126 1778956  37400 0                   0 S usap32
+root          1920   126 1778956  37400 0                   0 S usap32
+root          1923   126 1778956  37404 0                   0 S usap32
+root          1925   126 1778956  37400 0                   0 S usap32
+u0_a80        1933   122 8292136 317080 0                   0 S com.android.systemui
+u0_a135       1998   122 6707996 339820 0                   0 S com.byd.dogwallpaper
+webview_zygote 2027  126 1785660  60776 0                   0 S webview_zygote
+network_stack 2038   122 6534880 212596 0                   0 S com.android.networkstack.process
+u0_a102       2061   122 6159384 104576 0                   0 S com.qualcomm.uimremoteclient
+radio         2098   122 6338304 110068 0                   0 S .dataservices
+u0_a60        2113   122 6531604 126452 0                   0 S .qtidataservices
+u0_a73        2142   122 6216960 111620 0                   0 S com.qti.phone
+u0_a105       2160   122 6349312 131896 0                   0 S com.byd.condi
+system        2189   122 6181644 121396 0                   0 S com.byd.vehicleconfig
+system        2199   122 6231320 108256 0                   0 S com.byd.containerservice
+radio         2240   122 6185964 103580 0                   0 S com.xinsheng.videntityserver
+u0_a78        2261   122 6389440 120252 0                   0 S org.codeaurora.ims
+system        2279   122 6347716 151044 0                   0 S com.byd.dishare
+u0_a36        2321   122 6223296 109200 0                   0 S com.byd.bydbootguide
+system        2345   122 6280600 107132 0                   0 S com.ts.car.someip.service
+system        2367   122 6392084 127420 0                   0 S com.byd.customserver
+system        2382   122 6210876 108384 0                   0 S com.byd.someipsystemservice
+system        2430   122 6639316 218984 0                   0 S com.byd.resmgr
+system        2437   122 6139676 102460 0                   0 S com.byd.authservice
+system        2478   122 6488520 135912 0                   0 S com.byd.car.server
+radio         2506   122 7358820 207832 0                   0 S com.android.phone
+system        2528   122 6365260 140060 0                   0 S com.byd.appserver
+system        2559   122 6305608 147048 0                   0 S com.byd.gesture.global
+system        2595   122 6239724 116800 0                   0 S com.example.amapservice
+shell         3041     1 2429200   7964 0                   0 S adbd
+root          3077     1 2211004   4264 0                   0 S msm_irqbalance
+system        3092     1 2261148   4308 0                   0 S qspmsvc
+root          3098     1 2147516   4556 0                   0 S android.hardware.thermal@2.0-service.qti
+root          3104     1 2804440   6112 0                   0 S thermal-engine
+u0_a89        3162   122 6734464 219632 0                   0 S com.android.providers.media.module
+system        3229   122 6373328 201444 0                   0 S com.byd.networktethering
+system        3266   122 6233312 175380 0                   0 S com.byd.crosscontrol
+system        3291   122 6414720 147916 0                   0 S com.byd.updated
+system        3301   122 6328640 120668 0                   0 S com.byd.wlan
+u0_a111       3342   122 6179496 109432 0                   0 S com.byd.yunnian.service
+system        3370   122 6243804 117252 0                   0 S com.android.voicereminder
+system        3419   122 7240396 206268 0                   0 S com.byd.mycar
+system        3432   122 6263340 119860 0                   0 S com.byd.xcall
+system        3458   122 6405568 177832 0                   0 S com.byd.gpsinfo
+system        3477   122 6223248 108300 0                   0 S com.byd.spotinspection
+system        3495   122 6321248 110508 0                   0 S com.byd.sdcardservice
+system        3526   122 6579872 141772 0                   0 S com.byd.CanDataCollect
+system        3541   122 6235036 110808 0                   0 S com.byd.vehicledialog
+system        3571   122 7113112 131988 0                   0 S com.byd.sentrymode
+system        3619   122 6193144 108744 0                   0 S com.byd.upgradeserver
+system        3648   122 6234412 116548 0                   0 S com.byd.amapservice
+system        3672   122 6276308 118192 0                   0 S com.byd.widget.mediacenter
+system        3703   122 6235356 123276 0                   0 S com.byd.musicwidget
+system        3733   122 6244796 108144 0                   0 S com.byd.cameramanager
+system        3759   122 6180976 109560 0                   0 S com.byd.cpdwarn
+system        3795   122 6139872 104884 0                   0 S com.byd.newotgupdate
+system        3808   122 6438888 116060 0                   0 S com.byd.accountservice
+u0_a72        3841   122 6193352 104856 0                   0 S com.qualcomm.qti.services.systemhelper:systemhelper_service
+system        3868   122 6325760 140784 0                   0 S com.byd.mediacontroller
+system        3913   122 7019880 186756 0                   0 S com.byd.minikaraoke
+system        3947   122 6554008 180924 0                   0 S com.byd.clientstatuscollectionservice
+system        3985   122 6504356 180248 0                   0 S com.byd.otaupdate
+system        4005   122 6174376 105896 0                   0 S com.byd.rapidmode
+system        4032   122 6143296 101508 0                   0 S com.byd.trafficmonitor
+u0_a81        4065   122 6225564 113032 0                   0 S com.qualcomm.qti.workloadclassifier
+u0_a32        4093   122 6782000 113408 0                   0 S com.byd.auto_photo
+system        4115   122 6275072 111720 0                   0 S com.byd.btsetting
+system        4161   122 6374100 130656 0                   0 S com.byd.idclogcollect
+system        4173   122 6297900 107208 0                   0 S com.byd.clientconfigurationservice
+system        4198   122 7581940 145604 0                   0 S com.byd.autovoice
+system        4231   122 7215760 198740 0                   0 S dms.remoteservice
+system        4248   122 6317948 147208 0                   0 S com.byd.camera.remotectrl
+system        4267   122 6157176 105876 0                   0 S com.byd.otgupdate
+u0_a75        4295   122 6254200 122092 0                   0 S com.qualcomm.location
+system        4320   122 6660408 211452 0                   0 S com.byd.bluetoothcall
+system        4339   122 6161728 114452 0                   0 S com.byd.productlineota
+system        4389   122 6296668 105636 0                   0 S com.byd.WifiHotspotConnect
+system        4416   122 6219960 106000 0                   0 S com.qti.diagservices
+system        4428   122 6210672 105516 0                   0 S com.qualcomm.qti.services.secureui:sui_service
+system        4502   122 7245192 453764 0                   0 S com.byd.avc
+system        4542   122 7683792 255972 0                   0 S com.byd.cdr
+u0_a101       4570   122 6543560 141204 0                   0 S com.byd.weatherdata
+system        4596   122 6271812 158860 0                   0 S com.byd.bydlogtool
+u0_a34        4631   122 6973772 166524 0                   0 S com.byd.pushservice
+system        4635   122 6635056 176104 0                   0 S com.byd.carsettings
+system        4650   122 6386080 158784 0                   0 S com.byd.cloudserviceapp
+system        4724   122 8048620  44368 0                   0 S com.byd.autovoice.tts
+u0_a98        4743   122 6201248 112268 0                   0 S com.byd.server.adasagent
+system        4781   122 9697240 154956 0                   0 S com.byd.autovoice.engine
+system        4805   122 6405968 152620 0                   0 S com.byd.smarttravel
+system        4824   122 6202320 114064 0                   0 S com.byd.eventcenter
+u0_a44        4955   122 7947748 172844 0                   0 S com.byd.diLinkAccount
+u0_a17        4983   122 6471636 142708 0                   0 S com.baidu.map.location
+u0_a20        5091   122 6287104 131992 0                   0 S android.process.acore
+system        5151   122 6370856 104504 0                   0 S com.byd.updated:updatedDecrypt
+u0_a69        5702   126 1416308  71176 0                   0 S com.android.webview:webview_service
+shell         5887     1 5977544 180384 do_epoll_wait       0 S aps_diplus
+shell         6614     1 5436080 155208 do_epoll_wait       0 S openbyd_proxy
+u0_i9006      7480  2027 1415352  74240 0                   0 S com.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+root          7554   122 6337776  59392 0                   0 S usap64
+root          7555   122 6337776  59392 0                   0 S usap64
+root          7556   122 6337776  56108 0                   0 S usap64
+root          7557   122 6337776  56108 0                   0 S usap64
+root          7558   122 6337776  59392 0                   0 S usap64
+u0_a18        7680   122 6164660 118328 0                   0 S com.android.documentsui
+system        7698   122 6269804 108160 0                   0 S com.android.keychain
+system        8992   122 7735344 220196 0                   0 S com.android.launcher3
+root          9799   121 2256792   3688 0                   0 S iptables-restore
+root          9801   121 2144152   3628 0                   0 S ip6tables-restore
+shell        11190  3041 2155872   3484 __do_sys_rt_sigsuspend 0 S sh
+shell        12128 11190 2139488   3288 __do_sys_rt_sigsuspend 0 S sh
+shell        12172 12128 2216000   3556 0                   0 R ps
+u0_a29       17141   122 6223592 117296 0                   0 S com.byd.weatherhelper
+u0_a38       17159   122 9627172 391012 0                   0 S com.byd.launchermap
+u0_a99       17200   122 6254820 127972 0                   0 S com.byd.softwareservice
+bluetooth    17273   122 7084668 187280 0                   0 S com.android.bluetooth
+u0_a109      17493   122 6160036 107900 0                   0 S com.byd.yunnian:remote
+u0_a42       17543   122 6209392 109920 0                   0 S com.byd.etc:EtcService
+wifi         17683     1 2343932   9404 0                   0 S wpa_supplicant
+u0_a103      17713   122 6190096 108376 0                   0 S com.byd.car.icebox
+u0_a88       18175   122 6343100 112756 0                   0 S com.android.permissioncontroller
+root         18271   121 2143900   3368 0                   0 S pimd
+root         18346   121 2601244  32932 0                   0 S dnsmasq
+u0_a27       18637   122 6764752 117892 0                   0 S com.byd.appstore:remote
+u0_a117      18659   122 24652856 240476 0                  0 S com.alphainventor.filemanager
+u0_a16       18663   122 6382784 159608 0                   0 S com.android.packageinstaller
+u0_a122      18666   122 7026136 234984 0                   0 S com.google.android.inputmethod.latin
+u0_a142      18668   122 6819176 200992 0                   0 S com.bydmate.app
+system       18760   122 6352372 127796 0                   0 S com.byd.softwareactivation
+u0_a79       18885   122 6156868 102464 0                   0 S com.android.carrierconfig
+u0_a58       18907   122 6691804 108404 0                   0 S com.byd.auto_camera
+system       18961   122 6266920 128488 0                   0 S com.byd.wirelesstools
+system       19019   122 6468132 153208 0                   0 S com.byd.synclink
+shell        19213   122 6157196 102020 0                   0 S com.android.shell
+u0_a12       19249   122 6316936 109972 0                   0 S com.android.statementservice
+u0_a27       19299   122 6796580 121232 0                   0 S com.byd.appstore
+u0_a57       19328   122 11963892 105348 0                  0 S com.byd.mediacenter
+system       19362   122 6163424 106256 0                   0 S com.byd.byddevelopmenttools
+u0_a69       19442   126 1421064  86956 0                   0 S com.android.webview:webview_apk
+system       19491   122 6199956 111476 0                   0 S com.byd.checkandkill
+system       19576   122 6342824 118696 0                   0 S com.byd.ditrainer.ditrainer_service
+u0_a108      19623   122 6331536 140236 0                   0 S com.byd.droneclient
+system       19667   122 6377292 125932 0                   0 S com.byd.wallpaperhome
+system       19688   122 7308884 116832 0                   0 S com.byd.cmgamecenter:remote
+u0_a108      19690 19623       0      0 0                   0 Z [byd.droneclient]
+system       19707   122 24248344 153116 0                  0 S com.byd.cmgamecenter
+u0_a61       19719   126 1404008  68556 0                   0 S com.qualcomm.qti.qms.service.connectionsecurity
+u0_a140      19833   122 7041916 311880 0                   0 S ru.bydconnect
+u0_a182      19834   122 6362076 161744 0                   0 S com.unkwn2.yandexhud
+root         19835   122 6337776  54972 0                   0 S usap64
+root         19837   122 6337776  54972 0                   0 S usap64
+root         19838   122 6337776  58256 0                   0 S usap64
+u0_a90       19876   122 6239660 136780 0                   0 S android.ext.services
+u0_a143      19941   122 7939412 203036 0                   0 S ru.yandex.yandexmaps
+u0_a143      20052   122 7673900 187512 0                   0 S ru.yandex.yandexmaps:AppMetrica
+u0_a143      20073   122 7447940 180492 0                   0 S ru.yandex.yandexmaps:passport
+u0_a15       20147   122 6139380 104540 0                   0 S com.android.externalstorage
+system       20238   122 6121896 101392 0                   0 S com.byd.silentinstaller
+system       20302   122 6297292 130212 0                   0 S com.byd.miniprogram
+system       20363   122 6161176 109000 0                   0 S com.byd.bluetoothleservice
+u0_a26       20995   122 6174816 110188 0                   0 S com.android.providers.calendar
+root         21807     1 3171868  35196 0                   0 S cloudmanager
+u0_a139      21876   122 7222904 188640 0                   0 S com.van.diplus:remote
+u0_a14       21908   122 6194700 110336 0                   0 S android.process.media
+u0_a139      22066 21876 2178988   3588 0                   0 S logcat
+=== 11. AMAP PIDs ===
+com.byd.amapservice=3648
+com.example.amapservice=2595
+=== 12. NETWORK INTERFACES (detailed) ===
+dummy0
+erspan0
+eth0
+gre0
+gretap0
+ip6_vti0
+ip6gre0
+ip6tnl0
+ip_vti0
+lo
+p2p0
+pimreg
+r_rmnet_data0
+r_rmnet_data1
+r_rmnet_data2
+r_rmnet_data3
+rmnet_data0
+rmnet_data1
+rmnet_data2
+rmnet_data3
+rmnet_data4
+rmnet_data5
+rmnet_ipa0
+sit0
+tunl0
+wlan0
+--- dummy0 ---
+cat: /sys/class/net/dummy0/address: Permission denied
+cat: /sys/class/net/dummy0/operstate: Permission denied
+cat: /sys/class/net/dummy0/carrier: Permission denied
+--- erspan0 ---
+cat: /sys/class/net/erspan0/address: Permission denied
+cat: /sys/class/net/erspan0/operstate: Permission denied
+cat: /sys/class/net/erspan0/carrier: Permission denied
+--- eth0 ---
+cat: /sys/class/net/eth0/address: Permission denied
+cat: /sys/class/net/eth0/operstate: Permission denied
+cat: /sys/class/net/eth0/carrier: Permission denied
+--- gre0 ---
+cat: /sys/class/net/gre0/address: Permission denied
+cat: /sys/class/net/gre0/operstate: Permission denied
+cat: /sys/class/net/gre0/carrier: Permission denied
+--- gretap0 ---
+cat: /sys/class/net/gretap0/address: Permission denied
+cat: /sys/class/net/gretap0/operstate: Permission denied
+cat: /sys/class/net/gretap0/carrier: Permission denied
+--- ip6_vti0 ---
+cat: /sys/class/net/ip6_vti0/address: Permission denied
+cat: /sys/class/net/ip6_vti0/operstate: Permission denied
+cat: /sys/class/net/ip6_vti0/carrier: Permission denied
+--- ip6gre0 ---
+cat: /sys/class/net/ip6gre0/address: Permission denied
+cat: /sys/class/net/ip6gre0/operstate: Permission denied
+cat: /sys/class/net/ip6gre0/carrier: Permission denied
+--- ip6tnl0 ---
+cat: /sys/class/net/ip6tnl0/address: Permission denied
+cat: /sys/class/net/ip6tnl0/operstate: Permission denied
+cat: /sys/class/net/ip6tnl0/carrier: Permission denied
+--- ip_vti0 ---
+cat: /sys/class/net/ip_vti0/address: Permission denied
+cat: /sys/class/net/ip_vti0/operstate: Permission denied
+cat: /sys/class/net/ip_vti0/carrier: Permission denied
+--- lo ---
+cat: /sys/class/net/lo/address: Permission denied
+cat: /sys/class/net/lo/operstate: Permission denied
+cat: /sys/class/net/lo/carrier: Permission denied
+--- p2p0 ---
+cat: /sys/class/net/p2p0/address: Permission denied
+cat: /sys/class/net/p2p0/operstate: Permission denied
+cat: /sys/class/net/p2p0/carrier: Permission denied
+--- pimreg ---
+cat: /sys/class/net/pimreg/address: Permission denied
+cat: /sys/class/net/pimreg/operstate: Permission denied
+cat: /sys/class/net/pimreg/carrier: Permission denied
+--- r_rmnet_data0 ---
+cat: /sys/class/net/r_rmnet_data0/address: Permission denied
+cat: /sys/class/net/r_rmnet_data0/operstate: Permission denied
+cat: /sys/class/net/r_rmnet_data0/carrier: Permission denied
+--- r_rmnet_data1 ---
+cat: /sys/class/net/r_rmnet_data1/address: Permission denied
+cat: /sys/class/net/r_rmnet_data1/operstate: Permission denied
+cat: /sys/class/net/r_rmnet_data1/carrier: Permission denied
+--- r_rmnet_data2 ---
+cat: /sys/class/net/r_rmnet_data2/address: Permission denied
+cat: /sys/class/net/r_rmnet_data2/operstate: Permission denied
+cat: /sys/class/net/r_rmnet_data2/carrier: Permission denied
+--- r_rmnet_data3 ---
+cat: /sys/class/net/r_rmnet_data3/address: Permission denied
+cat: /sys/class/net/r_rmnet_data3/operstate: Permission denied
+cat: /sys/class/net/r_rmnet_data3/carrier: Permission denied
+--- rmnet_data0 ---
+cat: /sys/class/net/rmnet_data0/address: Permission denied
+cat: /sys/class/net/rmnet_data0/operstate: Permission denied
+cat: /sys/class/net/rmnet_data0/carrier: Permission denied
+--- rmnet_data1 ---
+cat: /sys/class/net/rmnet_data1/address: Permission denied
+cat: /sys/class/net/rmnet_data1/operstate: Permission denied
+cat: /sys/class/net/rmnet_data1/carrier: Permission denied
+--- rmnet_data2 ---
+cat: /sys/class/net/rmnet_data2/address: Permission denied
+cat: /sys/class/net/rmnet_data2/operstate: Permission denied
+cat: /sys/class/net/rmnet_data2/carrier: Permission denied
+--- rmnet_data3 ---
+cat: /sys/class/net/rmnet_data3/address: Permission denied
+cat: /sys/class/net/rmnet_data3/operstate: Permission denied
+cat: /sys/class/net/rmnet_data3/carrier: Permission denied
+--- rmnet_data4 ---
+cat: /sys/class/net/rmnet_data4/address: Permission denied
+cat: /sys/class/net/rmnet_data4/operstate: Permission denied
+cat: /sys/class/net/rmnet_data4/carrier: Permission denied
+--- rmnet_data5 ---
+cat: /sys/class/net/rmnet_data5/address: Permission denied
+cat: /sys/class/net/rmnet_data5/operstate: Permission denied
+cat: /sys/class/net/rmnet_data5/carrier: Permission denied
+--- rmnet_ipa0 ---
+cat: /sys/class/net/rmnet_ipa0/address: Permission denied
+cat: /sys/class/net/rmnet_ipa0/operstate: Permission denied
+cat: /sys/class/net/rmnet_ipa0/carrier: Permission denied
+--- sit0 ---
+cat: /sys/class/net/sit0/address: Permission denied
+cat: /sys/class/net/sit0/operstate: Permission denied
+cat: /sys/class/net/sit0/carrier: Permission denied
+--- tunl0 ---
+cat: /sys/class/net/tunl0/address: Permission denied
+cat: /sys/class/net/tunl0/operstate: Permission denied
+cat: /sys/class/net/tunl0/carrier: Permission denied
+--- wlan0 ---
+cat: /sys/class/net/wlan0/address: Permission denied
+cat: /sys/class/net/wlan0/operstate: Permission denied
+cat: /sys/class/net/wlan0/carrier: Permission denied
+=== 13. IFCONFIG ===
+rmnet_ipa0 Link encap:UNSPEC  
+          UP RUNNING  MTU:9216  Metric:1
+          RX packets:12021 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:39282 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:2541517 TX bytes:3475282 
+
+lo        Link encap:UNSPEC  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:11036 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:11036 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:2227727 TX bytes:2227727 
+
+dummy0    Link encap:UNSPEC  
+          inet6 addr: fe80::f878:49ff:fe4a:9c6a/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:150 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:22868 
+
+rmnet_data3 Link encap:UNSPEC  
+          inet addr:100.65.151.199  Mask:255.255.255.240 
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:1453 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:1739 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:701416 TX bytes:195933 
+
+wlan0     Link encap:UNSPEC    Driver cnss_pci
+          inet addr:10.118.206.152  Bcast:10.118.206.255  Mask:255.255.255.0 
+          inet6 addr: fe80::5476:4eff:fea3:dce/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:37041 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:57475 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:3000 
+          RX bytes:18220828 TX bytes:59300109 
+
+pimreg    Link encap:UNSPEC  
+          UP RUNNING NOARP  MTU:1472  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+eth0      Link encap:UNSPEC    Driver rtase
+          inet addr:192.168.195.2  Bcast:192.168.195.255  Mask:255.255.255.0 
+          inet6 addr: fe80::280:fff:fe11:7000/64 Scope: Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:56781 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:28033 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:6728605 TX bytes:2251892 
+
+rmnet_data0 Link encap:UNSPEC  
+          inet6 addr: fe80::4011:9ff:fede:d18d/64 Scope: Link
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:23 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:25 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:1424 TX bytes:1576 
+
+r_rmnet_data0 Link encap:UNSPEC  
+          inet6 addr: fe80::d4c8:9fff:fe1c:39ac/64 Scope: Link
+          UP RUNNING  MTU:3000  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:28 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:1840 
+
+rmnet_data1 Link encap:UNSPEC  
+          inet addr:172.19.67.141  Mask:255.255.255.252 
+          UP RUNNING  MTU:1500  Metric:1
+          RX packets:7066 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:10973 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:2340073 TX bytes:1590341 
+
+=== 14. DNS ===
+
+
+=== 15. BYD PROPS ===
+[gsm.byd.cellinfo_cid_last]: [1089287]
+[gsm.byd.cellinfo_lac_last]: [2397]
+[init.svc.byd_updated]: [running]
+[persist.byd.telephony.networkType]: [LTE]
+[persist.byd.telephony.nrIconType]: [0]
+[persist.radio.byd.net_report_interval]: [300000]
+[persist.radio.byd.on_report_interval]: [60000]
+[persist.radio.byd.ping_apn2_ip1]: [120.232.145.185]
+[persist.radio.byd.ping_apn2_ip2]: [59.82.121.200]
+[persist.radio.byd.ping_period_interval]: [60000]
+[persist.radio.byd.ping_test_interval]: [180000]
+[persist.radio.byd.signalstrength_sample]: [30000]
+[persist.radio.net.byd_power_log]: [0]
+[persist.service.apn3.host.name]: [idilink.bydauto.com.cn]
+[persist.service.host.name]: [idilink.byd.com]
+reboot,bydcloud,1780363085
+reboot,bydcloud,1780305525]
+[persist.sys.byd.a2dp.enable]: [true]
+[persist.sys.byd.apn_type]: [double_apn]
+[persist.sys.byd.autoplay]: [false]
+[persist.sys.byd.bluetooth_name]: [宋L]
+[persist.sys.byd.bt_switch]: [1]
+[persist.sys.byd.default_data_slot]: [0]
+[persist.sys.byd.default_name]: [宋L]
+[persist.sys.byd.ditrainer_state]: [2]
+[persist.sys.byd.gnss.enable]: [1]
+[persist.sys.byd.hasSDInserted]: [true]
+[persist.sys.byd.hasUSBInserted]: [true]
+[persist.sys.byd.hotspot_manual]: [1]
+[persist.sys.byd.hotspot_switch]: [0]
+[persist.sys.byd.is5in1]: [0]
+[persist.sys.byd.isUsing5in1]: [0]
+[persist.sys.byd.mdcrash.forcenum]: [10]
+[persist.sys.byd.mdcrash.recovercount]: [257]
+[persist.sys.byd.mdcrash.recoverinfo]: [ipa_sio.c:3877:IPA Assert: i < IPA_SIO_MAX_SIO_STREAMS failed]
+[persist.sys.byd.mdcrash.recovertime]: [2025-12-13/13:10:15]
+[persist.sys.byd.mediaMode]: [8]
+[persist.sys.byd.mediaWidgetMode]: [1]
+[persist.sys.byd.mqtt_port]: [8883]
+[persist.sys.byd.needOffAutoVoiceWhenKgeOn]: [false]
+[persist.sys.byd.noninductive.enable]: [0]
+[persist.sys.byd.otaupdate]: [false]
+[persist.sys.byd.record.recovercount]: [257]
+[persist.sys.byd.softapctl.enable]: [0]
+[persist.sys.byd.swcount]: [0]
+[persist.sys.byd.switch_data_slot]: [0]
+[persist.sys.byd.theme]: [111000003]
+[persist.sys.byd.theme.path]: []
+[persist.sys.byd.vsim.state]: [0]
+[persist.sys.byd.vsim.version_num]: [1.0.2-Tv2623-20240730]
+[persist.sys.cloud.last_vin]: [bydBC428D2325D80E52]
+[persist.sys.dms.config.vin]: [bydBC428D2325D80E52]
+[ro.build.byd.apn_type]: [triple_apn]
+[ro.build.fingerprint]: [BYD-AUTO/DiLink5.0/DiLink5.0:12/SKQ1.230128.001/eng.build.20251108.041528:user/release-keys]
+[ro.byd.telephony.cap.5G]: [true]
+[ro.byd.theme.version]: [5.1.0]
+[ro.byd.ui.integrate]: [0]
+[ro.byd.ui.platformized]: [0]
+[ro.byd.ui.splitscreen]: [0]
+[ro.product.brand]: [BYD-AUTO]
+[ro.product.manufacturer]: [BYD AUTO]
+[ro.product.model]: [DiLink5.0 For BYD AUTO]
+[ro.product.odm.brand]: [BYD-AUTO]
+[ro.product.odm.manufacturer]: [BYD AUTO]
+[ro.product.odm.model]: [DiLink5.0 For BYD AUTO]
+[ro.product.vendor.brand]: [BYD-AUTO]
+[ro.product.vendor.manufacturer]: [BYD AUTO]
+[ro.product.vendor.model]: [DiLink5.0 For BYD AUTO]
+[sys.byd.KaraokeBoot]: [true]
+[sys.byd.boot_business]: [activated]
+[sys.byd.boot_business_sub]: [null]
+[sys.byd.bt_xdmap_foreground]: [1]
+[sys.byd.call_main_ui]: [0]
+[sys.byd.cdr_recording]: [1]
+[sys.byd.cdr_state]: [1]
+[sys.byd.dishare.intercept]: [0]
+[sys.byd.dishare.play_state]: [0]
+[sys.byd.hotspot.switch]: [11]
+[sys.byd.hotspot_dialog_state]: [0]
+[sys.byd.intercept_home]: []
+[sys.byd.isMediaForeground]: [false]
+[sys.byd.isSDExist]: [true]
+[sys.byd.mSdcardUuid]: [4A21-0000]
+[sys.byd.networktethering.offload]: [;eth0]
+[sys.byd.pano]: [0]
+[sys.byd.pano_start]: [0]
+[sys.byd.remotectrl.push.state]: [push_end]
+[sys.byd.sdexist]: [1]
+[sys.byd.sentry_alarm_timestamp]: [0]
+[sys.byd.soc.diag]: []
+[sys.byd.wifi_dialog_state]: [0]
+[sys.bydlogtool.life]: [1]
+[sys.dms.config.vin]: [bydBC428D2325D80E52]
+[sys.virtual.vin]: [bydBC428D2325D80E52]
+[vehicle.config.camInfo.ims]: [supplier:byd_six_factory;resolution:1920x1080;fps:30.0;datatype:yuv422;module:sc2331;]
+=== 16. ETHERNET PROPS ===
+[persist.sys.remotethemechange]: [1]
+[ro.crypto.volume.metadata.method]: [dm-default-key]
+[sys.byd.networktethering.offload]: [;eth0]
+=== 17. PORT 30490 CHECK ===
+   sl  local_address rem_address   st tx_queue rx_queue tr tm->when retrnsmt   uid  timeout inode ref pointer drops            
+   14: 00000000:771A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1401740 2 0000000000000000 0       
+   14: 02C3A8C0:771A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 57638 2 0000000000000000 0         
+  162: 98CE760A:B7AE 21155F01:82E2 01 00000000:00000000 00:00000000 00000000 10057        0 1476822 2 0000000000000000 0       
+  767: 98CE760A:9A0B 21155F01:82E3 01 00000000:00000000 00:00000000 00000000 10057        0 1476825 2 0000000000000000 0       
+ 1247: 98CE760A:9BEB 21155F01:82E4 01 00000000:00000000 00:00000000 00000000 10057        0 1476828 2 0000000000000000 0       
+ 1801: 00000000:1E15 00000000:0000 07 00000000:00000000 00:00000000 00000000 10057        0 1399907 2 0000000000000000 0       
+ 1996: 00000000:9ED8 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 858149 2 0000000000000000 0        
+ 2015: 98CE760A:9EEB 21155F01:82DF 01 00000000:00000000 00:00000000 00000000 10057        0 1476813 2 0000000000000000 0       
+ 2055: 98CE760A:BF13 21155F01:82D7 01 00000000:00000000 00:00000000 00000000 10057        0 1470827 2 0000000000000000 0       
+ 2056: 98CE760A:BF14 21155F01:82DA 01 00000000:00000000 00:00000000 00000000 10057        0 1465267 2 0000000000000000 0       
+ 2228: 00000000:9FC0 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 588888 2 0000000000000000 0        
+ 2275: 00000000:9FEF 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 857584 2 0000000000000000 0        
+ 2318: 00000000:A01A 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54645 2 0000000000000000 0         
+ 2343: 00000000:A033 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 185010 2 0000000000000000 0        
+ 2344: 8D4313AC:A034 01F44AD9:0035 01 00000000:00000000 00:00000000 00000000     0        0 2430498 2 0000000000000000 0       
+ 2345: 0100007F:0035 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1399793 2 0000000000000000 0       
+ 2345: 02C3A8C0:0035 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1399791 2 0000000000000000 0       
+ 2360: 98CE760A:0044 ABCE760A:0043 01 00000000:00000000 00:00000000 00000000  1073        0 1400446 2 0000000000000000 0       
+ 2381: 00000000:A059 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 585892 2 0000000000000000 0        
+ 2429: FFCE760A:0089 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1448859 2 0000000000000000 0       
+ 2429: 98CE760A:0089 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1448858 2 0000000000000000 0       
+ 2429: FFC3A8C0:0089 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 57670 2 0000000000000000 0         
+ 2429: 02C3A8C0:0089 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 57669 2 0000000000000000 0         
+ 2429: 00000000:0089 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 49594 2 0000000000000000 0         
+ 2430: FFCE760A:008A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1448861 2 0000000000000000 0       
+ 2430: 98CE760A:008A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1448860 2 0000000000000000 0       
+ 2430: FFC3A8C0:008A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 57672 2 0000000000000000 0         
+ 2430: 02C3A8C0:008A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 57671 2 0000000000000000 0         
+ 2430: 00000000:008A 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 49595 2 0000000000000000 0         
+ 2563: 98CE760A:C10F 21155F01:82DD 01 00000000:00000000 00:00000000 00000000 10057        0 1477901 2 0000000000000000 0       
+ 3020: 8D4313AC:A2D8 01F44AD9:0035 01 00000000:00000000 00:00000000 00000000     0        0 2349895 2 0000000000000000 0       
+ 3152: 00000000:C35C 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54694 2 0000000000000000 0         
+ 3153: 00000000:C35D 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54695 2 0000000000000000 0         
+ 3154: 00000000:C35E 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50357 2 0000000000000000 0         
+ 3155: 00000000:C35F 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50358 2 0000000000000000 0         
+ 3156: 00000000:C360 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50375 2 0000000000000000 0         
+ 3157: 00000000:C361 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50376 2 0000000000000000 0         
+ 3158: 00000000:C362 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54654 2 0000000000000000 0         
+ 3159: 00000000:C363 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54655 2 0000000000000000 0         
+ 3160: 00000000:C364 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54670 2 0000000000000000 0         
+ 3161: 00000000:C365 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54671 2 0000000000000000 0         
+ 3162: 00000000:C366 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54686 2 0000000000000000 0         
+ 3163: 00000000:C367 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54687 2 0000000000000000 0         
+ 3170: 00000000:C36E 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 48893 2 0000000000000000 0         
+ 3171: 00000000:C36F 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 48894 2 0000000000000000 0         
+ 3172: 00000000:C370 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50345 2 0000000000000000 0         
+ 3173: 00000000:C371 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50346 2 0000000000000000 0         
+ 3178: 00000000:C376 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 52288 2 0000000000000000 0         
+ 3179: 00000000:C377 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 52289 2 0000000000000000 0         
+ 3182: 00000000:C37A 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50367 2 0000000000000000 0         
+ 3183: 00000000:C37B 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 50368 2 0000000000000000 0         
+ 3186: 00000000:C37E 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54678 2 0000000000000000 0         
+ 3187: 00000000:C37F 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54679 2 0000000000000000 0         
+ 3190: 00000000:C382 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54662 2 0000000000000000 0         
+ 3191: 00000000:C383 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54663 2 0000000000000000 0         
+ 3254: 98CE760A:A3C2 21155F01:82E1 01 00000000:00000000 00:00000000 00000000 10057        0 1477906 2 0000000000000000 0       
+ 3312: 00000000:A3FC 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 1391550 2 0000000000000000 0       
+ 4086: 00000000:A702 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54637 2 0000000000000000 0         
+ 4145: 98CE760A:A73D 21155F01:82E0 01 00000000:00000000 00:00000000 00000000 10057        0 1476817 2 0000000000000000 0       
+ 4227: 98CE760A:A78F 21155F01:82D8 01 00000000:00000000 00:00000000 00000000 10057        0 1470836 2 0000000000000000 0       
+ 4321: 00000000:A7ED 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54649 2 0000000000000000 0         
+ 4355: 02C3A8C0:C80F 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1399720 2 0000000000000000 0       
+ 4361: 02C3A8C0:C815 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1399719 2 0000000000000000 0       
+ 4392: 02C3A8C0:C834 03C3A8C0:C8CA 01 00000000:00000000 00:00000000 00000000     0        0 1406021 2 0000000000000000 0       
+ 4393: 02C3A8C0:C835 03C3A8C0:C8CB 01 00000000:00000000 00:00000000 00000000     0        0 1401798 2 0000000000000000 0       
+ 4394: 02C3A8C0:C836 03C3A8C0:C8CC 01 00000000:00000000 00:00000000 00000000     0        0 1401801 2 0000000000000000 0       
+ 4403: 02C3A8C0:C83F 03C3A8C0:C815 01 00000000:00000000 00:00000000 00000000     0        0 1413303 2 0000000000000000 0       
+ 4500: 98CE760A:A8A0 21155F01:82DC 01 00000000:00000000 00:00000000 00000000 10057        0 1469211 2 0000000000000000 0       
+ 4663: 00000000:A943 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 855346 2 0000000000000000 0        
+ 4890: 00000000:AA26 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 54641 2 0000000000000000 0         
+ 5019: 00000000:AAA7 00000000:0000 87 00000000:00000000 00:00000000 00000000  1001        0 196756 2 0000000000000000 0        
+ 5243: 02C3A8C0:CB87 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1404002 2 0000000000000000 0       
+ 5245: 02C3A8C0:CB89 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1401636 2 0000000000000000 0       
+ 6540: 98CE760A:B098 21155F01:82D9 01 00000000:00000000 00:00000000 00000000 10057        0 1465260 2 0000000000000000 0       
+ 6641: 02C3A8C0:D0FD 00000000:0000 07 00000000:00000000 00:00000000 00000000     0        0 1404008 2 0000000000000000 0       
+ 6983: 98CE760A:9253 21155F01:82DB 01 00000000:00000000 00:00000000 00000000 10057        0 1473796 2 0000000000000000 0       
+ 7500: 00000000:3458 00000000:0000 07 00000000:000123C0 00:00000000 00000000     0        0 43312 2 0000000000000000 0         
+ 7500: 00000000:3458 00000000:0000 07 00000000:000120C0 00:00000000 00000000  1000        0 41320 2 0000000000000000 0         
+ 7503: 8D4313AC:B45B 01F44AD9:0035 01 00000000:00000000 00:00000000 00000000     0        0 2426634 2 0000000000000000 0       
+ 7672: 98CE760A:9504 21155F01:82D6 01 00000000:00000000 00:00000000 00000000 10057        0 1470813 2 0000000000000000 0       
+ 8021: 98CE760A:B661 21155F01:82DE 01 00000000:00000000 00:00000000 00000000 10057        0 1477903 2 0000000000000000 0       
+=== 18. TCPDUMP CHECK ===
+ls: /system/bin/tcpdump: Permission denied
+ls: /system/xbin/tcpdump: No such file or directory
+=== DONE Tue Jun  2 20:15:07 MSK 2026 ===

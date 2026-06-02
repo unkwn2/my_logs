@@ -1,0 +1,10 @@
+    com.android.permissioncontroller
+      com.byd.auto.permission
+      com.byd.auto.permission
+      com.byd.auto.permission
+      com.byd.auto.permission
+      com.byd.auto.permission
+        [com.android.networkstack.permissionconfig,com.android.networkstack.tethering,com.android.networkstack]
+        com.android.permissioncontroller
+      [com.android.networkstack.permissionconfig,com.android.networkstack.tethering,com.android.networkstack]:
+      com.android.permissioncontroller:
