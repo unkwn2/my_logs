@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ARHUD>
+	<SCENE ID="DEFAULT">
+		<Item ID="Frame_0" Type="ICON" X="0" Y="0" BE_CENTER="1" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="0" PATH="./res/testpic/frame_edge.png" />
+		</Item>
+		<Item ID="ID_SPEC" Type="ICON" X="0" Y="0" BE_CENTER="1" ISVALID="0">
+			<TEXTURE INDEX="1" PATH="./res/testpic/test12.png" />
+		</Item>
+		<Item ID="ICON_TEST_PIC" Type="ICON" X="0" Y="0" BE_CENTER="1" ISVALID="0">
+			<TEXTURE INDEX="0" PATH="./res/testpic/test1.png" />
+			<TEXTURE INDEX="1" PATH="./res/testpic/test2.png" />
+			<TEXTURE INDEX="2" PATH="./res/testpic/test3.png" />
+			<TEXTURE INDEX="3" PATH="./res/testpic/test4.png" />
+			<TEXTURE INDEX="4" PATH="./res/testpic/test5.png" />
+			<TEXTURE INDEX="5" PATH="./res/testpic/test6.png" />
+			<TEXTURE INDEX="6" PATH="./res/testpic/test7.png" />
+			<TEXTURE INDEX="7" PATH="./res/testpic/test8.png" />
+			<TEXTURE INDEX="8" PATH="./res/testpic/test9.png" />
+			<TEXTURE INDEX="9" PATH="./res/testpic/test10.png" />
+			<TEXTURE INDEX="10" PATH="./res/testpic/test11.png" />
+			<TEXTURE INDEX="11" PATH="./res/testpic/test12.png" />
+			<TEXTURE INDEX="12" PATH="./res/testpic/test13.png" />
+			<TEXTURE INDEX="13" PATH="./res/testpic/test14.png" />
+			<TEXTURE INDEX="14" PATH="./res/testpic/test15.png" />
+			<TEXTURE INDEX="15" PATH="./res/testpic/test16.png" />
+			<TEXTURE INDEX="16" PATH="./res/testpic/test17.png" />
+			<TEXTURE INDEX="17" PATH="./res/testpic/test18.png" />
+			<TEXTURE INDEX="18" PATH="./res/testpic/test19.png" />
+			<TEXTURE INDEX="19" PATH="./res/testpic/test20.png" />
+			<TEXTURE INDEX="20" PATH="./res/testpic/test21.png" />
+			<TEXTURE INDEX="21" PATH="./res/testpic/test22.png" />
+			<TEXTURE INDEX="22" PATH="./res/testpic/test23.png" />
+			<TEXTURE INDEX="23" PATH="./res/testpic/test24.png" />
+			<TEXTURE INDEX="24" PATH="./res/testpic/test25.png" />
+			<TEXTURE INDEX="25" PATH="./res/testpic/test26.png" />
+			<TEXTURE INDEX="26" PATH="./res/testpic/test27.png" />
+			<TEXTURE INDEX="27" PATH="./res/testpic/test28.png" />
+			<TEXTURE INDEX="28" PATH="./res/testpic/test29.png" />
+			<TEXTURE INDEX="29" PATH="./res/testpic/test30.png" />
+			<TEXTURE INDEX="30" PATH="./res/testpic/test31.png" />
+			<TEXTURE INDEX="31" PATH="./res/testpic/test32.png" />
+			<TEXTURE INDEX="32" PATH="./res/testpic/test33.png" />
+			<TEXTURE INDEX="33" PATH="./res/testpic/test34.png" />
+			<TEXTURE INDEX="34" PATH="./res/testpic/test35.png" />
+			<TEXTURE INDEX="35" PATH="./res/testpic/test36.png" />
+			<TEXTURE INDEX="36" PATH="./res/testpic/test37.png" />
+			<TEXTURE INDEX="37" PATH="./res/testpic/test38.png" />
+			<TEXTURE INDEX="38" PATH="./res/testpic/test39.png" />
+			<TEXTURE INDEX="39" PATH="./res/testpic/test40.png" />
+			<TEXTURE INDEX="40" PATH="./res/testpic/test41.png" />
+		</Item>
+		<Item ID="ID_LANE_DEPART" Type="ICON" PREFER_ID="ICON_PILOT" X="425" Y="130" NAVI_X="337" NAVI_Y="123" ISVALID="0">
+			<TEXTURE INDEX="1" PATH="./res/pic/lane_keep_new_normal.png" />
+			<TEXTURE INDEX="1" PATH="./res/pic/lane_keep_new_right.png" />
+			<TEXTURE INDEX="1" PATH="./res/pic/lane_keep_new_left.png" />
+			<TEXTURE INDEX="1" PATH="./res/pic/lane_keep_new_both.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="337" Y="123" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="293" Y="123" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="425" Y="123" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="505" Y="123" />
+		</Item>
+		<Item ID="ID_LIMIT_SPEED_BG" Type="ICON" X="257" Y="138" NAVI_X="489" NAVI_Y="138" ISVALID="0" ALIGN_HORIZONTAL="3">
+			<TEXTURE INDEX="1" PATH="./res/pic/limit_speed_bg.png" />
+		</Item>
+		<Item ID="ID_LIMT_SPEED" Type="ICON" X="257" Y="138" NAVI_X="489" NAVI_Y="138" ISVALID="0" ALIGN_HORIZONTAL="3">
+			<TEXTURE INDEX="1" PATH="./res/pic/limit_speed.png" />
+		</Item>
+		<Item ID="ICON_PILOT" PREFER_ID="ICON_NOA" Type="ICON" X="424" Y="114" NAVI_X="338" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/icc.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="347" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="304" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="434" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="514" Y="114" />
+		</Item>
+
+		<Item ID="ICON_PILOT_NEW" PREFER_ID="ICON_NOA" Type="ICON" X="424" Y="114" NAVI_X="338" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/icc_NEW.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="347" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="304" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="434" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="514" Y="114" />
+		</Item>
+
+		<!-- 导航辅助驾驶图标 -->
+		<Item ID="ICON_NOA" Type="ICON" X="405" Y="114" NAVI_X="308" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/NOA.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="347" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="304" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="434" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="514" Y="114" />
+		</Item>
+
+		<Item ID="ICON_NOA_NEW" Type="ICON" X="405" Y="114" NAVI_X="308" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/NOA_NEW.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="347" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="304" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="434" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="514" Y="114" />
+		</Item>
+
+		<!-- 车道保持图标 -->
+		<Item ID="ICON_LKC" PREFER_ID="ICON_PILOT" Type="ICON" X="405" Y="114" NAVI_X="308" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/LKC.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="347" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="304" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-1-NORMAL" X="434" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NORMAL" X="514" Y="114" />
+		</Item>
+
+		<Item ID="ICON_ACC" Type="ICON" X="437" Y="114" NAVI_X="346" NAVI_Y="114" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="1" PATH="./res/pic/acc.png" />
+
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="346" Y="114" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="391" Y="114" />
+		</Item>
+		<Item ID="ICON_SIMPLE_NAVI" Type="ICON" X="80" Y="136" ISVALID="0" HEIGHT="50">
+			<TEXTURE INDEX="0" PATH="./res/navigation/0x0_navi_none.png" />
+			<TEXTURE INDEX="1" PATH="./res/navigation/0x1_navi_turn_left.png" />
+			<TEXTURE INDEX="2" PATH="./res/navigation/0x2_navi_turn_right.png" />
+			<TEXTURE INDEX="3" PATH="./res/navigation/0x3_navi_forward_left.png" />
+			<TEXTURE INDEX="4" PATH="./res/navigation/0x4_navi_forward_right.png" />
+			<TEXTURE INDEX="5" PATH="./res/navigation/0x7_navi_left_behind.png" />
+			<TEXTURE INDEX="6" PATH="./res/navigation/0x8_navi_right_behind.png" />
+			<TEXTURE INDEX="7" PATH="./res/navigation/0x9_navi_turn_around_left.png" />
+			<TEXTURE INDEX="8" PATH="./res/navigation/0xa_navi_turn_around_right.png" />
+			<TEXTURE INDEX="9" PATH="./res/navigation/0xb_navi_go_straight.png" />
+			<TEXTURE INDEX="10" PATH="./res/navigation/0xc_navi_go_align.png" />
+			<TEXTURE INDEX="11" PATH="./res/navigation/0xd_navi_enter_roundabout_right.png" />
+			<TEXTURE INDEX="12" PATH="./res/navigation/0xe_navi_enter_roundabout_left.png" />
+			<TEXTURE INDEX="13" PATH="./res/navigation/0xf_navi_turn_left_roundabout_right.png" />
+			<TEXTURE INDEX="14" PATH="./res/navigation/0x10_navi_turn_left_roundabout_left.png" />
+			<TEXTURE INDEX="15" PATH="./res/navigation/0x11_navi_turn_right_roundabout_left.png" />
+			<TEXTURE INDEX="16" PATH="./res/navigation/0x12_navi_turn_right_roundabout_right.png" />
+			<TEXTURE INDEX="17" PATH="./res/navigation/0x13_navi_go_straight_roundabout_left.png" />
+			<TEXTURE INDEX="18" PATH="./res/navigation/0x14_navi_go_straight_roundabout_right.png" />
+			<TEXTURE INDEX="19" PATH="./res/navigation/0x15_navi_turn_around_roundabout_left.png" />
+			<TEXTURE INDEX="20" PATH="./res/navigation/0x16_navi_turn_around_roundabout_right.png" />
+			<TEXTURE INDEX="21" PATH="./res/navigation/0x17_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="22" PATH="./res/navigation/0x18_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="23" PATH="./res/navigation/0x19_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="24" PATH="./res/navigation/0x1a_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="25" PATH="./res/navigation/0x1b_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="26" PATH="./res/navigation/0x1c_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="27" PATH="./res/navigation/0x1d_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="28" PATH="./res/navigation/0x1e_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="29" PATH="./res/navigation/0x1f_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="30" PATH="./res/navigation/0x20_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="31" PATH="./res/navigation/0x21_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="32" PATH="./res/navigation/0x22_navi_leave_roundabout_right.png" />
+			<TEXTURE INDEX="33" PATH="./res/navigation/0x23_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="34" PATH="./res/navigation/0x24_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="35" PATH="./res/navigation/0x25_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="36" PATH="./res/navigation/0x26_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="37" PATH="./res/navigation/0x27_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="38" PATH="./res/navigation/0x28_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="39" PATH="./res/navigation/0x29_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="40" PATH="./res/navigation/0x2a_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="41" PATH="./res/navigation/0x2b_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="42" PATH="./res/navigation/0x2c_navi_leave_roundabout_left.png" />
+			<TEXTURE INDEX="43" PATH="./res/navigation/0x2d_passing_point.png" />
+			<TEXTURE INDEX="44" PATH="./res/navigation/0x2e_navi_service_area.png" />
+			<TEXTURE INDEX="45" PATH="./res/navigation/0x2f_toll_gate.png" />
+			<TEXTURE INDEX="46" PATH="./res/navigation/0x30_navi_arrive_dest.png" />
+			<TEXTURE INDEX="47" PATH="./res/navigation/0x31_navi_tunnel.png" />
+		</Item>
+
+		<Item ID="ID_PHONE_CALL" Type="ICON" X="420" Y="168" NAVI_X="300" NAVI_Y="168" ISVALID="0">
+			<TEXTURE INDEX="1" PATH="./res/pic/call_incoming_small.png" />
+		</Item>
+		<Item ID="ID_PHONE_CALL_DURATION" Type="FONT" SIZE="25" X="460" Y="190" NAVI_X="330" NAVI_Y="190" R="255" G="255" B="255" A="400" TEXT="" ISVALID="0" SCROLL="1" MAX_COUNT="6" HUD_MODE="1" />
+		<Item ID="ID_PHONE_CALL_NUMBER" Type="FONT" SIZE="25" X="460" Y="190" NAVI_X="330" NAVI_Y="190" R="255" G="255" B="255" A="400" TEXT="" ISVALID="0" SCROLL="1" MAX_COUNT="6" HUD_MODE="1" />
+		<Item ID="ID_ACC_SPEED" Type="FONT" SIZE="24" X="460" Y="132" NAVI_X="369" NAVI_Y="132" R="255" G="255" B="255" TEXT="100" ISVALID="0" HUD_MODE="1" ALIGN_HORIZONTAL="3">
+			<TRANSFORM SCENARIO="ADAS-1-NAVI" X="369" Y="132" />
+			<TRANSFORM SCENARIO="ADAS-2-NAVI" X="414" Y="132" />
+		</Item>
+
+		<Item ID="ID_LIMIT_SPEED_NUM" Type="FONT" SIZE="28" X="257" Y="134" NAVI_X="489" NAVI_Y="134" R="255" G="255" B="255" TEXT="80" ISVALID="0" HUD_MODE="1" ALIGN_HORIZONTAL="3" />
+		<Item ID="ID_CURRENT_SPEED" Type="FONT" SIZE="54" X="350" Y="158" NAVI_X="576" NAVI_Y="158" R="255" G="255" B="255" A="350" TEXT="0" ISVALID="1" HUD_MODE="1" ALIGN_HORIZONTAL="1" SPACING="1.0" />
+
+		<Item ID="ID_SPEED_UNIT" Type="FONT" PREFER_ID="ID_GEAR" SIZE="25" X="354" Y="190" NAVI_X="578" NAVI_Y="190" R="255" G="255" B="255" A="400" TEXT="km/h" ISVALID="1" HUD_MODE="1" ALIGN_HORIZONTAL="1" SPACING="2.4" />
+
+		<Item ID="ID_ROAD" Type="FONT" SIZE="24" X="138" Y="188" R="255" G="255" B="255" A="350" TEXT="" ISVALID="0" SCROLL="1" MAX_COUNT="5" HUD_MODE="1" SPACING="2.0" />
+		<Item ID="ID_DISTANCE" Type="FONT" SIZE="40" CHSIZE="24" X="138" Y="154" R="255" G="255" B="255" A="300" TEXT="" ISVALID="0" HUD_MODE="1" SPACING="3.0" />
+		<Item ID="ID_DISTANCE_UNIT" Type="FONT" SIZE="25" X="138" Y="154" R="255" G="255" B="255" A="300" TEXT="" ISVALID="0" HUD_MODE="1" />
+
+		<Item ID="RECOMMEND_LANES" Type="ICON" PREFER_ID="ID_PHONE_CALL" X="365" Y="158" ALIGN_HORIZONTAL="1" ISVALID="0" HEIGHT="40">
+			<TEXTURE INDEX="0" PATH="./res/lanes/recommend_line_bg.png" />
+		</Item>
+		<Item ID="ICON_AVH" Type="ICON" X="329" Y="168" NAVI_X="555" NAVI_Y="168" ISVALID="0">
+			<TEXTURE INDEX="1" PATH="./res/pic/avh.png" />
+		</Item>
+		<Item ID="ID_GEAR" Type="FONT" PREFER_ID="ICON_AVH" SIZE="30" X="350" Y="190" NAVI_X="576" NAVI_Y="190" R="255" G="255" B="255" TEXT="P" ISVALID="0" HUD_MODE="1" ALIGN_HORIZONTAL="1" />
+	</SCENE>
+
+	<SCENE ID="SIMPLEMODE">
+		<Item ID="Frame_0" Type="ICON" X="0" Y="0" BE_CENTER="1" ISVALID="0" HUD_MODE="1">
+			<TEXTURE INDEX="0" PATH="./res/testpic/frame_edge.png" />
+		</Item>
+
+		<Item ID="ID_CURRENT_SPEED" Type="FONT" SIZE="52" X="400" Y="188" NAVI_X="562" NAVI_Y="188" R="255" G="255" B="255" A="350" TEXT="0" ISVALID="1" HUD_MODE="1" ALIGN_HORIZONTAL="2" SPACING="1.5" />
+
+		<Item ID="ID_SPEED_UNIT" Type="FONT" PREFER_ID="ID_LIMT_SPEED" SIZE="25" X="410" Y="188" NAVI_X="572" NAVI_Y="188" R="255" G="255" B="255" A="400" TEXT="km/h" ISVALID="1" HUD_MODE="1" SPACING="2.4" />
+
+		<Item ID="ID_LIMIT_SPEED_BG" Type="ICON" X="443" Y="167" NAVI_X="606" NAVI_Y="167" ISVALID="0" ALIGN_HORIZONTAL="3">
+			<TEXTURE INDEX="1" PATH="./res/pic/limit_speed_bg.png" />
+		</Item>
+		<Item ID="ID_LIMT_SPEED" Type="ICON" X="443" Y="167" NAVI_X="606" NAVI_Y="167" ISVALID="0" ALIGN_HORIZONTAL="3">
+			<TEXTURE INDEX="1" PATH="./res/pic/limit_speed.png" />
+		</Item>
+		<Item ID="ID_LIMIT_SPEED_NUM" Type="FONT" SIZE="28" X="443" Y="164" NAVI_X="606" NAVI_Y="164" R="255" G="255" B="255" TEXT="80" ISVALID="0" HUD_MODE="1" ALIGN_HORIZONTAL="3" />
+
+		<Item ID="ID_DISTANCE" Type="FONT" SIZE="40" CHSIZE="24" X="138" Y="188" R="255" G="255" B="255" A="300" TEXT="" ISVALID="0" HUD_MODE="1" SPACING="3.0" />
+		<Item ID="ID_DISTANCE_UNIT" Type="FONT" SIZE="25" X="138" Y="188" R="255" G="255" B="255" A="300" TEXT="" ISVALID="0" HUD_MODE="1" />
+
+		<Item ID="ICON_SIMPLE_NAVI" Type="ICON" X="80" Y="136" ISVALID="0" HEIGHT="50">
+			<TEXTURE INDEX="0" PATH="./res/navigation/0x0_navi_none.png" />
+			<TEXTURE INDEX="1" PATH="./res/navigation/0x1_navi_turn_left.png" />
+			<TEXTURE INDEX="2" PATH="./res/navigation/0x2_navi_turn_right.png" />
+			<TEXTURE INDEX="3" PATH="./res/navigation/0x3_navi_forward_left.png" />
+			<TEXTURE INDEX="4" PATH="./res/navigation/0x4_navi_forward_right.png" />
+			<TEXTURE INDEX="5" PATH="./res/navigation/0x7_navi_left_behind.png" />
+			<TEXTURE INDEX="6" PATH="./res/navigation/0x8_navi_right_behind.png" />
+			<TEXTURE INDEX="7" PATH="./res/navigation/0x9_navi_turn_around_left.png" />
+			<TEXTURE INDEX="8" PATH="./res/navigation/0xa_navi_turn_around_right.png" />
+			<TEXTURE INDEX="9" PATH="./res/navigation/0xb_navi_go_straight.png" />
+			<TEXTURE INDEX="10" PATH="./res/navigation/0xc_navi_go_align.png" />
+		</Item>
+
+
+		<Item ID="RECOMMEND_LANES" Type="ICON" X="365" Y="154" ALIGN_HORIZONTAL="1" ISVALID="0" HEIGHT="40">
+			<TEXTURE INDEX="0" PATH="./res/lanes/recommend_line_bg.png" />
+		</Item>
+	</SCENE>
+</ARHUD>
