@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<sd_multicast_dst>224.0.2.4:30490</sd_multicast_dst>
+	<sd_multicast_src>192.168.195.11</sd_multicast_src>
+	<ar_sun_path></ar_sun_path>
+	<my_sun_path></my_sun_path>
+	<client id="0" />
+	<services>
+		<Vehicle_PositionInfo_Client unicast_addr="192.168.195.11:52001" service_id="0xa" instance_id="0xa" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</Vehicle_PositionInfo_Client>
+		<RTK_IMUInfo_Client unicast_addr="192.168.195.11:52002" service_id="0xb" instance_id="0xb" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</RTK_IMUInfo_Client>
+		<Obstacle_LaneLineInfo_Client unicast_addr="192.168.195.11:52003" service_id="0xc" instance_id="0xc" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</Obstacle_LaneLineInfo_Client>
+		<PilotStatus_AlarmInfo_Client unicast_addr="192.168.195.11:52005" service_id="0xd" instance_id="0xd" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</PilotStatus_AlarmInfo_Client>
+		<Planning_LineInfo_Client unicast_addr="192.168.195.11:52006" service_id="0xe" instance_id="0xe" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</Planning_LineInfo_Client>
+		<HUD_NaviInfo_Client unicast_addr="192.168.195.11:52011" service_id="0x10a" instance_id="0x1" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</HUD_NaviInfo_Client>
+		<NVS_ObstacleService_Client unicast_addr="192.168.195.11:52012" service_id="0x10b" instance_id="0x1" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+		</NVS_ObstacleService_Client>
+		<!--Vehicle_PositionInfo_Server unicast_addr="192.168.195.3:51400" service_id="0xa" instance_id="0xa" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="50"></method>
+		</Vehicle_PositionInfo_Server>
+		<RTK_IMUInfo_Server unicast_addr="192.168.195.3:51401" service_id="0xb" instance_id="0xb" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="50"></method>
+			<method id="0x8002" type="Event" period="50"></method>
+		</RTK_IMUInfo_Server>
+		<Obstacle_LaneLineInfo_Server unicast_addr="192.168.195.3:51402" service_id="0xc" instance_id="0xc" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="50"></method>
+			<method id="0x8002" type="Event" period="50"></method>
+		</Obstacle_LaneLineInfo_Server>
+		<PilotStatus_AlarmInfo_Server unicast_addr="192.168.195.3:51403" service_id="0xd" instance_id="0xd" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="50"></method>
+			<method id="0x8002" type="Event" period="50"></method>
+			<method id="0x8003" type="Event" period="50"></method>
+			<method id="0x8004" type="Event" period="50"></method>
+		</PilotStatus_AlarmInfo_Server>
+		<Planning_LineInfo_Server unicast_addr="192.168.195.3:51404" service_id="0xe" instance_id="0xe" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="50"></method>
+		</Planning_LineInfo_Server>
+		<HUD_NaviInfo_Server unicast_addr="192.168.195.2:52001" service_id="0x10a" instance_id="0x1" maj_ver="0x1" min_ver="0x0" proto="udp" >
+			<group_id>0x1101</group_id>
+			<method id="0x8001" type="Event" period="1000"></method>
+			<method id="0x8002" type="Event" period="100"></method>
+			<method id="0x8003" type="Event" period="50"></method>
+		</HUD_NaviInfo_Server-->
+	</services>
+</config>
