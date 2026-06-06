@@ -1,0 +1,81 @@
+10:47:23.175	I	YandexNotif	listener connected
+10:47:23.225	I	YA11Y	connected
+10:47:26.481	I	!YNDX	=== YANDEX NAVI ON ===
+10:47:26.509	I	FGS	created
+10:47:26.513	I	SIPBR	bind server rc=true attempt=#0
+10:47:26.522	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+10:47:26.715	I	SIPBR	registerCallback rc=0
+10:47:26.730	I	SIPBR	startService(0xb010a00010000) rc=0
+10:47:26.731	I	FGS	startService rc=0
+10:47:26.734	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+10:47:26.736	I	LOOP	tick #0 (idle)
+10:47:27.739	I	LOOP	tick #0 (idle)
+10:47:28.741	I	LOOP	tick #0 (idle)
+10:47:29.742	I	LOOP	tick #0 (idle)
+10:47:30.554	I	YA11Y	node d=5 vid=com.android.launcher3:id/home_time cls=android.widget.TextView t='10:47' desc=''
+10:47:30.585	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date cls=android.widget.TextView t='06/06' desc=''
+10:47:30.592	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date_week cls=android.widget.TextView t='Sat' desc=''
+10:47:30.726	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:47:31.140	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:32.309	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:33.806	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:34.451	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:34.881	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:35.353	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:35.937	I	YA11Y	nodes=25 first 10:
+10:47:35.948	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Чем я могу помочь?' desc=''
+10:47:35.957	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Продолжи' desc=''
+10:47:35.961	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Что за музыка играет?' desc='Что за музыка играет?'
+10:47:35.966	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Отметь ДТП' desc='Отметь ДТП'
+10:47:35.970	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Запусти навык Вопросы на время' desc='Запусти навык Вопросы на время'
+10:47:35.976	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что ты умеешь?'
+10:47:35.987	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что ты умеешь?' desc=''
+10:47:36.002	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Включи музыку'
+10:47:36.006	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:47:36.011	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что это играет?'
+10:47:36.017	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:36.533	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:36.915	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:37.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:38.008	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:38.630	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:39.109	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:39.632	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:39.858	I	LOOP	tick #10 rc=0 m=11(GAODE) tag=f28 pk d=210
+10:47:40.616	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=190m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:40.644	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=190m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:41.233	I	YA11Y	nodes=25 first 10:
+10:47:41.237	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Чем я могу помочь?' desc=''
+10:47:41.240	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Продолжи' desc=''
+10:47:41.247	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Что за музыка играет?' desc='Что за музыка играет?'
+10:47:41.249	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Отметь ДТП' desc='Отметь ДТП'
+10:47:41.251	I	YA11Y	node d=17 vid= cls=android.widget.TextView t='Запусти навык Вопросы на время' desc='Запусти навык Вопросы на время'
+10:47:41.253	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что ты умеешь?'
+10:47:41.257	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что ты умеешь?' desc=''
+10:47:41.262	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Включи музыку'
+10:47:41.265	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:47:41.271	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что это играет?'
+10:47:41.283	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=180m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:41.680	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=150m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:42.186	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=120m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:42.679	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=90m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:43.240	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=60m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:43.869	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=30m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:44.518	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=20m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:44.960	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=20m road='ул. Вакуленчука' eta=240s balloon=true
+10:47:45.601	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=10m road='' eta=240s balloon=true
+10:47:46.234	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=10m road='' eta=240s balloon=true
+10:47:46.746	I	YA11Y	nodes=21 first 10:
+10:47:46.748	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Чем я могу помочь?' desc=''
+10:47:46.750	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Продолжи' desc=''
+10:47:46.752	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что ты умеешь?'
+10:47:46.755	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что ты умеешь?' desc=''
+10:47:46.757	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Включи музыку'
+10:47:46.761	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:47:46.763	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что это играет?'
+10:47:46.764	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что это играет?' desc=''
+10:47:46.766	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Игры с голосовым ассистентом'
+10:47:46.769	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Игры с Алисой' desc=''
+10:47:46.773	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=10m road='' eta=240s balloon=true
+10:47:47.316	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=10m road='' eta=240s balloon=true
+10:47:47.923	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=10m road='' eta=240s balloon=true

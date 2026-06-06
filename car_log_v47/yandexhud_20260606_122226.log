@@ -1,0 +1,200 @@
+12:22:29.657	I	!YNDX	=== YANDEX NAVI ON ===
+12:22:29.715	I	FGS	created
+12:22:29.743	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+12:22:29.736	I	SIPBR	bind server rc=true attempt=#0
+12:22:29.752	I	SIPBR	registerCallback rc=0
+12:22:29.783	I	SIPBR	startService(0xb010a00010000) rc=0
+12:22:29.785	I	FGS	startService rc=0
+12:22:29.800	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+12:22:29.804	I	LOOP	tick #0 (idle)
+12:22:30.814	I	LOOP	tick #0 (idle)
+12:22:31.816	I	LOOP	tick #0 (idle)
+12:22:32.831	I	LOOP	tick #0 (idle)
+12:22:33.834	I	LOOP	tick #0 (idle)
+12:22:34.836	I	LOOP	tick #0 (idle)
+12:22:35.837	I	LOOP	tick #0 (idle)
+12:22:36.838	I	LOOP	tick #0 (idle)
+12:22:37.842	I	LOOP	tick #0 (idle)
+12:22:38.843	I	LOOP	tick #0 (idle)
+12:22:38.872	I	UI	maneuver tag = f5
+12:22:39.845	I	LOOP	tick #0 (idle)
+12:22:40.846	I	LOOP	tick #0 (idle)
+12:22:41.849	I	LOOP	tick #0 (idle)
+12:22:42.851	I	LOOP	tick #0 (idle)
+12:22:43.862	I	LOOP	tick #0 (idle)
+12:22:44.869	I	LOOP	tick #0 (idle)
+12:22:45.883	I	LOOP	tick #0 (idle)
+12:22:46.890	I	LOOP	tick #0 (idle)
+12:22:47.894	I	LOOP	tick #0 (idle)
+12:22:48.898	I	LOOP	tick #0 (idle)
+12:22:49.908	I	LOOP	tick #0 (idle)
+12:22:50.913	I	LOOP	tick #0 (idle)
+12:22:51.917	I	LOOP	tick #0 (idle)
+12:22:52.958	I	LOOP	tick #0 (idle)
+12:22:53.963	I	LOOP	tick #0 (idle)
+12:22:54.967	I	LOOP	tick #0 (idle)
+12:22:55.972	I	LOOP	tick #0 (idle)
+12:22:56.980	I	LOOP	tick #0 (idle)
+12:22:57.994	I	LOOP	tick #0 (idle)
+12:22:58.999	I	LOOP	tick #0 (idle)
+12:23:00.000	I	LOOP	tick #0 (idle)
+12:23:01.002	I	LOOP	tick #0 (idle)
+12:23:02.007	I	LOOP	tick #0 (idle)
+12:23:03.010	I	LOOP	tick #0 (idle)
+12:23:04.012	I	LOOP	tick #0 (idle)
+12:23:05.017	I	LOOP	tick #0 (idle)
+12:23:06.032	I	LOOP	tick #0 (idle)
+12:23:07.037	I	LOOP	tick #0 (idle)
+12:23:08.045	I	LOOP	tick #0 (idle)
+12:23:09.056	I	LOOP	tick #0 (idle)
+12:23:10.057	I	LOOP	tick #0 (idle)
+12:23:11.062	I	LOOP	tick #0 (idle)
+12:23:12.072	I	LOOP	tick #0 (idle)
+12:23:13.083	I	LOOP	tick #0 (idle)
+12:23:14.097	I	LOOP	tick #0 (idle)
+12:23:15.119	I	LOOP	tick #0 (idle)
+12:23:16.122	I	LOOP	tick #0 (idle)
+12:23:17.137	I	LOOP	tick #0 (idle)
+12:23:18.139	I	LOOP	tick #0 (idle)
+12:23:19.143	I	LOOP	tick #0 (idle)
+12:23:20.145	I	LOOP	tick #0 (idle)
+12:23:21.147	I	LOOP	tick #0 (idle)
+12:23:22.158	I	LOOP	tick #0 (idle)
+12:23:23.161	I	LOOP	tick #0 (idle)
+12:23:24.193	I	LOOP	tick #0 (idle)
+12:23:25.194	I	LOOP	tick #0 (idle)
+12:23:26.197	I	LOOP	tick #0 (idle)
+12:23:27.198	I	LOOP	tick #0 (idle)
+12:23:28.200	I	LOOP	tick #0 (idle)
+12:23:29.205	I	LOOP	tick #0 (idle)
+12:23:30.236	I	LOOP	tick #0 (idle)
+12:23:31.238	I	LOOP	tick #0 (idle)
+12:23:32.239	I	LOOP	tick #0 (idle)
+12:23:33.241	I	LOOP	tick #0 (idle)
+12:23:34.245	I	LOOP	tick #0 (idle)
+12:23:34.517	I	!YNDX	=== YANDEX NAVI OFF ===
+12:23:34.553	I	SIPBR	stopService(0x4010a00018001) rc=1
+12:23:34.557	I	SIPBR	unbound
+12:23:34.564	I	FGS	destroyed
+12:23:35.246	I	LOOP	stopped
+12:23:36.661	I	!YNDX	=== YANDEX NAVI ON ===
+12:23:36.683	I	FGS	created
+12:23:36.714	I	SIPBR	bind server rc=true attempt=#0
+12:23:36.736	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+12:23:36.923	I	SIPBR	registerCallback rc=0
+12:23:36.929	I	SIPBR	startService(0xb010a00010000) rc=0
+12:23:36.930	I	FGS	startService rc=0
+12:23:36.934	I	LOOP	started @ 1000ms tagIdx=1 gaode=true
+12:23:36.936	I	LOOP	tick #0 (idle)
+12:23:37.937	I	LOOP	tick #0 (idle)
+12:23:38.941	I	LOOP	tick #0 (idle)
+12:23:39.948	I	LOOP	tick #0 (idle)
+12:23:40.951	I	LOOP	tick #0 (idle)
+12:23:41.952	I	LOOP	tick #0 (idle)
+12:23:42.961	I	LOOP	tick #0 (idle)
+12:23:43.967	I	LOOP	tick #0 (idle)
+12:23:44.974	I	LOOP	tick #0 (idle)
+12:23:45.976	I	LOOP	tick #0 (idle)
+12:23:46.692	I	UI	maneuver tag = f6
+12:23:46.978	I	LOOP	tick #0 (idle)
+12:23:47.983	I	LOOP	tick #0 (idle)
+12:23:48.985	I	LOOP	tick #0 (idle)
+12:23:49.029	I	UI	maneuver tag = f28
+12:23:49.987	I	LOOP	tick #0 (idle)
+12:23:50.991	I	LOOP	tick #0 (idle)
+12:23:51.993	I	LOOP	tick #0 (idle)
+12:23:53.000	I	LOOP	tick #0 (idle)
+12:23:54.033	I	LOOP	tick #0 (idle)
+12:23:55.039	I	LOOP	tick #0 (idle)
+12:23:56.046	I	LOOP	tick #0 (idle)
+12:23:57.050	I	LOOP	tick #0 (idle)
+12:23:58.051	I	LOOP	tick #0 (idle)
+12:23:59.052	I	LOOP	tick #0 (idle)
+12:24:00.054	I	LOOP	tick #0 (idle)
+12:24:01.055	I	LOOP	tick #0 (idle)
+12:24:02.057	I	LOOP	tick #0 (idle)
+12:24:03.066	I	LOOP	tick #0 (idle)
+12:24:04.068	I	LOOP	tick #0 (idle)
+12:24:05.069	I	LOOP	tick #0 (idle)
+12:24:06.070	I	LOOP	tick #0 (idle)
+12:24:07.072	I	LOOP	tick #0 (idle)
+12:24:08.074	I	LOOP	tick #0 (idle)
+12:24:08.498	I	TEST	navmap(0x8002) fire rc=0 maneuvers=[11, 2] packed=true
+12:24:09.075	I	LOOP	tick #0 (idle)
+12:24:10.076	I	LOOP	tick #0 (idle)
+12:24:11.077	I	LOOP	tick #0 (idle)
+12:24:12.081	I	LOOP	tick #0 (idle)
+12:24:13.083	I	LOOP	tick #0 (idle)
+12:24:14.099	I	LOOP	tick #0 (idle)
+12:24:15.109	I	LOOP	tick #0 (idle)
+12:24:16.321	I	LOOP	tick #0 (idle)
+12:24:17.348	I	LOOP	tick #0 (idle)
+12:24:18.362	I	LOOP	tick #0 (idle)
+12:24:19.376	I	LOOP	tick #0 (idle)
+12:24:20.422	I	LOOP	tick #0 (idle)
+12:24:21.426	I	LOOP	tick #0 (idle)
+12:24:22.428	I	LOOP	tick #0 (idle)
+12:24:23.429	I	LOOP	tick #0 (idle)
+12:24:24.432	I	LOOP	tick #0 (idle)
+12:24:25.434	I	LOOP	tick #0 (idle)
+12:24:26.435	I	LOOP	tick #0 (idle)
+12:24:27.438	I	LOOP	tick #0 (idle)
+12:24:28.440	I	LOOP	tick #0 (idle)
+12:24:29.442	I	LOOP	tick #0 (idle)
+12:24:30.445	I	LOOP	tick #0 (idle)
+12:24:31.521	I	LOOP	tick #0 (idle)
+12:24:32.522	I	LOOP	tick #0 (idle)
+12:24:33.524	I	LOOP	tick #0 (idle)
+12:24:34.526	I	LOOP	tick #0 (idle)
+12:24:35.528	I	LOOP	tick #0 (idle)
+12:24:36.531	I	LOOP	tick #0 (idle)
+12:24:37.532	I	LOOP	tick #0 (idle)
+12:24:38.537	I	LOOP	tick #0 (idle)
+12:24:39.543	I	LOOP	tick #0 (idle)
+12:24:40.544	I	LOOP	tick #0 (idle)
+12:24:41.546	I	LOOP	tick #0 (idle)
+12:24:42.547	I	LOOP	tick #0 (idle)
+12:24:43.514	I	!YNDX	=== YANDEX NAVI OFF ===
+12:24:43.538	I	SIPBR	stopService(0x4010a00018001) rc=1
+12:24:43.541	I	SIPBR	unbound
+12:24:43.547	I	FGS	destroyed
+12:24:43.548	I	LOOP	stopped
+12:24:50.516	I	!YNDX	=== YANDEX NAVI ON ===
+12:24:50.532	I	FGS	created
+12:24:50.547	I	SIPBR	bind server rc=true attempt=#0
+12:24:50.559	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+12:24:50.752	I	SIPBR	registerCallback rc=0
+12:24:50.761	I	SIPBR	startService(0xb010a00010000) rc=0
+12:24:50.766	I	FGS	startService rc=0
+12:24:50.768	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+12:24:50.770	I	LOOP	tick #0 (idle)
+12:24:51.772	I	LOOP	tick #0 (idle)
+12:24:52.777	I	LOOP	tick #0 (idle)
+12:24:53.836	I	LOOP	tick #0 (idle)
+12:24:54.957	I	LOOP	tick #0 (idle)
+12:24:56.017	I	LOOP	tick #0 (idle)
+12:24:57.020	I	LOOP	tick #0 (idle)
+12:24:58.022	I	LOOP	tick #0 (idle)
+12:24:59.024	I	LOOP	tick #0 (idle)
+12:25:00.025	I	LOOP	tick #0 (idle)
+12:25:01.026	I	LOOP	tick #0 (idle)
+12:25:02.027	I	LOOP	tick #0 (idle)
+12:25:03.029	I	LOOP	tick #0 (idle)
+12:25:04.030	I	LOOP	tick #0 (idle)
+12:25:05.031	I	LOOP	tick #0 (idle)
+12:25:06.033	I	LOOP	tick #0 (idle)
+12:25:07.034	I	LOOP	tick #0 (idle)
+12:25:08.036	I	LOOP	tick #0 (idle)
+12:25:09.037	I	LOOP	tick #0 (idle)
+12:25:10.038	I	LOOP	tick #0 (idle)
+12:25:11.039	I	LOOP	tick #0 (idle)
+12:25:12.040	I	LOOP	tick #0 (idle)
+12:25:13.041	I	LOOP	tick #0 (idle)
+12:25:14.042	I	LOOP	tick #0 (idle)
+12:25:15.044	I	LOOP	tick #0 (idle)
+12:25:16.045	I	LOOP	tick #0 (idle)
+12:25:16.121	I	!YNDX	=== YANDEX NAVI OFF ===
+12:25:16.157	I	SIPBR	stopService(0x4010a00018001) rc=1
+12:25:16.161	I	SIPBR	unbound
+12:25:16.164	I	FGS	destroyed
+12:25:17.046	I	LOOP	stopped

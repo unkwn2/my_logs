@@ -1,0 +1,54 @@
+10:43:29.987	I	YandexNotif	listener connected
+10:43:30.018	I	YA11Y	connected
+10:43:30.832	I	!YNDX	=== YANDEX NAVI ON ===
+10:43:30.853	I	FGS	created
+10:43:30.866	I	SIPBR	bind server rc=true attempt=#0
+10:43:30.870	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+10:43:31.068	I	SIPBR	registerCallback rc=0
+10:43:31.078	I	SIPBR	startService(0xb010a00010000) rc=0
+10:43:31.079	I	FGS	startService rc=0
+10:43:31.083	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+10:43:31.085	I	LOOP	tick #0 (idle)
+10:43:32.086	I	LOOP	tick #0 (idle)
+10:43:33.087	I	LOOP	tick #0 (idle)
+10:43:34.088	I	LOOP	tick #0 (idle)
+10:43:35.089	I	LOOP	tick #0 (idle)
+10:43:36.090	I	LOOP	tick #0 (idle)
+10:43:37.091	I	LOOP	tick #0 (idle)
+10:43:38.093	I	LOOP	tick #0 (idle)
+10:43:39.094	I	LOOP	tick #0 (idle)
+10:43:40.095	I	LOOP	tick #0 (idle)
+10:43:41.096	I	LOOP	tick #0 (idle)
+10:43:42.098	I	LOOP	tick #0 (idle)
+10:43:43.099	I	LOOP	tick #0 (idle)
+10:43:44.100	I	LOOP	tick #0 (idle)
+10:43:45.102	I	LOOP	tick #0 (idle)
+10:43:46.103	I	LOOP	tick #0 (idle)
+10:43:47.064	I	YA11Y	node d=5 vid=com.android.launcher3:id/home_time cls=android.widget.TextView t='10:43' desc=''
+10:43:47.123	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date cls=android.widget.TextView t='06/06' desc=''
+10:43:47.105	I	LOOP	tick #0 (idle)
+10:43:47.126	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date_week cls=android.widget.TextView t='Sat' desc=''
+10:43:47.236	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:43:47.633	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:43:49.042	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=200m road='улица Вакуленчука' eta=0s maps=true
+10:43:57.275	I	LOOP	tick #10 rc=0 m=11(GAODE) tag=f28 pk d=200
+10:44:07.383	I	LOOP	tick #20 rc=0 m=11(GAODE) tag=f28 pk d=200
+10:44:17.510	I	LOOP	tick #30 rc=0 m=11(GAODE) tag=f28 pk d=200
+10:44:42.370	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:44:42.669	I	YA11Y	node d=23 vid=ru.yandex.yandexmaps:id/view_navi_mini_player_title cls=android.widget.TextView t='Нежность' desc=''
+10:44:42.672	I	YA11Y	node d=23 vid=ru.yandex.yandexmaps:id/view_navi_mini_player_subtitle cls=android.widget.TextView t='HOLLYFLAME' desc=''
+10:44:42.674	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc=''
+10:44:42.676	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:48' desc=''
+10:44:42.682	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc=''
+10:44:42.683	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='210' desc=''
+10:44:42.685	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:44:42.688	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:44:42.694	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:44:42.704	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='40' desc=''
+10:44:42.709	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:44:42.716	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:44:43.373	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:44:43.954	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='ул. Вакуленчука' eta=240s balloon=true
+10:44:45.597	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=200m road='улица Вакуленчука' eta=0s maps=true
+10:44:50.615	I	LOOP	tick #40 rc=0 m=11(GAODE) tag=f28 pk d=200
+10:45:00.721	I	LOOP	tick #50 rc=0 m=11(GAODE) tag=f28 pk d=200

@@ -1,0 +1,234 @@
+10:36:46.703	I	YA11Y	connected
+10:36:46.738	I	YandexNotif	listener connected
+10:36:47.205	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1580m road='налево' eta=0s maps=true
+10:36:47.612	I	!YNDX	=== YANDEX NAVI ON ===
+10:36:47.634	I	FGS	created
+10:36:47.652	I	SIPBR	bind server rc=true attempt=#0
+10:36:47.684	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+10:36:47.854	I	SIPBR	registerCallback rc=0
+10:36:47.881	I	SIPBR	startService(0xb010a00010000) rc=0
+10:36:47.882	I	FGS	startService rc=0
+10:36:47.884	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+10:36:48.215	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1480m road='налево' eta=0s maps=true
+10:36:49.220	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1420m road='налево' eta=0s maps=true
+10:36:50.225	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1380m road='налево' eta=0s maps=true
+10:36:51.278	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1350m road='налево' eta=0s maps=true
+10:36:52.283	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1320m road='налево' eta=0s maps=true
+10:36:53.320	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1290m road='налево' eta=0s maps=true
+10:36:54.348	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1250m road='налево' eta=0s maps=true
+10:36:55.361	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1220m road='налево' eta=0s maps=true
+10:36:56.379	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1190m road='налево' eta=0s maps=true
+10:36:57.007	I	LOOP	tick #10 rc=0 m=1(GAODE) tag=f28 pk d=1190
+10:36:57.420	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1160m road='налево' eta=0s maps=true
+10:36:58.431	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1130m road='налево' eta=0s maps=true
+10:36:59.461	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1100m road='налево' eta=0s maps=true
+10:37:00.425	I	UI	enum mode = v33
+10:37:00.515	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1410m road='налево' eta=0s maps=true
+10:37:01.497	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1390m road='налево' eta=0s maps=true
+10:37:02.518	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1370m road='налево' eta=0s maps=true
+10:37:02.544	I	UI	enum mode = GAODE
+10:37:03.556	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1350m road='налево' eta=0s maps=true
+10:37:04.563	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1330m road='налево' eta=0s maps=true
+10:37:05.599	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1310m road='налево' eta=0s maps=true
+10:37:06.609	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1290m road='налево' eta=0s maps=true
+10:37:07.121	I	LOOP	tick #20 rc=0 m=1(GAODE) tag=f28 pk d=1290
+10:37:07.634	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1270m road='налево' eta=0s maps=true
+10:37:08.012	I	TEST	testLanes=true
+10:37:08.671	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1250m road='налево' eta=0s maps=true
+10:37:09.682	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1230m road='налево' eta=0s maps=true
+10:37:10.718	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1210m road='налево' eta=0s maps=true
+10:37:11.742	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1190m road='налево' eta=0s maps=true
+10:37:12.752	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1170m road='налево' eta=0s maps=true
+10:37:13.777	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1150m road='налево' eta=0s maps=true
+10:37:14.800	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1140m road='налево' eta=0s maps=true
+10:37:15.811	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1130m road='налево' eta=0s maps=true
+10:37:16.848	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1120m road='налево' eta=0s maps=true
+10:37:17.233	I	LOOP	tick #30 rc=0 m=1(GAODE) tag=f28 pk d=1120
+10:37:17.841	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1110m road='налево' eta=0s maps=true
+10:37:20.396	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1100m road='налево' eta=0s maps=true
+10:37:21.478	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1090m road='налево' eta=0s maps=true
+10:37:22.500	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1080m road='налево' eta=0s maps=true
+10:37:23.516	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1070m road='налево' eta=0s maps=true
+10:37:24.534	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1050m road='налево' eta=0s maps=true
+10:37:25.574	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1040m road='налево' eta=0s maps=true
+10:37:26.608	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1020m road='налево' eta=0s maps=true
+10:37:27.326	I	LOOP	tick #40 rc=0 m=1(GAODE) tag=f28 pk d=1020
+10:37:27.634	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1010m road='налево' eta=0s maps=true
+10:37:28.140	I	SIPBR	client connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpClientService}
+10:37:28.323	I	SIPBR	sniffer: registering client callback...
+10:37:28.326	I	SIPBR	sniffer: regCb rc=0
+10:37:28.635	I	SIPBR	sniffer subscribe(0x4010a00018001) rc=11
+10:37:28.640	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=990m road='налево' eta=0s maps=true
+10:37:28.787	I	SIPBR	sniffer active — waiting for events
+10:37:29.651	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=980m road='налево' eta=0s maps=true
+10:37:29.971	I	TEST	testLanes=false
+10:37:30.694	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=960m road='налево' eta=0s maps=true
+10:37:31.721	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=950m road='налево' eta=0s maps=true
+10:37:32.094	I	TEST	testLanes=true
+10:37:32.739	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1050m road='налево' eta=0s maps=true
+10:37:33.125	I	TEST	testLanes=false
+10:37:33.759	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1040m road='налево' eta=0s maps=true
+10:37:34.791	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1030m road='налево' eta=0s maps=true
+10:37:35.824	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1020m road='налево' eta=0s maps=true
+10:37:36.834	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=1000m road='налево' eta=0s maps=true
+10:37:37.454	I	LOOP	tick #50 rc=0 m=1(GAODE) tag=f28 pk d=1000
+10:37:37.860	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=990m road='налево' eta=0s maps=true
+10:37:38.892	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=980m road='налево' eta=0s maps=true
+10:37:39.919	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=970m road='налево' eta=0s maps=true
+10:37:40.960	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=960m road='налево' eta=0s maps=true
+10:37:41.984	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=950m road='налево' eta=0s maps=true
+10:37:42.996	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=940m road='налево' eta=0s maps=true
+10:37:44.004	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=920m road='налево' eta=0s maps=true
+10:37:45.022	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=890m road='налево' eta=0s maps=true
+10:37:46.048	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=860m road='налево' eta=0s maps=true
+10:37:47.065	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=820m road='налево' eta=0s maps=true
+10:37:47.521	I	LOOP	tick #60 rc=0 m=1(GAODE) tag=f28 pk d=820
+10:37:48.104	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=800m road='налево' eta=0s maps=true
+10:37:49.119	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=780m road='налево' eta=0s maps=true
+10:37:50.149	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=760m road='налево' eta=0s maps=true
+10:37:51.170	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=750m road='налево' eta=0s maps=true
+10:37:52.215	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=740m road='налево' eta=0s maps=true
+10:37:53.241	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=720m road='налево' eta=0s maps=true
+10:37:54.259	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=710m road='налево' eta=0s maps=true
+10:37:55.297	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=690m road='налево' eta=0s maps=true
+10:37:56.323	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=800m road='налево' eta=0s maps=true
+10:37:57.344	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=790m road='налево' eta=0s maps=true
+10:37:57.583	I	LOOP	tick #70 rc=0 m=1(GAODE) tag=f28 pk d=790
+10:37:58.356	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=780m road='налево' eta=0s maps=true
+10:37:59.370	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=770m road='налево' eta=0s maps=true
+10:38:00.154	I	TEST	navmap(0x8002) fire rc=0 maneuvers=[1, 2] packed=true
+10:38:00.417	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=760m road='налево' eta=0s maps=true
+10:38:01.442	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=750m road='налево' eta=0s maps=true
+10:38:02.464	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=740m road='налево' eta=0s maps=true
+10:38:03.495	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=730m road='налево' eta=0s maps=true
+10:38:04.537	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=720m road='налево' eta=0s maps=true
+10:38:04.961	I	TEST	nextNextManeuver=2 (exp.A: f8 inside 0x8001)
+10:38:05.530	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=710m road='налево' eta=0s maps=true
+10:38:06.560	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=700m road='налево' eta=0s maps=true
+10:38:07.593	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=690m road='налево' eta=0s maps=true
+10:38:07.662	I	LOOP	tick #80 rc=0 m=1(GAODE) tag=f28 pk d=690
+10:38:07.884	I	TEST	nextNextManeuver=0 (exp.A: f8 inside 0x8001)
+10:38:08.610	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=680m road='налево' eta=0s maps=true
+10:38:09.624	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=670m road='налево' eta=0s maps=true
+10:38:10.650	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=660m road='налево' eta=0s maps=true
+10:38:10.750	I	TEST	nextNextManeuver=2 (exp.A: f8 inside 0x8001)
+10:38:11.689	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=650m road='налево' eta=0s maps=true
+10:38:11.852	I	TEST	nextNextManeuver=0 (exp.A: f8 inside 0x8001)
+10:38:12.681	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=820m road='налево' eta=0s maps=true
+10:38:13.693	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=810m road='налево' eta=0s maps=true
+10:38:14.703	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=780m road='налево' eta=0s maps=true
+10:38:15.077	I	TEST	nextNextManeuver=2 (exp.A: f8 inside 0x8001)
+10:38:15.718	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=730m road='налево' eta=0s maps=true
+10:38:16.754	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=670m road='налево' eta=0s maps=true
+10:38:17.753	I	LOOP	tick #90 rc=0 m=1(GAODE) tag=f28 pk d=670
+10:38:17.782	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=610m road='налево' eta=0s maps=true
+10:38:18.807	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=570m road='налево' eta=0s maps=true
+10:38:19.816	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=530m road='налево' eta=0s maps=true
+10:38:20.839	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=740m road='налево' eta=0s maps=true
+10:38:21.857	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=720m road='налево' eta=0s maps=true
+10:38:22.887	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=690m road='налево' eta=0s maps=true
+10:38:23.249	I	TEST	maneuver=LEFT code=2 gaode=1 tag=f28 enum=GAODE
+10:38:23.906	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=670m road='налево' eta=0s maps=true
+10:38:24.921	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=640m road='налево' eta=0s maps=true
+10:38:25.720	I	TEST	maneuver=RIGHT code=3 gaode=2 tag=f28 enum=GAODE
+10:38:25.979	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=620m road='налево' eta=0s maps=true
+10:38:26.987	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=590m road='налево' eta=0s maps=true
+10:38:27.812	I	LOOP	tick #100 rc=0 m=2(GAODE) tag=f28 pk d=500
+10:38:27.835	I	TEST	maneuver=STRAIGHT code=9 gaode=11 tag=f28 enum=GAODE
+10:38:27.998	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=570m road='налево' eta=0s maps=true
+10:38:29.023	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=540m road='налево' eta=0s maps=true
+10:38:30.200	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=510m road='налево' eta=0s maps=true
+10:38:31.194	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=490m road='налево' eta=0s maps=true
+10:38:32.216	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=460m road='налево' eta=0s maps=true
+10:38:32.768	I	TEST	navmap(0x8002) fire rc=0 maneuvers=[11, 2] packed=true
+10:38:33.238	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=440m road='налево' eta=0s maps=true
+10:38:34.255	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=410m road='налево' eta=0s maps=true
+10:38:35.297	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=390m road='налево' eta=0s maps=true
+10:38:36.310	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=640m road='налево' eta=0s maps=true
+10:38:37.330	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=630m road='налево' eta=0s maps=true
+10:38:37.920	I	LOOP	tick #110 rc=0 m=11(GAODE) tag=f28 pk d=500
+10:38:38.357	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=610m road='налево' eta=0s maps=true
+10:38:38.487	I	TEST	nextNextManeuver=0 (exp.A: f8 inside 0x8001)
+10:38:39.378	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=600m road='налево' eta=0s maps=true
+10:38:40.404	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=580m road='налево' eta=0s maps=true
+10:38:41.421	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=570m road='налево' eta=0s maps=true
+10:38:42.051	I	TEST	nextNextManeuver=2 (exp.A: f8 inside 0x8001)
+10:38:42.416	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=550m road='налево' eta=0s maps=true
+10:38:43.448	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=530m road='налево' eta=0s maps=true
+10:38:43.641	I	TEST	nextNextManeuver=0 (exp.A: f8 inside 0x8001)
+10:38:44.469	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=510m road='налево' eta=0s maps=true
+10:38:45.500	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=490m road='налево' eta=0s maps=true
+10:38:46.542	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=460m road='налево' eta=0s maps=true
+10:38:47.563	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=430m road='налево' eta=0s maps=true
+10:38:47.994	I	LOOP	tick #120 rc=0 m=11(GAODE) tag=f28 pk d=430
+10:38:48.600	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=410m road='налево' eta=0s maps=true
+10:38:49.602	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=390m road='налево' eta=0s maps=true
+10:38:50.635	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=380m road='налево' eta=0s maps=true
+10:38:51.680	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=360m road='налево' eta=0s maps=true
+10:38:52.058	I	UI	usePacked=false
+10:38:52.697	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=340m road='налево' eta=0s maps=true
+10:38:53.733	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=320m road='налево' eta=0s maps=true
+10:38:54.763	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=310m road='налево' eta=0s maps=true
+10:38:55.797	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=290m road='налево' eta=0s maps=true
+10:38:56.820	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=270m road='налево' eta=0s maps=true
+10:38:56.843	I	TEST	testLanes=true
+10:38:57.847	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=260m road='налево' eta=0s maps=true
+10:38:58.057	I	LOOP	tick #130 rc=0 m=11(GAODE) tag=f28 np d=260
+10:38:58.883	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=240m road='налево' eta=0s maps=true
+10:38:59.257	I	TEST	testLanes=false
+10:38:59.916	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=220m road='налево' eta=0s maps=true
+10:39:00.941	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=200m road='налево' eta=0s maps=true
+10:39:01.466	I	UI	usePacked=true
+10:39:01.944	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=190m road='налево' eta=0s maps=true
+10:39:02.962	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=170m road='налево' eta=0s maps=true
+10:39:03.969	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='налево' eta=0s maps=true
+10:39:05.017	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=130m road='налево' eta=0s maps=true
+10:39:06.045	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=120m road='налево' eta=0s maps=true
+10:39:07.090	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='налево' eta=0s maps=true
+10:39:08.097	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=80m road='налево' eta=0s maps=true
+10:39:08.137	I	LOOP	tick #140 rc=0 m=11(GAODE) tag=f28 pk d=80
+10:39:09.122	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=70m road='налево' eta=0s maps=true
+10:39:10.164	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=60m road='налево' eta=0s maps=true
+10:39:11.171	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=50m road='налево' eta=0s maps=true
+10:39:13.001	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=40m road='налево' eta=0s maps=true
+10:39:14.300	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=30m road='налево' eta=0s maps=true
+10:39:16.370	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=20m road='налево' eta=0s maps=true
+10:39:17.195	I	YA11Y	node d=5 vid=com.android.launcher3:id/home_time cls=android.widget.TextView t='10:39' desc=''
+10:39:17.205	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date cls=android.widget.TextView t='06/06' desc=''
+10:39:17.211	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date_week cls=android.widget.TextView t='Sat' desc=''
+10:39:17.996	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=110m road='' eta=240s balloon=true
+10:39:18.043	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:39:18.217	I	LOOP	tick #150 rc=0 m=11(GAODE) tag=f28 pk d=110
+10:39:19.396	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=90m road='' eta=240s balloon=true
+10:39:20.244	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=90m road='' eta=240s balloon=true
+10:39:20.690	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=80m road='налево' eta=0s maps=true
+10:39:21.708	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=70m road='налево' eta=0s maps=true
+10:39:22.756	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=60m road='налево' eta=0s maps=true
+10:39:24.169	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=50m road='налево' eta=0s maps=true
+10:39:25.717	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=40m road='налево' eta=0s maps=true
+10:39:27.347	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=30m road='налево' eta=0s maps=true
+10:39:28.318	I	LOOP	tick #160 rc=0 m=11(GAODE) tag=f28 pk d=30
+10:39:28.871	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=20m road='налево' eta=0s maps=true
+10:39:30.485	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=10m road='налево' eta=0s maps=true
+10:39:32.620	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=120m road='налево' eta=0s maps=true
+10:39:33.662	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=110m road='налево' eta=0s maps=true
+10:39:36.868	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='налево' eta=0s maps=true
+10:39:38.432	I	LOOP	tick #170 rc=0 m=11(GAODE) tag=f28 pk d=100
+10:39:40.832	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=90m road='налево' eta=0s maps=true
+10:39:43.654	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=80m road='налево' eta=0s maps=true
+10:39:44.687	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=60m road='налево' eta=0s maps=true
+10:39:45.698	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=10m road='налево' eta=0s maps=true
+10:39:46.729	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=390m road='Камера контроля скорости' eta=0s maps=true
+10:39:47.748	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=340m road='Камера контроля скорости' eta=0s maps=true
+10:39:48.515	I	LOOP	tick #180 rc=0 m=11(GAODE) tag=f28 pk d=340
+10:39:48.772	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=310m road='Камера контроля скорости' eta=0s maps=true
+10:39:49.802	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=300m road='Камера контроля скорости' eta=0s maps=true
+10:39:50.821	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=299m road='Камера контроля скорости' eta=0s maps=true
+10:39:51.844	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=297m road='Камера контроля скорости' eta=0s maps=true
+10:39:52.888	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=296m road='Камера контроля скорости' eta=0s maps=true
+10:39:53.880	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=294m road='Камера контроля скорости' eta=0s maps=true
+10:39:54.898	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=288m road='Камера контроля скорости' eta=0s maps=true
+10:39:55.913	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=279m road='Камера контроля скорости' eta=0s maps=true
+10:39:56.933	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=450m road='Камера контроля скорости' eta=0s maps=true
+10:39:58.598	I	LOOP	tick #190 rc=0 m=11(GAODE) tag=f28 pk d=450
+10:40:08.681	I	LOOP	tick #200 rc=0 m=11(GAODE) tag=f28 pk d=450

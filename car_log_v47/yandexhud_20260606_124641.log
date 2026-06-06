@@ -1,0 +1,14 @@
+12:46:42.407	I	LOOP	tick #50 rc=0 m=11(GAODE) tag=f28 pk d=50
+12:46:52.522	I	LOOP	tick #60 rc=0 m=11(GAODE) tag=f28 pk d=50
+12:47:17.310	I	!YNDX	=== YANDEX NAVI ON ===
+12:47:40.619	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=false
+12:47:40.684	I	LOOP	tick #70 rc=0 m=11(GAODE) tag=f28 pk d=50
+12:47:51.746	I	LOOP	tick #80 rc=0 m=11(GAODE) tag=f28 pk d=50
+12:47:53.965	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:47:54.932	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:47:56.016	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:47:57.006	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:47:58.037	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:47:59.072	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:48:00.096	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false
+12:48:01.135	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=50m road='проспект Октябрьской Революции' eta=0s maps=false

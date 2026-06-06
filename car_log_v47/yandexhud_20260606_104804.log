@@ -1,0 +1,502 @@
+10:48:04.995	I	YA11Y	connected
+10:48:05.019	I	YandexNotif	listener connected
+10:48:05.139	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=400m road='Камера контроля скорости' eta=0s maps=true
+10:48:06.322	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=390m road='Камера контроля скорости' eta=0s maps=true
+10:48:07.276	I	!YNDX	=== YANDEX NAVI ON ===
+10:48:07.303	I	FGS	created
+10:48:07.310	I	SIPBR	bind server rc=true attempt=#0
+10:48:07.312	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+10:48:07.314	I	SIPBR	registerCallback rc=0
+10:48:07.329	I	SIPBR	startService(0xb010a00010000) rc=0
+10:48:07.331	I	FGS	startService rc=0
+10:48:07.337	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+10:48:07.902	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=380m road='Камера контроля скорости' eta=0s maps=true
+10:48:09.507	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=370m road='Камера контроля скорости' eta=0s maps=true
+10:48:11.118	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=360m road='Камера контроля скорости' eta=0s maps=true
+10:48:12.158	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=410m road='Камера контроля скорости' eta=0s maps=true
+10:48:13.166	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=400m road='Камера контроля скорости' eta=0s maps=true
+10:48:14.194	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=400m road='Камера контроля скорости' eta=0s maps=true
+10:48:15.487	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=390m road='Камера контроля скорости' eta=0s maps=true
+10:48:16.424	I	LOOP	tick #10 rc=0 m=11(GAODE) tag=f28 pk d=390
+10:48:17.550	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=380m road='Камера контроля скорости' eta=0s maps=true
+10:48:19.093	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=370m road='Камера контроля скорости' eta=0s maps=true
+10:48:20.106	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=410m road='Камера контроля скорости' eta=0s maps=true
+10:48:26.531	I	LOOP	tick #20 rc=0 m=11(GAODE) tag=f28 pk d=410
+10:48:27.964	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=400m road='Камера контроля скорости' eta=0s maps=true
+10:48:28.977	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=390m road='Камера контроля скорости' eta=0s maps=true
+10:48:29.982	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=370m road='Камера контроля скорости' eta=0s maps=true
+10:48:31.028	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=330m road='Камера контроля скорости' eta=0s maps=true
+10:48:32.046	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=297m road='Камера контроля скорости' eta=0s maps=true
+10:48:33.074	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=279m road='Камера контроля скорости' eta=0s maps=true
+10:48:34.095	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=273m road='Камера контроля скорости' eta=0s maps=true
+10:48:35.109	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=268m road='Камера контроля скорости' eta=0s maps=true
+10:48:36.233	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=263m road='Камера контроля скорости' eta=0s maps=true
+10:48:36.646	I	LOOP	tick #30 rc=0 m=11(GAODE) tag=f28 pk d=263
+10:48:37.236	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=257m road='Камера контроля скорости' eta=0s maps=true
+10:48:37.352	I	YandexNotif	removed — debounce 3000ms
+10:48:40.353	I	YandexNotif	removed after debounce — deactivating HUD
+10:48:40.876	I	YA11Y	nodes=64 first 10:
+10:48:40.902	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Image' desc='Image'
+10:48:40.905	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Voice Assistant' desc='Voice Assistant'
+10:48:40.907	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Smart Charging' desc='Smart Charging'
+10:48:40.912	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='YunNian' desc='YunNian'
+10:48:40.915	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Bluetooth Phone' desc='Bluetooth Phone'
+10:48:40.963	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='App Store' desc='App Store'
+10:48:40.976	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Music' desc='Music'
+10:48:40.987	I	YA11Y	node d=12 vid= cls=android.widget.TextView t='Camera' desc='Camera'
+10:48:40.993	I	YA11Y	node d=12 vid= cls=android.widget.FrameLayout t='' desc='Folder: Utility Tools'
+10:48:40.999	I	YA11Y	node d=13 vid=com.android.launcher3:id/folder_icon_name cls=android.widget.TextView t='Utility Tools' desc=''
+10:48:58.609	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=false
+10:49:04.933	I	LOOP	tick #40 rc=0 m=11(GAODE) tag=f28 pk d=257
+10:49:15.071	I	LOOP	tick #50 rc=0 m=11(GAODE) tag=f28 pk d=257
+10:49:25.268	I	LOOP	tick #60 rc=0 m=11(GAODE) tag=f28 pk d=257
+10:49:40.495	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:49:41.524	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:49:42.543	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:49:43.564	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:49:44.577	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=600m road='' eta=0s maps=false
+10:49:45.604	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=600m road='' eta=0s maps=false
+10:49:46.620	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1200m road='' eta=0s maps=false
+10:49:47.429	I	LOOP	tick #70 rc=0 m=11(GAODE) tag=f28 pk d=1200
+10:49:47.652	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:48.694	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:49.703	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:50.742	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:51.762	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:52.779	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:53.802	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:54.838	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:55.864	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:56.911	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:57.486	I	LOOP	tick #80 rc=0 m=11(GAODE) tag=f28 pk d=1000
+10:49:57.922	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:49:58.977	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:00.002	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:01.020	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:02.065	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:03.118	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:04.154	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:05.191	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:06.231	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:07.250	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:07.559	I	LOOP	tick #90 rc=0 m=11(GAODE) tag=f28 pk d=1000
+10:50:08.293	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:09.326	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:10.338	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:11.366	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:12.393	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:13.934	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:14.969	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=1000m road='' eta=0s maps=false
+10:50:15.987	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:17.023	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:17.636	I	LOOP	tick #100 rc=0 m=11(GAODE) tag=f28 pk d=700
+10:50:18.054	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:19.076	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:20.107	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:21.148	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:22.183	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:23.215	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:24.240	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:25.378	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:26.396	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:27.434	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:27.716	I	LOOP	tick #110 rc=0 m=11(GAODE) tag=f28 pk d=700
+10:50:28.496	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:29.494	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:30.516	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:31.544	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:32.996	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:34.842	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:35.918	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:50:37.303	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=false
+10:50:37.625	I	YA11Y	=== FULL DUMP (13 nodes) ===
+10:50:37.639	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:50:37.696	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:50:37.725	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:50:37.740	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:53' desc='Время прибытия 10:53'
+10:50:37.745	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:50:37.755	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:50:37.766	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:50:37.784	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:50:37.789	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:50:37.832	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:50:37.842	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:50:37.855	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:50:37.867	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:50:37.876	I	YA11Y	=== END DUMP ===
+10:50:37.885	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:50:37.888	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:50:37.891	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:50:37.894	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:53' desc='Время прибытия 10:53'
+10:50:37.898	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:50:37.928	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:50:37.941	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:50:37.952	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:50:37.956	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:50:37.974	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:50:37.979	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:50:37.985	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:50:37.991	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:50:37.995	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:38.015	I	LOOP	tick #120 rc=0 m=11(GAODE) tag=f28 pk d=700
+10:50:39.013	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:39.818	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:41.070	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:42.713	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:43.316	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:50:43.361	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:50:43.383	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Настройки'
+10:50:43.395	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Закладки'
+10:50:43.398	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Страховка поездок'
+10:50:43.407	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Заправки'
+10:50:43.416	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Музыка'
+10:50:43.425	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/navi_guidance_toolbar_icon cls=android.widget.Button t='' desc='Поиск мест и адресов'
+10:50:43.441	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:50:43.449	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:50:43.464	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:53' desc='Время прибытия 10:53'
+10:50:43.466	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:50:43.469	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:50:43.472	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:50:43.474	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:50:43.477	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:50:43.487	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:50:43.491	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:50:43.496	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:50:43.501	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:45.065	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:46.509	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:47.080	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:48.158	I	LOOP	tick #130 rc=0 m=9(GAODE) tag=f28 pk d=700
+10:50:49.001	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:50:49.004	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:50:49.021	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:50:49.030	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:50:49.032	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:53' desc='Время прибытия 10:53'
+10:50:49.040	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:50:49.043	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:50:49.060	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:50:49.067	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:50:49.082	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:50:49.085	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:50:49.090	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:50:49.095	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:51.016	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:53.005	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:55.091	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:50:55.097	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:50:55.098	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:50:55.100	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:50:55.102	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:54' desc='Время прибытия 10:54'
+10:50:55.104	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:50:55.106	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:50:55.107	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:50:55.109	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:50:55.114	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:50:55.117	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:50:55.119	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:50:55.122	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:57.085	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:50:58.292	I	LOOP	tick #140 rc=0 m=9(GAODE) tag=f28 pk d=700
+10:50:59.021	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:01.014	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:51:01.016	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:51:01.018	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:51:01.024	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:51:01.028	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:54' desc='Время прибытия 10:54'
+10:51:01.030	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:51:01.032	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:51:01.039	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:51:01.043	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:51:01.047	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:51:01.053	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:51:01.056	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:51:01.061	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:03.031	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:05.027	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:07.029	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:51:07.035	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:51:07.037	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:51:07.042	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:51:07.057	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:54' desc='Время прибытия 10:54'
+10:51:07.061	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:51:07.064	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:51:07.066	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:51:07.069	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:51:07.070	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:51:07.072	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:51:07.074	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='60' desc='Ограничение 60'
+10:51:07.076	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:07.912	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:08.416	I	LOOP	tick #150 rc=0 m=9(GAODE) tag=f28 pk d=700
+10:51:09.059	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:11.041	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:13.023	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:51:13.025	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:51:13.026	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:51:13.029	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,5 км' desc='Осталось 1,5 км'
+10:51:13.031	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:54' desc='Время прибытия 10:54'
+10:51:13.032	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:51:13.034	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:51:13.035	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:51:13.037	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Разворот налево'
+10:51:13.040	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='700' desc=''
+10:51:13.043	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:51:13.053	I	YA11Y	pkg=ru.yandex.yandexnavi m=UTURN_LEFT d=700m road='' eta=180s balloon=true
+10:51:17.738	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=700m road='' eta=0s maps=false
+10:51:18.750	I	LOOP	tick #160 rc=0 m=9(GAODE) tag=f28 pk d=700
+10:51:18.858	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:20.962	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:21.904	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:22.971	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:24.000	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:25.064	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:26.030	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:27.106	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:28.162	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=150m road='Налево' eta=0s maps=false
+10:51:28.857	I	LOOP	tick #170 rc=0 m=1(GAODE) tag=f28 pk d=150
+10:51:29.693	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:30.676	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:31.747	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:32.761	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:33.842	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:34.807	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:35.865	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:36.866	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:37.960	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:38.976	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:39.076	I	LOOP	tick #180 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:51:39.998	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:41.013	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:42.008	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:43.044	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:44.065	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:45.097	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:46.153	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:47.209	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:48.190	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:49.219	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:49.273	I	LOOP	tick #190 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:51:50.228	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:51.247	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:52.276	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:53.307	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:54.293	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:55.356	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:56.337	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:57.370	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:58.392	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:51:59.391	I	LOOP	tick #200 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:51:59.433	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:00.484	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:01.497	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:02.546	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:03.577	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:04.590	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=100m road='Налево' eta=0s maps=false
+10:52:05.614	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=50m road='Налево' eta=0s maps=false
+10:52:06.983	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:07.084	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:07.136	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:07.149	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:52:07.171	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:55' desc='Время прибытия 10:55'
+10:52:07.176	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:52:07.189	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:07.195	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:07.203	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:07.211	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:52:07.216	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:07.220	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:07.227	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:07.269	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:07.342	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:07.370	I	YandexNotif	posted icon=notifications_app_logo m=2(LEFT) d=50m road='Налево' eta=0s maps=false
+10:52:07.794	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=false
+10:52:08.864	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:09.364	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:09.506	I	LOOP	tick #210 rc=0 m=1(GAODE) tag=f28 pk d=50
+10:52:10.528	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:12.851	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:12.853	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:12.859	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:12.861	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:52:12.864	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:55' desc='Время прибытия 10:55'
+10:52:12.865	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:52:12.866	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:12.868	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:12.870	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:12.871	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='50' desc=''
+10:52:12.873	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:12.874	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:12.875	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:12.877	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:13.360	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:14.849	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:16.868	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:17.712	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=240s balloon=true
+10:52:18.516	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:18.519	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:18.522	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:18.524	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,3 км' desc='Осталось 1,3 км'
+10:52:18.526	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:55' desc='Время прибытия 10:55'
+10:52:18.531	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:52:18.532	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:18.533	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:18.534	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:18.536	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='50' desc=''
+10:52:18.538	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:18.541	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:18.543	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:18.546	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:19.146	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:19.599	I	LOOP	tick #220 rc=0 m=1(GAODE) tag=f28 pk d=50
+10:52:20.940	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:22.858	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:24.868	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:24.870	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:24.871	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:24.872	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,3 км' desc='Осталось 1,3 км'
+10:52:24.874	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:55' desc='Время прибытия 10:55'
+10:52:24.875	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:52:24.880	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:24.881	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:24.892	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:24.893	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='50' desc=''
+10:52:24.896	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:24.898	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:24.900	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:26.888	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:28.866	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:29.700	I	LOOP	tick #230 rc=0 m=1(GAODE) tag=f28 pk d=50
+10:52:30.875	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:30.877	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:30.880	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:30.888	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,3 км' desc='Осталось 1,3 км'
+10:52:30.890	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:55' desc='Время прибытия 10:55'
+10:52:30.892	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:52:30.893	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:30.896	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:30.898	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:30.901	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='50' desc=''
+10:52:30.903	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:30.906	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:30.909	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:32.848	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:34.858	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:36.876	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:36.879	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:36.883	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:36.885	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,3 км' desc='Осталось 1,3 км'
+10:52:36.887	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:56' desc='Время прибытия 10:56'
+10:52:36.889	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='3 мин' desc='Осталось 3 мин'
+10:52:36.890	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:36.891	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:36.893	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:36.895	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='50' desc=''
+10:52:36.900	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:36.902	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:36.904	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:38.849	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:39.774	I	LOOP	tick #240 rc=0 m=1(GAODE) tag=f28 pk d=50
+10:52:41.055	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=50m road='' eta=180s balloon=true
+10:52:42.497	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:42.503	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:42.505	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:42.507	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:52:42.508	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:56' desc='Время прибытия 10:56'
+10:52:42.510	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:52:42.512	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:42.513	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:42.514	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:42.516	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:52:42.521	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:42.523	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:42.524	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:42.526	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:42.967	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:44.850	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:46.860	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:48.856	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:48.857	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:48.860	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:48.863	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:52:48.865	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:56' desc='Время прибытия 10:56'
+10:52:48.866	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:52:48.868	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:48.871	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:48.873	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:48.874	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:52:48.875	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:48.877	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:48.879	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:48.881	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:49.884	I	LOOP	tick #250 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:52:49.929	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:50.459	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:51.070	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:51.624	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:52.535	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:54.863	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:52:54.864	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:52:54.865	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:52:54.867	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:52:54.868	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:56' desc='Время прибытия 10:56'
+10:52:54.870	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:52:54.871	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:52:54.872	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:52:54.873	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:52:54.875	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:52:54.877	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:52:54.880	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:52:54.881	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:52:54.883	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:56.086	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:56.861	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:58.872	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:52:59.977	I	LOOP	tick #260 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:53:00.881	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:53:00.886	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:53:00.889	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:53:00.893	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:53:00.896	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:56' desc='Время прибытия 10:56'
+10:53:00.900	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:53:00.905	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:53:00.908	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:53:00.912	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:53:00.916	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:53:00.917	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:53:00.919	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:53:00.920	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:53:00.922	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:02.888	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:04.880	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:06.130	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:53:06.134	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:53:06.136	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:53:06.139	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:53:06.142	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:57' desc='Время прибытия 10:57'
+10:53:06.144	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:53:06.147	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:53:06.149	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:53:06.153	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:53:06.155	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:53:06.156	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:53:06.157	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:53:06.158	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:53:06.159	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:06.869	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:08.625	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:09.200	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true
+10:53:10.031	I	LOOP	tick #270 rc=0 m=1(GAODE) tag=f28 pk d=100
+10:53:11.168	I	YA11Y	node d=7 vid=ru.yandex.yandexnavi:id/activity_search_map_view cls=android.widget.RelativeLayout t='' desc='Карта'
+10:53:11.185	I	YA11Y	node d=11 vid=ru.yandex.yandexnavi:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:53:11.223	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/overviewicon cls=android.widget.ImageView t='' desc='Выбрать путь'
+10:53:11.229	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_distance cls=android.widget.TextView t='1,4 км' desc='Осталось 1,4 км'
+10:53:11.235	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_arrival cls=android.widget.TextView t='10:57' desc='Время прибытия 10:57'
+10:53:11.241	I	YA11Y	node d=22 vid=ru.yandex.yandexnavi:id/textview_eta_time cls=android.widget.TextView t='4 мин' desc='Осталось 4 мин'
+10:53:11.247	I	YA11Y	node d=21 vid=ru.yandex.yandexnavi:id/resetroutebutton2 cls=android.widget.ImageView t='' desc='Закрыть'
+10:53:11.253	I	YA11Y	node d=19 vid=ru.yandex.yandexnavi:id/status_panel_text cls=android.widget.TextView t='ул. Вакуленчука' desc=''
+10:53:11.259	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/image_maneuverballoon_maneuver cls=android.widget.ImageView t='' desc='Поверните налево'
+10:53:11.265	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_distance cls=android.widget.TextView t='100' desc=''
+10:53:11.271	I	YA11Y	node d=20 vid=ru.yandex.yandexnavi:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:53:11.276	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speed_value cls=android.widget.TextView t='0' desc='Скорость 0'
+10:53:11.281	I	YA11Y	node d=18 vid=ru.yandex.yandexnavi:id/text_speedlimit cls=android.widget.TextView t='20' desc='Ограничение 20'
+10:53:11.289	I	YA11Y	pkg=ru.yandex.yandexnavi m=LEFT d=100m road='' eta=240s balloon=true

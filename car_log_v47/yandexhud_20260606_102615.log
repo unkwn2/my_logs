@@ -1,0 +1,1424 @@
+10:26:21.403	I	!YNDX	=== YANDEX NAVI ON ===
+10:26:21.450	I	FGS	created
+10:26:21.463	I	SIPBR	bind server rc=true attempt=#0
+10:26:21.470	I	SIPBR	server connected ComponentInfo{com.ts.car.someip.service/com.ts.car.someip.service.manager.SomeIpServerService}
+10:26:21.668	I	SIPBR	registerCallback rc=0
+10:26:21.694	I	SIPBR	startService(0xb010a00010000) rc=0
+10:26:21.697	I	FGS	startService rc=0
+10:26:21.706	I	LOOP	started @ 1000ms tagIdx=0 gaode=true
+10:26:21.709	I	LOOP	tick #0 (idle)
+10:26:22.710	I	LOOP	tick #0 (idle)
+10:26:23.713	I	LOOP	tick #0 (idle)
+10:26:24.715	I	LOOP	tick #0 (idle)
+10:26:25.716	I	LOOP	tick #0 (idle)
+10:26:26.718	I	LOOP	tick #0 (idle)
+10:26:27.720	I	LOOP	tick #0 (idle)
+10:26:28.726	I	LOOP	tick #0 (idle)
+10:26:29.728	I	LOOP	tick #0 (idle)
+10:26:30.734	I	LOOP	tick #0 (idle)
+10:26:31.736	I	LOOP	tick #0 (idle)
+10:26:32.742	I	LOOP	tick #0 (idle)
+10:26:33.745	I	LOOP	tick #0 (idle)
+10:26:34.434	I	YA11Y	node d=5 vid=com.android.launcher3:id/home_time cls=android.widget.TextView t='10:26' desc=''
+10:26:34.514	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date cls=android.widget.TextView t='06/06' desc=''
+10:26:34.530	I	YA11Y	node d=6 vid=com.android.launcher3:id/home_date_week cls=android.widget.TextView t='Sat' desc=''
+10:26:34.751	I	LOOP	tick #0 (idle)
+10:26:35.785	I	LOOP	tick #0 (idle)
+10:26:36.793	I	LOOP	tick #0 (idle)
+10:26:37.822	I	LOOP	tick #0 (idle)
+10:26:38.836	I	LOOP	tick #0 (idle)
+10:26:39.850	I	LOOP	tick #0 (idle)
+10:26:41.141	I	LOOP	tick #0 (idle)
+10:26:42.206	I	LOOP	tick #0 (idle)
+10:26:43.215	I	LOOP	tick #0 (idle)
+10:26:44.227	I	LOOP	tick #0 (idle)
+10:26:45.233	I	LOOP	tick #0 (idle)
+10:26:46.235	I	LOOP	tick #0 (idle)
+10:26:47.240	I	LOOP	tick #0 (idle)
+10:26:48.242	I	LOOP	tick #0 (idle)
+10:26:49.248	I	LOOP	tick #0 (idle)
+10:26:50.259	I	LOOP	tick #0 (idle)
+10:26:51.261	I	LOOP	tick #0 (idle)
+10:26:52.273	I	LOOP	tick #0 (idle)
+10:26:53.275	I	LOOP	tick #0 (idle)
+10:26:54.277	I	LOOP	tick #0 (idle)
+10:26:54.410	I	YA11Y	node d=7 vid= cls=android.widget.Button t='' desc='Моё местоположение на карте'
+10:26:54.416	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Чем я могу помочь?' desc=''
+10:26:54.425	I	YA11Y	node d=11 vid=ru.yandex.yandexmaps:id/alice_oknyx cls=android.widget.Button t='' desc='Слушать'
+10:26:54.434	I	YA11Y	node d=16 vid=ru.yandex.yandexmaps:id/tab_navigation_hint cls=android.widget.TextView t='Поиск мест и адресов' desc=''
+10:26:54.467	I	YA11Y	node d=16 vid=ru.yandex.yandexmaps:id/tab_navigation_bookmarks cls=android.widget.ImageView t='' desc='Голосовой поиск'
+10:26:54.489	I	YA11Y	node d=19 vid=ru.yandex.yandexmaps:id/suggest_primary_text cls=android.widget.TextView t='Где поесть' desc=''
+10:26:54.511	I	YA11Y	node d=19 vid=ru.yandex.yandexmaps:id/suggest_primary_text cls=android.widget.TextView t='Продукты' desc=''
+10:26:54.519	I	YA11Y	node d=19 vid=ru.yandex.yandexmaps:id/suggest_primary_text cls=android.widget.TextView t='Аптеки' desc=''
+10:26:54.523	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/tab_navigation_tab_free_drive cls=android.widget.Button t='Навигатор' desc='Режим Навигатор'
+10:26:54.530	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/tab_navigation_tab_transport cls=android.widget.Button t='Транспорт' desc='Режим Транспорт'
+10:26:54.536	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/tab_navigation_tab_taxi cls=android.widget.Button t='Такси' desc='Режим Такси'
+10:26:54.570	I	YA11Y	node d=14 vid= cls=android.widget.Button t='' desc='Маршрут'
+10:26:54.581	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/control_profile_menu_icon cls=android.widget.ImageView t='' desc='Меню'
+10:26:54.584	I	YA11Y	node d=13 vid=ru.yandex.yandexmaps:id/control_layers_menu cls=android.widget.Button t='' desc='Слои'
+10:26:54.588	I	YA11Y	node d=14 vid=ru.yandex.yandexmaps:id/control_ruler_text cls=android.widget.TextView t='110 м' desc=''
+10:26:54.596	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/control_zoom_in_touch_zone cls=android.widget.Button t='' desc='Увеличить масштаб'
+10:26:54.600	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/control_zoom_out_touch_zone cls=android.widget.Button t='' desc='Уменьшить масштаб'
+10:26:54.613	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/control_position_combined_compass cls=android.widget.FrameLayout t='' desc='Кнопка местоположения – режим «Компас»'
+10:26:54.636	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/control_position_combined_find_me cls=android.widget.FrameLayout t='' desc='Кнопка местоположения'
+10:26:55.279	I	LOOP	tick #0 (idle)
+10:26:56.282	I	LOOP	tick #0 (idle)
+10:26:57.293	I	LOOP	tick #0 (idle)
+10:26:58.295	I	LOOP	tick #0 (idle)
+10:26:59.303	I	LOOP	tick #0 (idle)
+10:27:00.310	I	LOOP	tick #0 (idle)
+10:27:00.496	I	YA11Y	nodes=28 first 10:
+10:27:00.518	I	YA11Y	node d=7 vid= cls=android.widget.Button t='' desc='Моё местоположение на карте'
+10:27:00.586	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Поехали в Тюз' desc=''
+10:27:00.635	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Принято. Едем до "ТЮЗ" по адресу проспект Юрия Гагарина 16.' desc=''
+10:27:00.660	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что ты умеешь?'
+10:27:00.669	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что ты умеешь?' desc=''
+10:27:00.705	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Включи музыку'
+10:27:00.727	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:27:00.734	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что это играет?'
+10:27:00.846	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что это играет?' desc=''
+10:27:00.919	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Игры с голосовым ассистентом'
+10:27:01.328	I	LOOP	tick #0 (idle)
+10:27:02.339	I	LOOP	tick #0 (idle)
+10:27:02.982	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:27:11.597	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:27:11.602	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:34' desc=''
+10:27:11.604	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:11.606	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='680' desc=''
+10:27:11.608	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:11.612	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:11.614	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:11.617	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:11.619	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:11.623	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=680m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:12.110	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=680m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:12.472	I	LOOP	tick #10 rc=0 m=11(GAODE) tag=f28 pk d=680
+10:27:14.533	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:15.259	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:16.529	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:18.516	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='Столетовский просп.' desc=''
+10:27:18.520	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:27:18.522	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:34' desc=''
+10:27:18.524	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:18.525	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='560' desc=''
+10:27:18.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:18.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:18.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:18.535	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:18.536	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:18.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:20.505	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:22.511	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:22.602	I	LOOP	tick #20 rc=0 m=11(GAODE) tag=f28 pk d=560
+10:27:24.515	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='Столетовский просп.' desc=''
+10:27:24.517	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:27:24.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:34' desc=''
+10:27:24.524	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:24.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='560' desc=''
+10:27:24.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:24.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:24.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:24.545	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:24.550	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:24.553	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:26.509	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:28.176	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:30.519	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='Столетовский просп.' desc=''
+10:27:30.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:27:30.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:27:30.527	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:30.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='560' desc=''
+10:27:30.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:30.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:30.534	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:30.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:30.537	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:30.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:32.504	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:32.730	I	LOOP	tick #30 rc=0 m=11(GAODE) tag=f28 pk d=560
+10:27:34.519	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:36.509	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='Столетовский просп.' desc=''
+10:27:36.517	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:27:36.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:27:36.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:36.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='560' desc=''
+10:27:36.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:36.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:36.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:36.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:36.542	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:36.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:38.512	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:40.518	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:41.811	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='Столетовский просп.' desc=''
+10:27:41.815	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:27:41.817	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:27:41.818	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:41.820	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='560' desc=''
+10:27:41.822	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:41.825	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:41.827	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:41.829	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:27:41.831	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:41.833	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:42.507	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=560m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:42.862	I	LOOP	tick #40 rc=0 m=11(GAODE) tag=f28 pk d=560
+10:27:43.208	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:43.794	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:44.333	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:46.518	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:48.523	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='пр-д Колобова' desc=''
+10:27:48.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:27:48.528	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:27:48.530	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:48.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='540' desc=''
+10:27:48.534	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:48.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:48.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:48.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='20' desc=''
+10:27:48.541	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:48.543	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:50.515	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:52.519	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:52.969	I	LOOP	tick #50 rc=0 m=11(GAODE) tag=f28 pk d=540
+10:27:54.515	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='пр-д Колобова' desc=''
+10:27:54.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:27:54.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:27:54.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:27:54.525	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='540' desc=''
+10:27:54.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:27:54.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:27:54.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:27:54.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='20' desc=''
+10:27:54.548	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:27:54.550	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:56.542	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:27:58.523	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:00.537	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='пр-д Колобова' desc=''
+10:28:00.539	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:28:00.544	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:28:00.549	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:00.551	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='540' desc=''
+10:28:00.552	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:00.554	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:28:00.555	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:00.557	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='20' desc=''
+10:28:00.559	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:00.562	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:02.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:03.091	I	LOOP	tick #60 rc=0 m=11(GAODE) tag=f28 pk d=540
+10:28:04.518	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:06.510	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='пр-д Колобова' desc=''
+10:28:06.513	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:28:06.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:35' desc=''
+10:28:06.524	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:06.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='540' desc=''
+10:28:06.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:06.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='Фиолентовское ш.' desc=''
+10:28:06.534	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:06.535	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='20' desc=''
+10:28:06.537	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:06.539	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:07.799	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:08.462	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:10.541	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:11.156	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=540m road='Фиолентовское ш.' eta=480s balloon=true
+10:28:11.659	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:11.661	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:11.667	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:36' desc=''
+10:28:11.676	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:11.678	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:11.682	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:11.684	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:11.688	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:11.690	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:11.692	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:11.694	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:12.359	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:13.192	I	LOOP	tick #70 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:28:14.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:15.751	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:16.413	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:18.520	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:18.531	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:18.533	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:36' desc=''
+10:28:18.534	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:18.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:18.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:18.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:18.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:18.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:18.543	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:18.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:20.504	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:22.532	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:23.311	I	LOOP	tick #80 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:28:23.725	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:23.731	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:23.737	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:36' desc=''
+10:28:23.740	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:23.741	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:23.742	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:23.744	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:23.745	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:23.747	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:23.748	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:23.750	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:24.385	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:26.523	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:28.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:30.520	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:30.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:30.531	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:36' desc=''
+10:28:30.534	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:30.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:30.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:30.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:30.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:30.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:30.543	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:30.544	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:32.538	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:33.430	I	LOOP	tick #90 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:28:34.519	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:36.151	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:36.154	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:36.156	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:28:36.158	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:36.159	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:36.160	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:36.161	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:36.163	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:36.165	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:36.166	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:36.167	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:38.509	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:40.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:42.571	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:42.574	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:42.579	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:28:42.584	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:42.586	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:42.592	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:42.596	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:42.599	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:42.601	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:42.603	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:42.608	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:43.516	I	LOOP	tick #100 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:28:44.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:46.514	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:48.525	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:48.530	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:48.533	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:28:48.535	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:48.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:48.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:48.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:48.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:28:48.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:48.545	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:48.547	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:50.519	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:52.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:53.607	I	LOOP	tick #110 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:28:53.737	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:53.740	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:53.741	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:28:53.742	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:53.743	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:53.744	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:53.745	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:53.747	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:53.748	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:53.750	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:54.520	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:56.512	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:58.528	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:28:59.065	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:28:59.069	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:28:59.072	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:28:59.075	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:28:59.076	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:28:59.077	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:28:59.078	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:28:59.080	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:28:59.081	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:28:59.082	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:00.515	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:02.517	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:03.724	I	LOOP	tick #120 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:04.521	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:04.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:04.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:04.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:04.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:04.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:04.531	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:04.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:04.534	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:04.536	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:06.533	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:08.528	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:10.507	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:10.512	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:10.513	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:10.514	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:10.516	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:10.517	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:10.517	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:10.519	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:10.520	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:10.522	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:12.514	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:13.836	I	LOOP	tick #130 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:14.529	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:16.518	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:16.520	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:16.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:16.522	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:16.522	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:16.523	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:16.526	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:16.528	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:16.529	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:16.531	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:18.511	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:20.515	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:22.514	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:22.516	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:22.517	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:22.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:22.518	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:22.520	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:22.521	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:22.522	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:22.524	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:22.526	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:23.973	I	LOOP	tick #140 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:24.542	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:26.509	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:28.522	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:28.524	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:28.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:28.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:28.528	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:28.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:28.531	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:28.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:28.533	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:28.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:30.523	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:32.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:34.061	I	LOOP	tick #150 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:34.514	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:34.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:34.522	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:37' desc=''
+10:29:34.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:34.525	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:34.526	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:34.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:34.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:34.530	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:34.539	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:36.158	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:38.539	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:40.518	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:40.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:40.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:29:40.528	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:40.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:40.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:40.531	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:40.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:40.537	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:40.538	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:42.525	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:44.152	I	LOOP	tick #160 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:44.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:46.513	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:46.516	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:46.517	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:29:46.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:46.520	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:46.521	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:46.522	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:46.523	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:46.525	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:46.526	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:48.516	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:50.522	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:52.525	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:52.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:52.528	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:29:52.529	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:52.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:52.531	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:52.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:52.533	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:52.534	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:52.535	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:54.236	I	LOOP	tick #170 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:29:54.521	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:56.517	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:29:58.521	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:29:58.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:29:58.525	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:29:58.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:29:58.528	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:29:58.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:29:58.530	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:29:58.531	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:29:58.532	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:29:58.533	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:00.525	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:02.529	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:04.336	I	LOOP	tick #180 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:04.533	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:04.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:04.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:04.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:04.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:04.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:04.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:04.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:04.544	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:04.546	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:06.527	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:07.152	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:08.517	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:10.516	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:10.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:10.519	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:10.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:10.524	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:10.525	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:10.526	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:10.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:10.528	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:10.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:12.525	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:14.433	I	LOOP	tick #190 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:14.523	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:16.516	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:16.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:16.521	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:16.522	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:16.525	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:16.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:16.528	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:16.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:16.530	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:16.532	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:18.524	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:20.521	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:22.510	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:22.515	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:22.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:22.526	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:22.532	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:22.535	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:22.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:22.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:22.539	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:22.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:24.513	I	LOOP	tick #200 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:24.535	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:26.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:28.517	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:28.518	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:28.520	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:28.520	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:28.521	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:28.522	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:28.523	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:28.524	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:28.525	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:28.526	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:30.518	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:32.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:34.532	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:34.534	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:34.535	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:38' desc=''
+10:30:34.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:34.536	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:34.537	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:34.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:34.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:34.540	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:34.541	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:34.597	I	LOOP	tick #210 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:36.129	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:38.543	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:40.531	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:40.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:40.548	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:30:40.551	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:40.555	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:40.556	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:40.557	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:40.558	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:40.560	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:40.563	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:42.528	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:44.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:44.694	I	LOOP	tick #220 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:46.533	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:46.535	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:46.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:30:46.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:46.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:46.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:46.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:46.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:46.543	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:46.544	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:48.523	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:50.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:52.535	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:52.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:52.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:30:52.540	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:52.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:52.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:52.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:52.544	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:52.545	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:52.546	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:54.520	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:54.794	I	LOOP	tick #230 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:30:56.531	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:30:58.520	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:30:58.522	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:30:58.523	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:30:58.524	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:30:58.526	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:30:58.527	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:30:58.528	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:30:58.529	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:30:58.529	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:30:58.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:00.546	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:02.528	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:04.534	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:04.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:04.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:04.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:04.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:04.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:04.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:04.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:04.543	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:04.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:04.887	I	LOOP	tick #240 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:31:06.535	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:08.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:10.542	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:10.543	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:10.544	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:10.545	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:10.546	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:10.548	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:10.549	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:10.550	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:10.550	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:10.558	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:12.531	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:14.532	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:14.989	I	LOOP	tick #250 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:31:16.532	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:16.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:16.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:16.539	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:16.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:16.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:16.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:16.545	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:16.546	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:16.550	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:18.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:20.537	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:22.537	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:22.541	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:22.542	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:22.543	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:22.545	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:22.546	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:22.548	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:22.549	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:22.550	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:22.551	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:24.550	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:25.072	I	LOOP	tick #260 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:31:26.534	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:28.535	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:28.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:28.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:28.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:28.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:28.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:28.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:28.545	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:28.547	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:28.549	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:30.553	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:32.543	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:34.532	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:34.534	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:34.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:39' desc=''
+10:31:34.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:34.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:34.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:34.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:34.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:34.543	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:34.544	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:35.177	I	LOOP	tick #270 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:31:36.144	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:38.538	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:40.536	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:40.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:40.540	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:31:40.541	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:40.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:40.544	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:40.546	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:40.547	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:40.548	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:40.549	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:42.536	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:44.538	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:45.259	I	LOOP	tick #280 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:31:46.526	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:46.531	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:46.535	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:31:46.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:46.538	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:46.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:46.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:46.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:46.542	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:46.543	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:48.530	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:50.528	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:52.534	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:31:52.536	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:31:52.537	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:31:52.538	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:31:52.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:31:52.540	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:31:52.542	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:31:52.543	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:31:52.544	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:31:52.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:53.723	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:54.441	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:31:55.373	I	LOOP	tick #290 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:05.483	I	LOOP	tick #300 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:09.895	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:09.897	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:09.898	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:09.899	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:09.901	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:09.902	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:09.904	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:09.905	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:09.906	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:09.907	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:09.909	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:10.539	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:12.537	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:13.300	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:13.810	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:14.538	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:15.199	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:15.202	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:15.206	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:15.212	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:15.215	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:15.217	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:15.218	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:15.220	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:15.222	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:15.224	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:15.225	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:15.601	I	LOOP	tick #310 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:16.537	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:18.536	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:20.545	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:20.555	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:20.557	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:20.558	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:20.559	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:20.561	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:20.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:20.566	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:20.567	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:20.569	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:20.571	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:22.537	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:24.511	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:25.680	I	LOOP	tick #320 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:26.551	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:26.554	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:26.556	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:26.557	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:26.558	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:26.560	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:26.561	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:26.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:26.564	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:26.565	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:26.566	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:28.562	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:30.555	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:32.548	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:32.556	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:32.557	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:32.558	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:32.560	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:32.562	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:32.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:32.564	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:32.565	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:32.567	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:32.568	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:34.560	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:35.789	I	LOOP	tick #330 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:36.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:38.555	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:38.557	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:38.558	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:38.559	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:38.561	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:38.562	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:38.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:38.565	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:38.566	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:38.567	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:38.569	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:40.555	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:42.345	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:43.635	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:43.636	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:43.638	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:40' desc=''
+10:32:43.641	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:43.644	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='280' desc=''
+10:32:43.645	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:43.646	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:43.647	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:43.648	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:43.649	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:43.650	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:44.162	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:44.829	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:45.890	I	LOOP	tick #340 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:46.553	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:48.563	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:50.545	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:50.546	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:50.547	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:32:50.549	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:50.550	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:50.551	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:50.552	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:50.553	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:50.554	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:50.555	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:50.556	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:52.562	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:54.555	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:55.977	I	LOOP	tick #350 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:32:56.543	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:32:56.544	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:32:56.546	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:32:56.546	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:32:56.547	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:32:56.548	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:32:56.550	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:32:56.551	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:32:56.552	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:32:56.554	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:32:56.556	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:32:58.559	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:00.555	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:02.548	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:02.558	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:02.560	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:02.562	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:02.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:33:02.564	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:02.565	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:02.566	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:02.567	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:02.568	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:02.569	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:04.566	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:06.100	I	LOOP	tick #360 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:33:06.554	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:08.570	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:08.572	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:08.573	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:08.574	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:08.575	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:33:08.578	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:08.579	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:08.583	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:08.588	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:08.589	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:08.592	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:10.560	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:12.397	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:13.688	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:13.690	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:13.691	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:13.693	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:13.696	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='280' desc=''
+10:33:13.698	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:13.700	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:13.701	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:13.702	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:13.703	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:13.705	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:14.496	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:15.344	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:16.210	I	LOOP	tick #370 rc=0 m=11(GAODE) tag=f28 pk d=280
+10:33:16.561	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:18.550	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:20.544	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:20.547	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:20.549	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:20.550	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:20.551	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='280' desc=''
+10:33:20.552	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:20.553	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:20.554	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:20.555	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:20.556	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:20.558	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:22.553	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:23.369	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:24.040	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:24.545	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:26.327	I	LOOP	tick #380 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:33:26.544	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:26.546	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:26.549	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:26.550	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:26.552	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:33:26.553	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:26.554	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:26.555	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:26.558	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:26.560	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:26.562	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:28.540	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:30.543	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:32.021	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:32.027	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:32.032	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:32.035	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:32.037	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:33:32.038	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:32.040	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:32.041	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:32.042	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:32.044	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:32.045	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:32.544	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:34.549	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:36.409	I	LOOP	tick #390 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:33:36.574	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:38.555	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:38.558	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:38.559	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:38.560	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:38.561	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:33:38.562	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:38.563	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:38.564	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:38.565	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:38.566	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:38.567	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:40.557	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:41.153	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:41.769	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:42.586	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:43.113	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:43.717	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:43.718	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:43.719	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:43.721	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:43.722	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='270' desc=''
+10:33:43.724	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:43.725	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:43.726	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:43.728	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:43.729	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:43.730	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:44.277	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:44.821	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:45.473	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:46.000	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=220m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:46.519	I	LOOP	tick #400 rc=0 m=11(GAODE) tag=f28 pk d=220
+10:33:46.558	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:47.395	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:48.556	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:49.090	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:49.093	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:49.096	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:33:49.097	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:49.098	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='260' desc=''
+10:33:49.100	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:49.101	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:49.102	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:49.103	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:49.104	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:49.105	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:49.793	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:50.478	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:50.984	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:52.547	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=240m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:54.439	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:54.447	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:33:54.453	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:41' desc=''
+10:33:54.454	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:54.455	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='230' desc=''
+10:33:54.457	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:54.461	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:54.462	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:54.463	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:54.464	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:54.465	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:55.453	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:56.563	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:56.618	I	LOOP	tick #410 rc=0 m=11(GAODE) tag=f28 pk d=280
+10:33:57.061	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:58.556	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:33:59.828	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:33:59.832	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:33:59.835	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:33:59.836	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:33:59.837	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='260' desc=''
+10:33:59.838	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:33:59.840	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:33:59.841	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:33:59.842	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:33:59.843	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:33:59.845	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:00.547	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:02.566	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:03.392	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:03.967	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:04.560	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:06.555	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:06.559	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:06.560	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:06.561	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:06.562	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='280' desc=''
+10:34:06.564	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:06.565	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:06.566	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:06.568	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:06.569	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:06.571	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=280m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:06.718	I	LOOP	tick #420 rc=0 m=11(GAODE) tag=f28 pk d=280
+10:34:08.560	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:10.216	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:12.590	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:12.592	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:12.594	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:12.596	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:12.597	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='270' desc=''
+10:34:12.601	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:12.603	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:12.606	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:12.610	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:12.612	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:12.616	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:14.435	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:15.118	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:16.600	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:16.846	I	LOOP	tick #430 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:34:18.559	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:18.562	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:18.565	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:18.569	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:18.572	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:34:18.575	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:18.576	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:18.577	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:18.578	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:18.580	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:18.583	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:20.554	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:22.565	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:24.568	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:24.571	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:24.577	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:24.580	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:24.582	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:34:24.583	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:24.584	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:24.585	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:24.587	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:24.588	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:24.590	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:26.565	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:26.952	I	LOOP	tick #440 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:34:28.579	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:30.565	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:30.570	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:30.577	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:30.579	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:30.581	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:34:30.582	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:30.584	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:30.586	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:30.588	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:30.590	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:30.591	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:32.587	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:34.561	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:36.564	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:36.566	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:36.575	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:36.576	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:36.578	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:34:36.580	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:36.582	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:36.584	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:36.585	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:36.586	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:36.588	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:37.060	I	LOOP	tick #450 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:34:38.570	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:40.566	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:41.131	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:42.564	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:42.570	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:42.576	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:34:42.579	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:42.580	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='290' desc=''
+10:34:42.582	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:42.583	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:42.584	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:42.585	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:42.587	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:42.588	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:44.580	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:45.328	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:45.832	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:46.551	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=290m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:47.173	I	LOOP	tick #460 rc=0 m=11(GAODE) tag=f28 pk d=290
+10:34:47.193	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:47.883	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:47.886	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:34:47.887	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:47.888	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:47.890	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='250' desc=''
+10:34:47.891	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:47.892	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:47.893	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:47.895	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:47.897	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:47.899	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:48.445	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:49.038	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:49.608	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=200m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:50.185	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=180m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:50.774	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=170m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:51.268	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=160m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:51.924	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=150m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:53.462	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:34:53.479	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:34:53.489	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:34:53.505	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:34:53.524	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='140' desc=''
+10:34:53.539	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:34:53.541	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:34:53.591	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:34:53.594	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:34:53.679	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:34:53.688	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=140m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:34:54.423	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=110m road='проспект Октябрьской Революции' eta=0s maps=true
+10:34:55.406	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=90m road='проспект Октябрьской Революции' eta=0s maps=true
+10:34:56.400	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=70m road='проспект Октябрьской Революции' eta=0s maps=true
+10:34:57.378	I	LOOP	tick #470 rc=0 m=11(GAODE) tag=f28 pk d=70
+10:34:57.444	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=60m road='проспект Октябрьской Революции' eta=0s maps=true
+10:34:58.463	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=40m road='проспект Октябрьской Революции' eta=0s maps=true
+10:34:59.506	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=20m road='проспект Октябрьской Революции' eta=0s maps=true
+10:35:00.259	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:00.279	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:35:00.282	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:00.356	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:00.374	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='270' desc=''
+10:35:00.395	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:00.397	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:00.414	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:00.417	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:00.423	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:00.428	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:00.557	I	YandexNotif	posted icon=notifications_app_logo m=0(NONE) d=0m road='Навигатор запущен' eta=0s maps=true
+10:35:00.763	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:02.111	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:02.783	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:03.411	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=240m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:04.789	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:05.375	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:05.376	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:35:05.379	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:05.380	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:05.382	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='230' desc=''
+10:35:05.383	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:05.385	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:05.387	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:05.389	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:05.391	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:05.393	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:06.098	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=220m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:06.793	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=220m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:07.399	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:07.488	I	LOOP	tick #480 rc=0 m=11(GAODE) tag=f28 pk d=210
+10:35:07.956	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:08.791	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=270m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:10.081	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:10.799	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:10.804	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,9 км' desc=''
+10:35:10.805	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:10.807	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:10.808	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='260' desc=''
+10:35:10.809	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:10.811	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:10.812	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:10.814	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:10.816	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:10.817	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=260m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:12.145	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:12.789	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:14.120	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=250m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:14.834	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=240m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:15.509	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=230m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:16.147	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:16.149	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,8 км' desc=''
+10:35:16.152	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:16.155	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:16.157	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='220' desc=''
+10:35:16.159	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:16.161	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:16.162	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:16.165	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:16.168	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:16.174	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=220m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:16.711	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=210m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:17.394	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=190m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:17.587	I	LOOP	tick #490 rc=0 m=11(GAODE) tag=f28 pk d=190
+10:35:17.908	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=180m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:18.502	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=160m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:19.636	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=140m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:20.676	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=130m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:21.973	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:21.974	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:35:21.975	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:21.977	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:21.978	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='120' desc=''
+10:35:21.979	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:21.980	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:21.981	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:21.982	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:21.985	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:21.987	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=120m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:22.797	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=120m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:23.652	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=110m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:24.218	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=100m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:24.793	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=100m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:25.327	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=80m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:25.907	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:26.471	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=50m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:27.004	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:27.006	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,6 км' desc=''
+10:35:27.007	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:35:27.011	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:35:27.015	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='30' desc=''
+10:35:27.016	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:27.018	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:27.020	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:27.022	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:27.023	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:27.026	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=30m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:27.569	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=20m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:27.684	I	LOOP	tick #500 rc=0 m=11(GAODE) tag=f28 pk d=20
+10:35:28.409	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:28.905	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:30.807	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:32.796	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:32.799	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,6 км' desc=''
+10:35:32.800	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:35:32.801	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:35:32.803	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2.2' desc=''
+10:35:32.804	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:35:32.805	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:32.806	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:32.807	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:32.809	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:34.795	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:36.806	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:37.790	I	LOOP	tick #510 rc=0 m=11(GAODE) tag=f28 pk d=3600
+10:35:38.808	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:38.809	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,6 км' desc=''
+10:35:38.810	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:42' desc=''
+10:35:38.812	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:35:38.813	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2.2' desc=''
+10:35:38.814	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:35:38.815	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:38.816	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:38.817	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:38.819	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:39.586	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:40.107	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:40.707	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:41.295	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:41.804	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:35:42.434	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:42.898	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:44.814	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:44.816	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:35:44.817	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:44.819	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:44.821	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='70' desc=''
+10:35:44.824	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:44.831	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:44.836	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:44.839	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:44.840	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:44.842	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:46.792	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:47.911	I	LOOP	tick #520 rc=0 m=11(GAODE) tag=f28 pk d=70
+10:35:48.817	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:50.796	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:35:50.797	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:35:50.799	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:50.801	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:50.805	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='70' desc=''
+10:35:50.807	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:50.809	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:50.810	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:35:50.812	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:35:50.813	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:50.815	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:52.799	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:54.793	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:55.720	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:56.363	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:35:56.401	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,7 км' desc=''
+10:35:56.425	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:35:56.436	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='8 мин' desc=''
+10:35:56.452	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='70' desc=''
+10:35:56.462	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='м' desc=''
+10:35:56.480	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_nextstreet cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:35:56.490	I	YA11Y	node d=16 vid=ru.yandex.yandexmaps:id/control_traffic cls=android.widget.Button t='' desc='Пробки недоступны'
+10:35:56.496	I	YA11Y	node d=16 vid=ru.yandex.yandexmaps:id/control_carparks cls=android.widget.FrameLayout t='' desc='Парковки скрыты'
+10:35:56.638	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/guidance_add_road_event cls=android.widget.ImageView t='' desc='Добавить дорожное событие'
+10:35:56.660	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/control_voice_search_image cls=android.widget.ImageView t='' desc='Голосовой поиск'
+10:35:56.672	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/control_zoom_in_touch_zone cls=android.widget.Button t='' desc='Увеличить масштаб'
+10:35:56.685	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/control_zoom_out_touch_zone cls=android.widget.Button t='' desc='Уменьшить масштаб'
+10:35:56.690	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/control_position_combined_compass cls=android.widget.FrameLayout t='' desc='Кнопка местоположения – режим «Компас»'
+10:35:56.741	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/control_position_combined_find_me cls=android.widget.FrameLayout t='' desc='Кнопка местоположения'
+10:35:56.832	I	YA11Y	node d=16 vid=ru.yandex.yandexmaps:id/control_ruler_text cls=android.widget.TextView t='140 м' desc=''
+10:35:56.875	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:56.961	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=70m road='просп. Октябрьской Революции' eta=480s balloon=true
+10:35:57.521	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=60m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:57.978	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=60m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:58.035	I	LOOP	tick #530 rc=0 m=11(GAODE) tag=f28 pk d=60
+10:35:58.490	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=40m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:59.016	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=30m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:35:59.509	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=20m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:36:00.098	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=20m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:36:00.860	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:02.818	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:36:02.820	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:36:02.822	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,6 км' desc=''
+10:36:02.824	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:36:02.825	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:36:02.826	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2.2' desc=''
+10:36:02.828	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:36:02.830	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:36:02.833	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:36:02.835	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:04.799	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:06.804	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:08.135	I	LOOP	tick #540 rc=0 m=11(GAODE) tag=f28 pk d=3600
+10:36:08.820	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:36:08.822	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='ул. Колобова' desc=''
+10:36:08.824	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,6 км' desc=''
+10:36:08.827	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:36:08.830	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:36:08.832	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2.2' desc=''
+10:36:08.835	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:36:08.837	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:36:08.839	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:36:08.841	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:10.266	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:10.799	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=3600m road='' eta=420s balloon=true
+10:36:11.951	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=30m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:36:12.360	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=30m road='просп. Октябрьской Революции' eta=420s balloon=true
+10:36:12.902	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:14.808	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:36:14.811	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:36:14.817	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,4 км' desc=''
+10:36:14.820	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:36:14.822	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:36:14.825	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2' desc=''
+10:36:14.827	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:36:14.829	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:36:14.831	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:36:14.832	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:16.819	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:18.228	I	LOOP	tick #550 rc=0 m=11(GAODE) tag=f28 pk d=2000
+10:36:18.817	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:20.920	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Чем я могу помочь?' desc=''
+10:36:20.925	I	YA11Y	node d=11 vid=ru.yandex.yandexmaps:id/alice_oknyx cls=android.widget.Button t='' desc='Слушать'
+10:36:20.938	I	YA11Y	node d=10 vid=ru.yandex.yandexmaps:id/top_notification_title cls=android.widget.TextView t='Можно повысить точность геолокации' desc=''
+10:36:20.942	I	YA11Y	node d=18 vid=ru.yandex.yandexmaps:id/statusPanel cls=android.widget.TextView t='просп. Октябрьской Революции' desc=''
+10:36:20.951	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_distance cls=android.widget.TextView t='3,4 км' desc=''
+10:36:20.953	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_arrival cls=android.widget.TextView t='10:43' desc=''
+10:36:20.955	I	YA11Y	node d=21 vid=ru.yandex.yandexmaps:id/textview_eta_time cls=android.widget.TextView t='7 мин' desc=''
+10:36:20.957	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_distance cls=android.widget.TextView t='2' desc=''
+10:36:20.962	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_maneuverballoon_metrics cls=android.widget.TextView t='км' desc=''
+10:36:20.968	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speed_value cls=android.widget.TextView t='0' desc=''
+10:36:20.974	I	YA11Y	node d=17 vid=ru.yandex.yandexmaps:id/text_speedlimit cls=android.widget.TextView t='60' desc=''
+10:36:20.985	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:21.606	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:22.086	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:22.634	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:23.090	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:23.805	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:24.277	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:25.014	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:25.577	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:26.252	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:26.280	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:26.486	I	YA11Y	nodes=21 first 10:
+10:36:26.513	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:36:26.516	I	YA11Y	node d=14 vid= cls=android.widget.TextView t='Включаю.' desc=''
+10:36:26.518	I	YA11Y	node d=15 vid=ru.yandex.yandexmaps:id/alice_cloud2_suggest_text cls=android.widget.TextView t='что ты умеешь?' desc=''
+10:36:26.523	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что ты умеешь?'
+10:36:26.533	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что ты умеешь?' desc=''
+10:36:26.541	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Включи музыку'
+10:36:26.544	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Включи музыку' desc=''
+10:36:26.547	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Что это играет?'
+10:36:26.550	I	YA11Y	node d=18 vid= cls=android.widget.TextView t='Что это играет?' desc=''
+10:36:26.553	I	YA11Y	node d=17 vid= cls=android.view.ViewGroup t='' desc='Игры с голосовым ассистентом'
+10:36:26.562	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:26.584	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:26.633	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:26.918	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:27.519	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:27.748	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:27.764	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:27.772	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:27.991	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:28.353	I	LOOP	tick #560 rc=0 m=11(GAODE) tag=f28 pk d=2000
+10:36:28.615	I	YA11Y	pkg=ru.yandex.yandexmaps m=NONE d=2000m road='' eta=420s balloon=true
+10:36:28.720	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
+10:36:28.740	I	YandexNotif	posted icon=music_sdk_helper_ic_notification_music m=0(NONE) d=0m road='' eta=0s maps=true
